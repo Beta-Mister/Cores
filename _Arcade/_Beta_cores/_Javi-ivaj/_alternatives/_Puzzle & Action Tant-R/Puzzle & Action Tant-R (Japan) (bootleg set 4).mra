@@ -1,0 +1,69 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2026. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="javitu" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>horizontal</rotation>
+    <name>Puzzle &amp; Action: Tant-R (Japan) (bootleg set 4)</name>
+    <setname>tantrbl4</setname>
+    <mameversion>0282</mameversion>
+    <year>1992</year>
+    <manufacturer>bootleg</manufacturer>
+    <players>2</players>
+    <rbf>tantr</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="tantrbl4.zip|tantr.zip" md5="None">
+        <!-- byte 0 [1:0]: proteccion 317-0211. 0=sin prot (tantrbl/tantrbl4) 1=317-0211 (tantr,tantrbl2,tantrbl3) 2=tantrkor
+0[1:0]: prot       Variante de PAL de proteccion 317-0211 -->
+        <part>
+            00 00 00 00 00 00 00 00
+            00 00 00 00 00 00 00 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x200000 (21 bits) -->
+        <interleave output="16">
+            <part name="b.bin" crc="8cf5ffd5" map="01"/>
+            <part name="a.bin" crc="25cafec2" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="c.bin" crc="36a88bd4" map="01"/>
+            <part name="d.bin" crc="17b80202" map="10"/>
+        </interleave>
+        <!-- JTFRAME_BA1_START -->
+        <!-- upd - starts at 0x200000 - length 0x40000 (18 bits) -->
+        <part name="2.bin" crc="72918c58"/>
+        <part name="1.bin" crc="4e85b2a3"/>
+        <!-- Total 0x240000 bytes - 2304 kBytes -->
+    </rom>
+    <nvram index="2" size="65536"/>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="ff,fe">
+        <COINAGE/>
+        <dip name="Coin A" bits="0,3" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <dip name="Coin B" bits="4,7" ids="Free Play or 1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1"/>
+        <DSW/>
+        <dip name="Demo Sounds" bits="8" ids="On,Off"/>
+        <dip name="Difficulty" bits="9,10" ids="Hardest,Hard,Easy,Medium"/>
+    </switches>
+    <buttons names="Action,Start,Coin,Core credits" default="A,Start,Select,-" count="1"/>
+</misterromdescription>

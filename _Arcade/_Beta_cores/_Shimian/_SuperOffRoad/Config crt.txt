@@ -1,0 +1,5 @@
+Mister.ini:
+
+[SuperOffRoad]
+vga_scaler=1
+video_mode=320,224,66

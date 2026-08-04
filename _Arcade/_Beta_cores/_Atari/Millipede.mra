@@ -1,0 +1,51 @@
+<misterromdescription>
+	<name>Millipede</name>
+	<setname>milliped</setname>
+	<year>1982</year>
+	<manufacturer>Atari</manufacturer>
+	<category>Shooter - Gallery</category>
+	<mameversion>0220</mameversion>
+	<rbf>Millipede</rbf>
+	<series>*pede</series>
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+	<players>1</players>
+	<special_controls>trackball</special_controls>
+	<num_buttons>1</num_buttons>
+
+	<switches page_id="1" page_name="Switches" base="8" default="00,00,04,02">
+		<!-- DSW-A (sw[1]) -->
+		<dip bits="8,9"   name="Language"      ids="English,German,French,Spanish"/>
+		<dip bits="10,11" name="Bonus Extends"  ids="None,1st,1st+2nd,1st+2nd+3rd"/>
+		<dip bits="14"    name="Credit Minimum" ids="1,2"/>
+		<dip bits="15"    name="Coin Counters"  ids="1,2"/>
+		<!-- DSW-B (sw[2]) -->
+		<dip bits="16"    name="Millipede Head" ids="Easy,Hard"/>
+		<dip bits="17"    name="Beetle"         ids="Easy,Hard"/>
+		<dip bits="18,19" name="Lives"          ids="2,3,4,5"/>
+		<dip bits="20,21" name="Bonus Life"     ids="12000,15000,20000,None"/>
+		<dip bits="22"    name="Spider"         ids="Easy,Hard"/>
+		<dip bits="23"    name="Starting Score" ids="On,Off"/>
+		<!-- DSW-C (sw[3]) -> POKEY2 ALLPOT, active low -->
+		<dip bits="24,25" name="Coinage"        ids="Free Play,1 Coin/2 Credits,1 Coin/1 Credit,2 Coins/1 Credit"/>
+		<dip bits="26,27" name="Right Coin"     ids="*1,*4,*5,*6"/>
+		<dip bits="28"    name="Left Coin"      ids="*1,*2"/>
+		<dip bits="29,31" name="Bonus Coins"    ids="None,3cr/2c,5cr/4c,6cr/4c,6cr/5c,4cr/3c"/>
+	</switches>
+
+	<rom index="1"><part>01</part></rom>
+
+	<rom index="0" zip="milliped.zip" md5="608bf068509574138b195201b359c025">
+		<part crc="40711675" name="136013-104.mn1"/>
+		<part crc="fb01baf2" name="136013-103.l1"/>
+		<part crc="62e137e0" name="136013-102.jk1"/>
+		<part crc="46752c7d" name="136013-101.h1"/>
+		<part crc="68c3437a" name="136013-107.r5"/>
+		<part crc="f4468045" name="136013-106.p5"/>
+		<part crc="6fa3093a" name="136001-213.e7"/>
+	</rom>
+
+	<nvram index="4" size="64"/>
+	<mratimestamp>20250514000000</mratimestamp>
+</misterromdescription>
