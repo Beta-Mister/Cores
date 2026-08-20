@@ -46,8 +46,8 @@ After that, they just have to extract `downloader_jose_game_wallpapers.ini` from
 If they prefer to do it manually instead, they may add the following lines to the bottom of `downloader.ini`:
 
 ```ini
-[jose/game_wallpapers]
-db_url = https://raw.githubusercontent.com/jose/game_wallpapers/db/db.json.zip
+[Beta-Mister/Cores]
+db_url = https://raw.githubusercontent.com/Beta-Mister/Cores/db/db.json.zip
 ```
 
 This needs to be done just once by your users. After that, whenever they run *downloader* or *update_all* they'll also be installing your updated files.
