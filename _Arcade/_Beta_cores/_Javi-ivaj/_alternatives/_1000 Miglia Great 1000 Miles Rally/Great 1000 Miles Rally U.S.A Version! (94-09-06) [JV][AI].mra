@@ -1,0 +1,184 @@
+<!--          Unofficial FPGA core
+
+              Built with the JTFRAME framework by Jose Tejada (jotego).
+              This core is NOT an official JT core and is not maintained by
+              jotego nor by the MiSTer project.
+
+              2026
+
+              The authors do not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="javi" webpage="https://github.com/javi-ivaj" twitter="-" source="https://github.com/javi-ivaj"/>
+    <rotation>horizontal</rotation>
+    <name>Great 1000 Miles Rally: U.S.A Version! (94-09-06) [JV][AI]</name>
+    <setname>gtmrusa</setname>
+    <mameversion>0282</mameversion>
+    <year>1994</year>
+    <manufacturer>Kaneko</manufacturer>
+    <players>2</players>
+    <rbf>jvgtmr</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="gtmrusa.zip|gtmr.zip" md5="None" asm_md5="d1ed0ecd76da5451cdc67d745e7f3493">
+        <!-- byte 0: bit0 tabla ALT del MCU, bit1 OKI2 presente, bit2 hardware gtmr2, bit3 sprites con hueco (remap codes >= 0x8000)
+  0[0]: mcu_alt    TOYBOX decryption table ALT
+  0[1]: oki2_en    OKI2 sample ROM present
+  0[2]: gtmr2      Mille Miglia 2 hardware (inputs)
+  0[3]: spr_hole   Sprite ROM packed without the 0x680000-0x7FFFFF hole
+  0[4]: oki2_gap   OKI2 bank 0 empty (MAME ERASE00): download zeroes 0x00000-0x3FFFF -->
+        <part>
+            03 00 00 00 00 00 00 00
+            00 00 00 00 00 00 00 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x100000 (20 bits) -->
+        <interleave output="16">
+            <part name="mmp1x3.u1" crc="ae853e4e" map="01"/>
+            <part name="mmp0x3.u2" crc="5be615c4" map="10"/>
+        </interleave>
+        <!-- MCU_START -->
+        <!-- mcudata - starts at 0x100000 - length 0x20000 (17 bits) -->
+        <interleave output="16">
+            <part name="mmd0x3.u12" crc="2e1a06ff" map="12"/>
+        </interleave>
+        <!-- JTFRAME_BA1_START -->
+        <!-- view2_0 - starts at 0x120000 - length 0x440000 (23 bits) -->
+        <part name="mm-300-406-a0.bin" crc="b15f6b7f"/>
+        <part repeat="0x240000"> FF</part>
+        <!-- JTFRAME_BA2_START -->
+        <!-- kan_spr - starts at 0x560000 - length 0x800000 (23 bits) -->
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x80000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0xC0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x100000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x140000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x180000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-200-402-s0.bin" crc="c0ab3efc" map="21" length="0x40000" offset="0x1C0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x80000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0xC0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x100000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x140000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x180000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-201-403-s1.bin" crc="cf6b23dc" map="21" length="0x40000" offset="0x1C0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x80000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0xC0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x100000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x140000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x180000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-202-404-s2.bin" crc="8f27f5d3" map="21" length="0x40000" offset="0x1C0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-203-405-s3.bin" crc="e9747c8c" map="21" length="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-203-405-s3.bin" crc="e9747c8c" map="21" length="0x40000" offset="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0x40000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0x40000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0x60000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0x60000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0x80000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0x80000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0xA0000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0xA0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0xC0000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0xC0000"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mm-204-564.bin" crc="57d77b33" map="01" length="0x20000" offset="0xE0000"/>
+            <part name="mm-204-406-565.bin" crc="05b8bdca" map="10" length="0x20000" offset="0xE0000"/>
+        </interleave>
+        <!-- JTFRAME_BA3_START -->
+        <!-- oki1 - starts at 0xD60000 - length 0x100000 (20 bits) -->
+        <part name="mm-100-401-a0.bin" crc="b9cbfbee"/>
+        <!-- OKI2_START -->
+        <!-- oki2 - starts at 0xE60000 - length 0x100000 (20 bits) -->
+        <part name="mm-101-402-e24.bin" crc="380cdc7c"/>
+        <!-- Total 0xF60000 bytes - 15744 kBytes -->
+    </rom>
+    <nvram index="2" size="128"/>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="00,ff">
+        <DSW1/>
+        <dip name="Service Mode" bits="8" ids="On,Off"/>
+        <dip name="Flip Screen" bits="9" ids="On,Off"/>
+        <dip name="Cabinet" bits="10" ids="Cocktail,Upright"/>
+        <dip name="Controller" bits="11" ids="Wheel,Joystick"/>
+        <dip name="Controls" bits="12" ids="270 degree wheel,360 degree wheel"/>
+        <dip name="Use Brake" bits="13" ids="Off,On"/>
+        <dip name="Anthem-Flag" bits="14,15" ids="None,Flag,Anthem,Memory"/>
+    </switches>
+    <buttons names="Accel,Brake,Start,Coin,Core credits" default="A,B,Start,Select,-" count="2"/>
+</misterromdescription>
