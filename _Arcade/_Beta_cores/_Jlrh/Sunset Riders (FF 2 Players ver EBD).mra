@@ -12,12 +12,12 @@
     <joystick>8</joystick>
     <region>World</region>
     <rom index="0" zip="ssridersebd.zip|ssriders.zip" md5="None" address="0x30000000">
-
+        <!-- Offsets for each ROM region. -->
         <part>
             00 00 C0 00 D0 01 D0 02
             FF FF 00 00 00 00 00 00
         </part>
-
+        <!-- maincpu - starts at 0x0 - length 0xC0000 (20 bits) -->
         <interleave output="16">
             <part name="064ebd03.8g" crc="2370c107" map="01"/>
             <part name="064ebd02.8e" crc="8deef9ac" map="10"/>
@@ -26,21 +26,21 @@
             <part name="064eab05.10g" crc="51d6fbc4" map="01"/>
             <part name="064eab04.10e" crc="ef2315bd" map="10"/>
         </interleave>
-
+        <!-- audiocpu - starts at 0xC0000 - length 0x10000 (16 bits) -->
         <part name="064e01.2f" crc="44b9bc52"/>
-
+        <!-- pcm - starts at 0xD0000 - length 0x100000 (20 bits) -->
         <part name="064e06.1d" crc="59810df9"/>
-
+        <!-- k052109 - starts at 0x1D0000 - length 0x100000 (20 bits) -->
         <interleave output="32">
             <part name="064e12.16k" crc="e2bdc619" map="0021"/>
             <part name="064e11.12k" crc="2d8ca8b0" map="2100"/>
         </interleave>
-
+        <!-- obj - starts at 0x2D0000 - length 0x200000 (21 bits) -->
         <interleave output="32">
             <part name="064e09.7l" crc="4160c372" map="0021"/>
             <part name="064e07.3l" crc="64dd673c" map="2100"/>
         </interleave>
-
+        <!-- Total 0x4D0000 bytes - 4928 kBytes -->
     </rom>
     <rom index="2">
         <part>
