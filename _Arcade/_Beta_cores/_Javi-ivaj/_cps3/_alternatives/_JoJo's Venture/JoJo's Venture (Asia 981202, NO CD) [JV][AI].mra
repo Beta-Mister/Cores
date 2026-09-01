@@ -1,0 +1,91 @@
+<misterromdescription>
+    <about author="javi" webpage="https://github.com/javi-ivaj" twitter="-" source="https://github.com/javi-ivaj"/>
+    <rotation>horizontal</rotation>
+    <name>JoJo&apos;s Venture (Asia 981202, NO CD) [JV][AI]</name>
+    <setname>jojonr2</setname>
+    <mameversion>0282</mameversion>
+    <year>1998</year>
+    <manufacturer>Capcom</manufacturer>
+    <players>2</players>
+    <rbf>jvcps3</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" address="0x30000000" zip="jojonr2.zip|jojo.zip" md5="None">
+        <!--     byte 0x00-0x0d: offsets >>11 de bios, programa, simm3..simm7
+    byte 0x10-0x13: key1   byte 0x14-0x17: key2 (cifrado CPS3)
+    byte 0x18:      modo cifrado: 1=normal, 2=alt (sin cifrar), 0=ninguno
+    byte 0x19:      bit7=SIMM2 presente, bits5:0=ultimo banco GFX de 2 MiB
+ -->
+        <part>
+            00 00 01 00 21 00 41 00
+            61 00 69 00 69 00 00 00
+            02 20 3E E3 01 30 19 72
+            01 91 00 00 00 00 00 00
+        </part>
+        <!-- bios - starts at 0x0 - length 0x80000 (19 bits) -->
+        <part name="jojo_asia_nocd.29f400.u2" crc="05b4f953"/>
+        <!-- simm1.? - starts at 0x80000 - length 0x800000 (23 bits) -->
+        <interleave output="32">
+            <part name="jojo-simm1.1" crc="6dd177c8" map="0001"/>
+            <part name="jojo-simm1.0" crc="e06ba886" map="0010"/>
+            <part name="jojo-simm1.3" crc="66d865ac" map="0100"/>
+            <part name="jojo-simm1.2" crc="d35a15e0" map="1000"/>
+        </interleave>
+        <!-- simm2.? - starts at 0x880000 - length 0x800000 (23 bits) -->
+        <interleave output="32">
+            <part name="jojo-simm2.1" crc="c891c887" map="0001"/>
+            <part name="jojo-simm2.0" crc="417e5dc1" map="0010"/>
+            <part name="jojo-simm2.3" crc="1fd1d3e4" map="0100"/>
+            <part name="jojo-simm2.2" crc="1e101f30" map="1000"/>
+        </interleave>
+        <!-- gfx3 - starts at 0x1080000 -->
+        <!-- simm3.? - starts at 0x1080000 - length 0x1000000 (24 bits) -->
+        <interleave output="16">
+            <part name="jojo-simm3.0" crc="de7fc9c1" map="01"/>
+            <part name="jojo-simm3.1" crc="43d053d3" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm3.2" crc="2ffd7fa5" map="01"/>
+            <part name="jojo-simm3.3" crc="4da4985b" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm3.4" crc="fde98d72" map="01"/>
+            <part name="jojo-simm3.5" crc="edb2a266" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm3.6" crc="be7cf319" map="01"/>
+            <part name="jojo-simm3.7" crc="56fe1a9f" map="10"/>
+        </interleave>
+        <!-- gfx4 - starts at 0x2080000 -->
+        <!-- simm4.? - starts at 0x2080000 - length 0x1000000 (24 bits) -->
+        <interleave output="16">
+            <part name="jojo-simm4.0" crc="c4e7bf68" map="01"/>
+            <part name="jojo-simm4.1" crc="b62b2719" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm4.2" crc="18d15809" map="01"/>
+            <part name="jojo-simm4.3" crc="9af0ad79" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm4.4" crc="4124c1f0" map="01"/>
+            <part name="jojo-simm4.5" crc="5e001fd1" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="jojo-simm4.6" crc="9affa23b" map="01"/>
+            <part name="jojo-simm4.7" crc="2511572a" map="10"/>
+        </interleave>
+        <!-- gfx5 - starts at 0x3080000 -->
+        <!-- simm5.? - starts at 0x3080000 - length 0x400000 (22 bits) -->
+        <interleave output="16">
+            <part name="jojo-simm5.0" crc="797615fc" map="01"/>
+            <part name="jojo-simm5.1" crc="734fd162" map="10"/>
+        </interleave>
+        <!-- gfx6 - starts at 0x3480000 -->
+        <!-- gfx7 - starts at 0x3480000 -->
+        <!-- Total 0x3480000 bytes - 53760 kBytes -->
+    </rom>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <buttons names="Light,Medium,Strong,Stand,Button 5,Button 6,Start,Coin,Core credits" default="A,B,X,Y,L,R,Start,Select,-" count="6"/>
+</misterromdescription>
