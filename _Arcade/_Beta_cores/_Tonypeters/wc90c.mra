@@ -1,0 +1,62 @@
+<misterromdescription>
+	<name>Tecmo World Cup '90 (Europe set 3)</name>
+	<setname>twcup90c</setname>
+	<rbf>wc90</rbf>
+	<year>1989</year>
+	<manufacturer>Tecmo</manufacturer>
+	<category>Sports</category>
+
+	<!--
+	  ROM order is frozen in docs/spec/memory.md §8.2. The download is
+	  contiguous, so the ioctl offset of each region equals its SDRAM base.
+	  The YM2608 rhythm ROM (ioctl 0x178000, from the MAME ym2608 device
+	  set) rides at the end; the loader scatters it into BRAM per
+	  docs/spec/sound.md §9.2 — the MRA carries the file unchanged (D8).
+	-->
+	<rom index="0" zip="twcup90c.zip|twcup90.zip|ym2608.zip" md5="none">
+		<!-- 0x000000  MAIN_FIXED  32K -->
+		<part name="ic87_01.bin" crc="f588bb33"/>
+		<!-- 0x008000  MAIN_BANK   64K -->
+		<part name="ic95_02.bin" crc="847d439c"/>
+		<!-- 0x018000  SUB_FIXED   64K -->
+		<part name="ic67_04.bin" crc="dc6eaf00"/>
+		<!-- 0x028000  SUB_BANK    64K -->
+		<part name="ic56_03.bin" crc="1ac02b3b"/>
+		<!-- 0x038000  SOUND       64K -->
+		<part name="ic54_05.bin" crc="27c348b3"/>
+		<!-- 0x048000  CHAR        64K -->
+		<part name="ic85_07v.bin" crc="c5219426"/>
+		<!-- 0x058000  FG_TILES   256K -->
+		<part name="ic86_08v.bin" crc="8fa1a1ff"/>
+		<part name="ic90_09v.bin" crc="99f8841c"/>
+		<!-- 0x098000  BG_TILES   256K -->
+		<part name="ic87_10v.bin" crc="8232093d"/>
+		<part name="ic91_11v.bin" crc="188d3789"/>
+		<!-- 0x0D8000  SPRITES    512K, interleaved even/odd -->
+		<interleave output="16">
+			<part name="ic50_12v.bin" crc="da1fe922" map="01"/>
+			<part name="ic60_14v.bin" crc="499dfb1b" map="10"/>
+		</interleave>
+		<interleave output="16">
+			<part name="ic54_13v.bin" crc="9ad03c2c" map="01"/>
+			<part name="ic65_15v.bin" crc="d8ea5c81" map="10"/>
+		</interleave>
+		<!-- 0x158000  ADPCM_B    128K -->
+		<part name="ic82_06.bin" crc="2fd692ed"/>
+		<!-- 0x178000  RHYTHM     8K — YM2608 internal rhythm samples -->
+		<part name="ym2608_adpcm_rom.bin" crc="23c9e0d8"/>
+	</rom>
+
+	<!-- DSW1 = FF, DSW2 = 7F.  Bits 0-7 are DSW1, bits 8-15 are DSW2. -->
+	<switches default="FF,7F" base="0">
+		<dip name="Coinage" bits="0,3" ids="10C/1C,2C/3C,6C/1C,1C/4C,8C/1C,1C/6C,4C/1C,1C/2C,9C/1C,2C/1C,5C/1C,1C/3C,7C/1C,1C/5C,3C/1C,1C/1C"/>
+		<dip name="Difficulty" bits="4,5" ids="Hardest,Normal,Hard,Easy"/>
+		<dip name="Count Down" bits="6,6" ids="1 Count - 56/60 Second,1 Count - 1 Second"/>
+		<dip name="Demo Sounds" bits="7,7" ids="Off,On"/>
+		<dip name="1 Player Game Time" bits="8,9" ids="2:30,1:00,1:30,2:00"/>
+		<dip name="2 Players Game Time" bits="10,12" ids="5:00,2:00,3:30,1:00,4:00,1:30,2:30,3:00"/>
+		<dip name="Language" bits="15,15" ids="English,Japanese"/>
+	</switches>
+
+	<buttons names="Shoot,Pass,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R" count="5"/>
+</misterromdescription>
