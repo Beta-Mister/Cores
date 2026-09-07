@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <misterromdescription>
-    <name>Time Killers (v1.32)</name>
-    <setname>timekill</setname>
+    <name>Time Killers (v1.21, alternate ROM board)</name>
+    <setname>timekill121a</setname>
     <rbf>ITech32</rbf>
     <mameversion>0288</mameversion>
     <year>1992</year>
@@ -36,32 +36,50 @@
     <!-- 16 KiB battery-backed work RAM at CPU 0x000000-0x003fff. -->
     <nvram index="2" size="16384"/>
 
-    <rom index="0" zip="timekill.zip" md5="bae098be834a3c77631e204b332a9fda" address="0x30000000">
+    <rom index="0" zip="timekill121a.zip|timekill.zip" md5="5d77dfdd39983d47a678974e856f856a" address="0x30000000">
         <!-- 0x0000000: 68000 big-endian program ROM, 512 KiB. -->
         <interleave output="16">
-            <part name="tk00_v1.32_u54.u54" crc="68c74b81" map="01"/>
-            <part name="tk01_v1.32_u53.u53" crc="2158d8ef" map="10"/>
+            <part name="tk00_v1.21_u54.u54" crc="4938a940" map="01"/>
+            <part name="tk01_v1.21_u53.u53" crc="0bb75c40" map="10"/>
         </interleave>
         <part repeat="0x380000">00</part>
 
         <!-- 0x0400000: MAME soundcpu region, including ROM_CONTINUE. -->
         <part repeat="0x08000">00</part>
-        <part name="tk_snd_v_4.1_u17.u17" crc="c699af7b" offset="0x18000" length="0x08000"/>
-        <part name="tk_snd_v_4.1_u17.u17" crc="c699af7b" offset="0x00000" length="0x18000"/>
+        <part name="timekillsnd_u17.u17" crc="ab1684c3" offset="0x18000" length="0x08000"/>
+        <part name="timekillsnd_u17.u17" crc="ab1684c3" offset="0x00000" length="0x18000"/>
         <part repeat="0x0d8000">00</part>
 
-        <!-- 0x0500000: eight-megabyte GROM0 plus 512 KiB small tail. -->
+        <!-- 0x0500000: alternate P/N 1049 Rev 1 discrete GROM packing. -->
         <interleave output="32">
-            <part name="time_killers_0.rom0" crc="94cbf6f8" map="0001"/>
-            <part name="time_killers_1.rom1" crc="c07dea98" map="0010"/>
-            <part name="time_killers_2.rom2" crc="183eed2a" map="0100"/>
-            <part name="time_killers_3.rom3" crc="b1da1058" map="1000"/>
+            <part name="timekill_grom00.grom00" crc="980aab02" map="0001"/>
+            <part name="timekill_grom05.grom05" crc="0b28ae65" map="0010"/>
+            <part name="timekill_grom10.grom10" crc="6092c59e" map="0100"/>
+            <part name="timekill_grom15.grom15" crc="b08497c1" map="1000"/>
         </interleave>
         <interleave output="32">
-            <part name="timekill_grom01.grom1" crc="b030c3d9" map="0001"/>
-            <part name="timekill_grom02.grom2" crc="e98492a4" map="0010"/>
-            <part name="timekill_grom03.grom3" crc="6088fa64" map="0100"/>
-            <part name="timekill_grom04.grom4" crc="95be2318" map="1000"/>
+            <part name="timekill_grom01.grom01" crc="c37d9486" map="0001"/>
+            <part name="timekill_grom06.grom06" crc="f698fc14" map="0010"/>
+            <part name="timekill_grom11.grom11" crc="69735cd0" map="0100"/>
+            <part name="timekill_grom16.grom16" crc="1fe7cd97" map="1000"/>
+        </interleave>
+        <interleave output="32">
+            <part name="timekill_grom02.grom02" crc="a7b9240c" map="0001"/>
+            <part name="timekill_grom07.grom07" crc="fb9c04d2" map="0010"/>
+            <part name="timekill_grom12.grom12" crc="383adf84" map="0100"/>
+            <part name="timekill_grom17.grom17" crc="77dcbf80" map="1000"/>
+        </interleave>
+        <interleave output="32">
+            <part name="timekill_grom03.grom03" crc="7a464aa0" map="0001"/>
+            <part name="timekill_grom08.grom08" crc="7d6f7ba9" map="0010"/>
+            <part name="timekill_grom13.grom13" crc="ecde039d" map="0100"/>
+            <part name="timekill_grom18.grom18" crc="05cb6d82" map="1000"/>
+        </interleave>
+        <interleave output="32">
+            <part name="timekill_grom04.grom04" crc="b030c3d9" map="0001"/>
+            <part name="timekill_grom09.grom09" crc="e98492a4" map="0010"/>
+            <part name="timekill_grom14.grom14" crc="6088fa64" map="0100"/>
+            <part name="timekill_grom19.grom19" crc="95be2318" map="1000"/>
         </interleave>
         <part repeat="0x1880000">00</part>
 

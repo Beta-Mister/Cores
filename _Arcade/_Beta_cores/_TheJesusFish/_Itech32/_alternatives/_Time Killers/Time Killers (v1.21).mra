@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <misterromdescription>
-    <name>Time Killers (v1.32)</name>
-    <setname>timekill</setname>
+    <name>Time Killers (v1.21)</name>
+    <setname>timekill121</setname>
     <rbf>ITech32</rbf>
     <mameversion>0288</mameversion>
     <year>1992</year>
@@ -36,18 +36,18 @@
     <!-- 16 KiB battery-backed work RAM at CPU 0x000000-0x003fff. -->
     <nvram index="2" size="16384"/>
 
-    <rom index="0" zip="timekill.zip" md5="bae098be834a3c77631e204b332a9fda" address="0x30000000">
+    <rom index="0" zip="timekill121.zip|timekill.zip" md5="5219df8d59be3de79f5498c022790348" address="0x30000000">
         <!-- 0x0000000: 68000 big-endian program ROM, 512 KiB. -->
         <interleave output="16">
-            <part name="tk00_v1.32_u54.u54" crc="68c74b81" map="01"/>
-            <part name="tk01_v1.32_u53.u53" crc="2158d8ef" map="10"/>
+            <part name="tk00_v1.21_u54.u54" crc="4938a940" map="01"/>
+            <part name="tk01_v1.21_u53.u53" crc="0bb75c40" map="10"/>
         </interleave>
         <part repeat="0x380000">00</part>
 
         <!-- 0x0400000: MAME soundcpu region, including ROM_CONTINUE. -->
         <part repeat="0x08000">00</part>
-        <part name="tk_snd_v_4.1_u17.u17" crc="c699af7b" offset="0x18000" length="0x08000"/>
-        <part name="tk_snd_v_4.1_u17.u17" crc="c699af7b" offset="0x00000" length="0x18000"/>
+        <part name="timekillsnd_u17.u17" crc="ab1684c3" offset="0x18000" length="0x08000"/>
+        <part name="timekillsnd_u17.u17" crc="ab1684c3" offset="0x00000" length="0x18000"/>
         <part repeat="0x0d8000">00</part>
 
         <!-- 0x0500000: eight-megabyte GROM0 plus 512 KiB small tail. -->

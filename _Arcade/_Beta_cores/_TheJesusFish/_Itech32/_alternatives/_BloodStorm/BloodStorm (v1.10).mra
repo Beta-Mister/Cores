@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <misterromdescription>
-    <name>BloodStorm (v2.22)</name>
-    <setname>bloodstm</setname>
+    <name>BloodStorm (v1.10)</name>
+    <setname>bloodstm110</setname>
     <rbf>ITech32</rbf>
     <mameversion>0288</mameversion>
     <year>1994</year>
@@ -26,15 +26,15 @@
     </rom>
     <!-- 64 KiB battery-backed work RAM at CPU 0x000000-0x00ffff. -->
     <nvram index="2" size="65536" />
-    <rom index="0" zip="bloodstm.zip" address="0x30000000" md5="c53148fcff478374936ea6b61823c8b1">
+    <rom index="0" zip="bloodstm110.zip|bloodstm.zip" address="0x30000000" md5="cac88bc0b8feb82686660dc4147f2261">
         <interleave output="16">
-            <part name="bld00_v2.22_u83.u83" crc="95f36db6" map="01" />
-            <part name="bld01_v2.22_u88.u88" crc="fcc04b93" map="10" />
+            <part name="bld00_v1.1_u83.u83" crc="4fff8f9b" map="01" />
+            <part name="bld01_v1.1_u88.u88" crc="59ce23ea" map="10" />
         </interleave>
         <part repeat="0x380000">00</part>
         <part repeat="0x8000">00</part>
-        <part name="bldsnd_v2.01_u17.u17" crc="5aa452ee" offset="0x18000" length="0x8000" />
-        <part name="bldsnd_v2.01_u17.u17" crc="5aa452ee" offset="0x0" length="0x18000" />
+        <part name="bldsnd_v1.0_u17.u17" crc="dddeedbb" offset="0x18000" length="0x8000" />
+        <part name="bldsnd_v1.0_u17.u17" crc="dddeedbb" offset="0x0" length="0x18000" />
         <part repeat="0xd8000">00</part>
         <interleave output="32">
             <part name="bldstorm_grom0_v1.grom0" crc="4e10b8c1" map="0001" />
