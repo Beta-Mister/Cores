@@ -1,0 +1,106 @@
+<!-- generado por tools/omf_mra -- no editar a mano, regenerar desde la receta -->
+<misterromdescription>
+    <rbf>ffphelios</rbf>
+    <name>Phelios (FF, Namco, 1988)</name>
+    <setname>phelios</setname>
+    <year>1988</year>
+    <manufacturer>Namco</manufacturer>
+    <players>2</players>
+    <rotation>vertical</rotation>
+
+    <rom index="0" zip="phelios.zip|namcoc65.zip" type="merged" md5="none">
+        <!-- 0x000000: programa 68000 MAESTRO (maincpu, 256 KB) -- ROM_REGION 0x040000 lleno del todo, sin espejo -->
+        <interleave output="16">
+            <part name="ps2_mpr0.mpr0" crc="28f04e1a" map="01"/>
+            <part name="ps2_mpr1.mpr1" crc="2546501a" map="10"/>
+        </interleave>
+        <!-- 0x040000: programa 68000 ESCLAVO (slave, 128 KB REALES). ⚠ ROM_REGION es 0x040000 pero solo se cargan 2x64 KB: la mitad alta de la region (0x020000-0x03FFFF) esta a CEROS en MAME. No se descarga; el RTL devuelve 0 por encima de 0x1FFFF -->
+        <interleave output="16">
+            <part name="ps2_spr0.spr0" crc="e9c6987e" map="01"/>
+            <part name="ps2_spr1.spr1" crc="02b074fb" map="10"/>
+        </interleave>
+        <!-- 0x060000: programa MC6809E de sonido (audiocpu, 128 KB) -- banqueado x16 de 16 KB (sound_bankselect_w: data&gt;&gt;4, namcos2_m.cpp:364-367). Bus de 8 bits: plano, sin entrelazar -->
+        <part name="ps2_snd0.snd0" crc="da694838"/>
+        <!-- 0x080000: ROM de DATOS compartida por los dos 68000 (data_rom, 256 KB REALES). ⚠ ROM_REGION16_BE es 0x200000 = 2 MB, pero NAMCOS2_DATA_LOAD_E/O_128K (namcos2.cpp:2090-2101) carga 128 KB+128 KB y los ESPEJA 4 veces (+0x40000/+0x80000/+0xc0000); la mitad alta de la region (0x100000-0x1FFFFF) esta a CEROS. Espejo rehecho en el RTL doblando A19:A18 -->
+        <interleave output="16">
+            <part name="ps2_dat0.13s" crc="ee4194b0" map="01"/>
+            <part name="ps2_dat1.13p" crc="5b22d714" map="10"/>
+        </interleave>
+        <!-- 0x0c0000: graficos de TILEMAP **ENTRELAZADOS CON LA MASCARA** (c123tmap + c123tmap:mask), 1,75 MB. ⭐⭐ POR QUE: el motor necesita, por cada columna de 8 pixeles, 8 bytes de pixel Y 1 byte de forma. Con las dos ROM separadas eso son DOS transacciones de SDRAM y la segunda cuesta ~13 de los ~32 ciclos de la columna pese a mover UN byte (coste = 11,4 + 1,025*palabras: manda el termino FIJO). Juntas caben en UNA rafaga de 8 palabras: ~19 ciclos. Medido: la linea pasa de 113,8 % del presupuesto a ~67 %. ⭐ LO QUE HACE POSIBLE EL ENTRELAZADO, y no es obvio: el pixel se indexa por el codigo BITSWAPEADO y la mascara por el codigo CRUDO (namcos2_v.cpp:8-13), o sea DOS indices distintos -- pero al deshacer los espejos de las dos regiones de MAME los dos dependen EXACTAMENTE de los mismos 14 bits (code[13:0]): el pixel via slot=code[13:11] + offset=code[10:0], y la mascara via code[13:0] directo. Los bits que se tiran son code[15:14] en las dos. Por eso se pueden emparejar byte a byte. ⚠ LA CONSECUENCIA: el bitswap YA NO ESTA EN EL RTL, esta AQUI. El motor direcciona con code[13:0] y la permutacion la hace este empaquetado. research/verificar_rom.py lo comprueba contra el golden. FORMATO: 16 bytes por fila de tile = [8 bytes de pixel][1 byte de mascara][7 de relleno]. El relleno son copias del primer byte de pixel porque el formato map= no admite constantes; no se lee nunca. Direccion: byte = code[13:0]*128 + row*16. -->
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 0: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 0, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-0.chr0" crc="668b6670"/>
+        <!-- ranura 0, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 1: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 1, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-1.chr1" crc="80c30742"/>
+        <!-- ranura 1, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0x4000" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 2: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 2, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-2.chr2" crc="f4e11bf7"/>
+        <!-- ranura 2, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0x8000" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 3: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 3, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-3.chr3" crc="97a93dc5"/>
+        <!-- ranura 3, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0xc000" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 4: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 4, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-4.chr4" crc="81d965bf"/>
+        <!-- ranura 4, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0x10000" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 5: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 5, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-5.chr5" crc="8ca72d35"/>
+        <!-- ranura 5, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0x14000" length="0x4000"/>
+        <!-- ⚠ ORDEN DE DESCARGA, no el de la SDRAM: el RTL del core lo recoloca al escribirlo (MiSTer descarta los interleave de mas de 64 bits). -->
+        <!-- en SDRAM: ranura 6: los 8 bytes de la fila de tile + SU byte de mascara, y el relleno del grupo de 16 es la MASCARA REPETIDA (no una copia del primer pixel, como hasta 2026-08-21). El motivo es el arbitro: empareja los bytes de la descarga por paridad de direccion, y con la descarga plana el pixel 0 de una fila llega decenas de miles de bytes antes que su mascara -- la palabra formada por los bytes 8 y 9 no se podria escribir sin recordar 16.384 pixeles. Con la mascara repetida, los cuatro pares de la mitad alta salen de UN byte. El relleno no lo lee nadie (medido). -->
+        <!-- ranura 6, PIXELES: el fichero entero, 8 bytes por fila de tile. El RTL los reparte a destino = base + (local&gt;&gt;3)*16 + (local&amp;7). -->
+        <part name="ps_chr-6.chr6" crc="da3543a9"/>
+        <!-- ranura 6, MASCARA: sus 16 KB de ps_shape, 1 byte por fila de tile. El RTL los reparte a destino = base + local*16 + 8. -->
+        <part name="ps_shape.shape" crc="58e26fcf" offset="0x18000" length="0x4000"/>
+        <!-- 0x280000: [1/2] RELLENO EXPLICITO, no un hueco olvidado. La region anterior mide 0x1c0000 (1,75 MB) y omf_mem le da capacidad 2^21 = 2 MB (potencia de dos obligatoria), asi que sobran 0x040000. Sin el relleno, `omf_mem check` marcaria solape con la region siguiente. -->
+        <part repeat="262144">FF</part>
+        <!-- 0x2c0000: graficos del ROZ (s2roz, 896 KB REALES = 7 x 128 KB) -- misma region de 4 MB, mismo macro y mismo espejo que c123tmap, mismo doblado de A18:A17 en el RTL -->
+        <part name="ps_roz-0.roz0" crc="68043d7e"/>
+        <part name="ps_roz-1.roz1" crc="029802b4"/>
+        <part name="ps_roz-2.roz2" crc="bf0b76dc"/>
+        <part name="ps_roz-3.roz3" crc="9c821455"/>
+        <part name="ps_roz-4.roz4" crc="63a39b7a"/>
+        <part name="ps_roz-5.roz5" crc="fc5a99d0"/>
+        <part name="ps_roz-6.roz6" crc="a2a17587"/>
+        <!-- 0x3a0000: [2/2] RELLENO EXPLICITO, no un hueco olvidado, y su VALOR NO ES LIBRE: es la RANURA 7 del doblado del ROZ (slot = A21:A19 sobre la region de 4 MB de MAME, offset = A16:0, se doblan A18:A17). MAME deja esa ranura a CEROS -- ROM_REGION se rellena de cero y NAMCOS2_GFXROM_LOAD_128K solo carga 7 ficheros -- y el ROZ SI la dibuja: MEDIDO sobre los 246 volcados, 4.096 texeles muestreados en 2 de los 118 frames con ROZ (la pantalla de POST con recorte de 64x64, donde el 100 % de los texeles caen ahi). Con 0xFF esos pixeles saldrian TRANSPARENTES (0xFF es el pen transparente del ROZ) en vez de color+0, o sea un cuadro de 64x64 que falta. Por eso el relleno es 00 y no FF. ⚠ El tilemap NO tiene este problema porque su ranura 7 no se usa nunca (medido: 0 de 4,5 millones de lecturas), asi que ahi el 0xFF es indiferente -- la diferencia entre las dos regiones esta MEDIDA, no supuesta. Y la razon original del relleno sigue en pie: el cliente del arbitro solo puede tener capacidad POTENCIA DE DOS (omf_mem: 2^addr_bits), asi que sin este bloque `omf_mem check` marcaria SOLAPE con la region siguiente. Cuesta 128 KB de descarga. -->
+        <part repeat="131072">00</part>
+        <!-- 0x3c0000: graficos de SPRITES (sprite, 2 MB REALES = 8 x 256 KB). ⚠ ROM_REGION es 0x400000 = 4 MB: NAMCOS2_SPRROM_LOAD_256K anade un ROM_RELOAD a +0x100000 que HEREDA las banderas, o sea que repite el entrelazado. La region queda [A][A][B][B] -&gt; el RTL dobla A20. ORDEN DE BYTE INVERTIDO (start 3,2,1,0): obj0 aporta el byte 3 del dword y obj3 el byte 0 -->
+        <!-- bloque A: obj0-3 -&gt; 1 MB (region 0x000000-0x0FFFFF, espejado en 0x100000-0x1FFFFF) -->
+        <interleave output="32">
+            <part name="ps_obj-0.obj0" crc="f323db2b" map="1000"/>
+            <part name="ps_obj-1.obj1" crc="faf7c2f5" map="0100"/>
+            <part name="ps_obj-2.obj2" crc="828178ba" map="0010"/>
+            <part name="ps_obj-3.obj3" crc="e84771c8" map="0001"/>
+        </interleave>
+        <!-- bloque B: obj4-7 -&gt; 1 MB (region 0x200000-0x2FFFFF, espejado en 0x300000-0x3FFFFF) -->
+        <interleave output="32">
+            <part name="ps_obj-4.obj4" crc="81ea86c6" map="1000"/>
+            <part name="ps_obj-5.obj5" crc="aaebd51a" map="0100"/>
+            <part name="ps_obj-6.obj6" crc="032ea497" map="0010"/>
+            <part name="ps_obj-7.obj7" crc="f6183b36" map="0001"/>
+        </interleave>
+        <!-- 0x5c0000: muestras PCM del C140 (c140, 512 KB REALES). ⚠ ROM_REGION16_BE es 0x200000 con ERASE00 y ps_voi-1 se carga con ROM_LOAD16_BYTE en el offset 0 -&gt; ocupa los bytes PARES del primer MB, o sea el byte ALTO de cada palabra BE. c140_rom_r (namcos2_m.cpp:369-395) lee `region[romsel&lt;&lt;19 | (offset &amp; 0x7ffff)] &amp; 0xff00`, o sea el byte k del fichero ES la muestra del indice de palabra k: aqui se descarga PLANO y el RTL devuelve {voi1[A18:0], 8'h00}. Phelios no lleva voice0 (nibble bajo) ni voice2 (romsel=1): los dos son 0 -->
+        <part name="ps_voi-1.voice1" crc="f67376ed"/>
+        <!-- 0x640000: MCU C65 (HD63705): ROM EXTERNA de 32 KB, especifica del juego -->
+        <part name="sys2_c65c.3f" crc="a5b2a4ff"/>
+        <!-- 0x648000: MCU C65: ROM INTERNA de 8 KB (sys2mcpu.bin), comun a TODOS los Namco System 2 -- vive en el romset de DISPOSITIVO namcoc65.7z, no en phelios.7z. Solo hace falta si el C65 se hace LLE; se descarga igual porque son 8 KB y decidirlo despues no cuesta nada -->
+        <part name="sys2mcpu.bin" crc="a342a97e"/>
+    </rom>
+</misterromdescription>
