@@ -1,5 +1,5 @@
 <!--
-  Acrobat Mission — NMK16 "Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 6).
+  Acrobat Mission — NMK16 "NMK16_Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 6).
   Parent set.
 
   Transcribed from mame/src/mame/nmk/nmk16.cpp: GAME(... acrobatm ...)
@@ -17,7 +17,7 @@
   <year>1991</year>
   <manufacturer>UPL (Taito license)</manufacturer>
   <category>Shooter</category>
-  <rbf>Gunnail</rbf>
+  <rbf>NMK16_Gunnail</rbf>
 
   <!-- ROT270 in nmk16.cpp -->
   <rotation>1</rotation>
@@ -60,5 +60,10 @@
     <part crc="3b8c2b0e" name="am-05.ic54"/>
     <!-- oki2, 0x080000 -->
     <part crc="c1517cd4" name="am-04.ic53"/>
+  </rom>
+
+  <!-- nmk_irq:vtiming -->
+  <rom index="1" zip="acrobatm.zip|nmk004.zip" md5="none">
+    <part crc="633ab1c9" name="11.ic80"/>
   </rom>
 </misterromdescription>

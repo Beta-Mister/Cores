@@ -1,5 +1,5 @@
 <!--
-  Vandyke (Jaleco, set 2) — NMK16 "Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 5).
+  Vandyke (Jaleco, set 2) — NMK16 "NMK16_Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 5).
   Clone of vandyke; files it shares with the parent are looked up in the parent zip.
 
   Transcribed from mame/src/mame/nmk/nmk16.cpp: GAME(... vandykejal2 ...)
@@ -17,7 +17,7 @@
   <year>1990</year>
   <manufacturer>UPL (Jaleco license)</manufacturer>
   <category>Shooter</category>
-  <rbf>Gunnail</rbf>
+  <rbf>NMK16_Gunnail</rbf>
 
   <!-- ROT270 in nmk16.cpp -->
   <rotation>1</rotation>
@@ -68,5 +68,11 @@
     <part crc="b2103274" name="vdk-02.126"/>
     <!-- oki2, 0x080000 -->
     <part crc="631776d3" name="vdk-03.165"/>
+  </rom>
+
+  <!-- nmk_irq:vtiming, 0x0100 bytes. Streamed as its own ioctl index so no
+       SDRAM region base moves; nmk_irq.sv writes it into table 0. -->
+  <rom index="1" zip="vandykejal2.zip|vandyke.zip|nmk004.zip" md5="none">
+    <part crc="98ed1c97" name="ic100.bpr"/>
   </rom>
 </misterromdescription>

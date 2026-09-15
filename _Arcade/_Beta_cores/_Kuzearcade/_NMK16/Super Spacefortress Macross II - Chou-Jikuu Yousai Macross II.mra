@@ -53,7 +53,7 @@
   <year>1993</year>
   <manufacturer>Banpresto</manufacturer>
   <category>Shooter</category>
-  <rbf>Macross2</rbf>
+  <rbf>NMK16_Macross2</rbf>
 
   <!-- DSW1 default 0xF7, DSW2 default 0xFF — see individual <dip>
        entries below. Byte order matches the shared core's own address
@@ -113,5 +113,11 @@
     <!-- oki2, 0x100000 (game's own size; shared map's own slot here is
          0x200000, tdragon2-sized — the unused tail is never read) -->
     <part crc="b5335abb" name="bp932an.a05"/>
+  </rom>
+
+  <!-- nmk_irq:vtiming, 0x0100 bytes. Streamed as its own ioctl index so no
+       SDRAM region base moves; nmk_irq.sv writes it into table 0. -->
+  <rom index="1" zip="macross2.zip" md5="none">
+    <part crc="e6ead349" name="mcrs2bpr.10"/>
   </rom>
 </misterromdescription>

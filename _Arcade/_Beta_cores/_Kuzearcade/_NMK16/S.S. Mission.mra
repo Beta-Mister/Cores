@@ -1,5 +1,5 @@
 <!--
-  S.S. Mission — NMK16 "Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 52).
+  S.S. Mission — NMK16 "NMK16_Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 52).
   Parent set.
 
   Transcribed from mame/src/mame/nmk/nmk16.cpp: GAME(... ssmissin ...)
@@ -17,7 +17,7 @@
   <year>1992</year>
   <manufacturer>Comad</manufacturer>
   <category>Shooter</category>
-  <rbf>Gunnail</rbf>
+  <rbf>NMK16_Gunnail</rbf>
 
   <!-- ROT270 in nmk16.cpp -->
   <rotation>1</rotation>
@@ -61,5 +61,10 @@
     <!-- oki1, 0x0A0000 (fixed 0x20000 = ssm13.190, banked = ssm12.189's own 4 quarters) -->
     <part crc="618f66f0" name="ssm13.190"/>
     <part crc="e8219c83" name="ssm12.189"/>
+  </rom>
+
+  <!-- nmk_irq:vtiming -->
+  <rom index="1" zip="ssmissin.zip|nmk004.zip" md5="none">
+    <part crc="ed0bd072" name="ssm-pr1.114"/>
   </rom>
 </misterromdescription>

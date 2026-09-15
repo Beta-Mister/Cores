@@ -1,5 +1,5 @@
 <!--
-  US AAF Mustang (25th May. 1990) — NMK16 "Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 3).
+  US AAF Mustang (25th May. 1990) — NMK16 "NMK16_Gunnail" rbf (rtl/gunnail/gunnail_core.sv game id 3).
   Parent set.
 
   Transcribed from mame/src/mame/nmk/nmk16.cpp: GAME(... mustang ...)
@@ -17,7 +17,7 @@
   <year>1990</year>
   <manufacturer>UPL</manufacturer>
   <category>Shooter</category>
-  <rbf>Gunnail</rbf>
+  <rbf>NMK16_Gunnail</rbf>
 
   <!-- DSW1, DSW2 (defaults from the PORT_DIPNAME default values; ids in
        bit-value order, value 0 first), then the game-id byte the core
@@ -60,5 +60,10 @@
     <part crc="c60c883e" name="90058-5"/>
     <!-- oki2, 0x080000 -->
     <part crc="233c1776" name="90058-6"/>
+  </rom>
+
+  <!-- nmk_irq:vtiming -->
+  <rom index="1" zip="mustang.zip|nmk004.zip" md5="none">
+    <part crc="633ab1c9" name="10.bpr"/>
   </rom>
 </misterromdescription>
