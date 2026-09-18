@@ -28,10 +28,10 @@
     <year>1989</year>
     <manufacturer>Capcom</manufacturer>
     <players>2</players>
-    <rbf>jtmadgear</rbf>
+    <rbf>madgear</rbf>
     <joystick>8</joystick>
     <region>World</region>
-    <rom index="0" zip="madgear.zip|madgearj.zip" md5="None" asm_md5="42be9f71d14b70dc7b96fbc073fc19b7">
+    <rom index="0" zip="madgearj.zip|madgear.zip" md5="None" asm_md5="3bab3277dd084d422b2f181c1ec09304">
         <!-- maincpu - starts at 0x0 - length 0x80000 (19 bits) -->
         <interleave output="16">
             <part name="mdj_03.7b" crc="a5579c2d" map="01"/>

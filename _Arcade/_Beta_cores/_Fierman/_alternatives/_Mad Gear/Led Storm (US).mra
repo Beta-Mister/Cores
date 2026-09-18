@@ -25,25 +25,25 @@
     <name>Led Storm (US)</name>
     <setname>ledstorm</setname>
     <mameversion>0282</mameversion>
-    <year>1989</year>
+    <year>1988</year>
     <manufacturer>Capcom</manufacturer>
     <players>2</players>
-    <rbf>jtmadgear</rbf>
+    <rbf>madgear</rbf>
     <joystick>8</joystick>
     <region>World</region>
-    <rom index="0" zip="madgear.zip|ledstorm.zip" md5="None" asm_md5="42be9f71d14b70dc7b96fbc073fc19b7">
+    <rom index="0" zip="ledstorm.zip|madgear.zip" md5="None" asm_md5="6fceeddc64bdbe4a10f7e5fe425e6e66">
         <!-- maincpu - starts at 0x0 - length 0x80000 (19 bits) -->
         <interleave output="16">
             <part name="mdu_03.7b" crc="11fa542f" map="01"/>
             <part name="mdu_04.8b" crc="7f7f8329" map="10"/>
         </interleave>
         <interleave output="16">
-            <part name="mg_01.5b" crc="1cea2af0" map="01"/>
-            <part name="mg_02.6b" crc="9f5ebe16" map="10"/>
+            <part name="mde_01.5b" crc="1cea2af0" map="01"/>
+            <part name="mde_02.6b" crc="9f5ebe16" map="10"/>
         </interleave>
         <!-- JTFRAME_BA1_START -->
         <!-- audiocpu - starts at 0x80000 - length 0x10000 (16 bits) -->
-        <part name="mg_05.14j" crc="2fbfc945"/>
+        <part name="mde_05.14j" crc="2fbfc945"/>
         <!-- PCM_START -->
         <!-- oki - starts at 0x90000 - length 0x40000 (18 bits) -->
         <part name="ls-06.10e" crc="88d39a5b"/>
@@ -54,10 +54,10 @@
         <!-- OBJ_START -->
         <!-- sprites - starts at 0xD8000 - length 0x80000 (19 bits) -->
         <interleave output="32">
-            <part name="mg_m12.rom1" crc="887ef120" map="0001"/>
-            <part name="mg_m14.rom1" crc="21e5424c" map="0010"/>
-            <part name="mg_m11.rom0" crc="ee319a64" map="0100"/>
-            <part name="mg_m13.rom0" crc="eae07db4" map="1000"/>
+            <part name="12.rom1" crc="887ef120" map="0001"/>
+            <part name="14.rom1" crc="21e5424c" map="0010"/>
+            <part name="11.rom0" crc="ee319a64" map="0100"/>
+            <part name="13.rom0" crc="eae07db4" map="1000"/>
         </interleave>
         <interleave output="32">
             <part name="08u.rom3" crc="72e5d525" map="0001"/>

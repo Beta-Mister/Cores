@@ -28,7 +28,7 @@
     <year>1989</year>
     <manufacturer>Capcom</manufacturer>
     <players>2</players>
-    <rbf>jtmadgear</rbf>
+    <rbf>madgear</rbf>
     <joystick>8</joystick>
     <region>World</region>
     <rom index="0" zip="madgear.zip" md5="None" asm_md5="42be9f71d14b70dc7b96fbc073fc19b7">
