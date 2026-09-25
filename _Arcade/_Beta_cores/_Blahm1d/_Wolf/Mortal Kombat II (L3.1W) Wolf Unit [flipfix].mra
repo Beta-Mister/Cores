@@ -1,0 +1,57 @@
+<!-- Mortal Kombat II (L3.1W) Wolf Unit hack by Asure.
+     FIXED 2026-07-30 for the current Wolf family-master core: retired <rbf> name
+     replaced with the current master image, the REQUIRED index-3 profile byte
+     added (MK3 code base -> Wolf master profile 2), and the NVRAM index added.
+     The 12 GFX chips are MK2's real graphics devices (CRCs match the T-unit MK2
+     set) renamed onto Wolf sockets u133-u122; no tail group is populated. The
+     DCS data is a 4-chip packed image, matching the core's 4 MB DCS window.
+     ROM data is user-supplied and CRC-checked; none is distributed.
+     Expect a one-time CMOS/factory init on first boot. -->
+<misterromdescription>
+    <about author="Asure"/>
+    <rotation>horizontal</rotation>
+    <name>Mortal Kombat II (L3.1W - Wolf Unit)</name>
+    <setname>mk2wolf_umk3</setname>
+    <mameversion>0287</mameversion>
+    <year>1993</year>
+    <manufacturer>Midway / Hack by Asure</manufacturer>
+    <players>2</players>
+    <rbf>Arcade-WolfUnit-flipfix-20260924</rbf>
+    <region>World</region>
+
+    <!-- Wolf master profile 2: MK3 controls, development-528 PIC, MK3 tail sockets. -->
+    <rom index="3" md5="None"><part>02</part></rom>
+
+    <rom index="0" zip="mk2_wolf_32w.zip" md5="None">
+        <part name="mk321u54.bin" crc="b873db81"/>
+        <part name="mk321u63.bin" crc="4bd4cb92"/>
+    </rom>
+
+    <rom index="1" zip="mk2_wolf_31w.zip" md5="None">
+        <part name="l1_mortal_kombat_3_u133_game_rom.u133" crc="01e73af6"/>
+        <part name="l1_mortal_kombat_3_u132_game_rom.u132" crc="d4985cbb"/>
+        <part name="l1_mortal_kombat_3_u131_game_rom.u131" crc="fec137be"/>
+        <part name="l1_mortal_kombat_3_u130_game_rom.u130" crc="2d763156"/>
+        <part name="l1_mortal_kombat_3_u129_game_rom.u129" crc="8ba6ae18"/>
+        <part name="l1_mortal_kombat_3_u128_game_rom.u128" crc="39d885b4"/>
+        <part name="l1_mortal_kombat_3_u127_game_rom.u127" crc="809118c1"/>
+        <part name="l1_mortal_kombat_3_u126_game_rom.u126" crc="b96824f0"/>
+        <part name="l1_mortal_kombat_3_u125_game_rom.u125" crc="937d8620"/>
+        <part name="l1_mortal_kombat_3_u124_game_rom.u124" crc="218de160"/>
+        <part name="l1_mortal_kombat_3_u123_game_rom.u123" crc="154d53b1"/>
+        <part name="l1_mortal_kombat_3_u122_game_rom.u122" crc="8891d785"/>
+    </rom>
+
+    <!-- DCS1 sound: packed U2|U3|U4|U5 4 MB image (custom MK2 audio in MK3 DCS format). -->
+    <rom index="2" zip="mk2_wolf_31w.zip" md5="None">
+        <part name="l1_mortal_kombat_3_u2_music_spch.u2" crc="1fa334c8"/>
+        <part name="l1_mortal_kombat_3_u3_music_spch.u3" crc="86dc17a6"/>
+        <part name="l1_mortal_kombat_3_u4_music_spch.u4" crc="1ca12f40"/>
+        <part name="l1_mortal_kombat_3_u5_music_spch.u5" crc="bf2132c8"/>
+    </rom>
+
+    <nvram index="4" size="49152"></nvram>
+
+    <buttons names="High Punch,Low Punch,Block,High Kick,Low Kick,Run,Start,Coin"
+             default="X,A,R,Y,B,L,Start,Select" count="6"/>
+</misterromdescription>

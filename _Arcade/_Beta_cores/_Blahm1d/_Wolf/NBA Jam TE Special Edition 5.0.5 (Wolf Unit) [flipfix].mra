@@ -1,0 +1,67 @@
+<!-- NBA Jam Tournament Edition - Special Edition 5.0.5 (Wolf Unit) homebrew port
+     by Asure, built from the Maximum Hangtime code base (patched U54/U63, no U64
+     PIC needed).
+     FIXED 2026-07-30 for the current Wolf family-master core:
+       1. <rbf> pointed at "Arcade-UMK3_SRT_ERASE" - a retired engineering image.
+          Replaced with the current family master.
+       2. Added the REQUIRED index-3 profile byte: Maximum Hangtime code base ->
+          Wolf master profile 5 (Hangtime 2P/4P harness, development-528 PIC).
+       3. Added the NVRAM index.
+       4. SOUND CHIP U6 RESTORED (2026-07-30, later the same day): the core's
+          DCS window is now 8 MB (23-bit download + ROM addressing, sockets
+          U2-U9), so the full five-chip U2-U6 set loads without wrapping.
+          REQUIRES the 2026-07-30 or later Arcade-WolfUnit-CRT-Adjust build:
+          on an OLDER core U6 wraps to offset zero, overwrites U2 (the ADSP
+          boot page), and the game hangs at the sound-hardware warning.
+     ROM data is user-supplied and CRC-checked; none is distributed. -->
+<misterromdescription>
+    <about author="Asure"/>
+    <rotation>horizontal</rotation>
+    <name>NBA Jam TE Special Edition 5.0.5 (Wolf Unit)</name>
+    <setname>nbajamtese_wolf</setname>
+    <mameversion>0287</mameversion>
+    <year>1994</year>
+    <manufacturer>Midway (Asure homebrew port)</manufacturer>
+    <players>2</players>
+    <rbf>Arcade-WolfUnit-flipfix-20260924</rbf>
+    <region>World</region>
+
+    <!-- Wolf master profile 5: Maximum Hangtime 2P/4P harness, development-528 PIC. -->
+    <rom index="3" md5="None"><part>05</part></rom>
+
+    <rom index="0" zip="NBAJAM_TE_SE_EDITION_5.0.5_Wolf-UNIT.zip" md5="None">
+        <part name="l1.03_maximum_hangtime_u54_l_version.u54" crc="321976a3"/>
+        <part name="l1.03_maximum_hangtime_u63_l_version.u63" crc="3b124fed"/>
+    </rom>
+
+    <!-- Reduced GFX set: only the U129-U126 and U125-U122 socket groups are populated.
+         The U133-U130 group is empty on this port; zero-fill its 0x400000 bytes so
+         U129 stays at board offset 0x400000, else the whole set shifts one group
+         and renders scrambled. -->
+    <rom index="1" zip="NBAJAM_TE_SE_EDITION_5.0.5_Wolf-UNIT.zip" md5="None">
+        <part repeat="0x400000">00</part>
+        <part name="l1.0_nba_hangtime_u_129_image_rom.u129" crc="1d448803"/>
+        <part name="l1.0_nba_hangtime_u_128_image_rom.u128" crc="860b34a4"/>
+        <part name="l1.0_nba_hangtime_u_127_image_rom.u127" crc="2ce04388"/>
+        <part name="l1.0_nba_hangtime_u_126_image_rom.u126" crc="11870a50"/>
+        <part name="l1.0_nba_hangtime_u_125_image_rom.u125" crc="140acee3"/>
+        <part name="l1.0_nba_hangtime_u_124_image_rom.u124" crc="f6da1a70"/>
+        <part name="l1.0_nba_hangtime_u_123_image_rom.u123" crc="98702ff3"/>
+        <part name="l1.0_nba_hangtime_u_122_image_rom.u122" crc="ddf1bc38"/>
+    </rom>
+
+    <!-- DCS music/speech: full five-chip set U2-U6 (header note 4 - needs the
+         8 MB-DCS-window core build, 2026-07-30 or later). -->
+    <rom index="2" zip="NBAJAM_TE_SE_EDITION_5.0.5_Wolf-UNIT.zip" md5="None">
+        <part name="l1.0_nba_hangtime_u_2_music_spch.u2" crc="e7abf014"/>
+        <part name="l1.0_nba_hangtime_u_3_music_spch.u3" crc="2760465f"/>
+        <part name="l1.0_nba_hangtime_u_4_music_spch.u4" crc="382153c1"/>
+        <part name="l1.0_nba_hangtime_u_5_music_spch.u5" crc="24a972e3"/>
+        <part name="l1.0_nba_hangtime_u_6_music_spch.u6" crc="f4915367"/>
+    </rom>
+
+    <nvram index="4" size="49152"></nvram>
+
+    <buttons names="Turbo,Shoot / Block,Pass / Steal,Start,Coin"
+             default="A,X,Y,Start,Select" count="3"/>
+</misterromdescription>
