@@ -1,0 +1,90 @@
+<misterromdescription>
+	<name>Virtua Fighter</name>
+    <about author="blahm1d"/>
+	<setname>vf</setname>
+	<rbf>blahm1dpatreon_segamodel1vf</rbf>
+	<mameversion>0.289 (mame0289)</mameversion>
+	<year>1993</year>
+	<manufacturer>Sega</manufacturer>
+	<players>2</players>
+	<rotation>horizontal</rotation>
+	<region>World</region>
+
+    <buttons names="Punch,Kick,Guard,-,Start 1P,Start 2P,Coin" default="A,B,X,R,Start,Select,L"/>
+
+    <rom index="254" md5="none">
+        <part>4D 31 43 46 02 01 01 00 00 60 6F 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
+    </rom>
+
+    <rom index="0" zip="vf.zip|model1io.zip" md5="none">
+        <part repeat="0x200000">FF</part>
+        <interleave output="16">
+            <part name="epr-16082.14" crc="b23f22ee" map="01"/>
+            <part name="epr-16083.15" crc="d12c77f8" map="10"/>
+        </interleave>
+        <part repeat="0xcc0000">FF</part>
+        <part name="epr-16080.4" crc="3662e1a5"/>
+        <part name="epr-16081.5" crc="6dec06ce"/>
+        <interleave output="16">
+            <part name="mpr-16084.6" crc="483f453b" map="01"/>
+            <part name="mpr-16085.7" crc="5fa01277" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mpr-16086.8" crc="deac47a1" map="01"/>
+            <part name="mpr-16087.9" crc="7a64daac" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mpr-16088.10" crc="fcda2d1e" map="01"/>
+            <part name="mpr-16089.11" crc="39befbe0" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mpr-16090.12" crc="90c76831" map="01"/>
+            <part name="mpr-16091.13" crc="53115448" map="10"/>
+        </interleave>
+
+        <interleave output="32">
+            <part name="opr14742.bin" crc="446a1085" map="21"/>
+            <part name="opr14743.bin" crc="e8953554" map="2100"/>
+        </interleave>
+
+        <interleave output="32">
+            <part name="opr-14744.58" crc="730ea9e0" map="21"/>
+            <part name="opr-14745.59" crc="4c934d96" map="2100"/>
+        </interleave>
+        <interleave output="32">
+            <part name="opr-14746.62" crc="2a266cbd" map="21"/>
+            <part name="opr-14747.63" crc="a4ad5e19" map="2100"/>
+        </interleave>
+
+        <part name="opr14748.bin" crc="4a532cb8"/>
+
+        <part name="315-5571.bin" crc="1233db2a"/>
+
+        <part name="315-5572.bin" crc="66785906"/>
+
+        <part name="315-5724.bin" crc="4b4f330e"/>
+
+        <part repeat="0x200000">FF</part>
+        <interleave output="32">
+            <part name="mpr-16096.26" crc="a92b0bf3" map="21"/>
+            <part name="mpr-16097.27" crc="0232955a" map="2100"/>
+        </interleave>
+        <interleave output="32">
+            <part name="mpr-16098.28" crc="cf2e1b84" map="21"/>
+            <part name="mpr-16099.29" crc="20e46854" map="2100"/>
+        </interleave>
+        <interleave output="32">
+            <part name="mpr-16100.30" crc="e13e983d" map="21"/>
+            <part name="mpr-16101.31" crc="0dbed94d" map="2100"/>
+        </interleave>
+        <interleave output="32">
+            <part name="mpr-16102.32" crc="4cb41fb6" map="21"/>
+            <part name="mpr-16103.33" crc="526d1c76" map="2100"/>
+        </interleave>
+
+        <part name="epr-14869b.25" crc="2d093304"/>
+
+    </rom>
+
+
+</misterromdescription>
