@@ -1,7 +1,4 @@
-<!-- This core incorporates JTFRAME/jtcores components licensed under GNU GPLv2.
-     License text: https://opensource.org/licenses/gpl-2.0.php -->
 <misterromdescription>
-    <about author="konami-fpga"/>
     <rotation>horizontal</rotation>
     <name>Xexex (FF ver EAA)</name>
     <setname>xexex</setname>
@@ -13,10 +10,6 @@
     <joystick>8</joystick>
     <region>World</region>
     <rom index="0" zip="xexex.zip" md5="None" address="0x30000000">
-        <part>
-            00 00 80 01 A0 04 20 07
-            FF FF 00 00 00 00 00 00
-        </part>
         <interleave output="16">
             <part name="067eaa02.16f" crc="36ea7a48" map="01"/>
             <part name="067eaa01.16d" crc="3ebcb066" map="10"/>
@@ -26,14 +19,15 @@
             <part name="067b04.13f" crc="26ec5dc8" map="01"/>
             <part name="067b03.13d" crc="97833086" map="10"/>
         </interleave>
+        <part repeat="0x40000"> FF</part>
         <part name="067eaa05.4e" crc="0e33d6ec"/>
         <part name="067b06.3e" crc="3b12fce4"/>
         <part name="067b07.1e" crc="ec87fe1b"/>
+        <part name="067b08.22f" crc="ca816b7b"/>
         <interleave output="32">
             <part name="067b14.1n" crc="02a44bfa" map="0021"/>
             <part name="067b13.2n" crc="633c8eb5" map="2100"/>
         </interleave>
-        <part name="067b08.22f" crc="ca816b7b"/>
         <interleave output="64">
             <part name="067b12.17n" crc="08d611b0" map="00000021"/>
             <part name="067b11.19n" crc="a26f7507" map="00002100"/>
