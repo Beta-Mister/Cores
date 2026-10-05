@@ -6,10 +6,10 @@
 	<mameversion>0289</mameversion>
 	<year>1989</year>
 	<manufacturer>East Technology</manufacturer>
-	<rbf>Gigandes</rbf>
+	<rbf>Gigandes_bazset</rbf>
 	<rotation>horizontal</rotation>
 	<resolution>384x240</resolution>
-	<buttons names="Fire,Jump,Start 1P,Start 2P,Coin,Service,Pause" default="A,B,Start,Select,R,L,X" count="2"/>
+	<buttons names="Fire,Rotate,Start 1P,Coin,Service,Pause" default="A,B,Start,R,L,X" count="2"/>
 	
 	<switches default="DF,98" page_id="1" page_name="Switches">
 		

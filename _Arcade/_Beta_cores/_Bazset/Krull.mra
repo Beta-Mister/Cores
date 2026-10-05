@@ -7,8 +7,8 @@
 	<year>1983</year>
 	<manufacturer>Gottlieb</manufacturer>
 	<category>Platform</category>
-	<rbf>Arcade-Krull</rbf>
-	<buttons names="Service Select,Start 2P,Start 1P,Coin,Move Right,Move Left,Move Down,Move Up" default="A,Start,Select,R,X,Y,L,B"/>
+	<rbf>Krull_bazset</rbf>
+	<buttons names="Service Select,Start 2P,Start 1P,Coin,Shoot Right,Shoot Left,Shoot Down,Shoot Up" default="A,Start,Select,R,X,Y,L,B"/>
 	<switches default="00">
 		<dip bits="0" name="Demo Sounds" ids="On,Off"></dip>
 		<dip bits="1" name="Difficulty" ids="Normal,Hard"></dip>

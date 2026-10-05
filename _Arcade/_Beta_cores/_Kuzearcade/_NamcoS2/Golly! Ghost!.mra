@@ -55,7 +55,7 @@
     <!-- zoomlut: 0x2000 bytes at image 0x00d4000 -->
     <part crc="90db1bf6" name="04544191.6n" length="0x2000"/>
     <!-- config: 0x30 bytes at image 0x00d6000 -->
-    <part>4E 32 00 40 02 00 05 00 02 00 04 00 30 14 10 00 00 00 00 00 00 80 80 80 80 FF FF FF FF FF FF FF FF 82 FF FF 00 00 00 00 00 00 00 00 00 00 00 00</part>
+    <part>4E 32 00 40 02 00 05 00 02 00 04 00 30 14 10 00 00 00 00 00 00 80 80 80 80 FF FF FF FF FF FF FF FF 82 FF FF 60 66 00 00 00 00 00 00 00 00 00 00</part>
     <part repeat="0x29fd0">00</part>
     <!-- data_rom: 0x200000 bytes at image 0x0100000 -->
     <part repeat="0x200000">FF</part>
@@ -126,5 +126,30 @@
     <part repeat="0x400000">FF</part>
   </rom>
 
-  <nvram index="4" size="8192"/>
+  <!-- High scores: hiscore.dat's gollygho (tools/ns2_extras.py); the dump follows
+       the EEPROM in the .nvm, 323 bytes -->
+  <rom index="3" md5="none">
+    <part>
+      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      00 10 31 2E 01 43 02 00
+    </part>
+  </rom>
+
+  <!-- Cheats (Pugsy's database, tools/ns2_extras.py): Infinite Time, Infinite Credits -->
+  <rom index="5" md5="none">
+    <part>
+      02 00 10 30 F6 00 00 99 10 30 F6 00 00 99 00 00 00 00 00 00
+      01 00 40 AC 8F 00 00 09 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    </part>
+  </rom>
+
+  <nvram index="4" size="8516"/>
 </misterromdescription>

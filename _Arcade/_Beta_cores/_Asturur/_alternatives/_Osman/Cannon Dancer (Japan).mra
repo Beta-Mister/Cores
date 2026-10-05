@@ -1,0 +1,63 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2026. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>horizontal</rotation>
+    <name>Cannon Dancer (Japan)</name>
+    <setname>candance</setname>
+    <mameversion>0282</mameversion>
+    <year>1996</year>
+    <manufacturer>Mitchell (Atlus license)</manufacturer>
+    <players>2</players>
+    <rbf>jtosman</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="candance.zip|osman.zip" md5="None">
+        <!-- maincpu - starts at 0x0 - length 0x80000 (19 bits) -->
+        <interleave output="16">
+            <part name="sa00-0.1e" crc="ec6b3257" map="12"/>
+        </interleave>
+        <!-- JTFRAME_BA1_START -->
+        <!-- tiles - starts at 0x80000 - length 0x200000 (21 bits) -->
+        <part name="mcf-00.9a" crc="247712dc"/>
+        <!-- PCM1_START -->
+        <!-- JTFRAME_BA2_START -->
+        <!-- oki1 - starts at 0x280000 - length 0x40000 (18 bits) -->
+        <part name="sa01-0.13h" crc="cea8368e"/>
+        <!-- PCM2_START -->
+        <!-- oki2 - starts at 0x2C0000 - length 0x200000 (21 bits) -->
+        <part name="mcf-05.12f" crc="f007d376"/>
+        <!-- JTFRAME_BA3_START -->
+        <!-- sprites - starts at 0x4C0000 - length 0x800000 (23 bits) -->
+        <part name="mcf-04.14h" crc="4fa55577"/>
+        <part name="mcf-03.14d" crc="faf1d51d"/>
+        <part name="mcf-02.14a" crc="21251b33"/>
+        <part name="mcf-01.13a" crc="83881e25"/>
+        <!-- eeprom - starts at 0xCC0000 - length 0x80 (7 bits) -->
+        <part name="eeprom-candance.bin" crc="0a0a8f6b"/>
+        <!-- Total 0xCC0080 bytes - 13056 kBytes -->
+    </rom>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <buttons names="Attack,Jump,Special,Start,Coin,Core credits" default="A,B,X,Start,Select,-" count="3"/>
+</misterromdescription>

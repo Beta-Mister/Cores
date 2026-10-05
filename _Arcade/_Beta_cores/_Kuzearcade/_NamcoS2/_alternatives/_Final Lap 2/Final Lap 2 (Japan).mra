@@ -55,7 +55,7 @@
     <part crc="c7ae5d0a" name="finalap2.nv" length="0x2000"/>
     <part repeat="0x3000">00</part>
     <!-- config: 0x30 bytes at image 0x00d6000 -->
-    <part>4E 32 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF 80 00 00 FF FF FF FF 05 FF FF 00 00 00 00 00 00 00 00 00 00 00 00</part>
+    <part>4E 32 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF 80 00 00 FF FF FF FF 05 FF FF 60 66 00 00 00 00 00 00 00 00 00 00</part>
     <part repeat="0x29fd0">00</part>
     <!-- data_rom: 0x200000 bytes at image 0x0100000 -->
     <interleave output="16">
@@ -113,5 +113,30 @@
     <part repeat="0x400000">00</part>
   </rom>
 
-  <nvram index="4" size="8192"/>
+  <!-- High scores: hiscore.dat's finalap2j (tools/ns2_extras.py); the dump follows
+       the EEPROM in the .nvm, 208 bytes -->
+  <rom index="3" md5="none">
+    <part>
+      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      00 10 60 00 00 D0 50 01
+    </part>
+  </rom>
+
+  <!-- Cheats (Pugsy's database, tools/ns2_extras.py): Infinite Time, P1 Invincibility, Maximum Speed -->
+  <rom index="5" md5="none">
+    <part>
+      01 00 10 70 17 00 00 63 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      01 00 10 40 16 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      02 00 10 00 32 00 00 FF 10 01 0B 00 00 70 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    </part>
+  </rom>
+
+  <nvram index="4" size="8400"/>
 </misterromdescription>

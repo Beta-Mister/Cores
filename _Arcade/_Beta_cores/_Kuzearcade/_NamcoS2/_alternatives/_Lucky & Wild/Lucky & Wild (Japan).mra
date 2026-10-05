@@ -54,7 +54,7 @@
     <part crc="0c185d2a" name="luckywld.nv" length="0x2000"/>
     <part repeat="0x3000">00</part>
     <!-- config: 0x30 bytes at image 0x00d6000 -->
-    <part>4E 32 8D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 80 80 80 80 80 00 00 FF FF FF FF 2A FF FF 00 00 00 00 00 00 00 00 00 00 00 00</part>
+    <part>4E 32 8D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 80 80 80 80 80 00 00 FF FF FF FF 2A FF FF 60 66 00 00 00 00 00 00 00 00 00 00</part>
     <part repeat="0x29fd0">00</part>
     <!-- data_rom: 0x200000 bytes at image 0x0100000 -->
     <interleave output="16">
@@ -107,5 +107,30 @@
     <part repeat="0x1c0000">00</part>
   </rom>
 
-  <nvram index="4" size="8192"/>
+  <!-- High scores: hiscore.dat's luckywldj (tools/ns2_extras.py); the dump follows
+       the EEPROM in the .nvm, 160 bytes -->
+  <rom index="3" md5="none">
+    <part>
+      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      00 10 0B 00 00 A0 00 02
+    </part>
+  </rom>
+
+  <!-- Cheats (Pugsy's database, tools/ns2_extras.py): Infinite Time -->
+  <rom index="5" md5="none">
+    <part>
+      01 00 10 71 56 01 75 30 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+    </part>
+  </rom>
+
+  <nvram index="4" size="8352"/>
 </misterromdescription>
