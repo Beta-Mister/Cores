@@ -1,5 +1,5 @@
 <!--
-Twin Hawk (US) - Toaplan / Taito, 1989. Taito X System (PCB P0-051A).
+Twin Hawk (World) - Toaplan / Taito, 1989. Taito X System (PCB P0-051A).
 
 All regions are concatenated into a single stream that the core splits by
 address:
@@ -12,24 +12,24 @@ ROM names, CRCs and DIP definitions follow MAME's src/mame/taito/taito_x.cpp.
 The screen is rotated 270 degrees; the core's Rotation option defaults to CCW.
 -->
 <misterromdescription>
-    <rbf>TwinHawk</rbf>
-    <name>Twin Hawk (US)</name>
-    <setname>twinhawku</setname>
+    <rbf>TwinHawk_bazset</rbf>
+    <name>Twin Hawk (World)</name>
+    <setname>twinhawk</setname>
     <year>1989</year>
     <manufacturer>Toaplan / Taito</manufacturer>
     <players>2</players>
     <joystick>8way</joystick>
     <buttons count="2"/>
     <rotation>vertical (ccw)</rotation>
-    <region>USA</region>
+    <region>World</region>
 
-    <rom index="0" zip="twinhawku.zip|twinhawk.zip" type="merged" md5="none">
+    <rom index="0" zip="twinhawk.zip" type="merged" md5="none">
 
         <!-- 68000 program, 256 KB. The even byte of each word is the high
              byte; MAME loads the .u7 half at region offset 0. -->
         <interleave output="16">
-            <part name="b87-09.u7" crc="7e6267c7" map="01"/>
-            <part name="b87-08.u5" crc="31d9916f" map="10"/>
+            <part name="b87-11.u7" crc="fc84a399" map="01"/>
+            <part name="b87-10.u5" crc="17181706" map="10"/>
         </interleave>
 
         <!-- Z80 program, 32 KB = two 16 KB banks. -->
@@ -64,7 +64,7 @@ The screen is rotated 270 degrees; the core's Rotation option defaults to CCW.
         <dip name="Service Mode" bits="2" ids="On,Off"/>
         <dip name="Demo Sounds" bits="3" ids="Off,On"/>
         <dip name="Coin A" bits="4,5" ids="4C 1C,3C 1C,2C 1C,1C 1C"/>
-        <dip name="Coin B" bits="6,7" ids="4C 1C,3C 1C,2C 1C,1C 1C"/>
+        <dip name="Coin B" bits="6,7" ids="1C 6C,1C 4C,1C 3C,1C 2C"/>
         <dip name="Difficulty" bits="8,9" ids="Hardest,Hard,Easy,Medium"/>
         <dip name="Bonus Life" bits="10,11" ids="100k,50k,70k 200k,50k 150k"/>
         <dip name="Lives" bits="12,13" ids="2,4,5,3"/>

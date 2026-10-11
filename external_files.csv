@@ -1,545 +1,743 @@
-Path in Mister,URL,Size in bytes (optional but recommended),MD5 Hash (optional but recommended),Filter Terms (optional),Overwrite (optional),Comments (optional)
-games/kinst/kinst.img,https://archive.org/download/OngoFiles/KillerInstinct/kinst.img,131076608,6d4c2f152c9a18ab3a9b05b8804306a8,Killer Instinct,overwrite:false,
-games/kinst2/kinst2.img,https://archive.org/download/OngoFiles/KillerInstinct/kinst2.img,457673216,2563b089b316f2c8636d78af661ac656,Killer Instinct,overwrite:false,
-games/mame/kinst.zip,https://archive.org/download/OngoFiles/KillerInstinct/kinst.zip,5843251,4bb48f2ea2091e45b6f14cf3689b7986,Killer Instinct,overwrite:false,
-games/mame/kinst2.zip,https://archive.org/download/OngoFiles/KillerInstinct/kinst2.zip,7479079,d20251e2d55f397d210199a632286c65,Killer Instinct,overwrite:false,
-games/mame/coh1000c.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/coh1000c.zip,278492,a77a0ea2ab5d8678e6b8ba1304fb6cf5,Zn1,overwrite:false,
-games/mame/glpracr.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/glpracr.zip,4418784,b5b2172ed6cf5a89bcb98220f84887c1,Zn1,overwrite:false,
-games/mame/qsound_hle.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/qsound_hle.zip,2676,758388893761ea3ff0d820f60344a38e,Zn1,overwrite:false,
-games/mame/sfex.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/sfex.zip,10964167,17714cfe220fecfe2e0616e574aa44c6,Zn1,overwrite:false,
-games/mame/sfexp.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/sfexp.zip,11240185,8593825de9ed69eb5f2bafa2f8503cab,Zn1,overwrite:false,
-games/mame/starglad.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/starglad.zip,11235620,3951217070cfda0e0b7618e12697963f,Zn1,overwrite:false,
-games/mame/ts2.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/ts2.zip,12308764,cc4a147c18e650fd2f17286a6263abd6,Zn1,overwrite:false,
-games/mame/coh1000c.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/coh1000c.zip,278492,a77a0ea2ab5d8678e6b8ba1304fb6cf5,Zn1,overwrite:false,
-games/mame/glpracr.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/glpracr.zip,4418784,b5b2172ed6cf5a89bcb98220f84887c1,Zn1,overwrite:false,
-games/mame/qsound_hle.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/qsound_hle.zip,2676,758388893761ea3ff0d820f60344a38e,Zn1,overwrite:false,
-games/mame/sfex.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/sfex.zip,10964167,17714cfe220fecfe2e0616e574aa44c6,Zn1,overwrite:false,
-games/mame/sfexp.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/sfexp.zip,11240185,8593825de9ed69eb5f2bafa2f8503cab,Zn1,overwrite:false,
-games/mame/starglad.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/starglad.zip,11235620,3951217070cfda0e0b7618e12697963f,Zn1,overwrite:false,
-games/mame/ts2.zip,https://archive.org/download/OngoFiles/mame-capcomzn1/ts2.zip,12308764,cc4a147c18e650fd2f17286a6263abd6,Zn1,overwrite:false,
-games/mame/1on1gov.zip,https://archive.org/download/OngoFiles/mame-zn1/1on1gov.zip,15003910,349d26dacfe90c77b0d691e12c9c9e0f,Zn1,overwrite:false,
-games/mame/aerofgts.zip,https://archive.org/download/OngoFiles/mame-zn1/aerofgts.zip,9455407,723f6f8d415c35638c31b2173b613394,Zn1,overwrite:false,
-games/mame/beastrzr.zip,https://archive.org/download/OngoFiles/mame-zn1/beastrzr.zip,16282106,5f3bf59eba37a18638ecc8741a3e7ffe,Zn1,overwrite:false,
-games/mame/bldyror2.zip,https://archive.org/download/OngoFiles/mame-zn1/bldyror2.zip,19394066,787f84ba6a4bf9e25070e4cdc354b74f,Zn1,overwrite:false,
-games/mame/brvblade.zip,https://archive.org/download/OngoFiles/mame-zn1/brvblade.zip,7126542,1e3cf44c3995fc21532d2f3f984c038a,Zn1,overwrite:false,
-games/mame/coh1000t.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1000t.zip,126296,cbd902afa92e18d69226d91f567ab88a,Zn1,overwrite:false,
-games/mame/coh1001l.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1001l.zip,126207,fcfb400f4d2360002fee1dc5b9e7c2af,Zn1,overwrite:false,
-games/mame/coh1002e.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1002e.zip,128648,bd276c601adf0e25424824948e53ca3b,Zn1,overwrite:false,
-games/mame/coh1002m.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1002m.zip,138610,800fc349d09fff31c038538f68b6d18e,Zn1,overwrite:false,
-games/mame/coh1002t.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1002t.zip,216727,c235aa42552d60e4f139ab8743ec6694,Zn1,overwrite:false,
-games/mame/coh1002v.zip,https://archive.org/download/OngoFiles/mame-zn1/coh1002v.zip,126336,322e7491b5797efa70f58bcf80b52eac,Zn1,overwrite:false,
-games/mame/doapp.zip,https://archive.org/download/OngoFiles/mame-zn1/doapp.zip,14535271,c911786128d32a01c20e050321b0cfb9,Zn1,overwrite:false,
-games/mame/flamegun.zip,https://archive.org/download/OngoFiles/mame-zn1/flamegun.zip,31688319,031d1ff2eba69c8075d8a123f59e4918,Zn1,overwrite:false,
-games/mame/ftimpcta.zip,https://archive.org/download/OngoFiles/mame-zn1/ftimpcta.zip,15063475,a805915849f83d8f0db7c39020b8da96,Zn1,overwrite:false,
-games/mame/gdarius2.zip,https://archive.org/download/OngoFiles/mame-zn1/gdarius2.zip,21742173,cd8af31679571b067b99965a90d90f92,Zn1,overwrite:false,
-games/mame/glpracr2.zip,https://archive.org/download/OngoFiles/mame-zn1/glpracr2.zip,14745471,a654dfef39d44736b51800e14d020ad7,Zn1,overwrite:false,
-games/mame/glpracr3.zip,https://archive.org/download/OngoFiles/mame-zn1/glpracr3.zip,11307265,e25052ae43a567aebcf5d2c969bb9ead,Zn1,overwrite:false,
-games/mame/hvnsgate.zip,https://archive.org/download/OngoFiles/mame-zn1/hvnsgate.zip,14323255,16fb9d35d9a026f06aef93a41cf34eff,Zn1,overwrite:false,
-games/mame/lpadv.zip,https://archive.org/download/OngoFiles/mame-zn1/lpadv.zip,2917110,f3b4ff3d6fee91d9c4d02dae2d14ef33,Zn1,overwrite:false,
-games/mame/mfjump.zip,https://archive.org/download/OngoFiles/mame-zn1/mfjump.zip,3063491,c7d8ff73672557af7a3dea4355dea8e7,Zn1,overwrite:false,
-games/mame/mgcldtex.zip,https://archive.org/download/OngoFiles/mame-zn1/mgcldtex.zip,14226640,08a449c8521301630d441ace58fedfb8,Zn1,overwrite:false,
-games/mame/psyforce.zip,https://archive.org/download/OngoFiles/mame-zn1/psyforce.zip,6732770,e768524589208b302906d12c9c3e6f89,Zn1,overwrite:false,
-games/mame/raystorm.zip,https://archive.org/download/OngoFiles/mame-zn1/raystorm.zip,10071125,e343a342f0e28f42d0586f86c4183b16,Zn1,overwrite:false,
-games/mame/sfchamp.zip,https://archive.org/download/OngoFiles/mame-zn1/sfchamp.zip,7640056,83836b8155fa0d723a79ca0dee4937d8,Zn1,overwrite:false,
-games/mame/shngmtkb.zip,https://archive.org/download/OngoFiles/mame-zn1/shngmtkb.zip,12755019,cae3ae427b36560b38654b1d45ec5d30,Zn1,overwrite:false,
-games/mame/tblkkuzu.zip,https://archive.org/download/OngoFiles/mame-zn1/tblkkuzu.zip,2290359,960404c40c40e4b7b6388a4a064fe8a0,Zn1,overwrite:false,
-games/mame/tondemo.zip,https://archive.org/download/OngoFiles/mame-zn1/tondemo.zip,13249482,e929dcbbaaf1fe456a353d38eb581ab5,Zn1,overwrite:false,
-games/mame/twcupmil.zip,https://archive.org/download/OngoFiles/mame-zn1/twcupmil.zip,5225602,32a41787f80835bbd8cbccc2a4689430,Zn1,overwrite:false,
-games/mame/coh3002c.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/coh3002c.zip,137963,7564fc1ea9b44b5d4436631e399d0c3e,Zn2,overwrite:false,
-games/mame/plsmaswd.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/plsmaswd.zip,24348697,f240a51fc43f3fcc34d68c1f25c7b444,Zn2,overwrite:false,
-games/mame/rvschool.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/rvschool.zip,28611176,485e0b002c3162ab8ee5ec8be9d1fddd,Zn2,overwrite:false,
-games/mame/sfex2.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/sfex2.zip,16982187,1994bcbde7c2535af7b3d9b42b21ea30,Zn2,overwrite:false,
-games/mame/sfex2p.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/sfex2p.zip,25620875,36c60123df77dded982df45fbbf6c5f5,Zn2,overwrite:false,
-games/mame/strider2.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/strider2.zip,21408994,151fd5321ca37c61440420efb5b344c5,Zn2,overwrite:false,
-games/mame/techromn.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/techromn.zip,39102489,903f3f17839278abcd6e7fbd703e399b,Zn2,overwrite:false,
-games/mame/tgmj.zip,https://archive.org/download/OngoFiles/mame-capcomzn2/tgmj.zip,2731246,7fcc8a72b4bc1f3340e1db4724b0628d,Zn2,overwrite:false,
-games/mame/akatana.zip,https://archive.org/download/evac_20260901/evac/akatana.zip,73579066,504c5f230dd380b0f3cb09bc3488ad60,CV1000,overwrite:false,
-games/mame/ddpdfk.zip,https://archive.org/download/evac_20260901/evac/ddpdfk.zip,81588023,7b7a55f492c4cf1cd3e4ff1b6f81aea2,CV1000,overwrite:false,
-games/mame/ddpsdoj.zip,https://archive.org/download/evac_20260901/evac/ddpsdoj.zip,141530308,dceae1cdcba067c180a49af89b51e1a0,CV1000,overwrite:false,
-games/mame/deathsml.zip,https://archive.org/download/evac_20260901/evac/deathsml.zip,66177676,fdb4f4321a418b167a440abbb36c8ffb,CV1000,overwrite:false,
-games/mame/dfkbl.zip,https://archive.org/download/evac_20260901/evac/dfkbl.zip,47855170,9d77aa77e64a4e073a4f5e9c8eefd5d3,CV1000,overwrite:false,
-games/mame/dsmbl.zip,https://archive.org/download/evac_20260901/evac/dsmbl.zip,82681482,f5e1f75df919f5cb13fc4d6b5a84603b,CV1000,overwrite:false,
-games/mame/espgal2.zip,https://archive.org/download/evac_20260901/evac/espgal2.zip,49915688,fc1c0e3e021e564282edba2b1f5561c8,CV1000,overwrite:false,
-games/mame/futari15.zip,https://archive.org/download/evac_20260901/evac/futari15.zip,98052208,c2745a33d5b91313ec50e8535e49a966,CV1000,overwrite:false,
-games/mame/futaribl.zip,https://archive.org/download/evac_20260901/evac/futaribl.zip,52719721,8d77a6c26c6abf209de1901a016e1c6a,CV1000,overwrite:false,
-games/mame/ibara.zip,https://archive.org/download/evac_20260901/evac/ibara.zip,34474299,b05a2773b3250bafbbc5d57fbc9048c6,CV1000,overwrite:false,
-games/mame/ibarablk.zip,https://archive.org/download/evac_20260901/evac/ibarablk.zip,68947335,d5100046d213c3e82c72fa13c2db0425,CV1000,overwrite:false,
-games/mame/matsuri15.zip,https://archive.org/download/evac_20260901/evac/matsuri15.zip,35834221,a2d5d892abe17755c5ce1c43ed25d9b4,CV1000,overwrite:false,
-games/mame/mmmbanc.zip,https://archive.org/download/evac_20260901/evac/mmmbanc.zip,12350063,cc4dc20129642ff80e07a2ea3b8c9ee5,CV1000,overwrite:false,
-games/mame/mmpork.zip,https://archive.org/download/evac_20260901/evac/mmpork.zip,63985930,1c227375f81650a94f4c194cb3365122,CV1000,overwrite:false,
-games/mame/mushisam.zip,https://archive.org/download/evac_20260901/evac/mushisam.zip,40308100,f0f47942e69439d3d985422030a0012c,CV1000,overwrite:false,
-games/mame/mushitam.zip,https://archive.org/download/evac_20260901/evac/mushitam.zip,32511599,8d96dd36a64ba9db456e55d13b6675f9,CV1000,overwrite:false,
-games/mame/pinkswts.zip,https://archive.org/download/evac_20260901/evac/pinkswts.zip,151324523,21ad91608c6b51bcc94e5a4ef446bfe9,CV1000,overwrite:false,
-games/mame/danceyes.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/danceyes.zip,20679823,e70d3ad5aef0d7275301b7712770cec2,System 11,overwrite:false,
-games/mame/dunkmnia.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/dunkmnia.zip,9587978,b54e8a95529a1b22a16957d33537a43c,System 11,overwrite:false,
-games/mame/fambowl.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/fambowl.zip,5356849,73ca0fa4048344a8199ad09c0f335b83,System 11,overwrite:false,
-games/mame/myangel3.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/myangel3.zip,22413120,0c16ab6cffac30c1c3cb987124e7b929,System 11,overwrite:false,
-games/mame/namcoc76.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/namcoc76.zip,9579,c0e177c75fa95ae46143e0609f58caaa,System 11,overwrite:false,
-games/mame/pocketrc.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/pocketrc.zip,5313177,3003d825a37f29d1457cd78416a4ddf9,System 11,overwrite:false,
-games/mame/primglex.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/primglex.zip,9897456,3fd8cb653e71e9beae87d23d6d80ac11,System 11,overwrite:false,
-games/mame/ptblank2.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/ptblank2.zip,30763416,1977aa9190182b9acdedafc855fa69bc,System 11,overwrite:false,
-games/mame/souledge.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/souledge.zip,25737673,fd8e3d8ee1aa9d26651b2ec9dbb940ba,System 11,overwrite:false,
-games/mame/starswep.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/starswep.zip,3748766,99f65cfef7a480a7b2a435912a7466b2,System 11,overwrite:false,
-games/mame/tekken.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/tekken.zip,19067076,3a5fb15831ef80dada2360d0ba175011,System 11,overwrite:false,
-games/mame/tekken2.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/tekken2.zip,34807990,522d3caae0aea97bd3a61991c7537a22,System 11,overwrite:false,
-games/mame/xevi3dg.zip,https://archive.org/download/OngoFiles/mame-namcosystem11/xevi3dg.zip,17759492,54bfaaf0c61c65fa113bd1c064df31ab,System 11,overwrite:false,
-games/mame/aquarush.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/aquarush.zip,12094823,04412c28864be9a6d678fa74f355f91e,System 12,overwrite:false,
-games/mame/ehrgeiz.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/ehrgeiz.zip,32316959,716a344e40e98ea7e035db3bc947e26f,System 12,overwrite:false,
-games/mame/fgtlayer.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/fgtlayer.zip,26282296,98dabc118e9020eaf424b5b5ee0eafcb,System 12,overwrite:false,
-games/mame/ghlpanic.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/ghlpanic.zip,12427096,315e0f7b0d81e6d37dbe943e874c71c6,System 12,overwrite:false,
-games/mame/lbgrande.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/lbgrande.zip,11876558,8706b6b07ad3a526f28cefe7638952cb,System 12,overwrite:false,
-games/mame/mrdrillr.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/mrdrillr.zip,12772919,0ae23b1e6af5812a13c4b26db476e863,System 12,overwrite:false,
-games/mame/pacapp.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/pacapp.zip,13418383,7ec288f0e3030aa2e45425439746ae96,System 12,overwrite:false,
-games/mame/pacapp2.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/pacapp2.zip,18543189,80153666b2fcb40ae4563928f48fdc1b,System 12,overwrite:false,
-games/mame/pacappsp.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/pacappsp.zip,18744920,f40131f9f7f7f033d0d3eacb36da6a6c,System 12,overwrite:false,
-games/mame/soulclbr.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/soulclbr.zip,57003349,f980e08b32869860d3c45cdc22c721d5,System 12,overwrite:false,
-games/mame/sws98.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/sws98.zip,15733251,816e768f0a5e8a204f68cd58f71ef144,System 12,overwrite:false,
-games/mame/sws99.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/sws99.zip,18921800,46ffb44cb88755d622af13b9b70bf903,System 12,overwrite:false,
-games/mame/tekken3.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/tekken3.zip,63983697,32cca10a4195adc3ed2a7ea470815143,System 12,overwrite:false,
-games/mame/tektagt.zip,https://archive.org/download/OngoFiles/mame-namcosystem12/tektagt.zip,130601575,8c350b94c7529ca4ba8d13c82151e94a,System 12,overwrite:false,
-games/mame/namcoc71.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/namcoc71.zip,2756,820432925f6fa45cd6ccd44db8afdb58,System 22,overwrite:false,
-games/mame/namcoc74.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/namcoc74.zip,6936,49051be5627d94a0c8b1baf7c24c4ba6,System 22,overwrite:false,
-games/mame/propcycl.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/propcycl.zip,28856481,9817a8c9511fff9c8a88965fc7eb99b6,System 22,overwrite:false,
-games/mame/raverace.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/raverace.zip,23532832,273b83f9012fc21f9be54bbe7603f050,System 22,overwrite:false,
-games/mame/ridgera2.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/ridgera2.zip,9063282,2749c14a6ede6393d000cede0da923ea,System 22,overwrite:false,
-games/mame/ridgerac.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/ridgerac.zip,8910639,970bc7d047988fc7ee3ef2af69bf68d4,System 22,overwrite:false,
-games/mame/timecris.zip,https://archive.org/download/OngoFiles/mame-namcosystem22/timecris.zip,30868242,d635c5b257bdefa667e6f56cce0a62e7,System 22,overwrite:false,
-games/mame/cheyenne.zip,https://archive.org/download/OngoFiles/mame-exidy440/cheyenne.zip,270034,995ea1f4ace90f864e19fc5f0a148657,Exidy 440,overwrite:false,
-games/mame/chiller.zip,https://archive.org/download/OngoFiles/mame-exidy440/chiller.zip,264997,50d5b575b397c7ae457ffeb7b8ba5af7,Exidy 440,overwrite:false,
-games/mame/claypign.zip,https://archive.org/download/OngoFiles/mame-exidy440/claypign.zip,163017,21fbb3ddc65f2cef32c66bbac3c078fb,Exidy 440,overwrite:false,
-games/mame/combat.zip,https://archive.org/download/OngoFiles/mame-exidy440/combat.zip,267532,7f4c07f3e303265a23c87ac55b6ab2b4,Exidy 440,overwrite:false,
-games/mame/cracksht.zip,https://archive.org/download/OngoFiles/mame-exidy440/cracksht.zip,227476,93e7555e25f251958f13970c95f961f2,Exidy 440,overwrite:false,
-games/mame/crossbow.zip,https://archive.org/download/OngoFiles/mame-exidy440/crossbow.zip,286112,bd36036b4911b04bd73120f4e82c5cfe,Exidy 440,overwrite:false,
-games/mame/hitnmiss.zip,https://archive.org/download/OngoFiles/mame-exidy440/hitnmiss.zip,359953,923abc67e84400f1c7c79322f776369c,Exidy 440,overwrite:false,
-games/mame/showdown.zip,https://archive.org/download/OngoFiles/mame-exidy440/showdown.zip,234723,6cb1efdee6902c8c10362d337913a260,Exidy 440,overwrite:false,
-games/mame/topsecex.zip,https://archive.org/download/OngoFiles/mame-exidy440/topsecex.zip,223939,3fec456ea81013a659e27840c57173b8,Exidy 440,overwrite:false,
-games/mame/whodunit.zip,https://archive.org/download/OngoFiles/mame-exidy440/whodunit.zip,329428,d8fe5af4ee68ed4a8a0fc6560c7bdaae,Exidy 440,overwrite:false,
-games/mame/asurabld.zip,https://archive.org/download/OngoFiles/mame-fuuki/asurabld.zip,8929380,470ea52f497baa2100dc1dfeb59beab1,Fuuki,overwrite:false,
-games/mame/asurabus.zip,https://archive.org/download/OngoFiles/mame-fuuki/asurabus.zip,13396080,9020f55514e65ad8ba594f688d3e6b55,Fuuki,overwrite:false,
-games/mame/gogomile.zip,https://archive.org/download/OngoFiles/mame-fuuki/gogomile.zip,3373243,6213376cd7e758754af466944dbc7e92,Fuuki,overwrite:false,
-games/mame/pbancho.zip,https://archive.org/download/OngoFiles/mame-fuuki/pbancho.zip,2419453,34fdf933dc76cb3dcf898b660010ac3c,Fuuki,overwrite:false,
-games/mame/akiss.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/akiss.zip,14718696,7117b0387df48d797b1c0470d7a44c5a,Jaleco Ms32,overwrite:false,
-games/mame/bbbxing.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/bbbxing.zip,10429741,20ea54376b105cfcf7657897d17dae66,Jaleco Ms32,overwrite:false,
-games/mame/bnstars1.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/bnstars1.zip,18608613,d1f2a1f3e79d0ad6b76df48c47d1a928,Jaleco Ms32,overwrite:false,
-games/mame/desertwr.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/desertwr.zip,10622326,cf61a5cbcac5860c986054df521931fc,Jaleco Ms32,overwrite:false,
-games/mame/f1superb.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/f1superb.zip,17252765,951e1b4172e414a9f9493d378da5256e,Jaleco Ms32,overwrite:false,
-games/mame/gametngk.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/gametngk.zip,13902932,8c19de84b4c957a8dc768320b597106b,Jaleco Ms32,overwrite:false,
-games/mame/gratia.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/gratia.zip,12372816,b16880e215746eab6756ce26ac61e6aa,Jaleco Ms32,overwrite:false,
-games/mame/hayaosi2.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/hayaosi2.zip,6534132,425d2f1e3ab9d7b1383991b439a6b07a,Jaleco Ms32,overwrite:false,
-games/mame/hayaosi3.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/hayaosi3.zip,9195833,8be2abdde03cc60dac1ef71eebb043ae,Jaleco Ms32,overwrite:false,
-games/mame/kirarast.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/kirarast.zip,16146210,6df4c4644922aaaef4433de0888ab768,Jaleco Ms32,overwrite:false,
-games/mame/p47aces.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/p47aces.zip,9094666,737ba785c93fb708eceb9a79f02e773d,Jaleco Ms32,overwrite:false,
-games/mame/suchie2.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/suchie2.zip,10982266,edc024d91615bdde45c8fde5c2f5de29,Jaleco Ms32,overwrite:false,
-games/mame/tetrisp.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/tetrisp.zip,6027269,0b3947e9a433c30b37f775c0247409ce,Jaleco Ms32,overwrite:false,
-games/mame/tetrisp2.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/tetrisp2.zip,14616353,ab70be2c48db7753d80a6a1b5094d2d8,Jaleco Ms32,overwrite:false,
-games/mame/wpksocv2.zip,https://archive.org/download/OngoFiles/mame-jalecoms32/wpksocv2.zip,10936780,25925c1fd66e389111e5acfa70efcaa7,Jaleco Ms32,overwrite:false,
-games/mame/aerofgt.zip,https://archive.org/download/OngoFiles/mame-jlrh/aerofgt.zip,7320017,99e00bfe89225f69c50345ca3179e96a,Jlrh,overwrite:false,
-games/mame/aligator.zip,https://archive.org/download/OngoFiles/mame-jlrh/aligator.zip,18344791,6168a6478e62ed4956799b662c1f9663,Jlrh,overwrite:false,
-games/mame/altair.zip,https://archive.org/download/OngoFiles/mame-jlrh/altair.zip,9758,969a24aff748af9049223096032cc7e0,Jlrh,overwrite:false,
-games/mame/altair2.zip,https://archive.org/download/OngoFiles/mame-jlrh/altair2.zip,9738,3d704c9fd27daaaa4f5d8555da14a805,Jlrh,overwrite:false,
-games/mame/blswhstl.zip,https://archive.org/download/OngoFiles/mame-jlrh/blswhstl.zip,2037057,4886479b2f403b4a293f961da8aba310,Jlrh,overwrite:false,
-games/mame/chqflag.zip,https://archive.org/download/OngoFiles/mame-jlrh/chqflag.zip,1364504,e2c11da487f02c4b7aa8347fe8107bd4,Jlrh,overwrite:false,
-games/mame/destryer.zip,https://archive.org/download/OngoFiles/mame-jlrh/destryer.zip,14070,3f3340ec37d60737aa39c083f349a3e0,Jlrh,overwrite:false,
-games/mame/draco.zip,https://archive.org/download/OngoFiles/mame-jlrh/draco.zip,13763,3e40af261fc9a059ad03f9111aa136ff,Jlrh,overwrite:false,
-games/mame/empcity.zip,https://archive.org/download/OngoFiles/mame-jlrh/empcity.zip,528771,d9e0cb3c0de98452b1a71c4ed7a425fd,Jlrh,overwrite:false,
-games/mame/glass.zip,https://archive.org/download/OngoFiles/mame-jlrh/glass.zip,10746392,3e4add06a1c35103668c4a524d5e5212,Jlrh,overwrite:false,
-games/mame/hamboy.zip,https://archive.org/download/OngoFiles/mame-jlrh/hamboy.zip,485155,7c3759be898e26e84c4c41c8ccef761e,Jlrh,overwrite:false,
-games/mame/hotchase.zip,https://archive.org/download/OngoFiles/mame-jlrh/hotchase.zip,4570073,64716bed613f057f6b31d745f4fbe206,Jlrh,overwrite:false,
-games/mame/konamigt.zip,https://archive.org/download/OngoFiles/mame-jlrh/konamigt.zip,178595,7f7c664f5f1124ea9c06d9d7ae84702b,Jlrh,overwrite:false,
-games/mame/littlerb.zip,https://archive.org/download/OngoFiles/mame-jlrh/littlerb.zip,1520066,a9710b0b1d9cd8a32dd49728ab07f765,Jlrh,overwrite:false,
-games/mame/megaphx.zip,https://archive.org/download/OngoFiles/mame-jlrh/megaphx.zip,444748,10598478b92d91b3d9eb30c9fcc67109,Jlrh,overwrite:false,
-games/mame/moomesa.zip,https://archive.org/download/OngoFiles/mame-jlrh/moomesa.zip,6673967,c13ccddaa02f6bb2d8e94a9966043eac,Jlrh,overwrite:false,
-games/mame/mtlchamp.zip,https://archive.org/download/OngoFiles/mame-jlrh/mtlchamp.zip,8240099,34d2756eddd188ba3f7c87534b87b8a2,Jlrh,overwrite:false,
-games/mame/overdriv.zip,https://archive.org/download/OngoFiles/mame-jlrh/overdriv.zip,3253647,d3a09e62a2db4192a90c786769031880,Jlrh,overwrite:false,
-games/mame/thoop2.zip,https://archive.org/download/OngoFiles/mame-jlrh/thoop2.zip,10454670,0e451c91784870c355aba14460a03a8f,Jlrh,overwrite:false,
-games/mame/wecleman.zip,https://archive.org/download/OngoFiles/mame-jlrh/wecleman.zip,1266225,a1a3df9c98dafb99a75ab2dbff67bc75,Jlrh,overwrite:false,
-games/mame/wrally.zip,https://archive.org/download/OngoFiles/mame-jlrh/wrally.zip,8431601,99fc3677f583ade3dbea46d998f5a71e,Jlrh,overwrite:false,
-games/mame/wrally2.zip,https://archive.org/download/OngoFiles/mame-jlrh/wrally2.zip,13294768,4063ddff3df7fe1e12eecbd87a2dec3e,Jlrh,overwrite:false,
-games/mame/xexex.zip,https://archive.org/download/OngoFiles/mame-jlrh/xexex.zip,5143801,069a515fe30f7d916a244ce94907af6e,Jlrh,overwrite:false,
-games/mame/yoyospel.zip,https://archive.org/download/OngoFiles/mame-jlrh/yoyospel.zip,725104,c3413a9557dc7608f7ad401f5ee7c8ad,Jlrh,overwrite:false,
-games/mame/blazeon.zip,https://archive.org/download/OngoFiles/mame-kaneko16/blazeon.zip,1906474,9df9c22b3575a2b6c9d0ba37fb1d6888,Kaneko16,overwrite:false,
-games/mame/explbrkr.zip,https://archive.org/download/OngoFiles/mame-kaneko16/explbrkr.zip,2457212,b9b897930b383401df0d6f63aefa5fb7,Kaneko16,overwrite:false,
-games/mame/mgcrystl.zip,https://archive.org/download/OngoFiles/mame-kaneko16/mgcrystl.zip,1267269,3e3755ba29f6ac934de0eac1491af7c8,Kaneko16,overwrite:false,
-games/mame/wingforc.zip,https://archive.org/download/OngoFiles/mame-kaneko16/wingforc.zip,2334971,925795cbed561f2a8e0fc40c792d51be,Kaneko16,overwrite:false,
-games/mame/archrivl.zip,https://archive.org/download/OngoFiles/mame-mcr68/archrivl.zip,572150,94b39fc17d51efe1f25cc407d19831af,Mcr68,overwrite:false,
-games/mame/blasted.zip,https://archive.org/download/OngoFiles/mame-mcr68/blasted.zip,882570,1cb6c3b1b7543809df0438a89277a16d,Mcr68,overwrite:false,
-games/mame/pigskin.zip,https://archive.org/download/OngoFiles/mame-mcr68/pigskin.zip,831104,3084f077075c7f0f3534fd07ec7a356b,Mcr68,overwrite:false,
-games/mame/xenophob.zip,https://archive.org/download/OngoFiles/mame-mcr68/xenophob.zip,392223,46c606a74e9d5019279c984765b9e708,Mcr68,overwrite:false,
-games/mame/docastle.zip,https://archive.org/download/OngoFiles/mame-mrdo/docastle.zip,108719,dc0e6a8a46aff4ca204d07ab50636359,MrDo,overwrite:false,
-games/mame/dorunrun.zip,https://archive.org/download/OngoFiles/mame-mrdo/dorunrun.zip,169184,ec8735bc15fe1397295903808640fbdd,MrDo,overwrite:false,
-games/mame/dowild.zip,https://archive.org/download/OngoFiles/mame-mrdo/dowild.zip,43654,d9e69a1ca465c6ca8b5c889e9b098d61,MrDo,overwrite:false,
-games/mame/idsoccer.zip,https://archive.org/download/OngoFiles/mame-mrdo/idsoccer.zip,205782,d7c5024219820bf1a48bb3305c7cf077,MrDo,overwrite:false,
-games/mame/jjack.zip,https://archive.org/download/OngoFiles/mame-mrdo/jjack.zip,44209,f1a0bc6f256b60cdc69a8300eda9d4e2,MrDo,overwrite:false,
-games/mame/kickridr.zip,https://archive.org/download/OngoFiles/mame-mrdo/kickridr.zip,37835,69b10861eaf60abef3edb3727296fa65,MrDo,overwrite:false,
-games/mame/bnzabros.zip,https://archive.org/download/OngoFiles/mame-segas24/bnzabros.zip,1392105,4f79272bb2b558b546d93ca2db7a1654,System 24,overwrite:false,
-games/mame/crkdown.zip,https://archive.org/download/OngoFiles/mame-segas24/crkdown.zip,2562707,fe5a4ca14d3779edc6d31d0d69cf31dd,System 24,overwrite:false,
-games/mame/gground.zip,https://archive.org/download/OngoFiles/mame-segas24/gground.zip,1488521,16727f271fd7ffca9aad7a8027975aa8,System 24,overwrite:false,
-games/mame/hotrod.zip,https://archive.org/download/OngoFiles/mame-segas24/hotrod.zip,3826843,18ba52b0ee162f0dc7247f918a82fe96,System 24,overwrite:false,
-games/mame/roughrac.zip,https://archive.org/download/OngoFiles/mame-segas24/roughrac.zip,833545,ea95f4777fb5540ec74bb91b55f169ad,System 24,overwrite:false,
-games/mame/sspirits.zip,https://archive.org/download/OngoFiles/mame-segas24/sspirits.zip,1618742,788d0f1506a7a390c4f97bd702e3521d,System 24,overwrite:false,
-games/mame/alien3.zip,https://archive.org/download/OngoFiles/mame-segas32/alien3.zip,10212851,655750570ba5291943b1d82ba84d6e26,System 32,overwrite:false,
-games/mame/arabfgt.zip,https://archive.org/download/OngoFiles/mame-segas32/arabfgt.zip,9180295,ced2530f3f79c88727028ef5e1a1047a,System 32,overwrite:false,
-games/mame/arescue.zip,https://archive.org/download/OngoFiles/mame-segas32/arescue.zip,5235972,8047da908f7cea0d072236f2d0cb1587,System 32,overwrite:false,
-games/mame/brival.zip,https://archive.org/download/OngoFiles/mame-segas32/brival.zip,12176412,d39fd33f2d27e314041f1b60faa218e3,System 32,overwrite:false,
-games/mame/darkedge.zip,https://archive.org/download/OngoFiles/mame-segas32/darkedge.zip,7879230,1537451eb1348ce5c8f962b116fc5217,System 32,overwrite:false,
-games/mame/dbzvrvs.zip,https://archive.org/download/OngoFiles/mame-segas32/dbzvrvs.zip,8140032,c92ac93c71ac53125230f3264244c946,System 32,overwrite:false,
-games/mame/ga2.zip,https://archive.org/download/OngoFiles/mame-segas32/ga2.zip,9209462,480ad5864963ea4acee9a641aec78fdf,System 32,overwrite:false,
-games/mame/holo.zip,https://archive.org/download/OngoFiles/mame-segas32/holo.zip,5228168,2a17022a5dcd83918bc82d9ea195ee60,System 32,overwrite:false,
-games/mame/jpark.zip,https://archive.org/download/OngoFiles/mame-segas32/jpark.zip,9816614,cec968f5f1c0161798ea6b9bc4aab36f,System 32,overwrite:false,
-games/mame/radm.zip,https://archive.org/download/OngoFiles/mame-segas32/radm.zip,5132449,b6012aa92643928ea3641c77a703d07c,System 32,overwrite:false,
-games/mame/radr.zip,https://archive.org/download/OngoFiles/mame-segas32/radr.zip,4804548,86722806cd222382c0b0d38eb1c07e56,System 32,overwrite:false,
-games/mame/slipstrm.zip,https://archive.org/download/OngoFiles/mame-segas32/slipstrm.zip,2713573,f84a62f7d3096c818e9aa10d194dedc1,System 32,overwrite:false,
-games/mame/sonic.zip,https://archive.org/download/OngoFiles/mame-segas32/sonic.zip,8718189,761fc9cba9f170bf75b80a027498ab07,System 32,overwrite:false,
-games/mame/spidman.zip,https://archive.org/download/OngoFiles/mame-segas32/spidman.zip,6736610,1131f147380a3a02a2d181d5245adf8a,System 32,overwrite:false,
-games/mame/svf.zip,https://archive.org/download/OngoFiles/mame-segas32/svf.zip,9347576,34c6b6d2791ca32327886f26f32d67c2,System 32,overwrite:false,
-games/mame/harddunk.zip,https://archive.org/download/OngoFiles/mame-segas32multi/harddunk.zip,6506779,9dbfcde721155e32c856ae17b37c69a7,System 32,overwrite:false,
-games/mame/orunners.zip,https://archive.org/download/OngoFiles/mame-segas32multi/orunners.zip,12407407,1f4ffb737569fcc4fe75f75dda478ce6,System 32,overwrite:false,
-games/mame/scross.zip,https://archive.org/download/OngoFiles/mame-segas32multi/scross.zip,5398446,f3755401c5e39538afb1b5abed839d68,System 32,overwrite:false,
-games/mame/titlef.zip,https://archive.org/download/OngoFiles/mame-segas32multi/titlef.zip,5897492,29a766913d3cc2f3ac5aa57e6804a5af,System 32,overwrite:false,
-games/mame/hangon.zip,https://archive.org/download/OngoFiles/mame-segaspaceharrier/hangon.zip,622966,d72b57d7ca1cd73144f5f20760b5663a,SSH,overwrite:false,
-games/mame/anpanman.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/anpanman.zip,406537,8f6b0fec816b74d9826ae63cbd8137b6,System C2,overwrite:false,
-games/mame/bloxeedc.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/bloxeedc.zip,218977,b3191fa7d9d84b62b54b5384b6710035,System C2,overwrite:false,
-games/mame/bloxeedu.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/bloxeedu.zip,218942,7eec6261bcb8d17754ad77d4829fda47,System C2,overwrite:false,
-games/mame/borench.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/borench.zip,442627,ea68624048b9c0504488f72a2f1ddc19,System C2,overwrite:false,
-games/mame/columns.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/columns.zip,212088,5b66b43f65bcb4bbfdd0b499871e475d,System C2,overwrite:false,
-games/mame/columns2.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/columns2.zip,258825,2ee8d35bb443a2436f3e69b38787b35e,System C2,overwrite:false,
-games/mame/headonch.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/headonch.zip,766175,1c7ea966a23254b5229269b7641ccf0f,System C2,overwrite:false,
-games/mame/ichir.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/ichir.zip,2917770,0ddf0a06ece50e7c52328771d92930ff,System C2,overwrite:false,
-games/mame/ooparts.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/ooparts.zip,875336,77a227753a4e8c6edde64f86972947f2,System C2,overwrite:false,
-games/mame/pclubj.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/pclubj.zip,521141,4944980e7a5979fc4d72cced715d7da2,System C2,overwrite:false,
-games/mame/pclubjv2.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv2.zip,995348,a88b05b7757b94442b84e7ed2a0ed696,System C2,overwrite:false,
-games/mame/pclubjv3.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv3.zip,470069,d5080f7142a224e557133a49719d6180,System C2,overwrite:false,
-games/mame/pclubjv4.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv4.zip,472119,ae2331efc616058248dc076a761642d0,System C2,overwrite:false,
-games/mame/pclubjv5.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv5.zip,510619,be1d745411da87e1a26ad4d0894cf370,System C2,overwrite:false,
-games/mame/potopoto.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/potopoto.zip,231072,9e0f2e2c7f64078db436b58f3e864a36,System C2,overwrite:false,
-games/mame/puyo.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/puyo.zip,1273925,ffa39264c5c61b69e75684101f715779,System C2,overwrite:false,
-games/mame/puyopuy2.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/puyopuy2.zip,1095313,978a9a6b0337859ed27e32dce5f338b4,System C2,overwrite:false,
-games/mame/ribbit.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/ribbit.zip,930208,c7678b85a3a34f7193ac661db0ca266d,System C2,overwrite:false,
-games/mame/soniccar.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/soniccar.zip,359312,2d961721af01c03cc5486094228790e3,System C2,overwrite:false,
-games/mame/sonicfgt.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/sonicfgt.zip,712692,63cee2054841bb626871c9735be4d81f,System C2,overwrite:false,
-games/mame/sonicpop.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/sonicpop.zip,375267,0f056e9c8c2bad0bc7a63cf75b83b543,System C2,overwrite:false,
-games/mame/ssonicbr.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/ssonicbr.zip,229039,2d04aa7dd8a8d32605eb6a01c9cf30c1,System C2,overwrite:false,
-games/mame/stkclmns.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/stkclmns.zip,923754,e261cc4f2d495f8af04a316b3a9dbdb0,System C2,overwrite:false,
-games/mame/tantr.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/tantr.zip,3018105,cc97c44662b14249010f32009f4040a0,System C2,overwrite:false,
-games/mame/tfrceac.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/tfrceac.zip,1738252,a8f541d27c437a4dd04a5aaeef846617,System C2,overwrite:false,
-games/mame/twinsqua.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/twinsqua.zip,389514,72a416f693432509a0ddedbe7a14c692,System C2,overwrite:false,
-games/mame/wwanpanm.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/wwanpanm.zip,417420,9dd257273d896a911cbcde95f38f4d36,System C2,overwrite:false,
-games/mame/wwjumbo.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/wwjumbo.zip,190764,f129218bf316423618db518b80837a4b,System C2,overwrite:false,
-games/mame/wwmarine.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/wwmarine.zip,312888,6870c0463c8f0e1f65e836a6ccf63564,System C2,overwrite:false,
-games/mame/wwpajero.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/wwpajero.zip,201495,0978ed6d5ebc6735ac53cf3f5e9628b2,System C2,overwrite:false,
-games/mame/zunkyou.zip,https://archive.org/download/OngoFiles/mame-segasystemc2/zunkyou.zip,950219,9d4f6d8e407952fc076214152b92ada3,System C2,overwrite:false,
-games/mame/gforce2.zip,https://archive.org/download/OngoFiles/mame-segayboard/gforce2.zip,3404138,0abc7efac39e390f43656f7b4397835d,Syboard,overwrite:false,
-games/mame/gloc.zip,https://archive.org/download/OngoFiles/mame-segayboard/gloc.zip,9291693,cdb5d431af0afc800f5c614c373cb578,Syboard,overwrite:false,
-games/mame/pdrift.zip,https://archive.org/download/OngoFiles/mame-segayboard/pdrift.zip,4610975,14b57e0715ff90d79f6a0fe9a2634756,Syboard,overwrite:false,
-games/mame/rchase.zip,https://archive.org/download/OngoFiles/mame-segayboard/rchase.zip,6374386,c5a3b81ddcd45f33ac9abbddef495359,Syboard,overwrite:false,
-games/mame/strkfgtr.zip,https://archive.org/download/OngoFiles/mame-segayboard/strkfgtr.zip,6479552,17dcea68fc7a12ec8c87b58ded89afae,Syboard,overwrite:false,
-games/mame/ejanhs.zip,https://archive.org/download/OngoFiles/mame-seibuspi/ejanhs.zip,7604443,0c63c03f2b31e56d4a80b5ab718193d6,Spi,overwrite:false,
-games/mame/rdft.zip,https://archive.org/download/OngoFiles/mame-seibuspi/rdft.zip,20005155,a77f82550f7cf3f6d22dcbfec78965cf,Spi,overwrite:false,
-games/mame/rdft2.zip,https://archive.org/download/OngoFiles/mame-seibuspi/rdft2.zip,20557444,a8fd6daa759c808faf78a18467c34304,Spi,overwrite:false,
-games/mame/rfjet.zip,https://archive.org/download/OngoFiles/mame-seibuspi/rfjet.zip,21446511,90c85ebcb68fa777480ee8a3b692fe11,Spi,overwrite:false,
-games/mame/senkyu.zip,https://archive.org/download/OngoFiles/mame-seibuspi/senkyu.zip,10887410,be5d5402c127143987b56bb070aa2982,Spi,overwrite:false,
-games/mame/viprp1.zip,https://archive.org/download/OngoFiles/mame-seibuspi/viprp1.zip,17156883,1236fb70610979e465c5b1c2f4ca8780,Spi,overwrite:false,
-games/mame/atehate.zip,https://archive.org/download/OngoFiles/mame-seta/atehate.zip,1967252,6aac0b2b8b9c31b20abc3b9eeb389d03,Seta,overwrite:false,
-games/mame/blandia.zip,https://archive.org/download/OngoFiles/mame-seta/blandia.zip,6996255,4fa9bce31b052c243747b3dcce5fc11d,Seta,overwrite:false,
-games/mame/blockcar.zip,https://archive.org/download/OngoFiles/mame-seta/blockcar.zip,1866471,8b39bbcb991793ba8262177efe81fe2b,Seta,overwrite:false,
-games/mame/daioh.zip,https://archive.org/download/OngoFiles/mame-seta/daioh.zip,12700846,74c9b667c6ee1f69804eb2948350b4eb,Seta,overwrite:false,
-games/mame/drgnunit.zip,https://archive.org/download/OngoFiles/mame-seta/drgnunit.zip,1821007,40ec461642b784105a218c25d35bfca9,Seta,overwrite:false,
-games/mame/eightfrc.zip,https://archive.org/download/OngoFiles/mame-seta/eightfrc.zip,2973386,cafa9dc2122be9335a04338288a61f10,Seta,overwrite:false,
-games/mame/extdwnhl.zip,https://archive.org/download/OngoFiles/mame-seta/extdwnhl.zip,3869597,54ae438974139e7873e51a1807f91027,Seta,overwrite:false,
-games/mame/gundhara.zip,https://archive.org/download/OngoFiles/mame-seta/gundhara.zip,10942952,73b150cc8a5e50fd9c18a37a950e733d,Seta,overwrite:false,
-games/mame/jjsquawk.zip,https://archive.org/download/OngoFiles/mame-seta/jjsquawk.zip,8296845,d38cea9630d86502214a4c0d1ede9711,Seta,overwrite:false,
-games/mame/kamenrid.zip,https://archive.org/download/OngoFiles/mame-seta/kamenrid.zip,1645002,dd5be3f5b58092d1c3ff64b886b95261,Seta,overwrite:false,
-games/mame/madshark.zip,https://archive.org/download/OngoFiles/mame-seta/madshark.zip,3833215,193b09791ce3504618252bc2f7cb706a,Seta,overwrite:false,
-games/mame/magspeed.zip,https://archive.org/download/OngoFiles/mame-seta/magspeed.zip,1457668,4a6ebbb047ed8d880f07be9dce410799,Seta,overwrite:false,
-games/mame/msgundam.zip,https://archive.org/download/OngoFiles/mame-seta/msgundam.zip,5086055,f001a138f3d0a2da9ee35a2045323d0f,Seta,overwrite:false,
-games/mame/neobattl.zip,https://archive.org/download/OngoFiles/mame-seta/neobattl.zip,1231676,4a27ba9259f5d1d70318e5b9c5416715,Seta,overwrite:false,
-games/mame/oisipuzl.zip,https://archive.org/download/OngoFiles/mame-seta/oisipuzl.zip,5000993,3cfc3db9b5a9c1196389101e5d9235d2,Seta,overwrite:false,
-games/mame/pairlove.zip,https://archive.org/download/OngoFiles/mame-seta/pairlove.zip,611159,137d3ce5e0327bbad44dfe7efae47ffd,Seta,overwrite:false,
-games/mame/qzkklgy2.zip,https://archive.org/download/OngoFiles/mame-seta/qzkklgy2.zip,1769563,4a86eecd15b10ebac67c7e4ff7484b30,Seta,overwrite:false,
-games/mame/qzkklogy.zip,https://archive.org/download/OngoFiles/mame-seta/qzkklogy.zip,1490288,9b4f6f45dd11ba7e6134a29d07c28045,Seta,overwrite:false,
-games/mame/rezon.zip,https://archive.org/download/OngoFiles/mame-seta/rezon.zip,1288950,6b35ed8c9fd2c39196e659ae190ee1e3,Seta,overwrite:false,
-games/mame/sokonuke.zip,https://archive.org/download/OngoFiles/mame-seta/sokonuke.zip,1678327,f8cf10ad021b0fdea76294abf5b5725b,Seta,overwrite:false,
-games/mame/stg.zip,https://archive.org/download/OngoFiles/mame-seta/stg.zip,1753760,eafe1108effcef531df209df434f617b,Seta,overwrite:false,
-games/mame/thunderl.zip,https://archive.org/download/OngoFiles/mame-seta/thunderl.zip,1194597,144ec37110f2d5f0a6030d30cf15ddae,Seta,overwrite:false,
-games/mame/umanclub.zip,https://archive.org/download/OngoFiles/mame-seta/umanclub.zip,1202336,b859ccabea72748f4ea49b89575e9aa8,Seta,overwrite:false,
-games/mame/wits.zip,https://archive.org/download/OngoFiles/mame-seta/wits.zip,465517,8cbc72045eac86167abb3e16da2e3968,Seta,overwrite:false,
-games/mame/wrofaero.zip,https://archive.org/download/OngoFiles/mame-seta/wrofaero.zip,1415393,48e840f5779f1412ed953f4ad40e6597,Seta,overwrite:false,
-games/mame/zingzip.zip,https://archive.org/download/OngoFiles/mame-seta/zingzip.zip,4191731,70df833f41ac3ef98c3894a889bf8e4d,Seta,overwrite:false,
-games/mame/zombraid.zip,https://archive.org/download/OngoFiles/mame-seta/zombraid.zip,13703913,b31797722054ab79b3e513cf1828b000,Seta,overwrite:false,
-games/mame/cyvern.zip,https://archive.org/download/OngoFiles/mame-skns/cyvern.zip,14197661,25f7d941b47e4f270bb4c4aa130b249d,Skns,overwrite:false,
-games/mame/galpani4.zip,https://archive.org/download/OngoFiles/mame-skns/galpani4.zip,10541425,d73dfef8ec1e57e919365a777e4fceca,Skns,overwrite:false,
-games/mame/galpanis.zip,https://archive.org/download/OngoFiles/mame-skns/galpanis.zip,16715742,9254bb9d3ec854458fb5570d24a23892,Skns,overwrite:false,
-games/mame/galpans2.zip,https://archive.org/download/OngoFiles/mame-skns/galpans2.zip,19348295,6af4194930d7ce3f5a1b7039078259bf,Skns,overwrite:false,
-games/mame/galpans3.zip,https://archive.org/download/OngoFiles/mame-skns/galpans3.zip,9608363,850edd1f016c822d614ef7a9e1c5cefb,Skns,overwrite:false,
-games/mame/gutsn.zip,https://archive.org/download/OngoFiles/mame-skns/gutsn.zip,7382002,f613618ac7ed1ac707ddb5bcffa38b65,Skns,overwrite:false,
-games/mame/jjparad2.zip,https://archive.org/download/OngoFiles/mame-skns/jjparad2.zip,16117709,7c2fcd04cad810ce4657995bcebbfc72,Skns,overwrite:false,
-games/mame/jjparads.zip,https://archive.org/download/OngoFiles/mame-skns/jjparads.zip,10706584,420b3e4828ee7230ad823274f5196600,Skns,overwrite:false,
-games/mame/panicstr.zip,https://archive.org/download/OngoFiles/mame-skns/panicstr.zip,8649424,946dec33ad264802e9d36ded7ff07d64,Skns,overwrite:false,
-games/mame/puzzloop.zip,https://archive.org/download/OngoFiles/mame-skns/puzzloop.zip,8319632,4f55f43913ebe8cf7634f2ca5c8ca4e3,Skns,overwrite:false,
-games/mame/ryouran.zip,https://archive.org/download/OngoFiles/mame-skns/ryouran.zip,14691027,40f30415a2f193516370a180559df16a,Skns,overwrite:false,
-games/mame/sengekis.zip,https://archive.org/download/OngoFiles/mame-skns/sengekis.zip,15167386,85f3ae25aa184a9536b7cbaed651cb1d,Skns,overwrite:false,
-games/mame/senknow.zip,https://archive.org/download/OngoFiles/mame-skns/senknow.zip,11205177,76f6ecb0e63e202945e045d0238ae06b,Skns,overwrite:false,
-games/mame/skns.zip,https://archive.org/download/OngoFiles/mame-skns/skns.zip,924762,3f956c4e7008804cb47cbde49bd5b908,Skns,overwrite:false,
-games/mame/teljan.zip,https://archive.org/download/OngoFiles/mame-skns/teljan.zip,10751301,1bf581b9236772761e97cd04f6494a1e,Skns,overwrite:false,
-games/mame/vblokbrk.zip,https://archive.org/download/OngoFiles/mame-skns/vblokbrk.zip,3902918,1f7f20ecd680595caf3bb88702bf315a,Skns,overwrite:false,
-games/mame/batsugun.zip,https://archive.org/download/OngoFiles/mame-slopcore/batsugun.zip,5745525,c2bef4241374eb936d9eddaa6b17ecc7,TJF,overwrite:false,
-games/mame/bloodstm.zip,https://archive.org/download/OngoFiles/mame-slopcore/bloodstm.zip,11030220,14d1a878072adefe6c0a8ee028666a8a,TJF,overwrite:false,
-games/mame/dogyuun.zip,https://archive.org/download/OngoFiles/mame-slopcore/dogyuun.zip,14180014,2104c7aafb752b746417072abcc0ebd5,TJF,overwrite:false,
-games/mame/fixeight.zip,https://archive.org/download/OngoFiles/mame-slopcore/fixeight.zip,2960910,ed0a0f98acb76e84871f1dd7ebf14067,TJF,overwrite:false,
-games/mame/ghox.zip,https://archive.org/download/OngoFiles/mame-slopcore/ghox.zip,681371,aa39703fba66e411eee5d676ee051cc8,TJF,overwrite:false,
-games/mame/grindstm.zip,https://archive.org/download/OngoFiles/mame-slopcore/grindstm.zip,1421667,b6e27f808f3dde7749c883201b2d65f9,TJF,overwrite:false,
-games/mame/kbash.zip,https://archive.org/download/OngoFiles/mame-slopcore/kbash.zip,6682794,41fec70c70ca73ca1ecbfdc815e5f2f4,TJF,overwrite:false,
-games/mame/sftm.zip,https://archive.org/download/OngoFiles/mame-slopcore/sftm.zip,34891729,bf9ee7e28cd826012029174d53aafa2f,TJF,overwrite:false,
-games/mame/timekill.zip,https://archive.org/download/OngoFiles/mame-slopcore/timekill.zip,15291461,925deff4b0e104ce5de3da5809e5207b,TJF,overwrite:false,
-games/mame/cairblad.zip,https://archive.org/download/OngoFiles/mame-ssv/cairblad.zip,13533920,f6a7777922650c300c0a28ce8486c34b,Ssv,overwrite:false,
-games/mame/drifto94.zip,https://archive.org/download/OngoFiles/mame-ssv/drifto94.zip,21399827,62f53ccdc51574c2f580942353be6551,Ssv,overwrite:false,
-games/mame/dynagear.zip,https://archive.org/download/OngoFiles/mame-ssv/dynagear.zip,6263138,753f03bcf7cb2874f50e706a4e973e21,Ssv,overwrite:false,
-games/mame/mslider.zip,https://archive.org/download/OngoFiles/mame-ssv/mslider.zip,7432840,938e7081c02a335dc28211eae10b71f8,Ssv,overwrite:false,
-games/mame/stmblade.zip,https://archive.org/download/OngoFiles/mame-ssv/stmblade.zip,7972970,5f8c2b89e1bd7420a3647e3ee3814527,Ssv,overwrite:false,
-games/mame/survarts.zip,https://archive.org/download/OngoFiles/mame-ssv/survarts.zip,13301558,a735a52d2fe2f26e50ef0f66da0ebca8,Ssv,overwrite:false,
-games/mame/twineag2.zip,https://archive.org/download/OngoFiles/mame-ssv/twineag2.zip,12975682,536dab0bb82100a31e2a243ff987d72e,Ssv,overwrite:false,
-games/mame/ultrax.zip,https://archive.org/download/OngoFiles/mame-ssv/ultrax.zip,8700412,ffbd8048637b13726673d00200c60dcd,Ssv,overwrite:false,
-games/mame/vasara.zip,https://archive.org/download/OngoFiles/mame-ssv/vasara.zip,16247072,5ea2ebf805030c099f5d227fa145489f,Ssv,overwrite:false,
-games/mame/vasara2.zip,https://archive.org/download/OngoFiles/mame-ssv/vasara2.zip,20541683,f5048328745fc095f8753fe562f83ddb,Ssv,overwrite:false,
-games/mame/brickzn.zip,https://archive.org/download/OngoFiles/mame-suna8bit/brickzn.zip,1171912,f4b3de2de0c2c8ced4ea27fb2e911e30,S8bit,overwrite:false,
-games/mame/hardhea2.zip,https://archive.org/download/OngoFiles/mame-suna8bit/hardhea2.zip,471271,d877ec65abf71ae0ce14a9b75a7009b4,S8bit,overwrite:false,
-games/mame/hardhead.zip,https://archive.org/download/OngoFiles/mame-suna8bit/hardhead.zip,287841,8b3d04c265f2ecd9d7186522eaef39d9,S8bit,overwrite:false,
-games/mame/sparkman.zip,https://archive.org/download/OngoFiles/mame-suna8bit/sparkman.zip,336380,d602282dba5963c67c56349d9fe33a4f,S8bit,overwrite:false,
-games/mame/sranger.zip,https://archive.org/download/OngoFiles/mame-suna8bit/sranger.zip,316677,686f21ce8bf43a994dfb586253ebf6b3,S8bit,overwrite:false,
-games/mame/starfigh.zip,https://archive.org/download/OngoFiles/mame-suna8bit/starfigh.zip,341018,a4b3311c7a2328f6950877ae3f2fa556,S8bit,overwrite:false,
-games/mame/ashura.zip,https://archive.org/download/OngoFiles/mame-taitob/ashura.zip,1110242,67cc83521a7dd4438f4b865ffddb3c75,TaitoB,overwrite:false,
-games/mame/crimec.zip,https://archive.org/download/OngoFiles/mame-taitob/crimec.zip,992433,25179535ac4ef62088df90ac4980ff9a,TaitoB,overwrite:false,
-games/mame/hitice.zip,https://archive.org/download/OngoFiles/mame-taitob/hitice.zip,1070588,f959e434c3632319e903405ded7fd955,TaitoB,overwrite:false,
-games/mame/masterw.zip,https://archive.org/download/OngoFiles/mame-taitob/masterw.zip,1097712,e1db5374b2102e65468b7ad72f1bef61,TaitoB,overwrite:false,
-games/mame/nastar.zip,https://archive.org/download/OngoFiles/mame-taitob/nastar.zip,1444255,2fbd67df29c17458f953c1dc7c11b086,TaitoB,overwrite:false,
-games/mame/pbobble.zip,https://archive.org/download/OngoFiles/mame-taitob/pbobble.zip,1747418,1cb7460da4305cb29f4a424f7e186e66,TaitoB,overwrite:false,
-games/mame/qzshowby.zip,https://archive.org/download/OngoFiles/mame-taitob/qzshowby.zip,3381967,4ffec5b2924a217324f8705ac61934d1,TaitoB,overwrite:false,
-games/mame/rambo3.zip,https://archive.org/download/OngoFiles/mame-taitob/rambo3.zip,3061923,901d9ae1598a138c7e671fd0c8ec9a42,TaitoB,overwrite:false,
-games/mame/realpunc.zip,https://archive.org/download/OngoFiles/mame-taitob/realpunc.zip,2713785,06c58b0be3e021807dcd9ee13b20f5cd,TaitoB,overwrite:false,
-games/mame/ryujin.zip,https://archive.org/download/OngoFiles/mame-taitob/ryujin.zip,1700038,f518e3a56506b29f14b4a7f445e90ef5,TaitoB,overwrite:false,
-games/mame/sbm.zip,https://archive.org/download/OngoFiles/mame-taitob/sbm.zip,2065018,cce57107eb6935ca510155f32ac6c66f,TaitoB,overwrite:false,
-games/mame/selfeena.zip,https://archive.org/download/OngoFiles/mame-taitob/selfeena.zip,930982,d798846535b5fbc98dc3ccdb7c182959,TaitoB,overwrite:false,
-games/mame/silentd.zip,https://archive.org/download/OngoFiles/mame-taitob/silentd.zip,3018156,a31deb3402176ba8481a211a80868f50,TaitoB,overwrite:false,
-games/mame/spacedx.zip,https://archive.org/download/OngoFiles/mame-taitob/spacedx.zip,2799602,315636a8e3a6a1364ee835e564a87ea0,TaitoB,overwrite:false,
-games/mame/tetrist.zip,https://archive.org/download/OngoFiles/mame-taitob/tetrist.zip,1393120,2062a4158a9aca8644195446d0fa9904,TaitoB,overwrite:false,
-games/mame/tetrista.zip,https://archive.org/download/OngoFiles/mame-taitob/tetrista.zip,513584,cd65efb6287f9cf322bf5b3eacac56ec,TaitoB,overwrite:false,
-games/mame/viofight.zip,https://archive.org/download/OngoFiles/mame-taitob/viofight.zip,1302669,cbac9c0fa85a662e6ae78171214c79da,TaitoB,overwrite:false,
-games/mame/arabianm.zip,https://archive.org/download/OngoFiles/mame-taitof3/arabianm.zip,4575395,b8eb3cbe9102c2b466730c3ead1db2f7,Taito F3,overwrite:false,
-games/mame/arkretrn.zip,https://archive.org/download/OngoFiles/mame-taitof3/arkretrn.zip,2294505,1b7be267a2212eff2e19ca026007ef07,Taito F3,overwrite:false,
-games/mame/bubblem.zip,https://archive.org/download/OngoFiles/mame-taitof3/bubblem.zip,6652673,27e1a20120a86c8ea63cd9e6b8e564f8,Taito F3,overwrite:false,
-games/mame/bublbob2.zip,https://archive.org/download/OngoFiles/mame-taitof3/bublbob2.zip,12527097,659797e1ce9fefc78cfcd518d756b1b4,Taito F3,overwrite:false,
-games/mame/cleopatr.zip,https://archive.org/download/OngoFiles/mame-taitof3/cleopatr.zip,3055735,a34c0923cf7f6ed062cdc8fc5618925b,Taito F3,overwrite:false,
-games/mame/commandw.zip,https://archive.org/download/OngoFiles/mame-taitof3/commandw.zip,7409712,88b06d5a41dabf721f28899475bd4bd5,Taito F3,overwrite:false,
-games/mame/cupfinal.zip,https://archive.org/download/OngoFiles/mame-taitof3/cupfinal.zip,5515274,98591b9cc6cd5a024c546eb78f633a69,Taito F3,overwrite:false,
-games/mame/dankuga.zip,https://archive.org/download/OngoFiles/mame-taitof3/dankuga.zip,13448538,caa8c820581ebdfbdf45b78015cffad1,Taito F3,overwrite:false,
-games/mame/dariusg.zip,https://archive.org/download/OngoFiles/mame-taitof3/dariusg.zip,8311228,186c84fcdf327111ce8863b7580fda95,Taito F3,overwrite:false,
-games/mame/dariusgx.zip,https://archive.org/download/OngoFiles/mame-taitof3/dariusgx.zip,7952016,b2a63727ceda1e3570090c1fae1abe10,Taito F3,overwrite:false,
-games/mame/elvactr.zip,https://archive.org/download/OngoFiles/mame-taitof3/elvactr.zip,8434714,4aa9622874db58e79fd20ccd7ece1108,Taito F3,overwrite:false,
-games/mame/gekiridn.zip,https://archive.org/download/OngoFiles/mame-taitof3/gekiridn.zip,6359513,e22b13d09c4d50299a5d539cd25a05e3,Taito F3,overwrite:false,
-games/mame/gseeker.zip,https://archive.org/download/OngoFiles/mame-taitof3/gseeker.zip,5390005,4cb2bddf9ddee7b776224e150a24b01e,Taito F3,overwrite:false,
-games/mame/gunlock.zip,https://archive.org/download/OngoFiles/mame-taitof3/gunlock.zip,10819858,16739a7a8a2d1df1eaa70da5923c9e8c,Taito F3,overwrite:false,
-games/mame/intcup94.zip,https://archive.org/download/OngoFiles/mame-taitof3/intcup94.zip,5385904,37bc1fe1f1fd6f37cb439cb556177890,Taito F3,overwrite:false,
-games/mame/kaiserkn.zip,https://archive.org/download/OngoFiles/mame-taitof3/kaiserkn.zip,13666679,cc75e94de082fef5a081cd6be937cb34,Taito F3,overwrite:false,
-games/mame/landmakr.zip,https://archive.org/download/OngoFiles/mame-taitof3/landmakr.zip,16781687,abb3816654e01267c7ee1b3bd5f14b55,Taito F3,overwrite:false,
-games/mame/lightbr.zip,https://archive.org/download/OngoFiles/mame-taitof3/lightbr.zip,8838968,801d10c0d47e7d06e17125fd6cdcccc6,Taito F3,overwrite:false,
-games/mame/pbobble2.zip,https://archive.org/download/OngoFiles/mame-taitof3/pbobble2.zip,6302021,562a4ae42ee695a1ac27b33cadce3c7f,Taito F3,overwrite:false,
-games/mame/pbobble3.zip,https://archive.org/download/OngoFiles/mame-taitof3/pbobble3.zip,7464250,e0aa761cb6c623441e9bae27775aa06e,Taito F3,overwrite:false,
-games/mame/pbobble4.zip,https://archive.org/download/OngoFiles/mame-taitof3/pbobble4.zip,7358542,fb1be6372b839834213f93fd2e9a4f65,Taito F3,overwrite:false,
-games/mame/popnpop.zip,https://archive.org/download/OngoFiles/mame-taitof3/popnpop.zip,5958528,61afbf03951f57b6f0960262da642ce3,Taito F3,overwrite:false,
-games/mame/puchicar.zip,https://archive.org/download/OngoFiles/mame-taitof3/puchicar.zip,9445598,5e2e106be4c2228f58cc3b42308b9b27,Taito F3,overwrite:false,
-games/mame/pwrgoal.zip,https://archive.org/download/OngoFiles/mame-taitof3/pwrgoal.zip,10708451,13ff8d9c8b509d0b48d1ac51e0b5baef,Taito F3,overwrite:false,
-games/mame/qtheater.zip,https://archive.org/download/OngoFiles/mame-taitof3/qtheater.zip,5633340,3b6e77dc5676359d6ba51b7d1ecc1056,Taito F3,overwrite:false,
-games/mame/quizhuhu.zip,https://archive.org/download/OngoFiles/mame-taitof3/quizhuhu.zip,10037880,daaa4bf58924587ec71993f348cea9f3,Taito F3,overwrite:false,
-games/mame/recalh.zip,https://archive.org/download/OngoFiles/mame-taitof3/recalh.zip,3649527,f89b8ca17cdb2b88c002a2088fe7be7f,Taito F3,overwrite:false,
-games/mame/ridingf.zip,https://archive.org/download/OngoFiles/mame-taitof3/ridingf.zip,4963910,a564b605552e99dcfd49902ebc238a7d,Taito F3,overwrite:false,
-games/mame/ringrage.zip,https://archive.org/download/OngoFiles/mame-taitof3/ringrage.zip,5774641,1dfd357124ef48842e81f3303000726c,Taito F3,overwrite:false,
-games/mame/scfinals.zip,https://archive.org/download/OngoFiles/mame-taitof3/scfinals.zip,5871872,1fa36569c78984bae0cba4364ace501d,Taito F3,overwrite:false,
-games/mame/spcinv95.zip,https://archive.org/download/OngoFiles/mame-taitof3/spcinv95.zip,4585462,ef4bda6d268d20cda1925bf258a03acb,Taito F3,overwrite:false,
-games/mame/tcobra2.zip,https://archive.org/download/OngoFiles/mame-taitof3/tcobra2.zip,6712077,7898383bb409d6a44abcded2ebd426b6,Taito F3,overwrite:false,
-games/mame/trstar.zip,https://archive.org/download/OngoFiles/mame-taitof3/trstar.zip,7447041,6de04d8c044541118df3fe124368e227,Taito F3,overwrite:false,
-games/mame/twinqix.zip,https://archive.org/download/OngoFiles/mame-taitof3/twinqix.zip,3028197,a43b278642f60c6891c43b23ef14309c,Taito F3,overwrite:false,
-games/mame/jdreddp.zip,https://archive.org/download/OngoFiles/mame-tunit/jdreddp.zip,6872137,7dc7339bcb554a6b424cc8182f204201,T-unit,overwrite:false,
-games/mame/mk.zip,https://archive.org/download/OngoFiles/mame-tunit/mk.zip,31086827,5a2140d3a46c3844c505db1d6b066d96,T-unit,overwrite:false,
-games/mame/mk2.zip,https://archive.org/download/OngoFiles/mame-tunit/mk2.zip,17220209,0391c3bf75ce5f07539bf2652692b539,T-unit,overwrite:false,
-games/mame/nbajam.zip,https://archive.org/download/OngoFiles/mame-tunit/nbajam.zip,13883644,36edaef76b432b415b7937a9912480c7,T-unit,overwrite:false,
-games/mame/nbajamte.zip,https://archive.org/download/OngoFiles/mame-tunit/nbajamte.zip,8101731,4abb9d375d90adc4e911e4e1f88e609f,T-unit,overwrite:false,
-games/mame/mk2_wolf.zip,https://archive.org/download/OngoFiles/mame-wolf/mk2_wolf.zip,13494298,992725ab5639550f2cfb2409110162a5,Wolf,overwrite:false,
-games/mame/mk3.zip,https://archive.org/download/OngoFiles/mame-wolf/mk3.zip,22039125,644fa51615d61a0eb2c2c0f31374d19d,Wolf,overwrite:false,
-games/mame/mk_wolf.zip,https://archive.org/download/OngoFiles/mame-wolf/mk_wolf.zip,30492110,0e6d06201da92c2df60091246266ac84,Wolf,overwrite:false,
-games/mame/nbahangt.zip,https://archive.org/download/OngoFiles/mame-wolf/nbahangt.zip,21863809,36faa902ca2a7bd908aceb82697f118f,Wolf,overwrite:false,
-games/mame/openice.zip,https://archive.org/download/OngoFiles/mame-wolf/openice.zip,14986485,83397b6c604cdb965779957d8d754999,Wolf,overwrite:false,
-games/mame/rmpgwt.zip,https://archive.org/download/OngoFiles/mame-wolf/rmpgwt.zip,13738043,d94f633e114b03a94dcca9802cd48b8d,Wolf,overwrite:false,
-games/mame/umk3.zip,https://archive.org/download/OngoFiles/mame-wolf/umk3.zip,23228381,79078e14d7d2143b07cf3321913066a9,Wolf,overwrite:false,
-games/mame/wwfmania.zip,https://archive.org/download/OngoFiles/mame-wolf/wwfmania.zip,20114490,c188ce66289ff8f47627e44bf413345c,Wolf,overwrite:false,
-games/mame/hiimpact.zip,https://archive.org/download/OngoFiles/mame-yunit/hiimpact.zip,1784319,a205422b3660a540c72349c7d5771f6f,Y-unit,overwrite:false,
-games/mame/shimpact.zip,https://archive.org/download/OngoFiles/mame-yunit/shimpact.zip,3182345,b4280446e942fe8022fd715508795a05,Y-unit,overwrite:false,
-games/mame/smashtv.zip,https://archive.org/download/OngoFiles/mame-yunit/smashtv.zip,1260603,06265ab9b0994908ad9831c04b98bd8e,Y-unit,overwrite:false,
-games/mame/strkforc.zip,https://archive.org/download/OngoFiles/mame-yunit/strkforc.zip,1999436,b0a82b53262d739128053b05b2eebc1a,Y-unit,overwrite:false,
-games/mame/term2.zip,https://archive.org/download/OngoFiles/mame-yunit/term2.zip,9953492,efc72cafcdd8f6d9dcee4c7e8f48bacc,Y-unit,overwrite:false,
-games/mame/totcarn.zip,https://archive.org/download/OngoFiles/mame-yunit/totcarn.zip,2399660,dd247547ecaff915f2d3929fc28133c4,Y-unit,overwrite:false,
-games/mame/trog.zip,https://archive.org/download/OngoFiles/mame-yunit/trog.zip,2583282,3ed492fd71997a8e456f4ee391b21684,Y-unit,overwrite:false,
-games/mame/yunittst.zip,https://archive.org/download/OngoFiles/mame-yunit/yunittst.zip,7874,f87b5838edabb74f0cb5dee260ee9a09,Y-unit,overwrite:false,
-games/mame/f1gp.zip,https://archive.org/download/OngoFiles/mame-videosystem/f1gp.zip,7251517,b519986e148e444fab209b837db0e9cd,Videosystem,overwrite:false,
-games/mame/karatblz.zip,https://archive.org/download/OngoFiles/mame-videosystem/karatblz.zip,4791690,1b5c42e3847436ea1dbf1c41a6a50d9a,Videosystem,overwrite:false,
-games/mame/pspikes.zip,https://archive.org/download/OngoFiles/mame-videosystem/pspikes.zip,4450192,4adf0ce9bf0ef73f2d56fb1a69bab0d0,Videosystem,overwrite:false,
-games/mame/turbofrc.zip,https://archive.org/download/OngoFiles/mame-videosystem/turbofrc.zip,2803528,c48064479f5b7e01767b5c970e0b2b10,Videosystem,overwrite:false,
-games/mame/invasnab.zip,https://archive.org/download/OngoFiles/mame-zeus/invasnab.zip,50575218,6938536b8093cb9cb8e52e577029ae7f,Zeus,overwrite:false,
-games/mame/mk4.zip,https://archive.org/download/OngoFiles/mame-zeus/mk4.zip,37207225,d696fb91a4520430f47c4c65e92f39c4,Zeus,overwrite:false,
-games/mame/crusnusa.zip,https://archive.org/download/OngoFiles/mame-vunit/crusnusa.zip,15280855,75522d81a048e135a18d2e2281f35bfb,V-unit,overwrite:false,
-games/mame/crusnwld.zip,https://archive.org/download/OngoFiles/mame-vunit/crusnwld.zip,34508688,460cb6d121569e170a420255f28ae64d,V-unit,overwrite:false,
-games/mame/offroadc.zip,https://archive.org/download/OngoFiles/mame-vunit/offroadc.zip,30588372,ded8d910f8694bcd1810e8b465fef152,V-unit,overwrite:false,
-games/mame/wargods.zip,https://archive.org/download/OngoFiles/mame-vunit/wargods.zip,20170,4bbfed3e507678668dc17e92f0f99d12,V-unit,overwrite:false,
-games/mame/model1io.zip,https://archive.org/download/OngoFiles/mame-segamodel1/model1io.zip,4700,804ad0e72a9e18b67dfcf630f5b79985,Model1,overwrite:false,
-games/mame/swa.zip,https://archive.org/download/OngoFiles/mame-segamodel1/swa.zip,16533461,d3433f7d6ba1a34cef4cbd0deaa899cc,Model1,overwrite:false,
-games/mame/vr.zip,https://archive.org/download/OngoFiles/mame-segamodel1/vr.zip,10339655,34b7ea0a8c7c97d1d7c17b9a3899e863,Model1,overwrite:false,
-games/mame/finalapr.zip,https://archive.org/download/OngoFiles/mame-namcosystemfl/finalapr.zip,6084503,a426a370d388c773b710dc8b4b082820,SystemFL,overwrite:false,
-games/mame/namcoc75.zip,https://archive.org/download/OngoFiles/mame-namcosystemfl/namcoc75.zip,8709,17516c33298e52424ffb58afc2ad208c,SystemFL,overwrite:false,
-games/mame/speedrcr.zip,https://archive.org/download/OngoFiles/mame-namcosystemfl/speedrcr.zip,8968455,629b1ac40bc33b166f5525c2acdc42b3,SystemFL,overwrite:false,
-games/mame/bkrtmaq.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/bkrtmaq.zip,1654982,f2b8f3ec14179d984d1ecf2da11ce9f0,NamcoNa,overwrite:false,
-games/mame/cgangpzl.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/cgangpzl.zip,974882,46e2fdf6cd8c51100e08037e29b64862,NamcoNa,overwrite:false,
-games/mame/emeralda.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/emeralda.zip,2310344,058913ff5bbcfee70e2a9e31b4d4b0e5,NamcoNa,overwrite:false,
-games/mame/exvania.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/exvania.zip,1484592,6ad08b7cce29083bf086b1c6043b5f7b,NamcoNa,overwrite:false,
-games/mame/fghtatck.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/fghtatck.zip,1985445,cb877be9fcce7887e90418bba3d1a87d,NamcoNa,overwrite:false,
-games/mame/knckhead.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/knckhead.zip,5430048,caa380df6950a27b79a86ee996eb3556,NamcoNa,overwrite:false,
-games/mame/namcoc69.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/namcoc69.zip,7771,ad9af7a9560cad74f1644328213748f6,NamcoNa,overwrite:false,
-games/mame/namcoc70.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/namcoc70.zip,7822,aa569a303793510b2b4173480148de4b,NamcoNa,overwrite:false,
-games/mame/numanath.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/numanath.zip,4444634,9ed7d331eeb16ed96a7fd0c00382406d,NamcoNa,overwrite:false,
-games/mame/quiztou.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/quiztou.zip,2779090,67b8309a13422cf51b60c8e6b04f1205,NamcoNa,overwrite:false,
-games/mame/swcourt.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/swcourt.zip,3241996,20f8908f0ad6e19dd6b57692f4288d5a,NamcoNa,overwrite:false,
-games/mame/tinklpit.zip,https://archive.org/download/OngoFiles/mame-namcona1na2/tinklpit.zip,2246626,e9a7a61d3843cf9164e9c887b13a4c49,NamcoNa,overwrite:false,
-games/mame/ncv1.zip,https://archive.org/download/OngoFiles/mame-namcond1/ncv1.zip,2794680,a47218b946bcd8e54ad349e037e2a68b,NamcoNd,overwrite:false,
-games/mame/ncv2.zip,https://archive.org/download/OngoFiles/mame-namcond1/ncv2.zip,3362803,56fd3de335ae9304243f14ac687b9385,NamcoNd,overwrite:false,
-games/mame/valkyrie.zip,https://archive.org/download/OngoFiles/mame-namcosystem2/valkyrie.zip,1571621,e918efc2ffbe178c95321154512482b6,NSystem2,overwrite:false,
-games/mame/crzcross.zip,https://archive.org/download/OngoFiles/mame-konamigx/crzcross.zip,5744659,806698d88b5c25153c00780ea817b521,NamcoGX,overwrite:false,
-games/mame/daiskiss.zip,https://archive.org/download/OngoFiles/mame-konamigx/daiskiss.zip,3824411,ad5913634135e43b13add813af0ef91d,NamcoGX,overwrite:false,
-games/mame/dragoona.zip,https://archive.org/download/OngoFiles/mame-konamigx/dragoona.zip,11836268,2f3778bd25e12bd965831962c6bb3dac,NamcoGX,overwrite:false,
-games/mame/fantjour.zip,https://archive.org/download/OngoFiles/mame-konamigx/fantjour.zip,6581455,f0117b59661f31366d7b1b7be69ff388,NamcoGX,overwrite:false,
-games/mame/konamigx.zip,https://archive.org/download/OngoFiles/mame-konamigx/konamigx.zip,8734,981fa4057f4bd5c064ce446963d8ac33,NamcoGX,overwrite:false,
-games/mame/le2.zip,https://archive.org/download/OngoFiles/mame-konamigx/le2.zip,12848032,c2b0b6138e607afba3e2f45005eb217a,NamcoGX,overwrite:false,
-games/mame/salmndr2.zip,https://archive.org/download/OngoFiles/mame-konamigx/salmndr2.zip,6686739,699c0e30ed62d1b206928755302b8e2f,NamcoGX,overwrite:false,
-games/mame/sexyparo.zip,https://archive.org/download/OngoFiles/mame-konamigx/sexyparo.zip,12554164,9f338a80cd8e122ef847e95ee8bc32ba,NamcoGX,overwrite:false,
-games/mame/tbyahhoo.zip,https://archive.org/download/OngoFiles/mame-konamigx/tbyahhoo.zip,6831877,23dcf8c77593784b58255a931317e9f4,NamcoGX,overwrite:false,
-games/mame/tkmmpzdm.zip,https://archive.org/download/OngoFiles/mame-konamigx/tkmmpzdm.zip,7298231,0008bc1a35732900ccac30924a9501e8,NamcoGX,overwrite:false,
-games/mame/tokkae.zip,https://archive.org/download/OngoFiles/mame-konamigx/tokkae.zip,7199441,322139f4f8e25b8061bc8019f72636fa,NamcoGX,overwrite:false,
-games/mame/winspike.zip,https://archive.org/download/OngoFiles/mame-konamigx/winspike.zip,11936749,d964cdfb39fff2856ef6ff34939e665c,NamcoGX,overwrite:false,
-games/mame/cshift.zip,https://archive.org/download/OngoFiles/mame-ballysente/cshift.zip,39280,7608c515157d46b04b9e5f8da3c895a4,Bally,overwrite:false,
-games/mame/gghost.zip,https://archive.org/download/OngoFiles/mame-ballysente/gghost.zip,28617,a615b37643f470d540c444d2591e7aa2,Bally,overwrite:false,
-games/mame/gimeabrk.zip,https://archive.org/download/OngoFiles/mame-ballysente/gimeabrk.zip,34490,8c07c04c2c9f32eee83b871393a86fbe,Bally,overwrite:false,
-games/mame/grudge.zip,https://archive.org/download/OngoFiles/mame-ballysente/grudge.zip,126254,434fc940a8349b3fff6a08bb7523bc0b,Bally,overwrite:false,
-games/mame/hattrick.zip,https://archive.org/download/OngoFiles/mame-ballysente/hattrick.zip,16562,b04aa9be79d78ebffda80fed667b9db6,Bally,overwrite:false,
-games/mame/minigolf.zip,https://archive.org/download/OngoFiles/mame-ballysente/minigolf.zip,115313,3ff23a92ddfc09deda2d6e4a2031a59d,Bally,overwrite:false,
-games/mame/nametune.zip,https://archive.org/download/OngoFiles/mame-ballysente/nametune.zip,296189,a29eb7b742c969a960d7aae811b72c62,Bally,overwrite:false,
-games/mame/nstocker.zip,https://archive.org/download/OngoFiles/mame-ballysente/nstocker.zip,77719,a3953f4536b3bbe06551676bb0bb9e67,Bally,overwrite:false,
-games/mame/otwalls.zip,https://archive.org/download/OngoFiles/mame-ballysente/otwalls.zip,27208,753dd0c3183f42fd6db7f39fbbf3711e,Bally,overwrite:false,
-games/mame/rescraid.zip,https://archive.org/download/OngoFiles/mame-ballysente/rescraid.zip,148830,b6e62c07bd1edffc4a7fa58e05d522df,Bally,overwrite:false,
-games/mame/sente6vb.zip,https://archive.org/download/OngoFiles/mame-ballysente/sente6vb.zip,4778,c0f5e64132778ff0f4ee50eba1970bc4,Bally,overwrite:false,
-games/mame/sentetst.zip,https://archive.org/download/OngoFiles/mame-ballysente/sentetst.zip,5166,c7324325900146ccc9ebad405ab15242,Bally,overwrite:false,
-games/mame/sfootbal.zip,https://archive.org/download/OngoFiles/mame-ballysente/sfootbal.zip,42798,47e2843c9ac2a870b9d80c00131f15fb,Bally,overwrite:false,
-games/mame/snakepit.zip,https://archive.org/download/OngoFiles/mame-ballysente/snakepit.zip,67157,0a44470ed6ba5ed1edd5576a9c4eb2ad,Bally,overwrite:false,
-games/mame/snakjack.zip,https://archive.org/download/OngoFiles/mame-ballysente/snakjack.zip,54461,56e5d902b6f23640b19c4f14790de6ed,Bally,overwrite:false,
-games/mame/spiker.zip,https://archive.org/download/OngoFiles/mame-ballysente/spiker.zip,84467,bb5e3716dc5153dba535fa3129138f99,Bally,overwrite:false,
-games/mame/stocker.zip,https://archive.org/download/OngoFiles/mame-ballysente/stocker.zip,26920,bcd1ad4b69a374cc956d1f3cc6e33174,Bally,overwrite:false,
-games/mame/stompin.zip,https://archive.org/download/OngoFiles/mame-ballysente/stompin.zip,123206,8b237885c8c588ff45df18148c62b08e,Bally,overwrite:false,
-games/mame/teamht.zip,https://archive.org/download/OngoFiles/mame-ballysente/teamht.zip,19538,d7e867b88db25b6ae31168b49e680a97,Bally,overwrite:false,
-games/mame/toggle.zip,https://archive.org/download/OngoFiles/mame-ballysente/toggle.zip,24365,43b6724d0b1ea3c321458c6d9909559d,Bally,overwrite:false,
-games/mame/triviabb.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviabb.zip,82841,2ac0728cc698294e48b69b5e73d89b83,Bally,overwrite:false,
-games/mame/triviaes.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviaes.zip,176461,31943df4c46afb3876c5a76561212d0e,Bally,overwrite:false,
-games/mame/triviag1.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviag1.zip,103603,d87c9a16e1e1335e1d759eba9078e340,Bally,overwrite:false,
-games/mame/triviag2.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviag2.zip,77241,b022f679cd4fff48d62ba9b3bdde94a8,Bally,overwrite:false,
-games/mame/triviasp.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviasp.zip,74460,038e4326962066ecfa953bb59685ece2,Bally,overwrite:false,
-games/mame/triviayp.zip,https://archive.org/download/OngoFiles/mame-ballysente/triviayp.zip,77049,36a49d273721703b2e375b6ed4205221,Bally,overwrite:false,
-games/mame/crzcross.zip,https://archive.org/download/OngoFiles/mame-konamigx/crzcross.zip,5744659,806698d88b5c25153c00780ea817b521,KonamiGX,overwrite:false,
-games/mame/daiskiss.zip,https://archive.org/download/OngoFiles/mame-konamigx/daiskiss.zip,3824411,ad5913634135e43b13add813af0ef91d,KonamiGX,overwrite:false,
-games/mame/dragoona.zip,https://archive.org/download/OngoFiles/mame-konamigx/dragoona.zip,11836268,2f3778bd25e12bd965831962c6bb3dac,KonamiGX,overwrite:false,
-games/mame/fantjour.zip,https://archive.org/download/OngoFiles/mame-konamigx/fantjour.zip,6581455,f0117b59661f31366d7b1b7be69ff388,KonamiGX,overwrite:false,
-games/mame/konamigx.zip,https://archive.org/download/OngoFiles/mame-konamigx/konamigx.zip,8734,981fa4057f4bd5c064ce446963d8ac33,KonamiGX,overwrite:false,
-games/mame/le2.zip,https://archive.org/download/OngoFiles/mame-konamigx/le2.zip,12848032,c2b0b6138e607afba3e2f45005eb217a,KonamiGX,overwrite:false,
-games/mame/salmndr2.zip,https://archive.org/download/OngoFiles/mame-konamigx/salmndr2.zip,6686739,699c0e30ed62d1b206928755302b8e2f,KonamiGX,overwrite:false,
-games/mame/sexyparo.zip,https://archive.org/download/OngoFiles/mame-konamigx/sexyparo.zip,12554164,9f338a80cd8e122ef847e95ee8bc32ba,KonamiGX,overwrite:false,
-games/mame/tbyahhoo.zip,https://archive.org/download/OngoFiles/mame-konamigx/tbyahhoo.zip,6831877,23dcf8c77593784b58255a931317e9f4,KonamiGX,overwrite:false,
-games/mame/tkmmpzdm.zip,https://archive.org/download/OngoFiles/mame-konamigx/tkmmpzdm.zip,7298231,0008bc1a35732900ccac30924a9501e8,KonamiGX,overwrite:false,
-games/mame/tokkae.zip,https://archive.org/download/OngoFiles/mame-konamigx/tokkae.zip,7199441,322139f4f8e25b8061bc8019f72636fa,KonamiGX,overwrite:false,
-games/mame/winspike.zip,https://archive.org/download/OngoFiles/mame-konamigx/winspike.zip,11936749,d964cdfb39fff2856ef6ff34939e665c,KonamiGX,overwrite:false,
-games/mame/gslgr94u.zip,https://archive.org/download/OngoFiles/mame-namconb1/gslgr94u.zip,10167077,5a6a5cdddef3f28e423213e699ea0291,NamcoNB1,overwrite:false,
-games/mame/gslugrsj.zip,https://archive.org/download/OngoFiles/mame-namconb1/gslugrsj.zip,3822210,e95781b6fe988fe994bc2ea43ef36544,NamcoNB1,overwrite:false,
-games/mame/namcoc75.zip,https://archive.org/download/OngoFiles/mame-namconb1/namcoc75.zip,8709,17516c33298e52424ffb58afc2ad208c,NamcoNB1,overwrite:false,
-games/mame/nebulray.zip,https://archive.org/download/OngoFiles/mame-namconb1/nebulray.zip,19467713,39b5ff379c65ea96f265ba77eecf0183,NamcoNB1,overwrite:false,
-games/mame/ptblank.zip,https://archive.org/download/OngoFiles/mame-namconb1/ptblank.zip,6023436,4eb46870236573bcfb289cd406376940,NamcoNB1,overwrite:false,
-games/mame/sws95.zip,https://archive.org/download/OngoFiles/mame-namconb1/sws95.zip,3428540,26c03ecf5ad17911a7c079927e021a88,NamcoNB1,overwrite:false,
-games/mame/sws96.zip,https://archive.org/download/OngoFiles/mame-namconb1/sws96.zip,3455578,a669846ab11ae5c91513082b732b99f5,NamcoNB1,overwrite:false,
-games/mame/sws97.zip,https://archive.org/download/OngoFiles/mame-namconb1/sws97.zip,3453442,d034843f198992cab685a8fe2c9dcb22,NamcoNB1,overwrite:false,
-games/mame/vshoot.zip,https://archive.org/download/OngoFiles/mame-namconb1/vshoot.zip,5004115,8e0ff95cbe52ceb6a26a06e8f2b4f41d,NamcoNB1,overwrite:false,
-games/mame/rshark.zip,https://archive.org/download/OngoFiles/mame-rshark/rshark.zip,2695123,dcf81fcc20120af5f8791cb1004d4fe1,Rshark,overwrite:false,
-games/mame/superx.zip,https://archive.org/download/OngoFiles/mame-rshark/superx.zip,1894376,c3569647c8889692e888c93f3f56588d,Rshark,overwrite:false,
-games/mame/mcatadv.zip,https://archive.org/download/OngoFiles/mame-nostradamus/mcatadv.zip,4485469,a6f90f943860325071a76c18d69ca5d7,Nostra,overwrite:false,
-games/mame/nost.zip,https://archive.org/download/OngoFiles/mame-nostradamus/nost.zip,3189195,a1c997e911c4c5ff406d25486d2f2859,Nostra,overwrite:false,
-games/mame/64street.zip,https://archive.org/download/OngoFiles/mame-kuzecores/64street.zip,1512693,5adc0dd3201a0408fe748343dfec8166,Kuzearcade,overwrite:false,
-games/mame/acrobatm.zip,https://archive.org/download/OngoFiles/mame-kuzecores/acrobatm.zip,2178082,a1b03e77dda773dd5e10a39e73abe5a9,Kuzearcade,overwrite:false,
-games/mame/airattck.zip,https://archive.org/download/OngoFiles/mame-kuzecores/airattck.zip,1114452,cd9b4ea670b54245af903294392f3da0,Kuzearcade,overwrite:false,
-games/mame/arcadian.zip,https://archive.org/download/OngoFiles/mame-kuzecores/arcadian.zip,6765435,5d8720bd721a37d9f5dca2919884211c,Kuzearcade,overwrite:false,
-games/mame/assault.zip,https://archive.org/download/OngoFiles/mame-kuzecores/assault.zip,1248722,1a1eb858d21101b310cb91e88f7aa759,Kuzearcade,overwrite:false,
-games/mame/bigstrik.zip,https://archive.org/download/OngoFiles/mame-kuzecores/bigstrik.zip,3826518,11832b4c3cbb9eb1748c145ddeba9135,Kuzearcade,overwrite:false,
-games/mame/bioship.zip,https://archive.org/download/OngoFiles/mame-kuzecores/bioship.zip,1456059,88a1325f7bb123f83742c711d8d9102a,Kuzearcade,overwrite:false,
-games/mame/bjtwin.zip,https://archive.org/download/OngoFiles/mame-kuzecores/bjtwin.zip,5518505,1fa4a4e9bc7a36491167d85cdcf56c6d,Kuzearcade,overwrite:false,
-games/mame/bubbletr.zip,https://archive.org/download/OngoFiles/mame-kuzecores/bubbletr.zip,1001866,b612bc2ed8322ccc146c8b6698479231,Kuzearcade,overwrite:false,
-games/mame/bubl2000.zip,https://archive.org/download/OngoFiles/mame-kuzecores/bubl2000.zip,8060974,938044b103f8eeb0be5d33ee1ca00b75,Kuzearcade,overwrite:false,
-games/mame/burnforc.zip,https://archive.org/download/OngoFiles/mame-kuzecores/burnforc.zip,1888272,9caefd1b27b4b2365e44880aa444b164,Kuzearcade,overwrite:false,
-games/mame/chimerab.zip,https://archive.org/download/OngoFiles/mame-kuzecores/chimerab.zip,1313183,9b18a93ee494dc6febeeb7cbe6924b8e,Kuzearcade,overwrite:false,
-games/mame/cosmogng.zip,https://archive.org/download/OngoFiles/mame-kuzecores/cosmogng.zip,2840436,04dfc92ec2845ed253fae09956aba9c0,Kuzearcade,overwrite:false,
-games/mame/cybattlr.zip,https://archive.org/download/OngoFiles/mame-kuzecores/cybattlr.zip,1269011,a2daa87aa2baa0511f3419cff931ee2c,Kuzearcade,overwrite:false,
-games/mame/dirtfoxj.zip,https://archive.org/download/OngoFiles/mame-kuzecores/dirtfoxj.zip,1726344,e306eb8596728091f6502eb315e4145c,Kuzearcade,overwrite:false,
-games/mame/dolmen.zip,https://archive.org/download/OngoFiles/mame-kuzecores/dolmen.zip,953455,5fcb3c854bc79d3fde9bc1b16ced3d4c,Kuzearcade,overwrite:false,
-games/mame/dsaber.zip,https://archive.org/download/OngoFiles/mame-kuzecores/dsaber.zip,2181904,b92b3494968fde5babcb59a541f81297,Kuzearcade,overwrite:false,
-games/mame/finalap2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/finalap2.zip,2274570,97ae030afae3b5f6b9a09048fae5bcc3,Kuzearcade,overwrite:false,
-games/mame/finalap3.zip,https://archive.org/download/OngoFiles/mame-kuzecores/finalap3.zip,2684437,e4987eb58f0e25c8f72dcc07cfb6d054,Kuzearcade,overwrite:false,
-games/mame/finallap.zip,https://archive.org/download/OngoFiles/mame-kuzecores/finallap.zip,1322535,9b14f537d2f984be4b95f83b99ed5df4,Kuzearcade,overwrite:false,
-games/mame/finehour.zip,https://archive.org/download/OngoFiles/mame-kuzecores/finehour.zip,2295314,dd73e1eaf4bd93948cac4064efa77f1e,Kuzearcade,overwrite:false,
-games/mame/fourtrax.zip,https://archive.org/download/OngoFiles/mame-kuzecores/fourtrax.zip,2181648,2aca8d78c2a94dc4979313cb1288f980,Kuzearcade,overwrite:false,
-games/mame/ginganin.zip,https://archive.org/download/OngoFiles/mame-kuzecores/ginganin.zip,424475,c97a4d8032d425bb88d00e2ef74bf61b,Kuzearcade,overwrite:false,
-games/mame/gollygho.zip,https://archive.org/download/OngoFiles/mame-kuzecores/gollygho.zip,696523,49f7d27e6893d3e6fd3391454ccbe9af,Kuzearcade,overwrite:false,
-games/mame/grdnstrm.zip,https://archive.org/download/OngoFiles/mame-kuzecores/grdnstrm.zip,6118736,a97dab36bd064292217e070dc19e26a3,Kuzearcade,overwrite:false,
-games/mame/gunnail.zip,https://archive.org/download/OngoFiles/mame-kuzecores/gunnail.zip,3332732,9917e0ff3c0f6ba075ea86dc03b8d169,Kuzearcade,overwrite:false,
-games/mame/hachamf.zip,https://archive.org/download/OngoFiles/mame-kuzecores/hachamf.zip,2662604,d94fd7b0a2a3bb1904dd93ea66d50e27,Kuzearcade,overwrite:false,
-games/mame/hayaosi1.zip,https://archive.org/download/OngoFiles/mame-kuzecores/hayaosi1.zip,1243888,e3a3375678c7d5a21c1bf94efa671e4b,Kuzearcade,overwrite:false,
-games/mame/kyukaidk.zip,https://archive.org/download/OngoFiles/mame-kuzecores/kyukaidk.zip,1695784,777606bc47b1995c20de7062490ffa58,Kuzearcade,overwrite:false,
-games/mame/lomakai.zip,https://archive.org/download/OngoFiles/mame-kuzecores/lomakai.zip,346117,3da3f7906dcf4e71326cf496d9348730,Kuzearcade,overwrite:false,
-games/mame/luckywld.zip,https://archive.org/download/OngoFiles/mame-kuzecores/luckywld.zip,3414075,c5dc9d3344c18a42b8da457a36a5ae28,Kuzearcade,overwrite:false,
-games/mame/macross.zip,https://archive.org/download/OngoFiles/mame-kuzecores/macross.zip,4983748,9686eb719e422ce50dbc073a9854defc,Kuzearcade,overwrite:false,
-games/mame/macross2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/macross2.zip,3996994,4ad0a84b21455db7cbaf7fbdc1c059b0,Kuzearcade,overwrite:false,
-games/mame/macrossp.zip,https://archive.org/download/OngoFiles/mame-kuzecores/macrossp.zip,16024981,840e30b4876afa8521246b1a76b1c3bc,Kuzearcade,overwrite:false,
-games/mame/mangchi.zip,https://archive.org/download/OngoFiles/mame-kuzecores/mangchi.zip,506165,d0476937f70d34b131fec7268130b602,Kuzearcade,overwrite:false,
-games/mame/manybloc.zip,https://archive.org/download/OngoFiles/mame-kuzecores/manybloc.zip,569634,87eb55795e4a6602b4a211965a1cfaf0,Kuzearcade,overwrite:false,
-games/mame/marvland.zip,https://archive.org/download/OngoFiles/mame-kuzecores/marvland.zip,1446674,963a61cea4d6cbb788fb765ea8bb238d,Kuzearcade,overwrite:false,
-games/mame/metlhawk.zip,https://archive.org/download/OngoFiles/mame-kuzecores/metlhawk.zip,2107691,677d44d8e1189f1918cf304413576bee,Kuzearcade,overwrite:false,
-games/mame/mirninja.zip,https://archive.org/download/OngoFiles/mame-kuzecores/mirninja.zip,1613159,025748d2b99997c07da589a61b2b24e0,Kuzearcade,overwrite:false,
-games/mame/mustang.zip,https://archive.org/download/OngoFiles/mame-kuzecores/mustang.zip,2093054,84f446c3c0e14c9038affe5e81080477,Kuzearcade,overwrite:false,
-games/mame/namcoc65.zip,https://archive.org/download/OngoFiles/mame-kuzecores/namcoc65.zip,2163,a1037fce8b20a128d87e016ed1655704,Kuzearcade,overwrite:false,
-games/mame/namcoc68.zip,https://archive.org/download/OngoFiles/mame-kuzecores/namcoc68.zip,1721,d9541eb18c6c861435d6683f75b2d25c,Kuzearcade,overwrite:false,
-games/mame/nouryoku.zip,https://archive.org/download/OngoFiles/mame-kuzecores/nouryoku.zip,5339564,90212341161308b914183288a57eef19,Kuzearcade,overwrite:false,
-games/mame/ordyne.zip,https://archive.org/download/OngoFiles/mame-kuzecores/ordyne.zip,1423893,0dee7110620c84d64c8180b52beb1b20,Kuzearcade,overwrite:false,
-games/mame/peekaboo.zip,https://archive.org/download/OngoFiles/mame-kuzecores/peekaboo.zip,1407775,22c47dc19cb1aafca9ed4120f39c8939,Kuzearcade,overwrite:false,
-games/mame/phelios.zip,https://archive.org/download/OngoFiles/mame-kuzecores/phelios.zip,1613036,c696a10ddb980fe780637ce55b9fd6e2,Kuzearcade,overwrite:false,
-games/mame/popspops.zip,https://archive.org/download/OngoFiles/mame-kuzecores/popspops.zip,1926408,38112904e914ff6c40e30cb61bac667e,Kuzearcade,overwrite:false,
-games/mame/powerins.zip,https://archive.org/download/OngoFiles/mame-kuzecores/powerins.zip,22322731,657eab6d2a310b1912bcb80af3319f9e,Kuzearcade,overwrite:false,
-games/mame/puzlwrld.zip,https://archive.org/download/OngoFiles/mame-kuzecores/puzlwrld.zip,600691,64ba266f7b89e379a5d140e982526251,Kuzearcade,overwrite:false,
-games/mame/quizmoon.zip,https://archive.org/download/OngoFiles/mame-kuzecores/quizmoon.zip,23097005,4e4372360aeb2450ed076e5e589bf7c0,Kuzearcade,overwrite:false,
-games/mame/rthun2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/rthun2.zip,2073294,752b5284bccd85baa60cde7df5eaf8ac,Kuzearcade,overwrite:false,
-games/mame/sabotenb.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sabotenb.zip,4163102,455b751e869fef1927277700d09aaa05,Kuzearcade,overwrite:false,
-games/mame/sandscrp.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sandscrp.zip,1771401,1507f9280ab7d869f63e61e2206bc879,Kuzearcade,overwrite:false,
-games/mame/sgunner.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sgunner.zip,2151257,b1a01f3ebed20f2f5c043ca9775a31d0,Kuzearcade,overwrite:false,
-games/mame/sgunner2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sgunner2.zip,2980041,22e50349aced600f556d24d9030fcad4,Kuzearcade,overwrite:false,
-games/mame/spec2k.zip,https://archive.org/download/OngoFiles/mame-kuzecores/spec2k.zip,7880950,0bc287196f302c01ef40c4f515e93005,Kuzearcade,overwrite:false,
-games/mame/ssmissin.zip,https://archive.org/download/OngoFiles/mame-kuzecores/ssmissin.zip,1032359,cc449c1d3e1f4d7952a559bcf68c66f7,Kuzearcade,overwrite:false,
-games/mame/stagger1.zip,https://archive.org/download/OngoFiles/mame-kuzecores/stagger1.zip,5400036,da77e06dfeaa60ce164a206be55cfb36,Kuzearcade,overwrite:false,
-games/mame/strahl.zip,https://archive.org/download/OngoFiles/mame-kuzecores/strahl.zip,1970436,2aaa40e97d0956a54edb9bb372ffd058,Kuzearcade,overwrite:false,
-games/mame/suzuk8h2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/suzuk8h2.zip,3605467,e38c58b0a1a8cbdf5d94c50520fc8d53,Kuzearcade,overwrite:false,
-games/mame/suzuka8h.zip,https://archive.org/download/OngoFiles/mame-kuzecores/suzuka8h.zip,2438327,2a9c84a48d9c16e69fa65406c2b984dd,Kuzearcade,overwrite:false,
-games/mame/sws.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sws.zip,1626871,f7d8e56a4c437be14c0e1c9e6f764c18,Kuzearcade,overwrite:false,
-games/mame/sws92.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sws92.zip,2078712,ad61491aea5194aa4df1a534b0ac96c8,Kuzearcade,overwrite:false,
-games/mame/sws93.zip,https://archive.org/download/OngoFiles/mame-kuzecores/sws93.zip,2010159,0fe75a23350f33c69c60bda64e8790e1,Kuzearcade,overwrite:false,
-games/mame/tdragon2.zip,https://archive.org/download/OngoFiles/mame-kuzecores/tdragon2.zip,7010483,08a1be8477e66898dc36db8416405280,Kuzearcade,overwrite:false,
-games/mame/tharrier.zip,https://archive.org/download/OngoFiles/mame-kuzecores/tharrier.zip,2620601,fa07e0daec8bd1330a9a07f0cf4d9086,Kuzearcade,overwrite:false,
-games/mame/tomagic.zip,https://archive.org/download/OngoFiles/mame-kuzecores/tomagic.zip,768569,1bdbf74dfd325e2c5560e7bcb834e639,Kuzearcade,overwrite:false,
-games/mame/twinactn.zip,https://archive.org/download/OngoFiles/mame-kuzecores/twinactn.zip,754338,0e9fa55a94ff77990c0262c9a36e414e,Kuzearcade,overwrite:false,
-games/mame/valkyrie.zip,https://archive.org/download/OngoFiles/mame-kuzecores/valkyrie.zip,1571621,e918efc2ffbe178c95321154512482b6,Kuzearcade,overwrite:false,
-games/mame/vandyke.zip,https://archive.org/download/OngoFiles/mame-kuzecores/vandyke.zip,2630301,eb22d68ba816cc7c2559cf00cd609211,Kuzearcade,overwrite:false,
+Path;URL;Size in bytes;MD5 Hash;Filter Terms (optional);Overwrite (optional)
+games/kinst/kinst.img;https://archive.org/download/OngoFiles/KillerInstinct/kinst.img;131076608;6d4c2f152c9a18ab3a9b05b8804306a8;Killer Instinct;overwrite:false
+games/kinst2/kinst2.img;https://archive.org/download/OngoFiles/KillerInstinct/kinst2.img;457673216;2563b089b316f2c8636d78af661ac656;Killer Instinct;overwrite:false
+games/mame/kinst.zip;https://archive.org/download/OngoFiles/KillerInstinct/kinst.zip;5843251;4bb48f2ea2091e45b6f14cf3689b7986;Killer Instinct;overwrite:false
+games/mame/kinst2.zip;https://archive.org/download/OngoFiles/KillerInstinct/kinst2.zip;7479079;d20251e2d55f397d210199a632286c65;Killer Instinct;overwrite:false
+;;;;;
+games/mame/appoooh.zip;https://archive.org/download/OngoFiles/mame/appoooh.zip;121145;d824adf438535a00ef4850e90bf6df1f;;overwrite:false
+games/mame/armwrest.zip;https://archive.org/download/OngoFiles/mame/armwrest.zip;149347;9c823f6ab6fc9ce4279a80c956686a70;;overwrite:false
+games/mame/asterix.zip;https://archive.org/download/OngoFiles/mame/asterix.zip;4205033;dc616e8ef001635b99ee90ed38501c8f;;overwrite:false
+games/mame/atarisy1.zip;https://archive.org/download/OngoFiles/mame/atarisy1.zip;57375;f4a3c76103d9a5e50de8fac468e835c8;;overwrite:false
+games/mame/battlnts.zip;https://archive.org/download/OngoFiles/mame/battlnts.zip;319430;2b8c622c45566ef56941b837c28131b0;;overwrite:false
+games/mame/brain.zip;https://archive.org/download/OngoFiles/mame/brain.zip;92798;e363c6dc802a10d78bfa7de2a31e227a;;overwrite:false
+games/mame/brkthru.zip;https://archive.org/download/OngoFiles/mame/brkthru.zip;291427;c0216f64b30df4d814f19e0f9610d647;;overwrite:false
+games/mame/btoads.zip;https://archive.org/download/OngoFiles/mame/btoads.zip;4348372;4221c6d7cfefe69a76506e08923c8019;;overwrite:false
+games/mame/bucky.zip;https://archive.org/download/OngoFiles/mame/bucky.zip;7189925;7135d0c79bb4428cbc015bb3b1262888;;overwrite:false
+games/mame/choplift.zip;https://archive.org/download/OngoFiles/mame/choplift.zip;198449;36b529f30e00a70236af835b41fffb4e;;overwrite:false
+games/mame/dakkochn.zip;https://archive.org/download/OngoFiles/mame/dakkochn.zip;127557;de2514cdcce7ca04922faaeaba15af4f;;overwrite:false
+games/mame/drmicro.zip;https://archive.org/download/OngoFiles/mame/drmicro.zip;54750;704b6d5e41ced6a59b61fef279a9a852;;overwrite:false
+games/mame/enigma2.zip;https://archive.org/download/OngoFiles/mame/enigma2.zip;24308;0042ea22cef61dbea85d56786f34d722;;overwrite:false
+games/mame/gardia.zip;https://archive.org/download/OngoFiles/mame/gardia.zip;231785;466219ed7897ebc4e27e90924142369b;;overwrite:false
+games/mame/gladiatr.zip;https://archive.org/download/OngoFiles/mame/gladiatr.zip;434094;2e6ec7c865a70a62087a5bf1cb065200;;overwrite:false
+games/mame/gradius.zip;https://archive.org/download/OngoFiles/mame/gradius.zip;119413;d158147544eaffad348cb252afd5d9b4;;overwrite:false
+games/mame/gradiusb.zip;https://archive.org/download/OngoFiles/mame/gradiusb.zip;102568;3bc0e4740f2c01ca92e31a0949fb61a9;;overwrite:false
+games/mame/harddriv.zip;https://archive.org/download/OngoFiles/mame/harddriv.zip;2801755;7440d9982dad1578021d375796822be9;;overwrite:false
+games/mame/hvymetal.zip;https://archive.org/download/OngoFiles/mame/hvymetal.zip;149752;f5b251f6c24b3d21939ce71658f99fd7;;overwrite:false
+games/mame/intrepid.zip;https://archive.org/download/OngoFiles/mame/intrepid.zip;47090;a80bddb561e02d5a29281b6a13c0c137;;overwrite:false
+games/mame/irobot.zip;https://archive.org/download/OngoFiles/mame/irobot.zip;87060;94e99c182f30191a5ab194d917732e23;;overwrite:false
+games/mame/jedi.zip;https://archive.org/download/OngoFiles/mame/jedi.zip;137157;d70b0013d656e030129964e2d9267f8b;;overwrite:false
+games/mame/kamikcab.zip;https://archive.org/download/OngoFiles/mame/kamikcab.zip;109175;91b18a4e34ad8a6bcf0f836b9b945517;;overwrite:false
+games/mame/lastduel.zip;https://archive.org/download/OngoFiles/mame/lastduel.zip;2242972;d85b947c1c8ebd6ab2e180d26c84792c;;overwrite:false
+games/mame/leds2011.zip;https://archive.org/download/OngoFiles/mame/leds2011.zip;1392959;54c97e85d73dc1ef75639906e761219d;;overwrite:false
+games/mame/madgear.zip;https://archive.org/download/OngoFiles/mame/madgear.zip;1056617;a15fd679e1e4376d0ba29a357273cda8;;overwrite:false
+games/mame/momoko.zip;https://archive.org/download/OngoFiles/mame/momoko.zip;207013;6a2bde73759357466e0dfa772e0bb04c;;overwrite:false
+games/mame/narc.zip;https://archive.org/download/OngoFiles/mame/narc.zip;6273107;7d84f28d5c75292b5b48361acaaaf89e;;overwrite:false
+games/mame/nob.zip;https://archive.org/download/OngoFiles/mame/nob.zip;197068;9b02c09dd3397addeb7da2562ffc4809;;overwrite:false
+games/mame/nova2001h.zip;https://archive.org/download/OngoFiles/mame/nova2001h.zip;29741;6e010f1ae04f6cc9b2812fc0ea9c4d8f;;overwrite:false
+games/mame/nratechu.zip;https://archive.org/download/OngoFiles/mame/nratechu.zip;563498;97ac56e3f82bbb38fda3256ee906c977;;overwrite:false
+games/mame/pacupacu.zip;https://archive.org/download/OngoFiles/mame/pacupacu.zip;8718;9e3b03176cb39becea1227b3b4428c15;;overwrite:false
+games/mame/punchout.zip;https://archive.org/download/OngoFiles/mame/punchout.zip;297969;22ec2846eebd3c67e897801fd602f667;;overwrite:false
+games/mame/revx.zip;https://archive.org/download/OngoFiles/mame/revx.zip;18679384;5ab1cbd25a4f61e529488cbec8688302;;overwrite:false
+games/mame/robowres.zip;https://archive.org/download/OngoFiles/mame/robowres.zip;186532;6211027b4d02f4c794dd2e8f82428eec;;overwrite:false
+games/mame/s1945_v.zip;https://archive.org/download/OngoFiles/mame/s1945_v.zip;462541;1037137af63d2c806f3b11e52a4c61bb;;overwrite:false
+games/mame/s1945ii_v.zip;https://archive.org/download/OngoFiles/mame/s1945ii_v.zip;2404734;4a6a07db2527aa08c1f20ab57962ef82;;overwrite:false
+games/mame/spclone.zip;https://archive.org/download/OngoFiles/mame/spclone.zip;162398;8767f5b2bbffb14fa9437caaa3d3e3e5;;overwrite:false
+games/mame/spnchout.zip;https://archive.org/download/OngoFiles/mame/spnchout.zip;247903;18e538d7c44c1a5fac34bc3c7f0de46e;;overwrite:false
+games/mame/stunrun.zip;https://archive.org/download/OngoFiles/mame/stunrun.zip;1820625;d01d916e106fd462b8a639383a170975;;overwrite:false
+games/mame/syvalion.zip;https://archive.org/download/OngoFiles/mame/syvalion.zip;3815762;84a121e010ff41f211fdcd0caa36d82e;;overwrite:false
+games/mame/technos16-coc.zip;https://archive.org/download/OngoFiles/mame/technos16-coc.zip;27659038;3b3e06dcd8a8f41b8ab504f634ab62ff;;overwrite:false
+games/mame/thepit.zip;https://archive.org/download/OngoFiles/mame/thepit.zip;73411;f629acf9561f40e4c60cd676ba3dd44d;;overwrite:false
+games/mame/topland.zip;https://archive.org/download/OngoFiles/mame/topland.zip;1213788;553ed7ef7281a261472b4da95409a9b9;;overwrite:false
+games/mame/viostorm.zip;https://archive.org/download/OngoFiles/mame/viostorm.zip;21568733;c2ec32bb9259a294a1869fef824fbece;;overwrite:false
+games/mame/wbml.zip;https://archive.org/download/OngoFiles/mame/wbml.zip;1165828;a5da561949f02ac1545212f8b4e0ab12;;overwrite:false
+games/mame/zeroteam.zip;https://archive.org/download/OngoFiles/mame/zeroteam.zip;13049884;6f13a62454b6c13ac4022721f8c70267;;overwrite:false
+;;;;;
+games/mame/cshift.zip;https://archive.org/download/OngoFiles/mame-ballysente/cshift.zip;39280;7608c515157d46b04b9e5f8da3c895a4;Bally;overwrite:false
+games/mame/gghost.zip;https://archive.org/download/OngoFiles/mame-ballysente/gghost.zip;28617;a615b37643f470d540c444d2591e7aa2;Bally;overwrite:false
+games/mame/gimeabrk.zip;https://archive.org/download/OngoFiles/mame-ballysente/gimeabrk.zip;34490;8c07c04c2c9f32eee83b871393a86fbe;Bally;overwrite:false
+games/mame/grudge.zip;https://archive.org/download/OngoFiles/mame-ballysente/grudge.zip;126254;434fc940a8349b3fff6a08bb7523bc0b;Bally;overwrite:false
+games/mame/hattrick.zip;https://archive.org/download/OngoFiles/mame-ballysente/hattrick.zip;16562;b04aa9be79d78ebffda80fed667b9db6;Bally;overwrite:false
+games/mame/minigolf.zip;https://archive.org/download/OngoFiles/mame-ballysente/minigolf.zip;115313;3ff23a92ddfc09deda2d6e4a2031a59d;Bally;overwrite:false
+games/mame/nametune.zip;https://archive.org/download/OngoFiles/mame-ballysente/nametune.zip;296189;a29eb7b742c969a960d7aae811b72c62;Bally;overwrite:false
+games/mame/nstocker.zip;https://archive.org/download/OngoFiles/mame-ballysente/nstocker.zip;77719;a3953f4536b3bbe06551676bb0bb9e67;Bally;overwrite:false
+games/mame/otwalls.zip;https://archive.org/download/OngoFiles/mame-ballysente/otwalls.zip;27208;753dd0c3183f42fd6db7f39fbbf3711e;Bally;overwrite:false
+games/mame/rescraid.zip;https://archive.org/download/OngoFiles/mame-ballysente/rescraid.zip;148830;b6e62c07bd1edffc4a7fa58e05d522df;Bally;overwrite:false
+games/mame/sente6vb.zip;https://archive.org/download/OngoFiles/mame-ballysente/sente6vb.zip;4778;c0f5e64132778ff0f4ee50eba1970bc4;Bally;overwrite:false
+games/mame/sentetst.zip;https://archive.org/download/OngoFiles/mame-ballysente/sentetst.zip;5166;c7324325900146ccc9ebad405ab15242;Bally;overwrite:false
+games/mame/sfootbal.zip;https://archive.org/download/OngoFiles/mame-ballysente/sfootbal.zip;42798;47e2843c9ac2a870b9d80c00131f15fb;Bally;overwrite:false
+games/mame/snakepit.zip;https://archive.org/download/OngoFiles/mame-ballysente/snakepit.zip;67157;0a44470ed6ba5ed1edd5576a9c4eb2ad;Bally;overwrite:false
+games/mame/snakjack.zip;https://archive.org/download/OngoFiles/mame-ballysente/snakjack.zip;54461;56e5d902b6f23640b19c4f14790de6ed;Bally;overwrite:false
+games/mame/spiker.zip;https://archive.org/download/OngoFiles/mame-ballysente/spiker.zip;84467;bb5e3716dc5153dba535fa3129138f99;Bally;overwrite:false
+games/mame/stocker.zip;https://archive.org/download/OngoFiles/mame-ballysente/stocker.zip;26920;bcd1ad4b69a374cc956d1f3cc6e33174;Bally;overwrite:false
+games/mame/stompin.zip;https://archive.org/download/OngoFiles/mame-ballysente/stompin.zip;123206;8b237885c8c588ff45df18148c62b08e;Bally;overwrite:false
+games/mame/teamht.zip;https://archive.org/download/OngoFiles/mame-ballysente/teamht.zip;19538;d7e867b88db25b6ae31168b49e680a97;Bally;overwrite:false
+games/mame/toggle.zip;https://archive.org/download/OngoFiles/mame-ballysente/toggle.zip;24365;43b6724d0b1ea3c321458c6d9909559d;Bally;overwrite:false
+games/mame/triviabb.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviabb.zip;82841;2ac0728cc698294e48b69b5e73d89b83;Bally;overwrite:false
+games/mame/triviaes.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviaes.zip;176461;31943df4c46afb3876c5a76561212d0e;Bally;overwrite:false
+games/mame/triviag1.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviag1.zip;103603;d87c9a16e1e1335e1d759eba9078e340;Bally;overwrite:false
+games/mame/triviag2.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviag2.zip;77241;b022f679cd4fff48d62ba9b3bdde94a8;Bally;overwrite:false
+games/mame/triviasp.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviasp.zip;74460;038e4326962066ecfa953bb59685ece2;Bally;overwrite:false
+games/mame/triviayp.zip;https://archive.org/download/OngoFiles/mame-ballysente/triviayp.zip;77049;36a49d273721703b2e375b6ed4205221;Bally;overwrite:false
+;;;;;
+games/mame/bonkadv.zip;https://archive.org/download/OngoFiles/mame-bazset/bonkadv.zip;5482624;b1eda8ca06e684ec05a84a72c2086f7c;Bazset;overwrite:false
+games/mame/brapboys.zip;https://archive.org/download/OngoFiles/mame-bazset/brapboys.zip;6832987;d65be06b5f38d5709dbc3ba97e313823;Bazset;overwrite:false
+games/mame/chasehq.zip;https://archive.org/download/OngoFiles/mame-bazset/chasehq.zip;5569158;0b7714dd4de4bdbfcda443d553d33da0;Bazset;overwrite:false
+games/mame/contcirc.zip;https://archive.org/download/OngoFiles/mame-bazset/contcirc.zip;2269941;ce1cfb39d2fd1386777d1438a4cfb437;Bazset;overwrite:false
+games/mame/krull.zip;https://archive.org/download/OngoFiles/mame-bazset/krull.zip;51847;a0513c2d3f3ca4be76bf19e8e52c8cbf;Bazset;overwrite:false
+games/mame/sci.zip;https://archive.org/download/OngoFiles/mame-bazset/sci.zip;4770815;a53dc329c55b9f0ae6a8f48d525a6c47;Bazset;overwrite:false
+games/mame/shogwarr.zip;https://archive.org/download/OngoFiles/mame-bazset/shogwarr.zip;6809833;cb0c7a35e98e7674d92e0513889139b3;Bazset;overwrite:false
+;;;;;
+games/mame/coh1000c.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/coh1000c.zip;278492;a77a0ea2ab5d8678e6b8ba1304fb6cf5;Zn1;overwrite:false
+games/mame/glpracr.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/glpracr.zip;4418784;b5b2172ed6cf5a89bcb98220f84887c1;Zn1;overwrite:false
+games/mame/qsound_hle.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/qsound_hle.zip;2676;758388893761ea3ff0d820f60344a38e;Zn1;overwrite:false
+games/mame/sfex.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/sfex.zip;10964167;17714cfe220fecfe2e0616e574aa44c6;Zn1;overwrite:false
+games/mame/sfexp.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/sfexp.zip;11240185;8593825de9ed69eb5f2bafa2f8503cab;Zn1;overwrite:false
+games/mame/starglad.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/starglad.zip;11235620;3951217070cfda0e0b7618e12697963f;Zn1;overwrite:false
+games/mame/ts2.zip;https://archive.org/download/OngoFiles/mame-capcomzn1/ts2.zip;12308764;cc4a147c18e650fd2f17286a6263abd6;Zn1;overwrite:false
+;;;;;
+games/mame/coh3002c.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/coh3002c.zip;137963;7564fc1ea9b44b5d4436631e399d0c3e;Zn2;overwrite:false
+games/mame/plsmaswd.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/plsmaswd.zip;24348697;f240a51fc43f3fcc34d68c1f25c7b444;Zn2;overwrite:false
+games/mame/rvschool.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/rvschool.zip;28611176;485e0b002c3162ab8ee5ec8be9d1fddd;Zn2;overwrite:false
+games/mame/sfex2.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/sfex2.zip;16982187;1994bcbde7c2535af7b3d9b42b21ea30;Zn2;overwrite:false
+games/mame/sfex2p.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/sfex2p.zip;25620875;36c60123df77dded982df45fbbf6c5f5;Zn2;overwrite:false
+games/mame/strider2.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/strider2.zip;21408994;151fd5321ca37c61440420efb5b344c5;Zn2;overwrite:false
+games/mame/techromn.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/techromn.zip;39102489;903f3f17839278abcd6e7fbd703e399b;Zn2;overwrite:false
+games/mame/tgmj.zip;https://archive.org/download/OngoFiles/mame-capcomzn2/tgmj.zip;2731246;7fcc8a72b4bc1f3340e1db4724b0628d;Zn2;overwrite:false
+;;;;;
+games/mame/crysbios.zip;https://archive.org/download/OngoFiles/mame-crystalsystem/crysbios.zip;109693;f5b3fc7c33363d2db585e46f5b2d2dce;Crystal;overwrite:false
+games/mame/crysking.zip;https://archive.org/download/OngoFiles/mame-crystalsystem/crysking.zip;38605431;697290638192db2fcb8d0e77c9dc8313;Crystal;overwrite:false
+games/mame/evosocc.zip;https://archive.org/download/OngoFiles/mame-crystalsystem/evosocc.zip;20537914;8c46ebd8f960316769de7eaf38a4a93f;Crystal;overwrite:false
+games/mame/officeye.zip;https://archive.org/download/OngoFiles/mame-crystalsystem/officeye.zip;12899207;b24b15ccd18f920bcb97524cc9dc538f;Crystal;overwrite:false
+games/mame/topbladv.zip;https://archive.org/download/OngoFiles/mame-crystalsystem/topbladv.zip;10318862;391d17a3e7888ea5150b86e1b1042760;Crystal;overwrite:false
+;;;;;
+games/mame/cheyenne.zip;https://archive.org/download/OngoFiles/mame-exidy440/cheyenne.zip;270034;995ea1f4ace90f864e19fc5f0a148657;Exidy440;overwrite:false
+games/mame/chiller.zip;https://archive.org/download/OngoFiles/mame-exidy440/chiller.zip;264997;50d5b575b397c7ae457ffeb7b8ba5af7;Exidy440;overwrite:false
+games/mame/claypign.zip;https://archive.org/download/OngoFiles/mame-exidy440/claypign.zip;163017;21fbb3ddc65f2cef32c66bbac3c078fb;Exidy440;overwrite:false
+games/mame/combat.zip;https://archive.org/download/OngoFiles/mame-exidy440/combat.zip;267532;7f4c07f3e303265a23c87ac55b6ab2b4;Exidy440;overwrite:false
+games/mame/cracksht.zip;https://archive.org/download/OngoFiles/mame-exidy440/cracksht.zip;227476;93e7555e25f251958f13970c95f961f2;Exidy440;overwrite:false
+games/mame/crossbow.zip;https://archive.org/download/OngoFiles/mame-exidy440/crossbow.zip;286112;bd36036b4911b04bd73120f4e82c5cfe;Exidy440;overwrite:false
+games/mame/hitnmiss.zip;https://archive.org/download/OngoFiles/mame-exidy440/hitnmiss.zip;359953;923abc67e84400f1c7c79322f776369c;Exidy440;overwrite:false
+games/mame/showdown.zip;https://archive.org/download/OngoFiles/mame-exidy440/showdown.zip;234723;6cb1efdee6902c8c10362d337913a260;Exidy440;overwrite:false
+games/mame/topsecex.zip;https://archive.org/download/OngoFiles/mame-exidy440/topsecex.zip;223939;3fec456ea81013a659e27840c57173b8;Exidy440;overwrite:false
+games/mame/whodunit.zip;https://archive.org/download/OngoFiles/mame-exidy440/whodunit.zip;329428;d8fe5af4ee68ed4a8a0fc6560c7bdaae;Exidy440;overwrite:false
+;;;;;
+games/mame/aoh.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/aoh.zip;30462319;1b86778a61a657ce5c6242f2cd972687;Hypers;overwrite:false
+games/mame/boonggab.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/boonggab.zip;14279857;4a917e33baf4ab1140f652bb0b95f208;Hypers;overwrite:false
+games/mame/coolmini.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/coolmini.zip;9027110;bb6be097bb7f94111c9449b94aae5388;Hypers;overwrite:false
+games/mame/dquizgo2.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/dquizgo2.zip;5801031;3bc50802c93a9dad9a15a6c382427aeb;Hypers;overwrite:false
+games/mame/dtfamily.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/dtfamily.zip;4237482;e40ebc639f105721365dfebd16c48cd0;Hypers;overwrite:false
+games/mame/finalgdr.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/finalgdr.zip;1961228;d044589c0890575d5c3ed035bc08175c;Hypers;overwrite:false
+games/mame/jmpbreak.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/jmpbreak.zip;5262835;541c1cee67256406bad7da095fbb6d2d;Hypers;overwrite:false
+games/mame/misncrft.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/misncrft.zip;6155831;5c3c58bd95cc96994a55c259ba360ed6;Hypers;overwrite:false
+games/mame/mrdig.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/mrdig.zip;1432765;0d6c716ac05c26d2b9b7f2d50c3a88b5;Hypers;overwrite:false
+games/mame/mrkicker.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/mrkicker.zip;2153077;9eac2d4dedec1925eba70388f5bfda65;Hypers;overwrite:false
+games/mame/newxpang.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/newxpang.zip;4243875;251301765f56081647f693643e5ae45f;Hypers;overwrite:false
+games/mame/poosho.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/poosho.zip;4582720;b1feee13a2c1508be5190347e9494397;Hypers;overwrite:false
+games/mame/solitaire.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/solitaire.zip;5507527;eb4861e4c66de47b5dc77332b1423629;Hypers;overwrite:false
+games/mame/suplup.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/suplup.zip;18346871;01779402352b4601d72f5dcab0a75ad0;Hypers;overwrite:false
+games/mame/toyland.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/toyland.zip;4809873;d4e86b49efe8c4a4f7c79b50b73db6be;Hypers;overwrite:false
+games/mame/vamphalf.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/vamphalf.zip;11777549;9eeb0856ccf723c1585d6ee9dd424153;Hypers;overwrite:false
+games/mame/wivernwg.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/wivernwg.zip;10553539;cff61bb1a6d20ca923668b63a3e07124;Hypers;overwrite:false
+games/mame/worldadv.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/worldadv.zip;4558833;b0c5fd5be67fa47041af661eb9c78544;Hypers;overwrite:false
+games/mame/yorijori.zip;https://archive.org/download/OngoFiles/mame-hyperstonee1/yorijori.zip;4303654;007697a914482bf2c3a5b654658e7ebb;Hypers;overwrite:false
+;;;;;
+games/mame/banbam.zip;https://archive.org/download/OngoFiles/mame-ikki/banbam.zip;88938;19861ef2df81cb65ffd9203b51cd7f1e;Ikki;overwrite:false
+games/mame/ikki.zip;https://archive.org/download/OngoFiles/mame-ikki/ikki.zip;103452;5bd9e5ba82403cefb4d1395627072abc;Ikki;overwrite:false
+games/mame/markham.zip;https://archive.org/download/OngoFiles/mame-ikki/markham.zip;37047;9d8730449cd01ca07852d71c40611ab2;Ikki;overwrite:false
+games/mame/strnskil.zip;https://archive.org/download/OngoFiles/mame-ikki/strnskil.zip;63106;cb2c0d5506c244ad915fcd93682bea13;Ikki;overwrite:false
+;;;;;
+games/mame/akiss.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/akiss.zip;14718696;7117b0387df48d797b1c0470d7a44c5a;JalecoMs32;overwrite:false
+games/mame/bbbxing.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/bbbxing.zip;10429741;20ea54376b105cfcf7657897d17dae66;JalecoMs32;overwrite:false
+games/mame/bnstars1.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/bnstars1.zip;18608613;d1f2a1f3e79d0ad6b76df48c47d1a928;JalecoMs32;overwrite:false
+games/mame/desertwr.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/desertwr.zip;10622326;cf61a5cbcac5860c986054df521931fc;JalecoMs32;overwrite:false
+games/mame/f1superb.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/f1superb.zip;17252765;951e1b4172e414a9f9493d378da5256e;JalecoMs32;overwrite:false
+games/mame/gametngk.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/gametngk.zip;13902932;8c19de84b4c957a8dc768320b597106b;JalecoMs32;overwrite:false
+games/mame/gratia.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/gratia.zip;12372816;b16880e215746eab6756ce26ac61e6aa;JalecoMs32;overwrite:false
+games/mame/hayaosi2.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/hayaosi2.zip;6534132;425d2f1e3ab9d7b1383991b439a6b07a;JalecoMs32;overwrite:false
+games/mame/hayaosi3.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/hayaosi3.zip;9195833;8be2abdde03cc60dac1ef71eebb043ae;JalecoMs32;overwrite:false
+games/mame/kirarast.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/kirarast.zip;16146210;6df4c4644922aaaef4433de0888ab768;JalecoMs32;overwrite:false
+games/mame/p47aces.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/p47aces.zip;9094666;737ba785c93fb708eceb9a79f02e773d;JalecoMs32;overwrite:false
+games/mame/suchie2.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/suchie2.zip;10982266;edc024d91615bdde45c8fde5c2f5de29;JalecoMs32;overwrite:false
+games/mame/tetrisp.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/tetrisp.zip;6027269;0b3947e9a433c30b37f775c0247409ce;JalecoMs32;overwrite:false
+games/mame/tetrisp2.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/tetrisp2.zip;14616353;ab70be2c48db7753d80a6a1b5094d2d8;JalecoMs32;overwrite:false
+games/mame/wpksocv2.zip;https://archive.org/download/OngoFiles/mame-jalecoms32/wpksocv2.zip;10936780;25925c1fd66e389111e5acfa70efcaa7;JalecoMs32;overwrite:false
+;;;;;
+games/mame/aerofgt.zip;https://archive.org/download/OngoFiles/mame-jlrh/aerofgt.zip;7320017;99e00bfe89225f69c50345ca3179e96a;Jlrh;overwrite:false
+games/mame/aligator.zip;https://archive.org/download/OngoFiles/mame-jlrh/aligator.zip;18344791;6168a6478e62ed4956799b662c1f9663;Jlrh;overwrite:false
+games/mame/altair.zip;https://archive.org/download/OngoFiles/mame-jlrh/altair.zip;9758;969a24aff748af9049223096032cc7e0;Jlrh;overwrite:false
+games/mame/altair2.zip;https://archive.org/download/OngoFiles/mame-jlrh/altair2.zip;9738;3d704c9fd27daaaa4f5d8555da14a805;Jlrh;overwrite:false
+games/mame/bbusters.zip;https://archive.org/download/OngoFiles/mame-jlrh/bbusters.zip;2693126;d13abce8e1c03528caf5aa3b0bf8b327;Jlrh;overwrite:false
+games/mame/blswhstl.zip;https://archive.org/download/OngoFiles/mame-jlrh/blswhstl.zip;2037057;4886479b2f403b4a293f961da8aba310;Jlrh;overwrite:false
+games/mame/chqflag.zip;https://archive.org/download/OngoFiles/mame-jlrh/chqflag.zip;1364504;e2c11da487f02c4b7aa8347fe8107bd4;Jlrh;overwrite:false
+games/mame/deadang.zip;https://archive.org/download/OngoFiles/mame-jlrh/deadang.zip;1108861;d0a45731aaa6075b208b24130ae701d8;Jlrh;overwrite:false
+games/mame/destryer.zip;https://archive.org/download/OngoFiles/mame-jlrh/destryer.zip;14070;3f3340ec37d60737aa39c083f349a3e0;Jlrh;overwrite:false
+games/mame/draco.zip;https://archive.org/download/OngoFiles/mame-jlrh/draco.zip;13763;3e40af261fc9a059ad03f9111aa136ff;Jlrh;overwrite:false
+games/mame/empcity.zip;https://archive.org/download/OngoFiles/mame-jlrh/empcity.zip;528771;d9e0cb3c0de98452b1a71c4ed7a425fd;Jlrh;overwrite:false
+games/mame/glass.zip;https://archive.org/download/OngoFiles/mame-jlrh/glass.zip;10746392;3e4add06a1c35103668c4a524d5e5212;Jlrh;overwrite:false
+games/mame/gwar.zip;https://archive.org/download/OngoFiles/mame-jlrh/gwar.zip;650798;07cf4007c81594ba3e8e8015aa5763bc;Jlrh;overwrite:false
+games/mame/hamboy.zip;https://archive.org/download/OngoFiles/mame-jlrh/hamboy.zip;485155;7c3759be898e26e84c4c41c8ccef761e;Jlrh;overwrite:false
+games/mame/hotchase.zip;https://archive.org/download/OngoFiles/mame-jlrh/hotchase.zip;4570073;64716bed613f057f6b31d745f4fbe206;Jlrh;overwrite:false
+games/mame/konamigt.zip;https://archive.org/download/OngoFiles/mame-jlrh/konamigt.zip;178595;7f7c664f5f1124ea9c06d9d7ae84702b;Jlrh;overwrite:false
+games/mame/littlerb.zip;https://archive.org/download/OngoFiles/mame-jlrh/littlerb.zip;1520066;a9710b0b1d9cd8a32dd49728ab07f765;Jlrh;overwrite:false
+games/mame/mechatt.zip;https://archive.org/download/OngoFiles/mame-jlrh/mechatt.zip;2301014;47004a8243649bd36355fd67f5db1dc0;Jlrh;overwrite:false
+games/mame/megaphx.zip;https://archive.org/download/OngoFiles/mame-jlrh/megaphx.zip;444748;10598478b92d91b3d9eb30c9fcc67109;Jlrh;overwrite:false
+games/mame/moomesa.zip;https://archive.org/download/OngoFiles/mame-jlrh/moomesa.zip;6673967;c13ccddaa02f6bb2d8e94a9966043eac;Jlrh;overwrite:false
+games/mame/mtlchamp.zip;https://archive.org/download/OngoFiles/mame-jlrh/mtlchamp.zip;8240099;34d2756eddd188ba3f7c87534b87b8a2;Jlrh;overwrite:false
+games/mame/overdriv.zip;https://archive.org/download/OngoFiles/mame-jlrh/overdriv.zip;3253647;d3a09e62a2db4192a90c786769031880;Jlrh;overwrite:false
+games/mame/shadfrce.zip;https://archive.org/download/OngoFiles/mame-jlrh/shadfrce.zip;5898980;8ad87dac96bc50ee680fd82cc2101dc5;Jlrh;overwrite:false
+games/mame/thoop2.zip;https://archive.org/download/OngoFiles/mame-jlrh/thoop2.zip;10454670;0e451c91784870c355aba14460a03a8f;Jlrh;overwrite:false
+games/mame/wecleman.zip;https://archive.org/download/OngoFiles/mame-jlrh/wecleman.zip;1266225;a1a3df9c98dafb99a75ab2dbff67bc75;Jlrh;overwrite:false
+games/mame/wrally.zip;https://archive.org/download/OngoFiles/mame-jlrh/wrally.zip;8431601;99fc3677f583ade3dbea46d998f5a71e;Jlrh;overwrite:false
+games/mame/wrally2.zip;https://archive.org/download/OngoFiles/mame-jlrh/wrally2.zip;13294768;4063ddff3df7fe1e12eecbd87a2dec3e;Jlrh;overwrite:false
+games/mame/xexex.zip;https://archive.org/download/OngoFiles/mame-jlrh/xexex.zip;5143801;069a515fe30f7d916a244ce94907af6e;Jlrh;overwrite:false
+games/mame/ym2608.zip;https://archive.org/download/OngoFiles/mame-jlrh/ym2608.zip;7609;79ae0d2bb1901b7e606b6dc339b79a97;Jlrh;overwrite:false
+games/mame/yoyospel.zip;https://archive.org/download/OngoFiles/mame-jlrh/yoyospel.zip;725104;c3413a9557dc7608f7ad401f5ee7c8ad;Jlrh;overwrite:false
+;;;;;
+games/mame/blazeon.zip;https://archive.org/download/OngoFiles/mame-kaneko16/blazeon.zip;1906474;9df9c22b3575a2b6c9d0ba37fb1d6888;Kaneko16;overwrite:false
+games/mame/explbrkr.zip;https://archive.org/download/OngoFiles/mame-kaneko16/explbrkr.zip;2457212;b9b897930b383401df0d6f63aefa5fb7;Kaneko16;overwrite:false
+games/mame/mgcrystl.zip;https://archive.org/download/OngoFiles/mame-kaneko16/mgcrystl.zip;1267269;3e3755ba29f6ac934de0eac1491af7c8;Kaneko16;overwrite:false
+games/mame/wingforc.zip;https://archive.org/download/OngoFiles/mame-kaneko16/wingforc.zip;2334971;925795cbed561f2a8e0fc40c792d51be;Kaneko16;overwrite:false
+;;;;;
+games/mame/crzcross.zip;https://archive.org/download/OngoFiles/mame-konamigx/crzcross.zip;5744659;806698d88b5c25153c00780ea817b521;KonamiGx;overwrite:false
+games/mame/daiskiss.zip;https://archive.org/download/OngoFiles/mame-konamigx/daiskiss.zip;3824411;ad5913634135e43b13add813af0ef91d;KonamiGx;overwrite:false
+games/mame/dragoona.zip;https://archive.org/download/OngoFiles/mame-konamigx/dragoona.zip;11836268;2f3778bd25e12bd965831962c6bb3dac;KonamiGx;overwrite:false
+games/mame/fantjour.zip;https://archive.org/download/OngoFiles/mame-konamigx/fantjour.zip;6581455;f0117b59661f31366d7b1b7be69ff388;KonamiGx;overwrite:false
+games/mame/konamigx.zip;https://archive.org/download/OngoFiles/mame-konamigx/konamigx.zip;8734;981fa4057f4bd5c064ce446963d8ac33;KonamiGx;overwrite:false
+games/mame/le2.zip;https://archive.org/download/OngoFiles/mame-konamigx/le2.zip;12848032;c2b0b6138e607afba3e2f45005eb217a;KonamiGx;overwrite:false
+games/mame/racinfrc.zip;https://archive.org/download/OngoFiles/mame-konamigx/racinfrc.zip;9582809;03348188f5c099833390b374140f5b2d;KonamiGx;overwrite:false
+games/mame/rungun2.zip;https://archive.org/download/OngoFiles/mame-konamigx/rungun2.zip;18718562;018f3ded9b9933cb9fb06f7234d43f50;KonamiGx;overwrite:false
+games/mame/rushhero.zip;https://archive.org/download/OngoFiles/mame-konamigx/rushhero.zip;19207880;42ff5030cf99add502419ad65e6fae47;KonamiGx;overwrite:false
+games/mame/salmndr2.zip;https://archive.org/download/OngoFiles/mame-konamigx/salmndr2.zip;6686739;699c0e30ed62d1b206928755302b8e2f;KonamiGx;overwrite:false
+games/mame/sexyparo.zip;https://archive.org/download/OngoFiles/mame-konamigx/sexyparo.zip;12554164;9f338a80cd8e122ef847e95ee8bc32ba;KonamiGx;overwrite:false
+games/mame/soccerss.zip;https://archive.org/download/OngoFiles/mame-konamigx/soccerss.zip;8427035;d4bb28327fb34d2d735f5478363f6ade;KonamiGx;overwrite:false
+games/mame/tbyahhoo.zip;https://archive.org/download/OngoFiles/mame-konamigx/tbyahhoo.zip;6831877;23dcf8c77593784b58255a931317e9f4;KonamiGx;overwrite:false
+games/mame/tkmmpzdm.zip;https://archive.org/download/OngoFiles/mame-konamigx/tkmmpzdm.zip;7298231;0008bc1a35732900ccac30924a9501e8;KonamiGx;overwrite:false
+games/mame/tokkae.zip;https://archive.org/download/OngoFiles/mame-konamigx/tokkae.zip;7199441;322139f4f8e25b8061bc8019f72636fa;KonamiGx;overwrite:false
+games/mame/vsnetscr.zip;https://archive.org/download/OngoFiles/mame-konamigx/vsnetscr.zip;17690672;56fbbdf096289fd5fc8e3c785d310d9f;KonamiGx;overwrite:false
+games/mame/winspike.zip;https://archive.org/download/OngoFiles/mame-konamigx/winspike.zip;11936749;d964cdfb39fff2856ef6ff34939e665c;KonamiGx;overwrite:false
+;;;;;
+games/mame/64street.zip;https://archive.org/download/OngoFiles/mame-kuzecores/64street.zip;1512693;5adc0dd3201a0408fe748343dfec8166;Kuze;overwrite:false
+games/mame/acrobatm.zip;https://archive.org/download/OngoFiles/mame-kuzecores/acrobatm.zip;2178082;a1b03e77dda773dd5e10a39e73abe5a9;Kuze;overwrite:false
+games/mame/airattck.zip;https://archive.org/download/OngoFiles/mame-kuzecores/airattck.zip;1114452;cd9b4ea670b54245af903294392f3da0;Kuze;overwrite:false
+games/mame/arcadian.zip;https://archive.org/download/OngoFiles/mame-kuzecores/arcadian.zip;6765435;5d8720bd721a37d9f5dca2919884211c;Kuze;overwrite:false
+games/mame/assault.zip;https://archive.org/download/OngoFiles/mame-kuzecores/assault.zip;1248722;1a1eb858d21101b310cb91e88f7aa759;Kuze;overwrite:false
+games/mame/bigstrik.zip;https://archive.org/download/OngoFiles/mame-kuzecores/bigstrik.zip;3826518;11832b4c3cbb9eb1748c145ddeba9135;Kuze;overwrite:false
+games/mame/bioship.zip;https://archive.org/download/OngoFiles/mame-kuzecores/bioship.zip;1456059;88a1325f7bb123f83742c711d8d9102a;Kuze;overwrite:false
+games/mame/bjtwin.zip;https://archive.org/download/OngoFiles/mame-kuzecores/bjtwin.zip;5518505;1fa4a4e9bc7a36491167d85cdcf56c6d;Kuze;overwrite:false
+games/mame/bubbletr.zip;https://archive.org/download/OngoFiles/mame-kuzecores/bubbletr.zip;1001866;b612bc2ed8322ccc146c8b6698479231;Kuze;overwrite:false
+games/mame/bubl2000.zip;https://archive.org/download/OngoFiles/mame-kuzecores/bubl2000.zip;8060974;938044b103f8eeb0be5d33ee1ca00b75;Kuze;overwrite:false
+games/mame/burnforc.zip;https://archive.org/download/OngoFiles/mame-kuzecores/burnforc.zip;1888272;9caefd1b27b4b2365e44880aa444b164;Kuze;overwrite:false
+games/mame/chimerab.zip;https://archive.org/download/OngoFiles/mame-kuzecores/chimerab.zip;1313183;9b18a93ee494dc6febeeb7cbe6924b8e;Kuze;overwrite:false
+games/mame/cosmogng.zip;https://archive.org/download/OngoFiles/mame-kuzecores/cosmogng.zip;2840436;04dfc92ec2845ed253fae09956aba9c0;Kuze;overwrite:false
+games/mame/cybattlr.zip;https://archive.org/download/OngoFiles/mame-kuzecores/cybattlr.zip;1269011;a2daa87aa2baa0511f3419cff931ee2c;Kuze;overwrite:false
+games/mame/dirtfoxj.zip;https://archive.org/download/OngoFiles/mame-kuzecores/dirtfoxj.zip;1726344;e306eb8596728091f6502eb315e4145c;Kuze;overwrite:false
+games/mame/dolmen.zip;https://archive.org/download/OngoFiles/mame-kuzecores/dolmen.zip;953455;5fcb3c854bc79d3fde9bc1b16ced3d4c;Kuze;overwrite:false
+games/mame/dsaber.zip;https://archive.org/download/OngoFiles/mame-kuzecores/dsaber.zip;2181904;b92b3494968fde5babcb59a541f81297;Kuze;overwrite:false
+games/mame/finalap2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/finalap2.zip;2274570;97ae030afae3b5f6b9a09048fae5bcc3;Kuze;overwrite:false
+games/mame/finalap3.zip;https://archive.org/download/OngoFiles/mame-kuzecores/finalap3.zip;2684437;e4987eb58f0e25c8f72dcc07cfb6d054;Kuze;overwrite:false
+games/mame/finallap.zip;https://archive.org/download/OngoFiles/mame-kuzecores/finallap.zip;1322535;9b14f537d2f984be4b95f83b99ed5df4;Kuze;overwrite:false
+games/mame/finehour.zip;https://archive.org/download/OngoFiles/mame-kuzecores/finehour.zip;2295314;dd73e1eaf4bd93948cac4064efa77f1e;Kuze;overwrite:false
+games/mame/fourtrax.zip;https://archive.org/download/OngoFiles/mame-kuzecores/fourtrax.zip;2181648;2aca8d78c2a94dc4979313cb1288f980;Kuze;overwrite:false
+games/mame/ginganin.zip;https://archive.org/download/OngoFiles/mame-kuzecores/ginganin.zip;424475;c97a4d8032d425bb88d00e2ef74bf61b;Kuze;overwrite:false
+games/mame/gollygho.zip;https://archive.org/download/OngoFiles/mame-kuzecores/gollygho.zip;696523;49f7d27e6893d3e6fd3391454ccbe9af;Kuze;overwrite:false
+games/mame/grdnstrm.zip;https://archive.org/download/OngoFiles/mame-kuzecores/grdnstrm.zip;6118736;a97dab36bd064292217e070dc19e26a3;Kuze;overwrite:false
+games/mame/gunnail.zip;https://archive.org/download/OngoFiles/mame-kuzecores/gunnail.zip;3332732;9917e0ff3c0f6ba075ea86dc03b8d169;Kuze;overwrite:false
+games/mame/hachamf.zip;https://archive.org/download/OngoFiles/mame-kuzecores/hachamf.zip;2662604;d94fd7b0a2a3bb1904dd93ea66d50e27;Kuze;overwrite:false
+games/mame/hayaosi1.zip;https://archive.org/download/OngoFiles/mame-kuzecores/hayaosi1.zip;1243888;e3a3375678c7d5a21c1bf94efa671e4b;Kuze;overwrite:false
+games/mame/kyukaidk.zip;https://archive.org/download/OngoFiles/mame-kuzecores/kyukaidk.zip;1695784;777606bc47b1995c20de7062490ffa58;Kuze;overwrite:false
+games/mame/lomakai.zip;https://archive.org/download/OngoFiles/mame-kuzecores/lomakai.zip;346117;3da3f7906dcf4e71326cf496d9348730;Kuze;overwrite:false
+games/mame/luckywld.zip;https://archive.org/download/OngoFiles/mame-kuzecores/luckywld.zip;3414075;c5dc9d3344c18a42b8da457a36a5ae28;Kuze;overwrite:false
+games/mame/macross.zip;https://archive.org/download/OngoFiles/mame-kuzecores/macross.zip;4983748;9686eb719e422ce50dbc073a9854defc;Kuze;overwrite:false
+games/mame/macross2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/macross2.zip;3996994;4ad0a84b21455db7cbaf7fbdc1c059b0;Kuze;overwrite:false
+games/mame/macrossp.zip;https://archive.org/download/OngoFiles/mame-kuzecores/macrossp.zip;16024981;840e30b4876afa8521246b1a76b1c3bc;Kuze;overwrite:false
+games/mame/mangchi.zip;https://archive.org/download/OngoFiles/mame-kuzecores/mangchi.zip;506165;d0476937f70d34b131fec7268130b602;Kuze;overwrite:false
+games/mame/manybloc.zip;https://archive.org/download/OngoFiles/mame-kuzecores/manybloc.zip;569634;87eb55795e4a6602b4a211965a1cfaf0;Kuze;overwrite:false
+games/mame/marvland.zip;https://archive.org/download/OngoFiles/mame-kuzecores/marvland.zip;1446674;963a61cea4d6cbb788fb765ea8bb238d;Kuze;overwrite:false
+games/mame/metlhawk.zip;https://archive.org/download/OngoFiles/mame-kuzecores/metlhawk.zip;2107691;677d44d8e1189f1918cf304413576bee;Kuze;overwrite:false
+games/mame/mirninja.zip;https://archive.org/download/OngoFiles/mame-kuzecores/mirninja.zip;1613159;025748d2b99997c07da589a61b2b24e0;Kuze;overwrite:false
+games/mame/mustang.zip;https://archive.org/download/OngoFiles/mame-kuzecores/mustang.zip;2093054;84f446c3c0e14c9038affe5e81080477;Kuze;overwrite:false
+games/mame/namcoc65.zip;https://archive.org/download/OngoFiles/mame-kuzecores/namcoc65.zip;2163;a1037fce8b20a128d87e016ed1655704;Kuze;overwrite:false
+games/mame/namcoc68.zip;https://archive.org/download/OngoFiles/mame-kuzecores/namcoc68.zip;1721;d9541eb18c6c861435d6683f75b2d25c;Kuze;overwrite:false
+games/mame/nouryoku.zip;https://archive.org/download/OngoFiles/mame-kuzecores/nouryoku.zip;5339564;90212341161308b914183288a57eef19;Kuze;overwrite:false
+games/mame/ordyne.zip;https://archive.org/download/OngoFiles/mame-kuzecores/ordyne.zip;1423893;0dee7110620c84d64c8180b52beb1b20;Kuze;overwrite:false
+games/mame/peekaboo.zip;https://archive.org/download/OngoFiles/mame-kuzecores/peekaboo.zip;1407775;22c47dc19cb1aafca9ed4120f39c8939;Kuze;overwrite:false
+games/mame/phelios.zip;https://archive.org/download/OngoFiles/mame-kuzecores/phelios.zip;1613036;c696a10ddb980fe780637ce55b9fd6e2;Kuze;overwrite:false
+games/mame/popspops.zip;https://archive.org/download/OngoFiles/mame-kuzecores/popspops.zip;1926408;38112904e914ff6c40e30cb61bac667e;Kuze;overwrite:false
+games/mame/powerins.zip;https://archive.org/download/OngoFiles/mame-kuzecores/powerins.zip;22322731;657eab6d2a310b1912bcb80af3319f9e;Kuze;overwrite:false
+games/mame/puzlwrld.zip;https://archive.org/download/OngoFiles/mame-kuzecores/puzlwrld.zip;600691;64ba266f7b89e379a5d140e982526251;Kuze;overwrite:false
+games/mame/quizmoon.zip;https://archive.org/download/OngoFiles/mame-kuzecores/quizmoon.zip;23097005;4e4372360aeb2450ed076e5e589bf7c0;Kuze;overwrite:false
+games/mame/rthun2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/rthun2.zip;2073294;752b5284bccd85baa60cde7df5eaf8ac;Kuze;overwrite:false
+games/mame/sabotenb.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sabotenb.zip;4163102;455b751e869fef1927277700d09aaa05;Kuze;overwrite:false
+games/mame/sandscrp.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sandscrp.zip;1771401;1507f9280ab7d869f63e61e2206bc879;Kuze;overwrite:false
+games/mame/sgunner.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sgunner.zip;2151257;b1a01f3ebed20f2f5c043ca9775a31d0;Kuze;overwrite:false
+games/mame/sgunner2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sgunner2.zip;2980041;22e50349aced600f556d24d9030fcad4;Kuze;overwrite:false
+games/mame/spec2k.zip;https://archive.org/download/OngoFiles/mame-kuzecores/spec2k.zip;7880950;0bc287196f302c01ef40c4f515e93005;Kuze;overwrite:false
+games/mame/ssmissin.zip;https://archive.org/download/OngoFiles/mame-kuzecores/ssmissin.zip;1032359;cc449c1d3e1f4d7952a559bcf68c66f7;Kuze;overwrite:false
+games/mame/stagger1.zip;https://archive.org/download/OngoFiles/mame-kuzecores/stagger1.zip;5400036;da77e06dfeaa60ce164a206be55cfb36;Kuze;overwrite:false
+games/mame/strahl.zip;https://archive.org/download/OngoFiles/mame-kuzecores/strahl.zip;1970436;2aaa40e97d0956a54edb9bb372ffd058;Kuze;overwrite:false
+games/mame/suzuk8h2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/suzuk8h2.zip;3605467;e38c58b0a1a8cbdf5d94c50520fc8d53;Kuze;overwrite:false
+games/mame/suzuka8h.zip;https://archive.org/download/OngoFiles/mame-kuzecores/suzuka8h.zip;2438327;2a9c84a48d9c16e69fa65406c2b984dd;Kuze;overwrite:false
+games/mame/sws.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sws.zip;1626871;f7d8e56a4c437be14c0e1c9e6f764c18;Kuze;overwrite:false
+games/mame/sws92.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sws92.zip;2078712;ad61491aea5194aa4df1a534b0ac96c8;Kuze;overwrite:false
+games/mame/sws93.zip;https://archive.org/download/OngoFiles/mame-kuzecores/sws93.zip;2010159;0fe75a23350f33c69c60bda64e8790e1;Kuze;overwrite:false
+games/mame/tdragon2.zip;https://archive.org/download/OngoFiles/mame-kuzecores/tdragon2.zip;7010483;08a1be8477e66898dc36db8416405280;Kuze;overwrite:false
+games/mame/tharrier.zip;https://archive.org/download/OngoFiles/mame-kuzecores/tharrier.zip;2620601;fa07e0daec8bd1330a9a07f0cf4d9086;Kuze;overwrite:false
+games/mame/tomagic.zip;https://archive.org/download/OngoFiles/mame-kuzecores/tomagic.zip;768569;1bdbf74dfd325e2c5560e7bcb834e639;Kuze;overwrite:false
+games/mame/twinactn.zip;https://archive.org/download/OngoFiles/mame-kuzecores/twinactn.zip;754338;0e9fa55a94ff77990c0262c9a36e414e;Kuze;overwrite:false
+games/mame/valkyrie.zip;https://archive.org/download/OngoFiles/mame-kuzecores/valkyrie.zip;1571621;e918efc2ffbe178c95321154512482b6;Kuze;overwrite:false
+games/mame/vandyke.zip;https://archive.org/download/OngoFiles/mame-kuzecores/vandyke.zip;2630301;eb22d68ba816cc7c2559cf00cd609211;Kuze;overwrite:false
+;;;;;
+games/mame/archrivl.zip;https://archive.org/download/OngoFiles/mame-mcr68/archrivl.zip;572150;94b39fc17d51efe1f25cc407d19831af;Mcr68;overwrite:false
+games/mame/blasted.zip;https://archive.org/download/OngoFiles/mame-mcr68/blasted.zip;882570;1cb6c3b1b7543809df0438a89277a16d;Mcr68;overwrite:false
+games/mame/pigskin.zip;https://archive.org/download/OngoFiles/mame-mcr68/pigskin.zip;831104;3084f077075c7f0f3534fd07ec7a356b;Mcr68;overwrite:false
+games/mame/xenophob.zip;https://archive.org/download/OngoFiles/mame-mcr68/xenophob.zip;392223;46c606a74e9d5019279c984765b9e708;Mcr68;overwrite:false
+;;;;;
+games/mame/docastle.zip;https://archive.org/download/OngoFiles/mame-mrdo/docastle.zip;108719;dc0e6a8a46aff4ca204d07ab50636359;Mrdo;overwrite:false
+games/mame/dorunrun.zip;https://archive.org/download/OngoFiles/mame-mrdo/dorunrun.zip;169184;ec8735bc15fe1397295903808640fbdd;Mrdo;overwrite:false
+games/mame/dowild.zip;https://archive.org/download/OngoFiles/mame-mrdo/dowild.zip;43654;d9e69a1ca465c6ca8b5c889e9b098d61;Mrdo;overwrite:false
+games/mame/idsoccer.zip;https://archive.org/download/OngoFiles/mame-mrdo/idsoccer.zip;205782;d7c5024219820bf1a48bb3305c7cf077;Mrdo;overwrite:false
+games/mame/jjack.zip;https://archive.org/download/OngoFiles/mame-mrdo/jjack.zip;44209;f1a0bc6f256b60cdc69a8300eda9d4e2;Mrdo;overwrite:false
+games/mame/kickridr.zip;https://archive.org/download/OngoFiles/mame-mrdo/kickridr.zip;37835;69b10861eaf60abef3edb3727296fa65;Mrdo;overwrite:false
+;;;;;
+games/mame/bkrtmaq.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/bkrtmaq.zip;1654982;f2b8f3ec14179d984d1ecf2da11ce9f0;Namcona1-2;overwrite:false
+games/mame/cgangpzl.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/cgangpzl.zip;974882;46e2fdf6cd8c51100e08037e29b64862;Namcona1-2;overwrite:false
+games/mame/emeralda.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/emeralda.zip;2310344;058913ff5bbcfee70e2a9e31b4d4b0e5;Namcona1-2;overwrite:false
+games/mame/exvania.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/exvania.zip;1484592;6ad08b7cce29083bf086b1c6043b5f7b;Namcona1-2;overwrite:false
+games/mame/fghtatck.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/fghtatck.zip;1985445;cb877be9fcce7887e90418bba3d1a87d;Namcona1-2;overwrite:false
+games/mame/knckhead.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/knckhead.zip;5430048;caa380df6950a27b79a86ee996eb3556;Namcona1-2;overwrite:false
+games/mame/namcoc69.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/namcoc69.zip;7771;ad9af7a9560cad74f1644328213748f6;Namcona1-2;overwrite:false
+games/mame/namcoc70.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/namcoc70.zip;7822;aa569a303793510b2b4173480148de4b;Namcona1-2;overwrite:false
+games/mame/numanath.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/numanath.zip;4444634;9ed7d331eeb16ed96a7fd0c00382406d;Namcona1-2;overwrite:false
+games/mame/quiztou.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/quiztou.zip;2779090;67b8309a13422cf51b60c8e6b04f1205;Namcona1-2;overwrite:false
+games/mame/swcourt.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/swcourt.zip;3241996;20f8908f0ad6e19dd6b57692f4288d5a;Namcona1-2;overwrite:false
+games/mame/tinklpit.zip;https://archive.org/download/OngoFiles/mame-namcona1na2/tinklpit.zip;2246626;e9a7a61d3843cf9164e9c887b13a4c49;Namcona1-2;overwrite:false
+;;;;;
+games/mame/gslgr94u.zip;https://archive.org/download/OngoFiles/mame-namconb1/gslgr94u.zip;10167077;5a6a5cdddef3f28e423213e699ea0291;Namcob1;overwrite:false
+games/mame/gslugrsj.zip;https://archive.org/download/OngoFiles/mame-namconb1/gslugrsj.zip;3822210;e95781b6fe988fe994bc2ea43ef36544;Namcob1;overwrite:false
+games/mame/namcoc75.zip;https://archive.org/download/OngoFiles/mame-namconb1/namcoc75.zip;8709;17516c33298e52424ffb58afc2ad208c;Namcob1;overwrite:false
+games/mame/nebulray.zip;https://archive.org/download/OngoFiles/mame-namconb1/nebulray.zip;19467713;39b5ff379c65ea96f265ba77eecf0183;Namcob1;overwrite:false
+games/mame/ptblank.zip;https://archive.org/download/OngoFiles/mame-namconb1/ptblank.zip;6023436;4eb46870236573bcfb289cd406376940;Namcob1;overwrite:false
+games/mame/sws95.zip;https://archive.org/download/OngoFiles/mame-namconb1/sws95.zip;3428540;26c03ecf5ad17911a7c079927e021a88;Namcob1;overwrite:false
+games/mame/sws96.zip;https://archive.org/download/OngoFiles/mame-namconb1/sws96.zip;3455578;a669846ab11ae5c91513082b732b99f5;Namcob1;overwrite:false
+games/mame/sws97.zip;https://archive.org/download/OngoFiles/mame-namconb1/sws97.zip;3453442;d034843f198992cab685a8fe2c9dcb22;Namcob1;overwrite:false
+games/mame/vshoot.zip;https://archive.org/download/OngoFiles/mame-namconb1/vshoot.zip;5004115;8e0ff95cbe52ceb6a26a06e8f2b4f41d;Namcob1;overwrite:false
+;;;;;
+games/mame/machbrkr.zip;https://archive.org/download/OngoFiles/mame-namconb2/machbrkr.zip;11937975;b3c2787a75b4093dec188fe0b9c9f69e;Namcob2;overwrite:false
+games/mame/outfxies.zip;https://archive.org/download/OngoFiles/mame-namconb2/outfxies.zip;15021127;c86a16f6d77f94a24f46519fc9726a31;Namcob2;overwrite:false
+;;;;;overwrite:false
+games/mame/ncv1.zip;https://archive.org/download/OngoFiles/mame-namcond1/ncv1.zip;2794680;a47218b946bcd8e54ad349e037e2a68b;Namcod1;overwrite:false
+games/mame/ncv2.zip;https://archive.org/download/OngoFiles/mame-namcond1/ncv2.zip;3362803;56fd3de335ae9304243f14ac687b9385;Namcod1;overwrite:false
+;;;;;
+games/mame/danceyes.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/danceyes.zip;20679823;e70d3ad5aef0d7275301b7712770cec2;System11;overwrite:false
+games/mame/dunkmnia.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/dunkmnia.zip;9587978;b54e8a95529a1b22a16957d33537a43c;System11;overwrite:false
+games/mame/fambowl.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/fambowl.zip;5356849;73ca0fa4048344a8199ad09c0f335b83;System11;overwrite:false
+games/mame/myangel3.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/myangel3.zip;22413120;0c16ab6cffac30c1c3cb987124e7b929;System11;overwrite:false
+games/mame/namcoc76.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/namcoc76.zip;9579;c0e177c75fa95ae46143e0609f58caaa;System11;overwrite:false
+games/mame/pocketrc.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/pocketrc.zip;5313177;3003d825a37f29d1457cd78416a4ddf9;System11;overwrite:false
+games/mame/primglex.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/primglex.zip;9897456;3fd8cb653e71e9beae87d23d6d80ac11;System11;overwrite:false
+games/mame/ptblank2.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/ptblank2.zip;30763416;1977aa9190182b9acdedafc855fa69bc;System11;overwrite:false
+games/mame/souledge.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/souledge.zip;25737673;fd8e3d8ee1aa9d26651b2ec9dbb940ba;System11;overwrite:false
+games/mame/starswep.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/starswep.zip;3748766;99f65cfef7a480a7b2a435912a7466b2;System11;overwrite:false
+games/mame/tekken.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/tekken.zip;19067076;3a5fb15831ef80dada2360d0ba175011;System11;overwrite:false
+games/mame/tekken2.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/tekken2.zip;34807990;522d3caae0aea97bd3a61991c7537a22;System11;overwrite:false
+games/mame/xevi3dg.zip;https://archive.org/download/OngoFiles/mame-namcosystem11/xevi3dg.zip;17759492;54bfaaf0c61c65fa113bd1c064df31ab;System11;overwrite:false
+;;;;;
+games/mame/aquarush.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/aquarush.zip;12094823;04412c28864be9a6d678fa74f355f91e;System12;overwrite:false
+games/mame/ehrgeiz.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/ehrgeiz.zip;32316959;716a344e40e98ea7e035db3bc947e26f;System12;overwrite:false
+games/mame/fgtlayer.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/fgtlayer.zip;26282296;98dabc118e9020eaf424b5b5ee0eafcb;System12;overwrite:false
+games/mame/ghlpanic.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/ghlpanic.zip;12427096;315e0f7b0d81e6d37dbe943e874c71c6;System12;overwrite:false
+games/mame/lbgrande.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/lbgrande.zip;11876558;8706b6b07ad3a526f28cefe7638952cb;System12;overwrite:false
+games/mame/mrdrillr.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/mrdrillr.zip;12772919;0ae23b1e6af5812a13c4b26db476e863;System12;overwrite:false
+games/mame/pacapp.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/pacapp.zip;13418383;7ec288f0e3030aa2e45425439746ae96;System12;overwrite:false
+games/mame/pacapp2.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/pacapp2.zip;18543189;80153666b2fcb40ae4563928f48fdc1b;System12;overwrite:false
+games/mame/pacappsp.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/pacappsp.zip;18744920;f40131f9f7f7f033d0d3eacb36da6a6c;System12;overwrite:false
+games/mame/soulclbr.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/soulclbr.zip;57003349;f980e08b32869860d3c45cdc22c721d5;System12;overwrite:false
+games/mame/sws98.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/sws98.zip;15733251;816e768f0a5e8a204f68cd58f71ef144;System12;overwrite:false
+games/mame/sws99.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/sws99.zip;18921800;46ffb44cb88755d622af13b9b70bf903;System12;overwrite:false
+games/mame/tekken3.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/tekken3.zip;63983697;32cca10a4195adc3ed2a7ea470815143;System12;overwrite:false
+games/mame/tektagt.zip;https://archive.org/download/OngoFiles/mame-namcosystem12/tektagt.zip;130601575;8c350b94c7529ca4ba8d13c82151e94a;System12;overwrite:false
+;;;;;
+games/mame/namcoc71.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/namcoc71.zip;2756;820432925f6fa45cd6ccd44db8afdb58;System22;overwrite:false
+games/mame/namcoc74.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/namcoc74.zip;6936;49051be5627d94a0c8b1baf7c24c4ba6;System22;overwrite:false
+games/mame/propcycl.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/propcycl.zip;28856481;9817a8c9511fff9c8a88965fc7eb99b6;System22;overwrite:false
+games/mame/raverace.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/raverace.zip;23532832;273b83f9012fc21f9be54bbe7603f050;System22;overwrite:false
+games/mame/ridgera2.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/ridgera2.zip;9063282;2749c14a6ede6393d000cede0da923ea;System22;overwrite:false
+games/mame/ridgerac.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/ridgerac.zip;8910639;970bc7d047988fc7ee3ef2af69bf68d4;System22;overwrite:false
+games/mame/timecris.zip;https://archive.org/download/OngoFiles/mame-namcosystem22/timecris.zip;30868242;d635c5b257bdefa667e6f56cce0a62e7;System22;overwrite:false
+;;;;;
+games/mame/finalapr.zip;https://archive.org/download/OngoFiles/mame-namcosystemfl/finalapr.zip;6084503;a426a370d388c773b710dc8b4b082820;Systemfl;overwrite:false
+games/mame/namcoc75.zip;https://archive.org/download/OngoFiles/mame-namcosystemfl/namcoc75.zip;8709;17516c33298e52424ffb58afc2ad208c;Systemfl;overwrite:false
+games/mame/speedrcr.zip;https://archive.org/download/OngoFiles/mame-namcosystemfl/speedrcr.zip;8968455;629b1ac40bc33b166f5525c2acdc42b3;Systemfl;overwrite:false
+;;;;;
+games/mame/mcatadv.zip;https://archive.org/download/OngoFiles/mame-nostradamus/mcatadv.zip;4485469;a6f90f943860325071a76c18d69ca5d7;Nostradamus;overwrite:false
+games/mame/nost.zip;https://archive.org/download/OngoFiles/mame-nostradamus/nost.zip;3189195;a1c997e911c4c5ff406d25486d2f2859;Nostradamus;overwrite:false
+;;;;;
+games/mame/model1io.zip;https://archive.org/download/OngoFiles/mame-segamodel1/model1io.zip;4700;804ad0e72a9e18b67dfcf630f5b79985;Model1;overwrite:false
+games/mame/swa.zip;https://archive.org/download/OngoFiles/mame-segamodel1/swa.zip;16533461;d3433f7d6ba1a34cef4cbd0deaa899cc;Model1;overwrite:false
+games/mame/vr.zip;https://archive.org/download/OngoFiles/mame-segamodel1/vr.zip;10339655;34b7ea0a8c7c97d1d7c17b9a3899e863;Model1;overwrite:false
+;;;;;
+games/mame/bnzabros.zip;https://archive.org/download/OngoFiles/mame-segas24/bnzabros.zip;1392105;4f79272bb2b558b546d93ca2db7a1654;Segas24;overwrite:false
+games/mame/crkdown.zip;https://archive.org/download/OngoFiles/mame-segas24/crkdown.zip;2562707;fe5a4ca14d3779edc6d31d0d69cf31dd;Segas24;overwrite:false
+games/mame/gground.zip;https://archive.org/download/OngoFiles/mame-segas24/gground.zip;1488521;16727f271fd7ffca9aad7a8027975aa8;Segas24;overwrite:false
+games/mame/hotrod.zip;https://archive.org/download/OngoFiles/mame-segas24/hotrod.zip;3826843;18ba52b0ee162f0dc7247f918a82fe96;Segas24;overwrite:false
+games/mame/roughrac.zip;https://archive.org/download/OngoFiles/mame-segas24/roughrac.zip;833545;ea95f4777fb5540ec74bb91b55f169ad;Segas24;overwrite:false
+games/mame/sspirits.zip;https://archive.org/download/OngoFiles/mame-segas24/sspirits.zip;1618742;788d0f1506a7a390c4f97bd702e3521d;Segas24;overwrite:false
+;;;;;
+games/mame/alien3.zip;https://archive.org/download/OngoFiles/mame-segas32/alien3.zip;10212851;655750570ba5291943b1d82ba84d6e26;Segas32;overwrite:false
+games/mame/arabfgt.zip;https://archive.org/download/OngoFiles/mame-segas32/arabfgt.zip;9180295;ced2530f3f79c88727028ef5e1a1047a;Segas32;overwrite:false
+games/mame/arescue.zip;https://archive.org/download/OngoFiles/mame-segas32/arescue.zip;5235972;8047da908f7cea0d072236f2d0cb1587;Segas32;overwrite:false
+games/mame/brival.zip;https://archive.org/download/OngoFiles/mame-segas32/brival.zip;12176412;d39fd33f2d27e314041f1b60faa218e3;Segas32;overwrite:false
+games/mame/darkedge.zip;https://archive.org/download/OngoFiles/mame-segas32/darkedge.zip;7879230;1537451eb1348ce5c8f962b116fc5217;Segas32;overwrite:false
+games/mame/dbzvrvs.zip;https://archive.org/download/OngoFiles/mame-segas32/dbzvrvs.zip;8140032;c92ac93c71ac53125230f3264244c946;Segas32;overwrite:false
+games/mame/ga2.zip;https://archive.org/download/OngoFiles/mame-segas32/ga2.zip;9209462;480ad5864963ea4acee9a641aec78fdf;Segas32;overwrite:false
+games/mame/holo.zip;https://archive.org/download/OngoFiles/mame-segas32/holo.zip;5228168;2a17022a5dcd83918bc82d9ea195ee60;Segas32;overwrite:false
+games/mame/jpark.zip;https://archive.org/download/OngoFiles/mame-segas32/jpark.zip;9816614;cec968f5f1c0161798ea6b9bc4aab36f;Segas32;overwrite:false
+games/mame/radm.zip;https://archive.org/download/OngoFiles/mame-segas32/radm.zip;5132449;b6012aa92643928ea3641c77a703d07c;Segas32;overwrite:false
+games/mame/radr.zip;https://archive.org/download/OngoFiles/mame-segas32/radr.zip;4804548;86722806cd222382c0b0d38eb1c07e56;Segas32;overwrite:false
+games/mame/slipstrm.zip;https://archive.org/download/OngoFiles/mame-segas32/slipstrm.zip;2713573;f84a62f7d3096c818e9aa10d194dedc1;Segas32;overwrite:false
+games/mame/sonic.zip;https://archive.org/download/OngoFiles/mame-segas32/sonic.zip;8718189;761fc9cba9f170bf75b80a027498ab07;Segas32;overwrite:false
+games/mame/spidman.zip;https://archive.org/download/OngoFiles/mame-segas32/spidman.zip;6736610;1131f147380a3a02a2d181d5245adf8a;Segas32;overwrite:false
+games/mame/svf.zip;https://archive.org/download/OngoFiles/mame-segas32/svf.zip;9347576;34c6b6d2791ca32327886f26f32d67c2;Segas32;overwrite:false
+;;;;;
+games/mame/harddunk.zip;https://archive.org/download/OngoFiles/mame-segas32multi/harddunk.zip;6506779;9dbfcde721155e32c856ae17b37c69a7;Segas32M;overwrite:false
+games/mame/orunners.zip;https://archive.org/download/OngoFiles/mame-segas32multi/orunners.zip;12407407;1f4ffb737569fcc4fe75f75dda478ce6;Segas32M;overwrite:false
+games/mame/scross.zip;https://archive.org/download/OngoFiles/mame-segas32multi/scross.zip;5398446;f3755401c5e39538afb1b5abed839d68;Segas32M;overwrite:false
+games/mame/titlef.zip;https://archive.org/download/OngoFiles/mame-segas32multi/titlef.zip;5897492;29a766913d3cc2f3ac5aa57e6804a5af;Segas32M;overwrite:false
+;;;;;
+games/mame/anpanman.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/anpanman.zip;406537;8f6b0fec816b74d9826ae63cbd8137b6;Systemc2;overwrite:false
+games/mame/bloxeedc.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/bloxeedc.zip;218977;b3191fa7d9d84b62b54b5384b6710035;Systemc2;overwrite:false
+games/mame/bloxeedu.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/bloxeedu.zip;218942;7eec6261bcb8d17754ad77d4829fda47;Systemc2;overwrite:false
+games/mame/borench.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/borench.zip;442627;ea68624048b9c0504488f72a2f1ddc19;Systemc2;overwrite:false
+games/mame/columns.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/columns.zip;212088;5b66b43f65bcb4bbfdd0b499871e475d;Systemc2;overwrite:false
+games/mame/columns2.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/columns2.zip;258825;2ee8d35bb443a2436f3e69b38787b35e;Systemc2;overwrite:false
+games/mame/headonch.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/headonch.zip;766175;1c7ea966a23254b5229269b7641ccf0f;Systemc2;overwrite:false
+games/mame/ichir.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/ichir.zip;2917770;0ddf0a06ece50e7c52328771d92930ff;Systemc2;overwrite:false
+games/mame/ooparts.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/ooparts.zip;875336;77a227753a4e8c6edde64f86972947f2;Systemc2;overwrite:false
+games/mame/pclubj.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/pclubj.zip;521141;4944980e7a5979fc4d72cced715d7da2;Systemc2;overwrite:false
+games/mame/pclubjv2.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv2.zip;995348;a88b05b7757b94442b84e7ed2a0ed696;Systemc2;overwrite:false
+games/mame/pclubjv3.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv3.zip;470069;d5080f7142a224e557133a49719d6180;Systemc2;overwrite:false
+games/mame/pclubjv4.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv4.zip;472119;ae2331efc616058248dc076a761642d0;Systemc2;overwrite:false
+games/mame/pclubjv5.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/pclubjv5.zip;510619;be1d745411da87e1a26ad4d0894cf370;Systemc2;overwrite:false
+games/mame/potopoto.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/potopoto.zip;231072;9e0f2e2c7f64078db436b58f3e864a36;Systemc2;overwrite:false
+games/mame/puyo.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/puyo.zip;1273925;ffa39264c5c61b69e75684101f715779;Systemc2;overwrite:false
+games/mame/puyopuy2.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/puyopuy2.zip;1095313;978a9a6b0337859ed27e32dce5f338b4;Systemc2;overwrite:false
+games/mame/ribbit.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/ribbit.zip;930208;c7678b85a3a34f7193ac661db0ca266d;Systemc2;overwrite:false
+games/mame/soniccar.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/soniccar.zip;359312;2d961721af01c03cc5486094228790e3;Systemc2;overwrite:false
+games/mame/sonicfgt.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/sonicfgt.zip;712692;63cee2054841bb626871c9735be4d81f;Systemc2;overwrite:false
+games/mame/sonicpop.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/sonicpop.zip;375267;0f056e9c8c2bad0bc7a63cf75b83b543;Systemc2;overwrite:false
+games/mame/ssonicbr.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/ssonicbr.zip;229039;2d04aa7dd8a8d32605eb6a01c9cf30c1;Systemc2;overwrite:false
+games/mame/stkclmns.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/stkclmns.zip;923754;e261cc4f2d495f8af04a316b3a9dbdb0;Systemc2;overwrite:false
+games/mame/tantr.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/tantr.zip;3018105;cc97c44662b14249010f32009f4040a0;Systemc2;overwrite:false
+games/mame/tfrceac.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/tfrceac.zip;1738252;a8f541d27c437a4dd04a5aaeef846617;Systemc2;overwrite:false
+games/mame/twinsqua.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/twinsqua.zip;389514;72a416f693432509a0ddedbe7a14c692;Systemc2;overwrite:false
+games/mame/wwanpanm.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/wwanpanm.zip;417420;9dd257273d896a911cbcde95f38f4d36;Systemc2;overwrite:false
+games/mame/wwjumbo.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/wwjumbo.zip;190764;f129218bf316423618db518b80837a4b;Systemc2;overwrite:false
+games/mame/wwmarine.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/wwmarine.zip;312888;6870c0463c8f0e1f65e836a6ccf63564;Systemc2;overwrite:false
+games/mame/wwpajero.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/wwpajero.zip;201495;0978ed6d5ebc6735ac53cf3f5e9628b2;Systemc2;overwrite:false
+games/mame/zunkyou.zip;https://archive.org/download/OngoFiles/mame-segasystemc2/zunkyou.zip;950219;9d4f6d8e407952fc076214152b92ada3;Systemc2;overwrite:false
+;;;;;
+games/mame/gforce2.zip;https://archive.org/download/OngoFiles/mame-segayboard/gforce2.zip;3404138;0abc7efac39e390f43656f7b4397835d;Segayboard;overwrite:false
+games/mame/gloc.zip;https://archive.org/download/OngoFiles/mame-segayboard/gloc.zip;9291693;cdb5d431af0afc800f5c614c373cb578;Segayboard;overwrite:false
+games/mame/pdrift.zip;https://archive.org/download/OngoFiles/mame-segayboard/pdrift.zip;4610975;14b57e0715ff90d79f6a0fe9a2634756;Segayboard;overwrite:false
+games/mame/rchase.zip;https://archive.org/download/OngoFiles/mame-segayboard/rchase.zip;6374386;c5a3b81ddcd45f33ac9abbddef495359;Segayboard;overwrite:false
+games/mame/strkfgtr.zip;https://archive.org/download/OngoFiles/mame-segayboard/strkfgtr.zip;6479552;17dcea68fc7a12ec8c87b58ded89afae;Segayboard;overwrite:false
+;;;;;
+games/mame/ejanhs.zip;https://archive.org/download/OngoFiles/mame-seibuspi/ejanhs.zip;7604443;0c63c03f2b31e56d4a80b5ab718193d6;Seibu;overwrite:false
+games/mame/rdft.zip;https://archive.org/download/OngoFiles/mame-seibuspi/rdft.zip;20005155;a77f82550f7cf3f6d22dcbfec78965cf;Seibu;overwrite:false
+games/mame/rdft2.zip;https://archive.org/download/OngoFiles/mame-seibuspi/rdft2.zip;20557444;a8fd6daa759c808faf78a18467c34304;Seibu;overwrite:false
+games/mame/rfjet.zip;https://archive.org/download/OngoFiles/mame-seibuspi/rfjet.zip;21446511;90c85ebcb68fa777480ee8a3b692fe11;Seibu;overwrite:false
+games/mame/senkyu.zip;https://archive.org/download/OngoFiles/mame-seibuspi/senkyu.zip;10887410;be5d5402c127143987b56bb070aa2982;Seibu;overwrite:false
+games/mame/viprp1.zip;https://archive.org/download/OngoFiles/mame-seibuspi/viprp1.zip;17156883;1236fb70610979e465c5b1c2f4ca8780;Seibu;overwrite:false
+;;;;;
+games/mame/arbalest.zip;https://archive.org/download/OngoFiles/mame-seta/arbalest.zip;2099871;6d123edc111d55a78d79cd68e06ab05f;Seta;overwrite:false
+games/mame/atehate.zip;https://archive.org/download/OngoFiles/mame-seta/atehate.zip;1967252;6aac0b2b8b9c31b20abc3b9eeb389d03;Seta;overwrite:false
+games/mame/blandia.zip;https://archive.org/download/OngoFiles/mame-seta/blandia.zip;6996255;4fa9bce31b052c243747b3dcce5fc11d;Seta;overwrite:false
+games/mame/blockcar.zip;https://archive.org/download/OngoFiles/mame-seta/blockcar.zip;1866471;8b39bbcb991793ba8262177efe81fe2b;Seta;overwrite:false
+games/mame/daioh.zip;https://archive.org/download/OngoFiles/mame-seta/daioh.zip;12700846;74c9b667c6ee1f69804eb2948350b4eb;Seta;overwrite:false
+games/mame/downtown.zip;https://archive.org/download/OngoFiles/mame-seta/downtown.zip;1808798;6e4c87f1486e8a3f058a064bad076f83;Seta;overwrite:false
+games/mame/drgnunit.zip;https://archive.org/download/OngoFiles/mame-seta/drgnunit.zip;1821007;40ec461642b784105a218c25d35bfca9;Seta;overwrite:false
+games/mame/eightfrc.zip;https://archive.org/download/OngoFiles/mame-seta/eightfrc.zip;2973386;cafa9dc2122be9335a04338288a61f10;Seta;overwrite:false
+games/mame/extdwnhl.zip;https://archive.org/download/OngoFiles/mame-seta/extdwnhl.zip;3869597;54ae438974139e7873e51a1807f91027;Seta;overwrite:false
+games/mame/gundhara.zip;https://archive.org/download/OngoFiles/mame-seta/gundhara.zip;10942952;73b150cc8a5e50fd9c18a37a950e733d;Seta;overwrite:false
+games/mame/jjsquawk.zip;https://archive.org/download/OngoFiles/mame-seta/jjsquawk.zip;8296845;d38cea9630d86502214a4c0d1ede9711;Seta;overwrite:false
+games/mame/kamenrid.zip;https://archive.org/download/OngoFiles/mame-seta/kamenrid.zip;1645002;dd5be3f5b58092d1c3ff64b886b95261;Seta;overwrite:false
+games/mame/madshark.zip;https://archive.org/download/OngoFiles/mame-seta/madshark.zip;3833215;193b09791ce3504618252bc2f7cb706a;Seta;overwrite:false
+games/mame/magspeed.zip;https://archive.org/download/OngoFiles/mame-seta/magspeed.zip;1457668;4a6ebbb047ed8d880f07be9dce410799;Seta;overwrite:false
+games/mame/metafox.zip;https://archive.org/download/OngoFiles/mame-seta/metafox.zip;2179349;b4933445cf5956fb044c2647e61ad60f;Seta;overwrite:false
+games/mame/msgundam.zip;https://archive.org/download/OngoFiles/mame-seta/msgundam.zip;5086055;f001a138f3d0a2da9ee35a2045323d0f;Seta;overwrite:false
+games/mame/neobattl.zip;https://archive.org/download/OngoFiles/mame-seta/neobattl.zip;1231676;4a27ba9259f5d1d70318e5b9c5416715;Seta;overwrite:false
+games/mame/oisipuzl.zip;https://archive.org/download/OngoFiles/mame-seta/oisipuzl.zip;5000993;3cfc3db9b5a9c1196389101e5d9235d2;Seta;overwrite:false
+games/mame/pairlove.zip;https://archive.org/download/OngoFiles/mame-seta/pairlove.zip;611159;137d3ce5e0327bbad44dfe7efae47ffd;Seta;overwrite:false
+games/mame/qzkklgy2.zip;https://archive.org/download/OngoFiles/mame-seta/qzkklgy2.zip;1769563;4a86eecd15b10ebac67c7e4ff7484b30;Seta;overwrite:false
+games/mame/qzkklogy.zip;https://archive.org/download/OngoFiles/mame-seta/qzkklogy.zip;1490288;9b4f6f45dd11ba7e6134a29d07c28045;Seta;overwrite:false
+games/mame/rezon.zip;https://archive.org/download/OngoFiles/mame-seta/rezon.zip;1288950;6b35ed8c9fd2c39196e659ae190ee1e3;Seta;overwrite:false
+games/mame/sokonuke.zip;https://archive.org/download/OngoFiles/mame-seta/sokonuke.zip;1678327;f8cf10ad021b0fdea76294abf5b5725b;Seta;overwrite:false
+games/mame/stg.zip;https://archive.org/download/OngoFiles/mame-seta/stg.zip;1753760;eafe1108effcef531df209df434f617b;Seta;overwrite:false
+games/mame/thunderl.zip;https://archive.org/download/OngoFiles/mame-seta/thunderl.zip;1194597;144ec37110f2d5f0a6030d30cf15ddae;Seta;overwrite:false
+games/mame/tndrcade.zip;https://archive.org/download/OngoFiles/mame-seta/tndrcade.zip;866393;f72fce9d18dd6d6a6c75cbb3107e101c;Seta;overwrite:false
+games/mame/twineagl.zip;https://archive.org/download/OngoFiles/mame-seta/twineagl.zip;2477358;63ad4ebfeb0717eed431c444bdc719d9;Seta;overwrite:false
+games/mame/umanclub.zip;https://archive.org/download/OngoFiles/mame-seta/umanclub.zip;1202336;b859ccabea72748f4ea49b89575e9aa8;Seta;overwrite:false
+games/mame/wits.zip;https://archive.org/download/OngoFiles/mame-seta/wits.zip;465517;8cbc72045eac86167abb3e16da2e3968;Seta;overwrite:false
+games/mame/wrofaero.zip;https://archive.org/download/OngoFiles/mame-seta/wrofaero.zip;1415393;48e840f5779f1412ed953f4ad40e6597;Seta;overwrite:false
+games/mame/zingzip.zip;https://archive.org/download/OngoFiles/mame-seta/zingzip.zip;4191731;70df833f41ac3ef98c3894a889bf8e4d;Seta;overwrite:false
+games/mame/zombraid.zip;https://archive.org/download/OngoFiles/mame-seta/zombraid.zip;13703913;b31797722054ab79b3e513cf1828b000;Seta;overwrite:false
+;;;;;
+games/mame/1945kiii.zip;https://archive.org/download/OngoFiles/mame-shmupfan/1945kiii.zip;9740236;aba0d1498925fcc21d0857cc36cca22a;Shmupfan;overwrite:false
+games/mame/bluehawk.zip;https://archive.org/download/OngoFiles/mame-shmupfan/bluehawk.zip;804683;bb308bcc0c9c64457fce7d4377824fae;Shmupfan;overwrite:false
+games/mame/flagrall.zip;https://archive.org/download/OngoFiles/mame-shmupfan/flagrall.zip;1887701;8dbca21fbfd3aebff1909c217e4c9d3e;Shmupfan;overwrite:false
+games/mame/flytiger.zip;https://archive.org/download/OngoFiles/mame-shmupfan/flytiger.zip;1214330;1513eb9b3244622502d8f6f45581afd0;Shmupfan;overwrite:false
+games/mame/fstarfrc.zip;https://archive.org/download/OngoFiles/mame-shmupfan/fstarfrc.zip;1254139;bbf34c63b5071121850f902000c50c2c;Shmupfan;overwrite:false
+games/mame/ginkun.zip;https://archive.org/download/OngoFiles/mame-shmupfan/ginkun.zip;1064582;3722d3875b9cbfaa7f6506f23a664b88;Shmupfan;overwrite:false
+games/mame/gondo.zip;https://archive.org/download/OngoFiles/mame-shmupfan/gondo.zip;565252;fdf61682ab9da56ae84a11f363e2aee1;Shmupfan;overwrite:false
+games/mame/gulfstrm.zip;https://archive.org/download/OngoFiles/mame-shmupfan/gulfstrm.zip;678139;2208d6716f4a68b971476b3599a65c94;Shmupfan;overwrite:false
+games/mame/gundl94.zip;https://archive.org/download/OngoFiles/mame-shmupfan/gundl94.zip;693087;13692bcf66a50f303aacd9dba40a0e4f;Shmupfan;overwrite:false
+games/mame/lastday.zip;https://archive.org/download/OngoFiles/mame-shmupfan/lastday.zip;556406;e20aec266181e48b9fcd5729975db3cf;Shmupfan;overwrite:false
+games/mame/lastmisn.zip;https://archive.org/download/OngoFiles/mame-shmupfan/lastmisn.zip;296311;e395302a55102b7f1c6441d477ae7c13;Shmupfan;overwrite:false
+games/mame/pollux.zip;https://archive.org/download/OngoFiles/mame-shmupfan/pollux.zip;658725;93e44ad6c71dc0cc6f234a21c2bfe0e6;Shmupfan;overwrite:false
+games/mame/popbingo.zip;https://archive.org/download/OngoFiles/mame-shmupfan/popbingo.zip;984941;07157d676d27f5d67b649a19c40d3f11;Shmupfan;overwrite:false
+games/mame/riot.zip;https://archive.org/download/OngoFiles/mame-shmupfan/riot.zip;1592219;da81d79a0a9dbe69ecba809998a7b561;Shmupfan;overwrite:false
+games/mame/rshark.zip;https://archive.org/download/OngoFiles/mame-shmupfan/rshark.zip;2695123;dcf81fcc20120af5f8791cb1004d4fe1;Shmupfan;overwrite:false
+games/mame/sadari.zip;https://archive.org/download/OngoFiles/mame-shmupfan/sadari.zip;419961;a8c90040639d6c4a848e53c99bb13265;Shmupfan;overwrite:false
+games/mame/slspirit.zip;https://archive.org/download/OngoFiles/mame-shmupfan/slspirit.zip;3195224;94d44d8982ad7db9921df9c7709f3327;Shmupfan;overwrite:false
+games/mame/srdarwin.zip;https://archive.org/download/OngoFiles/mame-shmupfan/srdarwin.zip;344674;bced1fff872e9095ba5cf85c67f3cd56;Shmupfan;overwrite:false
+games/mame/superx.zip;https://archive.org/download/OngoFiles/mame-shmupfan/superx.zip;1894376;c3569647c8889692e888c93f3f56588d;Shmupfan;overwrite:false
+;;;;;
+games/mame/charlien.zip;https://archive.org/download/OngoFiles/mame-simple156/charlien.zip;3708127;24e81fa3afa4591e86b6bd932fc88c52;Simple156;overwrite:false
+games/mame/joemacr.zip;https://archive.org/download/OngoFiles/mame-simple156/joemacr.zip;5796141;44e6731077d1dbb69155d78c1e651125;Simple156;overwrite:false
+games/mame/osman.zip;https://archive.org/download/OngoFiles/mame-simple156/osman.zip;6627842;710daaf9a88e4de6b2c05743effcba06;Simple156;overwrite:false
+;;;;;
+games/mame/cyvern.zip;https://archive.org/download/OngoFiles/mame-skns/cyvern.zip;14197661;25f7d941b47e4f270bb4c4aa130b249d;Skns;overwrite:false
+games/mame/galpani4.zip;https://archive.org/download/OngoFiles/mame-skns/galpani4.zip;10541425;d73dfef8ec1e57e919365a777e4fceca;Skns;overwrite:false
+games/mame/galpanis.zip;https://archive.org/download/OngoFiles/mame-skns/galpanis.zip;16715742;9254bb9d3ec854458fb5570d24a23892;Skns;overwrite:false
+games/mame/galpans2.zip;https://archive.org/download/OngoFiles/mame-skns/galpans2.zip;19348295;6af4194930d7ce3f5a1b7039078259bf;Skns;overwrite:false
+games/mame/galpans3.zip;https://archive.org/download/OngoFiles/mame-skns/galpans3.zip;9608363;850edd1f016c822d614ef7a9e1c5cefb;Skns;overwrite:false
+games/mame/gutsn.zip;https://archive.org/download/OngoFiles/mame-skns/gutsn.zip;7382002;f613618ac7ed1ac707ddb5bcffa38b65;Skns;overwrite:false
+games/mame/jjparad2.zip;https://archive.org/download/OngoFiles/mame-skns/jjparad2.zip;16117709;7c2fcd04cad810ce4657995bcebbfc72;Skns;overwrite:false
+games/mame/jjparads.zip;https://archive.org/download/OngoFiles/mame-skns/jjparads.zip;10706584;420b3e4828ee7230ad823274f5196600;Skns;overwrite:false
+games/mame/panicstr.zip;https://archive.org/download/OngoFiles/mame-skns/panicstr.zip;8649424;946dec33ad264802e9d36ded7ff07d64;Skns;overwrite:false
+games/mame/puzzloop.zip;https://archive.org/download/OngoFiles/mame-skns/puzzloop.zip;8319632;4f55f43913ebe8cf7634f2ca5c8ca4e3;Skns;overwrite:false
+games/mame/ryouran.zip;https://archive.org/download/OngoFiles/mame-skns/ryouran.zip;14691027;40f30415a2f193516370a180559df16a;Skns;overwrite:false
+games/mame/sengekis.zip;https://archive.org/download/OngoFiles/mame-skns/sengekis.zip;15167386;85f3ae25aa184a9536b7cbaed651cb1d;Skns;overwrite:false
+games/mame/senknow.zip;https://archive.org/download/OngoFiles/mame-skns/senknow.zip;11205177;76f6ecb0e63e202945e045d0238ae06b;Skns;overwrite:false
+games/mame/skns.zip;https://archive.org/download/OngoFiles/mame-skns/skns.zip;924762;3f956c4e7008804cb47cbde49bd5b908;Skns;overwrite:false
+games/mame/teljan.zip;https://archive.org/download/OngoFiles/mame-skns/teljan.zip;10751301;1bf581b9236772761e97cd04f6494a1e;Skns;overwrite:false
+games/mame/vblokbrk.zip;https://archive.org/download/OngoFiles/mame-skns/vblokbrk.zip;3902918;1f7f20ecd680595caf3bb88702bf315a;Skns;overwrite:false
+;;;;;
+games/mame/batsugun.zip;https://archive.org/download/OngoFiles/mame-slopcore/batsugun.zip;5745525;c2bef4241374eb936d9eddaa6b17ecc7;Slop;overwrite:false
+games/mame/bloodstm.zip;https://archive.org/download/OngoFiles/mame-slopcore/bloodstm.zip;11030220;14d1a878072adefe6c0a8ee028666a8a;Slop;overwrite:false
+games/mame/dogyuun.zip;https://archive.org/download/OngoFiles/mame-slopcore/dogyuun.zip;14180014;2104c7aafb752b746417072abcc0ebd5;Slop;overwrite:false
+games/mame/fixeight.zip;https://archive.org/download/OngoFiles/mame-slopcore/fixeight.zip;2960910;ed0a0f98acb76e84871f1dd7ebf14067;Slop;overwrite:false
+games/mame/ghox.zip;https://archive.org/download/OngoFiles/mame-slopcore/ghox.zip;681371;aa39703fba66e411eee5d676ee051cc8;Slop;overwrite:false
+games/mame/grindstm.zip;https://archive.org/download/OngoFiles/mame-slopcore/grindstm.zip;1421667;b6e27f808f3dde7749c883201b2d65f9;Slop;overwrite:false
+games/mame/kbash.zip;https://archive.org/download/OngoFiles/mame-slopcore/kbash.zip;6682794;41fec70c70ca73ca1ecbfdc815e5f2f4;Slop;overwrite:false
+games/mame/sftm.zip;https://archive.org/download/OngoFiles/mame-slopcore/sftm.zip;34891729;bf9ee7e28cd826012029174d53aafa2f;Slop;overwrite:false
+games/mame/timekill.zip;https://archive.org/download/OngoFiles/mame-slopcore/timekill.zip;15291461;925deff4b0e104ce5de3da5809e5207b;Slop;overwrite:false
+;;;;;
+games/mame/cairblad.zip;https://archive.org/download/OngoFiles/mame-ssv/cairblad.zip;13533920;f6a7777922650c300c0a28ce8486c34b;Ssv;overwrite:false
+games/mame/drifto94.zip;https://archive.org/download/OngoFiles/mame-ssv/drifto94.zip;21399827;62f53ccdc51574c2f580942353be6551;Ssv;overwrite:false
+games/mame/dynagear.zip;https://archive.org/download/OngoFiles/mame-ssv/dynagear.zip;6263138;753f03bcf7cb2874f50e706a4e973e21;Ssv;overwrite:false
+games/mame/mslider.zip;https://archive.org/download/OngoFiles/mame-ssv/mslider.zip;7432840;938e7081c02a335dc28211eae10b71f8;Ssv;overwrite:false
+games/mame/stmblade.zip;https://archive.org/download/OngoFiles/mame-ssv/stmblade.zip;7972970;5f8c2b89e1bd7420a3647e3ee3814527;Ssv;overwrite:false
+games/mame/survarts.zip;https://archive.org/download/OngoFiles/mame-ssv/survarts.zip;13301558;a735a52d2fe2f26e50ef0f66da0ebca8;Ssv;overwrite:false
+games/mame/twineag2.zip;https://archive.org/download/OngoFiles/mame-ssv/twineag2.zip;12975682;536dab0bb82100a31e2a243ff987d72e;Ssv;overwrite:false
+games/mame/ultrax.zip;https://archive.org/download/OngoFiles/mame-ssv/ultrax.zip;8700412;ffbd8048637b13726673d00200c60dcd;Ssv;overwrite:false
+games/mame/vasara.zip;https://archive.org/download/OngoFiles/mame-ssv/vasara.zip;16247072;5ea2ebf805030c099f5d227fa145489f;Ssv;overwrite:false
+games/mame/vasara2.zip;https://archive.org/download/OngoFiles/mame-ssv/vasara2.zip;20541683;f5048328745fc095f8753fe562f83ddb;Ssv;overwrite:false
+;;;;;
+games/mame/cheesech.zip;https://archive.org/download/OngoFiles/mame-stoneball/cheesech.zip;1484042;3627b2de71f45fb91374d2df07adb952;Stone;overwrite:false
+games/mame/stonebal.zip;https://archive.org/download/OngoFiles/mame-stoneball/stonebal.zip;3921900;8740eecd98ee57e9fd83b2c54b2ebeb3;Stone;overwrite:false
+games/mame/ultennis.zip;https://archive.org/download/OngoFiles/mame-stoneball/ultennis.zip;1650342;10ed679ebaeb957075e6e37584db2f4b;Stone;overwrite:false
+;;;;;
+games/mame/brickzn.zip;https://archive.org/download/OngoFiles/mame-suna8bit/brickzn.zip;1171912;f4b3de2de0c2c8ced4ea27fb2e911e30;Suna8;overwrite:false
+games/mame/hardhea2.zip;https://archive.org/download/OngoFiles/mame-suna8bit/hardhea2.zip;471271;d877ec65abf71ae0ce14a9b75a7009b4;Suna8;overwrite:false
+games/mame/hardhead.zip;https://archive.org/download/OngoFiles/mame-suna8bit/hardhead.zip;287841;8b3d04c265f2ecd9d7186522eaef39d9;Suna8;overwrite:false
+games/mame/sparkman.zip;https://archive.org/download/OngoFiles/mame-suna8bit/sparkman.zip;336380;d602282dba5963c67c56349d9fe33a4f;Suna8;overwrite:false
+games/mame/sranger.zip;https://archive.org/download/OngoFiles/mame-suna8bit/sranger.zip;316677;686f21ce8bf43a994dfb586253ebf6b3;Suna8;overwrite:false
+games/mame/starfigh.zip;https://archive.org/download/OngoFiles/mame-suna8bit/starfigh.zip;341018;a4b3311c7a2328f6950877ae3f2fa556;Suna8;overwrite:false
+;;;;;
+games/mame/ashura.zip;https://archive.org/download/OngoFiles/mame-taitob/ashura.zip;1110242;67cc83521a7dd4438f4b865ffddb3c75;Taitob;overwrite:false
+games/mame/crimec.zip;https://archive.org/download/OngoFiles/mame-taitob/crimec.zip;992433;25179535ac4ef62088df90ac4980ff9a;Taitob;overwrite:false
+games/mame/hitice.zip;https://archive.org/download/OngoFiles/mame-taitob/hitice.zip;1070588;f959e434c3632319e903405ded7fd955;Taitob;overwrite:false
+games/mame/masterw.zip;https://archive.org/download/OngoFiles/mame-taitob/masterw.zip;1097712;e1db5374b2102e65468b7ad72f1bef61;Taitob;overwrite:false
+games/mame/nastar.zip;https://archive.org/download/OngoFiles/mame-taitob/nastar.zip;1444255;2fbd67df29c17458f953c1dc7c11b086;Taitob;overwrite:false
+games/mame/pbobble.zip;https://archive.org/download/OngoFiles/mame-taitob/pbobble.zip;1747418;1cb7460da4305cb29f4a424f7e186e66;Taitob;overwrite:false
+games/mame/qzshowby.zip;https://archive.org/download/OngoFiles/mame-taitob/qzshowby.zip;3381967;4ffec5b2924a217324f8705ac61934d1;Taitob;overwrite:false
+games/mame/rambo3.zip;https://archive.org/download/OngoFiles/mame-taitob/rambo3.zip;3061923;901d9ae1598a138c7e671fd0c8ec9a42;Taitob;overwrite:false
+games/mame/realpunc.zip;https://archive.org/download/OngoFiles/mame-taitob/realpunc.zip;2713785;06c58b0be3e021807dcd9ee13b20f5cd;Taitob;overwrite:false
+games/mame/ryujin.zip;https://archive.org/download/OngoFiles/mame-taitob/ryujin.zip;1700038;f518e3a56506b29f14b4a7f445e90ef5;Taitob;overwrite:false
+games/mame/sbm.zip;https://archive.org/download/OngoFiles/mame-taitob/sbm.zip;2065018;cce57107eb6935ca510155f32ac6c66f;Taitob;overwrite:false
+games/mame/selfeena.zip;https://archive.org/download/OngoFiles/mame-taitob/selfeena.zip;930982;d798846535b5fbc98dc3ccdb7c182959;Taitob;overwrite:false
+games/mame/silentd.zip;https://archive.org/download/OngoFiles/mame-taitob/silentd.zip;3018156;a31deb3402176ba8481a211a80868f50;Taitob;overwrite:false
+games/mame/spacedx.zip;https://archive.org/download/OngoFiles/mame-taitob/spacedx.zip;2799602;315636a8e3a6a1364ee835e564a87ea0;Taitob;overwrite:false
+games/mame/tetrist.zip;https://archive.org/download/OngoFiles/mame-taitob/tetrist.zip;1393120;2062a4158a9aca8644195446d0fa9904;Taitob;overwrite:false
+games/mame/tetrista.zip;https://archive.org/download/OngoFiles/mame-taitob/tetrista.zip;513584;cd65efb6287f9cf322bf5b3eacac56ec;Taitob;overwrite:false
+games/mame/viofight.zip;https://archive.org/download/OngoFiles/mame-taitob/viofight.zip;1302669;cbac9c0fa85a662e6ae78171214c79da;Taitob;overwrite:false
+;;;;;
+games/mame/arabianm.zip;https://archive.org/download/OngoFiles/mame-taitof3/arabianm.zip;4575395;b8eb3cbe9102c2b466730c3ead1db2f7;Taitof3;overwrite:false
+games/mame/arkretrn.zip;https://archive.org/download/OngoFiles/mame-taitof3/arkretrn.zip;2294505;1b7be267a2212eff2e19ca026007ef07;Taitof3;overwrite:false
+games/mame/bubblem.zip;https://archive.org/download/OngoFiles/mame-taitof3/bubblem.zip;6652673;27e1a20120a86c8ea63cd9e6b8e564f8;Taitof3;overwrite:false
+games/mame/bublbob2.zip;https://archive.org/download/OngoFiles/mame-taitof3/bublbob2.zip;12527097;659797e1ce9fefc78cfcd518d756b1b4;Taitof3;overwrite:false
+games/mame/cleopatr.zip;https://archive.org/download/OngoFiles/mame-taitof3/cleopatr.zip;3055735;a34c0923cf7f6ed062cdc8fc5618925b;Taitof3;overwrite:false
+games/mame/commandw.zip;https://archive.org/download/OngoFiles/mame-taitof3/commandw.zip;7409712;88b06d5a41dabf721f28899475bd4bd5;Taitof3;overwrite:false
+games/mame/cupfinal.zip;https://archive.org/download/OngoFiles/mame-taitof3/cupfinal.zip;5515274;98591b9cc6cd5a024c546eb78f633a69;Taitof3;overwrite:false
+games/mame/dankuga.zip;https://archive.org/download/OngoFiles/mame-taitof3/dankuga.zip;13448538;caa8c820581ebdfbdf45b78015cffad1;Taitof3;overwrite:false
+games/mame/dariusg.zip;https://archive.org/download/OngoFiles/mame-taitof3/dariusg.zip;8311228;186c84fcdf327111ce8863b7580fda95;Taitof3;overwrite:false
+games/mame/dariusgx.zip;https://archive.org/download/OngoFiles/mame-taitof3/dariusgx.zip;7952016;b2a63727ceda1e3570090c1fae1abe10;Taitof3;overwrite:false
+games/mame/elvactr.zip;https://archive.org/download/OngoFiles/mame-taitof3/elvactr.zip;8434714;4aa9622874db58e79fd20ccd7ece1108;Taitof3;overwrite:false
+games/mame/gekiridn.zip;https://archive.org/download/OngoFiles/mame-taitof3/gekiridn.zip;6359513;e22b13d09c4d50299a5d539cd25a05e3;Taitof3;overwrite:false
+games/mame/gseeker.zip;https://archive.org/download/OngoFiles/mame-taitof3/gseeker.zip;5390005;4cb2bddf9ddee7b776224e150a24b01e;Taitof3;overwrite:false
+games/mame/gunlock.zip;https://archive.org/download/OngoFiles/mame-taitof3/gunlock.zip;10819858;16739a7a8a2d1df1eaa70da5923c9e8c;Taitof3;overwrite:false
+games/mame/intcup94.zip;https://archive.org/download/OngoFiles/mame-taitof3/intcup94.zip;5385904;37bc1fe1f1fd6f37cb439cb556177890;Taitof3;overwrite:false
+games/mame/kaiserkn.zip;https://archive.org/download/OngoFiles/mame-taitof3/kaiserkn.zip;13666679;cc75e94de082fef5a081cd6be937cb34;Taitof3;overwrite:false
+games/mame/landmakr.zip;https://archive.org/download/OngoFiles/mame-taitof3/landmakr.zip;16781687;abb3816654e01267c7ee1b3bd5f14b55;Taitof3;overwrite:false
+games/mame/lightbr.zip;https://archive.org/download/OngoFiles/mame-taitof3/lightbr.zip;8838968;801d10c0d47e7d06e17125fd6cdcccc6;Taitof3;overwrite:false
+games/mame/pbobble2.zip;https://archive.org/download/OngoFiles/mame-taitof3/pbobble2.zip;6302021;562a4ae42ee695a1ac27b33cadce3c7f;Taitof3;overwrite:false
+games/mame/pbobble3.zip;https://archive.org/download/OngoFiles/mame-taitof3/pbobble3.zip;7464250;e0aa761cb6c623441e9bae27775aa06e;Taitof3;overwrite:false
+games/mame/pbobble4.zip;https://archive.org/download/OngoFiles/mame-taitof3/pbobble4.zip;7358542;fb1be6372b839834213f93fd2e9a4f65;Taitof3;overwrite:false
+games/mame/popnpop.zip;https://archive.org/download/OngoFiles/mame-taitof3/popnpop.zip;5958528;61afbf03951f57b6f0960262da642ce3;Taitof3;overwrite:false
+games/mame/puchicar.zip;https://archive.org/download/OngoFiles/mame-taitof3/puchicar.zip;9445598;5e2e106be4c2228f58cc3b42308b9b27;Taitof3;overwrite:false
+games/mame/pwrgoal.zip;https://archive.org/download/OngoFiles/mame-taitof3/pwrgoal.zip;10708451;13ff8d9c8b509d0b48d1ac51e0b5baef;Taitof3;overwrite:false
+games/mame/qtheater.zip;https://archive.org/download/OngoFiles/mame-taitof3/qtheater.zip;5633340;3b6e77dc5676359d6ba51b7d1ecc1056;Taitof3;overwrite:false
+games/mame/quizhuhu.zip;https://archive.org/download/OngoFiles/mame-taitof3/quizhuhu.zip;10037880;daaa4bf58924587ec71993f348cea9f3;Taitof3;overwrite:false
+games/mame/recalh.zip;https://archive.org/download/OngoFiles/mame-taitof3/recalh.zip;3649527;f89b8ca17cdb2b88c002a2088fe7be7f;Taitof3;overwrite:false
+games/mame/ridingf.zip;https://archive.org/download/OngoFiles/mame-taitof3/ridingf.zip;4963910;a564b605552e99dcfd49902ebc238a7d;Taitof3;overwrite:false
+games/mame/ringrage.zip;https://archive.org/download/OngoFiles/mame-taitof3/ringrage.zip;5774641;1dfd357124ef48842e81f3303000726c;Taitof3;overwrite:false
+games/mame/scfinals.zip;https://archive.org/download/OngoFiles/mame-taitof3/scfinals.zip;5871872;1fa36569c78984bae0cba4364ace501d;Taitof3;overwrite:false
+games/mame/spcinv95.zip;https://archive.org/download/OngoFiles/mame-taitof3/spcinv95.zip;4585462;ef4bda6d268d20cda1925bf258a03acb;Taitof3;overwrite:false
+games/mame/tcobra2.zip;https://archive.org/download/OngoFiles/mame-taitof3/tcobra2.zip;6712077;7898383bb409d6a44abcded2ebd426b6;Taitof3;overwrite:false
+games/mame/trstar.zip;https://archive.org/download/OngoFiles/mame-taitof3/trstar.zip;7447041;6de04d8c044541118df3fe124368e227;Taitof3;overwrite:false
+games/mame/twinqix.zip;https://archive.org/download/OngoFiles/mame-taitof3/twinqix.zip;3028197;a43b278642f60c6891c43b23ef14309c;Taitof3;overwrite:false
+;;;;;
+games/mame/bcstry.zip;https://archive.org/download/OngoFiles/mame-tumble/bcstry.zip;1989987;3e1dd3ceedb76788840b17fe3d0004a2;Tumble;overwrite:false
+games/mame/chokchok.zip;https://archive.org/download/OngoFiles/mame-tumble/chokchok.zip;1111719;5c619ad18533df337bf92906d2347e53;Tumble;overwrite:false
+games/mame/cookbib.zip;https://archive.org/download/OngoFiles/mame-tumble/cookbib.zip;535720;6c117fa4939c351f0937e0ea00d22987;Tumble;overwrite:false
+games/mame/fncywld.zip;https://archive.org/download/OngoFiles/mame-tumble/fncywld.zip;1045815;5ff7ee775ca7fd84ffb59c928b441720;Tumble;overwrite:false
+games/mame/funkyjet.zip;https://archive.org/download/OngoFiles/mame-tumble/funkyjet.zip;3402012;90305c3ab336436a66efa53156f98117;Tumble;overwrite:false
+games/mame/jumpkids.zip;https://archive.org/download/OngoFiles/mame-tumble/jumpkids.zip;1104793;13b04dd302dd521ccbf379e9956593e8;Tumble;overwrite:false
+games/mame/magipur.zip;https://archive.org/download/OngoFiles/mame-tumble/magipur.zip;1148768;5d839de9750b5b2c055c626dfc7837fc;Tumble;overwrite:false
+games/mame/metlsavr.zip;https://archive.org/download/OngoFiles/mame-tumble/metlsavr.zip;850810;7c1bd2cb4db4852bb20e413e62c9f29a;Tumble;overwrite:false
+games/mame/pangpang.zip;https://archive.org/download/OngoFiles/mame-tumble/pangpang.zip;1327359;ed64180c61efdcff8fcf8eb1abbc7f85;Tumble;overwrite:false
+games/mame/sdfight.zip;https://archive.org/download/OngoFiles/mame-tumble/sdfight.zip;2085175;d2cb25ca81746b7e65625ae5cf718c9c;Tumble;overwrite:false
+games/mame/suprtrio.zip;https://archive.org/download/OngoFiles/mame-tumble/suprtrio.zip;1311496;b7087bce9b4c7156bf1bd4b8117255c5;Tumble;overwrite:false
+;;;;;
+games/mame/jdreddp.zip;https://archive.org/download/OngoFiles/mame-tunit/jdreddp.zip;6872137;7dc7339bcb554a6b424cc8182f204201;Tunit;overwrite:false
+games/mame/mk.zip;https://archive.org/download/OngoFiles/mame-tunit/mk.zip;31086827;5a2140d3a46c3844c505db1d6b066d96;Tunit;overwrite:false
+games/mame/mk2.zip;https://archive.org/download/OngoFiles/mame-tunit/mk2.zip;17220209;0391c3bf75ce5f07539bf2652692b539;Tunit;overwrite:false
+games/mame/nbajam.zip;https://archive.org/download/OngoFiles/mame-tunit/nbajam.zip;13883644;36edaef76b432b415b7937a9912480c7;Tunit;overwrite:false
+games/mame/nbajamte.zip;https://archive.org/download/OngoFiles/mame-tunit/nbajamte.zip;8101731;4abb9d375d90adc4e911e4e1f88e609f;Tunit;overwrite:false
+games/mame/nbajamtese.zip;https://archive.org/download/OngoFiles/mame-tunit/nbajamtese.zip;5441194;6ba36f84f72cc3b2265984d1ae0d1f3e;Tunit;overwrite:false
+;;;;;
+games/mame/f1gp.zip;https://archive.org/download/OngoFiles/mame-videosystem/f1gp.zip;7251517;b519986e148e444fab209b837db0e9cd;Videosystem;overwrite:false
+games/mame/karatblz.zip;https://archive.org/download/OngoFiles/mame-videosystem/karatblz.zip;4791690;1b5c42e3847436ea1dbf1c41a6a50d9a;Videosystem;overwrite:false
+games/mame/pspikes.zip;https://archive.org/download/OngoFiles/mame-videosystem/pspikes.zip;4450192;4adf0ce9bf0ef73f2d56fb1a69bab0d0;Videosystem;overwrite:false
+games/mame/turbofrc.zip;https://archive.org/download/OngoFiles/mame-videosystem/turbofrc.zip;2803528;c48064479f5b7e01767b5c970e0b2b10;Videosystem;overwrite:false
+;;;;;
+games/mame/crusnusa.zip;https://archive.org/download/OngoFiles/mame-vunit/crusnusa.zip;15280855;75522d81a048e135a18d2e2281f35bfb;Vunit;overwrite:false
+games/mame/crusnwld.zip;https://archive.org/download/OngoFiles/mame-vunit/crusnwld.zip;34508688;460cb6d121569e170a420255f28ae64d;Vunit;overwrite:false
+games/mame/offroadc.zip;https://archive.org/download/OngoFiles/mame-vunit/offroadc.zip;30588372;ded8d910f8694bcd1810e8b465fef152;Vunit;overwrite:false
+games/mame/wargods.zip;https://archive.org/download/OngoFiles/mame-vunit/wargods.zip;20170;4bbfed3e507678668dc17e92f0f99d12;Vunit;overwrite:false
+;;;;;
+games/mame/mk2_wolf.zip;https://archive.org/download/OngoFiles/mame-wolf/mk2_wolf.zip;13494298;992725ab5639550f2cfb2409110162a5;Wolf;overwrite:false
+games/mame/mk3.zip;https://archive.org/download/OngoFiles/mame-wolf/mk3.zip;22039125;644fa51615d61a0eb2c2c0f31374d19d;Wolf;overwrite:false
+games/mame/mk_wolf.zip;https://archive.org/download/OngoFiles/mame-wolf/mk_wolf.zip;30492110;0e6d06201da92c2df60091246266ac84;Wolf;overwrite:false
+games/mame/nbahangt.zip;https://archive.org/download/OngoFiles/mame-wolf/nbahangt.zip;21863809;36faa902ca2a7bd908aceb82697f118f;Wolf;overwrite:false
+games/mame/openice.zip;https://archive.org/download/OngoFiles/mame-wolf/openice.zip;14986485;83397b6c604cdb965779957d8d754999;Wolf;overwrite:false
+games/mame/rmpgwt.zip;https://archive.org/download/OngoFiles/mame-wolf/rmpgwt.zip;13738043;d94f633e114b03a94dcca9802cd48b8d;Wolf;overwrite:false
+games/mame/umk3.zip;https://archive.org/download/OngoFiles/mame-wolf/umk3.zip;23228381;79078e14d7d2143b07cf3321913066a9;Wolf;overwrite:false
+games/mame/wwfmania.zip;https://archive.org/download/OngoFiles/mame-wolf/wwfmania.zip;20114490;c188ce66289ff8f47627e44bf413345c;Wolf;overwrite:false
+;;;;;
+games/mame/hiimpact.zip;https://archive.org/download/OngoFiles/mame-yunit/hiimpact.zip;1784319;a205422b3660a540c72349c7d5771f6f;Yunit;overwrite:false
+games/mame/shimpact.zip;https://archive.org/download/OngoFiles/mame-yunit/shimpact.zip;3182345;b4280446e942fe8022fd715508795a05;Yunit;overwrite:false
+games/mame/smashtv.zip;https://archive.org/download/OngoFiles/mame-yunit/smashtv.zip;1260603;06265ab9b0994908ad9831c04b98bd8e;Yunit;overwrite:false
+games/mame/strkforc.zip;https://archive.org/download/OngoFiles/mame-yunit/strkforc.zip;1999436;b0a82b53262d739128053b05b2eebc1a;Yunit;overwrite:false
+games/mame/term2.zip;https://archive.org/download/OngoFiles/mame-yunit/term2.zip;9953492;efc72cafcdd8f6d9dcee4c7e8f48bacc;Yunit;overwrite:false
+games/mame/totcarn.zip;https://archive.org/download/OngoFiles/mame-yunit/totcarn.zip;2399660;dd247547ecaff915f2d3929fc28133c4;Yunit;overwrite:false
+games/mame/trog.zip;https://archive.org/download/OngoFiles/mame-yunit/trog.zip;2583282;3ed492fd71997a8e456f4ee391b21684;Yunit;overwrite:false
+games/mame/yunittst.zip;https://archive.org/download/OngoFiles/mame-yunit/yunittst.zip;7874;f87b5838edabb74f0cb5dee260ee9a09;Yunit;overwrite:false
+;;;;;
+games/mame/invasnab.zip;https://archive.org/download/OngoFiles/mame-zeus/invasnab.zip;50575218;6938536b8093cb9cb8e52e577029ae7f;Zeus;overwrite:false
+games/mame/mk4.zip;https://archive.org/download/OngoFiles/mame-zeus/mk4.zip;37207225;d696fb91a4520430f47c4c65e92f39c4;Zeus;overwrite:false
+;;;;;
+games/mame/1on1gov.zip;https://archive.org/download/OngoFiles/mame-zn1/1on1gov.zip;15003910;349d26dacfe90c77b0d691e12c9c9e0f;Zn1;overwrite:false
+games/mame/aerofgts.zip;https://archive.org/download/OngoFiles/mame-zn1/aerofgts.zip;9455407;723f6f8d415c35638c31b2173b613394;Zn1;overwrite:false
+games/mame/beastrzr.zip;https://archive.org/download/OngoFiles/mame-zn1/beastrzr.zip;16282106;5f3bf59eba37a18638ecc8741a3e7ffe;Zn1;overwrite:false
+games/mame/bldyror2.zip;https://archive.org/download/OngoFiles/mame-zn1/bldyror2.zip;19394066;787f84ba6a4bf9e25070e4cdc354b74f;Zn1;overwrite:false
+games/mame/brvblade.zip;https://archive.org/download/OngoFiles/mame-zn1/brvblade.zip;7126542;1e3cf44c3995fc21532d2f3f984c038a;Zn1;overwrite:false
+games/mame/coh1000t.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1000t.zip;126296;cbd902afa92e18d69226d91f567ab88a;Zn1;overwrite:false
+games/mame/coh1001l.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1001l.zip;126207;fcfb400f4d2360002fee1dc5b9e7c2af;Zn1;overwrite:false
+games/mame/coh1002e.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1002e.zip;128648;bd276c601adf0e25424824948e53ca3b;Zn1;overwrite:false
+games/mame/coh1002m.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1002m.zip;138610;800fc349d09fff31c038538f68b6d18e;Zn1;overwrite:false
+games/mame/coh1002t.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1002t.zip;216727;c235aa42552d60e4f139ab8743ec6694;Zn1;overwrite:false
+games/mame/coh1002v.zip;https://archive.org/download/OngoFiles/mame-zn1/coh1002v.zip;126336;322e7491b5797efa70f58bcf80b52eac;Zn1;overwrite:false
+games/mame/doapp.zip;https://archive.org/download/OngoFiles/mame-zn1/doapp.zip;14535271;c911786128d32a01c20e050321b0cfb9;Zn1;overwrite:false
+games/mame/flamegun.zip;https://archive.org/download/OngoFiles/mame-zn1/flamegun.zip;31688319;031d1ff2eba69c8075d8a123f59e4918;Zn1;overwrite:false
+games/mame/ftimpcta.zip;https://archive.org/download/OngoFiles/mame-zn1/ftimpcta.zip;15063475;a805915849f83d8f0db7c39020b8da96;Zn1;overwrite:false
+games/mame/gdarius2.zip;https://archive.org/download/OngoFiles/mame-zn1/gdarius2.zip;21742173;cd8af31679571b067b99965a90d90f92;Zn1;overwrite:false
+games/mame/glpracr2.zip;https://archive.org/download/OngoFiles/mame-zn1/glpracr2.zip;14745471;a654dfef39d44736b51800e14d020ad7;Zn1;overwrite:false
+games/mame/glpracr3.zip;https://archive.org/download/OngoFiles/mame-zn1/glpracr3.zip;11307265;e25052ae43a567aebcf5d2c969bb9ead;Zn1;overwrite:false
+games/mame/hvnsgate.zip;https://archive.org/download/OngoFiles/mame-zn1/hvnsgate.zip;14323255;16fb9d35d9a026f06aef93a41cf34eff;Zn1;overwrite:false
+games/mame/lpadv.zip;https://archive.org/download/OngoFiles/mame-zn1/lpadv.zip;2917110;f3b4ff3d6fee91d9c4d02dae2d14ef33;Zn1;overwrite:false
+games/mame/mfjump.zip;https://archive.org/download/OngoFiles/mame-zn1/mfjump.zip;3063491;c7d8ff73672557af7a3dea4355dea8e7;Zn1;overwrite:false
+games/mame/mgcldtex.zip;https://archive.org/download/OngoFiles/mame-zn1/mgcldtex.zip;14226640;08a449c8521301630d441ace58fedfb8;Zn1;overwrite:false
+games/mame/psyforce.zip;https://archive.org/download/OngoFiles/mame-zn1/psyforce.zip;6732770;e768524589208b302906d12c9c3e6f89;Zn1;overwrite:false
+games/mame/raystorm.zip;https://archive.org/download/OngoFiles/mame-zn1/raystorm.zip;10071125;e343a342f0e28f42d0586f86c4183b16;Zn1;overwrite:false
+games/mame/sfchamp.zip;https://archive.org/download/OngoFiles/mame-zn1/sfchamp.zip;7640056;83836b8155fa0d723a79ca0dee4937d8;Zn1;overwrite:false
+games/mame/shngmtkb.zip;https://archive.org/download/OngoFiles/mame-zn1/shngmtkb.zip;12755019;cae3ae427b36560b38654b1d45ec5d30;Zn1;overwrite:false
+games/mame/tblkkuzu.zip;https://archive.org/download/OngoFiles/mame-zn1/tblkkuzu.zip;2290359;960404c40c40e4b7b6388a4a064fe8a0;Zn1;overwrite:false
+games/mame/tondemo.zip;https://archive.org/download/OngoFiles/mame-zn1/tondemo.zip;13249482;e929dcbbaaf1fe456a353d38eb581ab5;Zn1;overwrite:false
+games/mame/twcupmil.zip;https://archive.org/download/OngoFiles/mame-zn1/twcupmil.zip;5225602;32a41787f80835bbd8cbccc2a4689430;Zn1;overwrite:false
+;;;;;
+games/mame/akatana.zip;https://archive.org/download/evac_20260901/evac/akatana.zip;73579066;504c5f230dd380b0f3cb09bc3488ad60;Cv1000;overwrite:false
+games/mame/cv1000p.zip;https://archive.org/download/evac_20260901/evac/cv1000p.zip;16472159;b0eeb9ee0e1937358e88b11c2b89962d;Cv1000;overwrite:false
+games/mame/ddpdfk.zip;https://archive.org/download/evac_20260901/evac/ddpdfk.zip;81588023;7b7a55f492c4cf1cd3e4ff1b6f81aea2;Cv1000;overwrite:false
+games/mame/ddpsdoj.zip;https://archive.org/download/evac_20260901/evac/ddpsdoj.zip;141530308;dceae1cdcba067c180a49af89b51e1a0;Cv1000;overwrite:false
+games/mame/deathsml.zip;https://archive.org/download/evac_20260901/evac/deathsml.zip;66177676;fdb4f4321a418b167a440abbb36c8ffb;Cv1000;overwrite:false
+games/mame/dfkbl.zip;https://archive.org/download/evac_20260901/evac/dfkbl.zip;47855170;9d77aa77e64a4e073a4f5e9c8eefd5d3;Cv1000;overwrite:false
+games/mame/dsmbl.zip;https://archive.org/download/evac_20260901/evac/dsmbl.zip;82681482;f5e1f75df919f5cb13fc4d6b5a84603b;Cv1000;overwrite:false
+games/mame/espgal2.zip;https://archive.org/download/evac_20260901/evac/espgal2.zip;49915688;fc1c0e3e021e564282edba2b1f5561c8;Cv1000;overwrite:false
+games/mame/futari15.zip;https://archive.org/download/evac_20260901/evac/futari15.zip;98052208;c2745a33d5b91313ec50e8535e49a966;Cv1000;overwrite:false
+games/mame/futaribl.zip;https://archive.org/download/evac_20260901/evac/futaribl.zip;52719721;8d77a6c26c6abf209de1901a016e1c6a;Cv1000;overwrite:false
+games/mame/ibara.zip;https://archive.org/download/evac_20260901/evac/ibara.zip;34474299;b05a2773b3250bafbbc5d57fbc9048c6;Cv1000;overwrite:false
+games/mame/ibarablk.zip;https://archive.org/download/evac_20260901/evac/ibarablk.zip;68947335;d5100046d213c3e82c72fa13c2db0425;Cv1000;overwrite:false
+games/mame/matsuri15.zip;https://archive.org/download/evac_20260901/evac/matsuri15.zip;35834221;a2d5d892abe17755c5ce1c43ed25d9b4;Cv1000;overwrite:false
+games/mame/mmmbanc.zip;https://archive.org/download/evac_20260901/evac/mmmbanc.zip;12350063;cc4dc20129642ff80e07a2ea3b8c9ee5;Cv1000;overwrite:false
+games/mame/mmpork.zip;https://archive.org/download/evac_20260901/evac/mmpork.zip;63985930;1c227375f81650a94f4c194cb3365122;Cv1000;overwrite:false
+games/mame/mushisam.zip;https://archive.org/download/evac_20260901/evac/mushisam.zip;40308100;f0f47942e69439d3d985422030a0012c;Cv1000;overwrite:false
+games/mame/mushitam.zip;https://archive.org/download/evac_20260901/evac/mushitam.zip;32511599;8d96dd36a64ba9db456e55d13b6675f9;Cv1000;overwrite:false
+games/mame/pinkswts.zip;https://archive.org/download/evac_20260901/evac/pinkswts.zip;151324523;21ad91608c6b51bcc94e5a4ef446bfe9;Cv1000;overwrite:false
+;;;;;
+games/mame/gnet_chaoshea.zip;https://archive.org/download/insert_coin_mame/gnet_chaoshea.zip;27581120;79e47cd84b5bd0dbf7bca0aee65c4a2b;Gnet;overwrite:false
+games/mame/gnet_chaosheaj.zip;https://archive.org/download/insert_coin_mame/gnet_chaosheaj.zip;27495090;780d9be296b332f24a03ce8b27c79109;Gnet;overwrite:false
+games/mame/gnet_flipmaze.zip;https://archive.org/download/insert_coin_mame/gnet_flipmaze.zip;31070596;f5db889b6f2371ade3b1c6fb12f4444f;Gnet;overwrite:false
+games/mame/gnet_gobyrc.zip;https://archive.org/download/insert_coin_mame/gnet_gobyrc.zip;20746538;5c663a285db4b20d886fc5f51669a471;Gnet;overwrite:false
+games/mame/gnet_kollon.zip;https://archive.org/download/insert_coin_mame/gnet_kollon.zip;21814890;29e60da55a1b335a8fcca7573cf91374;Gnet;overwrite:false
+games/mame/gnet_kollonc.zip;https://archive.org/download/insert_coin_mame/gnet_kollonc.zip;9473462;7d3bba73e98b885f258088ef797296bd;Gnet;overwrite:false
+games/mame/gnet_mahjngoh.zip;https://archive.org/download/insert_coin_mame/gnet_mahjngoh.zip;41131122;987e78b98974dc0ccaaedc1ba1d05013;Gnet;overwrite:false
+games/mame/gnet_nightrai.zip;https://archive.org/download/insert_coin_mame/gnet_nightrai.zip;31405341;17774b01829b000ae53a99c0a2181306;Gnet;overwrite:false
+games/mame/gnet_otenki.zip;https://archive.org/download/insert_coin_mame/gnet_otenki.zip;16957493;399c872acbaaed711233b4de32955e8a;Gnet;overwrite:false
+games/mame/gnet_psyvaria.zip;https://archive.org/download/insert_coin_mame/gnet_psyvaria.zip;28890625;edb551e25fd78171a3c0a98671389843;Gnet;overwrite:false
+games/mame/gnet_psyvarij.zip;https://archive.org/download/insert_coin_mame/gnet_psyvarij.zip;27764235;7ce948e4c1e72c80d6a15715b45b6ef1;Gnet;overwrite:false
+games/mame/gnet_psyvarrv.zip;https://archive.org/download/insert_coin_mame/gnet_psyvarrv.zip;27663118;5e39d9224bc0f843aa21a66eb33d8910;Gnet;overwrite:false
+games/mame/gnet_raycris.zip;https://archive.org/download/insert_coin_mame/gnet_raycris.zip;28459115;572803675bbf299a629a1177c0692fc8;Gnet;overwrite:false
+games/mame/gnet_raycrisj.zip;https://archive.org/download/insert_coin_mame/gnet_raycrisj.zip;22658475;348fc00370e9fb38a979f91c85b36e4f;Gnet;overwrite:false
+games/mame/gnet_rcdego.zip;https://archive.org/download/insert_coin_mame/gnet_rcdego.zip;26862342;fd375656ffbd74bbf8b44dea2b7f1f46;Gnet;overwrite:false
+games/mame/gnet_shanghss.zip;https://archive.org/download/insert_coin_mame/gnet_shanghss.zip;39716231;12f16c4ca49af2528f18ee50ef25678e;Gnet;overwrite:false
+games/mame/gnet_shangtou.zip;https://archive.org/download/insert_coin_mame/gnet_shangtou.zip;31683735;395550274bd47462876f609bfa21e0f7;Gnet;overwrite:false
+games/mame/gnet_shikigam.zip;https://archive.org/download/insert_coin_mame/gnet_shikigam.zip;34016873;3bc6ec0005242bf405f378ed97fc4579;Gnet;overwrite:false
+games/mame/gnet_shikigama.zip;https://archive.org/download/insert_coin_mame/gnet_shikigama.zip;28960357;9a7172b87b072bcb16338238125f9f4b;Gnet;overwrite:false
+games/mame/gnet_sianniv.zip;https://archive.org/download/insert_coin_mame/gnet_sianniv.zip;24848931;e241285b5fcbfba00c44079ad9bb4cb8;Gnet;overwrite:false
+games/mame/gnet_soutenry.zip;https://archive.org/download/insert_coin_mame/gnet_soutenry.zip;36985834;bcb4ab7c7f43357ef72ebab24f01142b;Gnet;overwrite:false
+games/mame/gnet_spuzbobl.zip;https://archive.org/download/insert_coin_mame/gnet_spuzbobl.zip;22085416;91db05cd4cc6be160cda0b56aa872063;Gnet;overwrite:false
+games/mame/gnet_spuzboblj.zip;https://archive.org/download/insert_coin_mame/gnet_spuzboblj.zip;22091405;c4840471c16e45881f377d1de770bfab;Gnet;overwrite:false
+games/mame/gnet_usagi.zip;https://archive.org/download/insert_coin_mame/gnet_usagi.zip;23500457;119f8ca4810649d2152fd40cc3093c42;Gnet;overwrite:false
+games/mame/gnet_xiistag.zip;https://archive.org/download/insert_coin_mame/gnet_xiistag.zip;24496538;79b0d619411fc747c0e2d562dad7f0d8;Gnet;overwrite:false
+games/mame/gnet_zokuoten.zip;https://archive.org/download/insert_coin_mame/gnet_zokuoten.zip;15002199;fcde735778f1265dc56604eaa29cbfb0;Gnet;overwrite:false
+games/mame/gnet_zokuotena.zip;https://archive.org/download/insert_coin_mame/gnet_zokuotena.zip;22897808;bfaff05c00dca0594c4c34febd03e107;Gnet;overwrite:false
+games/mame/gnet_zooo.zip;https://archive.org/download/insert_coin_mame/gnet_zooo.zip;14088463;c8f2fe9b7d0019ac2f79434e676bb7b5;Gnet;overwrite:false
+;;;;;
+games/mame/hangon.zip;https://archive.org/download/OngoFiles/mame-segaspaceharrier/hangon.zip;622966;d72b57d7ca1cd73144f5f20760b5663a;SSH;overwrite:false
+;;;;;
+games/mame/rshark.zip;https://archive.org/download/OngoFiles/mame-rshark/rshark.zip;2695123;dcf81fcc20120af5f8791cb1004d4fe1;Rshark;overwrite:false
+games/mame/superx.zip;https://archive.org/download/OngoFiles/mame-rshark/superx.zip;1894376;c3569647c8889692e888c93f3f56588d;Rshark;overwrite:false
+games/mame/mcatadv.zip;https://archive.org/download/OngoFiles/mame-nostradamus/mcatadv.zip;4485469;a6f90f943860325071a76c18d69ca5d7;Nostra;overwrite:false
+games/mame/nost.zip;https://archive.org/download/OngoFiles/mame-nostradamus/nost.zip;3189195;a1c997e911c4c5ff406d25486d2f2859;Nostra;overwrite:false
