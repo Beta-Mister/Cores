@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<misterromdescription>
+	<name>Choplifter (unprotected)</name>
+	<mameversion>0229</mameversion>
+	<setname>chopliftu</setname>
+	<mratimestamp>20210706000000</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Sega</manufacturer>
+	<category>Shooter</category>
+	<rbf>Arcade-SEGASYS1_B23_FULL_20261013</rbf>
+	<switches default="DE,FF">
+		
+		<dip name="Coin A" bits="8,11" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1" />
+		<dip name="Coin B" bits="12,15" ids="1/1,1/1 2/3,1/1 4/5,1/1 5/6,2/1 4/3,2/1 5/3 6/4,2/3,4/1,3/1,2/1,1/6,1/5,1/4,1/3,1/2,1/1" />
+		
+		
+		<dip bits="1" name="Demo Sound" ids="On,Off" />
+		<dip bits="2,3" name="Lives" ids="Infinite,4,2,3" />
+		<dip bits="4" name="Extend" ids="50k 100k 150k 200k,20k 70k 120k 170k" />
+		<dip bits="5" name="Difficulty" ids="Hard,Easy" />
+	</switches>
+	<buttons names="Shoot,Direction Change,-,-,-,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L" />
+	<rom index="1">
+		<part>41 00 C4 52</part>
+	</rom>
+	<rom index="0" md5="none" zip="choplift.zip">
+		
+		<part crc="346af118" name="epr-7130.ic126" />
+
+		
+		<part crc="fe49d83e" name="chopliftu/epr-7152.ic90" />
+		<part crc="48697666" name="chopliftu/epr-7153.ic91" />
+		<part crc="56d6222a" name="chopliftu/epr-7154.ic92" />
+
+		
+		<part crc="f2b88f73" name="epr-7121.ic87" />
+		<part crc="517d7fd3" name="epr-7120.ic86" />
+		<part crc="8f16a303" name="epr-7123.ic89" />
+		<part crc="7c93f160" name="epr-7122.ic88" />
+
+		
+		<part crc="1e708f6d" name="epr-7127.ic4" />
+		<part crc="b922e787" name="epr-7128.ic5" />
+		<part crc="bd3b6e6e" name="epr-7129.ic6" />
+
+		
+		<part crc="648350b8" name="pr5317.ic28" />
+
+		
+		<part crc="b2a8260f" name="pr7119.ic20" />
+		<part crc="693e20c7" name="pr7118.ic14" />
+		<part crc="4124307e" name="pr7117.ic8" />
+
+		<part repeat="0x100">00</part>
+
+		
+		
+
+		
+		
+	</rom>
+<rom index="3" md5="none"><part> 00 0F FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00 00 00 EF 00 00 31 00 4B 00 00 EF 71 00 04 00 00</part></rom><nvram index="4" size="53" /></misterromdescription>

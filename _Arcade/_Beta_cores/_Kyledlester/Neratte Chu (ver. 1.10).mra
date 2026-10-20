@@ -39,8 +39,8 @@
     </switches>
 
     <rom index="0" zip="nratechu.zip" md5="None">
-        <part name="sx012-01" crc="6ca01d57"/>
+        <part name="sx012-01.u31" crc="6ca01d57"/>
         <part repeat="0x80000">00</part>
-        <part name="sx012-02" crc="40a4e354"/>
+        <part name="sx012-02.u32" crc="40a4e354"/>
     </rom>
 </misterromdescription>
