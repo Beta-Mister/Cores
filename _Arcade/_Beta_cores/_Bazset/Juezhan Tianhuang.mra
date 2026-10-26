@@ -1,7 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
 <misterromdescription>
-  <name>Juezhan Tianhuang</name>
+  <name>Juezhan Tianhuang (CRT Canary Experimental)</name>
   <setname>jzth</setname>
-  <rbf>Juezhan_Tianhuang_b03</rbf>
+  <rbf>Juezhan_Tianhuang</rbf>
   <mameversion>current</mameversion>
   <year>2000</year>
   <players>2</players>
