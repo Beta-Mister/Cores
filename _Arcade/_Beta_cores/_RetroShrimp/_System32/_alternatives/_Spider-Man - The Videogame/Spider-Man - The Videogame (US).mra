@@ -2,12 +2,13 @@
     <name>Spider-Man: The Videogame (US, Rev A)</name>
     <setname>spidmanu</setname>
     <rbf>S32</rbf>
-    <mameversion>0288</mameversion>
+    <mameversion>0289</mameversion>
     <year>1991</year>
     <manufacturer>Sega</manufacturer>
     <players>4</players>
     <joystick>8</joystick>
-    <buttons names="Attack,Jump,-,Start,Coin,Service,Test" default="A,B,X,Start,R,L,Select"/>
+    <buttons names="Attack,Jump,-,Start,Coin,Service,Test" default="A,B,Start,R,L,Select"/>
+
     <region>US</region>
 
     <rom index="1">

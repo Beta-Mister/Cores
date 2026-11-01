@@ -1,0 +1,53 @@
+<misterromdescription>
+    <name>Operation Wolf 3 (US)</name>
+    <setname>opwolf3u</setname>
+    <rbf>slapshot</rbf>
+    <mameversion>0289</mameversion>
+    <year>1994</year>
+    <manufacturer>Taito America</manufacturer>
+    <players>2</players>
+    <joystick>0</joystick>
+    <rotation>horizontal</rotation>
+    <platform>Taito</platform>
+    <!--
+      Image for the slapshot core (rtl/system_consts.sv, tools/slapshot_rom.py); made by tools/make_mra.py from MAME 0.289
+      (src/mame/taito/slapshot.cpp).  The settings are kept in the game's timekeeper (MAME: "DIPs in nvram"): set them in the
+      game's test mode (OSD Test switch, or F2) and they are saved with the NVRAM file.
+    -->
+    <buttons names="Trigger,Grenade,Start,Coin" default="A,B,Start,Select"/>
+    <rom index="0" zip="opwolf3u.zip|opwolf3.zip" md5="b6782cb64149a9b72184c3a6f1b5b209" address="0x30000000">
+        <!-- board configuration: game 3, flags 1 (bit 0: the gun board) -->
+        <part>03 01</part>
+        <!-- region 0: maincpu, the 68000 program, 2097152 bytes -->
+        <part>00 20 00 00</part>
+        <interleave output="16">
+            <part name="d74_20.1" crc="960fd892" map="01"/>
+            <part name="d74_16.3" crc="198ff1f6" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="d74_17.17" crc="ac35a672" map="01"/>
+            <part name="d74_18.18" crc="bd5d7cdb" map="10"/>
+        </interleave>
+        <!-- region 1: tc0480scp, the tilemaps, 4194304 bytes -->
+        <part>01 40 00 00</part>
+        <interleave output="32">
+            <part name="d74_05.80" crc="85ea64cc" map="1200"/>
+            <part name="d74_06.81" crc="2fa1e08d" map="0012"/>
+        </interleave>
+        <!-- region 2: sprites (4 bpp) + sprites_hi (2 bpp): 6 bpp words, 8388608 bytes -->
+        <part>02 80 00 00</part>
+        <interleave output="32">
+            <part name="d74_03.24" crc="3f398916" map="0001"/>
+            <part name="d74_02.23" crc="aab86332" map="0010"/>
+            <part name="d74_04.25" crc="2f385638" map="0100"/>
+            <part name="d74_04.25" crc="2f385638" map="1000"/>
+        </interleave>
+        <!-- region 3: audiocpu, the Z80 program, 65536 bytes -->
+        <part>03 01 00 00</part>
+        <part name="d74_19.77" crc="05d53f06"/>
+        <!-- region 4: ymsnd:adpcma, the ADPCM-A samples, 2097152 bytes -->
+        <part>04 20 00 00</part>
+        <part name="d74_01.37" crc="115313e0"/>
+    </rom>
+    <nvram index="4" size="8192"/>
+</misterromdescription>

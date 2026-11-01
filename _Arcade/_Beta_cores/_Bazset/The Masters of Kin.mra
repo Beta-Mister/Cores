@@ -2,7 +2,7 @@
 <!-- BAZSET development test build 20261025. Recoloured approximation; original PCB colour PROMs remain undumped. No game ROM data is distributed. -->
 <misterromdescription>
  <about author="BAZSET / Track &amp; Field donor by Jotego" webpage="https://patreon.com/c/bazset"/>
- <name>The Masters of Kin (BAZSET development)</name>
+ <name>The Masters of Kin</name>
  <setname>mastkin</setname>
  <mameversion>0289</mameversion>
  <year>1988</year>
@@ -42,5 +42,5 @@
   <dip name="Lives" bits="4" ids="5,4"/>
   <dip name="Internal Speed" bits="5" ids="Fast,Slow"/>
  </switches>
- <buttons names="Attack,Jump" default="A,B" count="2"/>
+ <buttons names="Attack,Jump,Start,Coin" default="A,B,Start,Select" count="4"/>
 </misterromdescription>

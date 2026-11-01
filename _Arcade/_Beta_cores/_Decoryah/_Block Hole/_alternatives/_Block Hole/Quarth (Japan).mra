@@ -1,0 +1,57 @@
+<misterromdescription>
+    <name>Quarth (Japan)</name>
+    <setname>quarth</setname>
+    <mameversion>0289</mameversion>
+    <year>1989</year>
+    <manufacturer>Konami</manufacturer>
+    <players>2</players>
+    <joystick>4</joystick>
+    <rotation>horizontal</rotation>
+    <rbf>blockhl</rbf>
+    <platform>Konami GX973</platform>
+
+    <!--
+      The image of the Block Hole core (rtl/blockhl_loader.sv, tools/blockhl_rom.py), the same layout for both sets:
+        0x00000  0x10000  maincpu   the 052526's program
+        0x10000  0x08000  audiocpu  the Z80's program
+        0x18000  0x20000  k052109   the four tile ROMs, whole, in MAME's ROM_LOAD32_BYTE order (bytes 0, 1, 2, 3 of each word)
+        0x38000  0x20000  k051960   the four sprite ROMs, likewise
+      MAME's priority PROM (973a11.h10) is not used. Expects the MAME 0.289 merged romset or the split sets: parts are found by name
+      and CRC. address= is the fast load: a recent Main_MiSTer copies the image into the DDR3 at that byte and the core reads it from
+      there (rtl/blockhl_fastload.sv); an older one streams it.
+    -->
+
+    <!--
+      DIP switches (ioctl index 254): byte 0 is DSW1 (1F97), byte 1 DSW2 (1F98), byte 2 DSW3 (1F94; its bits 0-3 are the coins and
+      the service button, not switches), bit for bit as MAME reads them; a 1 is "off". MAME's defaults: FF, 5F, FF.
+    -->
+    <switches default="FF,5F,FF" base="16">
+        <dip bits="0,3" name="Coin A" ids="Free Play,4C/3C,4C/1C,3C/4C,3C/2C,3C/1C,2C/5C,2C/3C,2C/1C,1C/7C,1C/6C,1C/5C,1C/4C,1C/3C,1C/2C,1C/1C"/>
+        <dip bits="4,7" name="Coin B" ids="Void,4C/3C,4C/1C,3C/4C,3C/2C,3C/1C,2C/5C,2C/3C,2C/1C,1C/7C,1C/6C,1C/5C,1C/4C,1C/3C,1C/2C,1C/1C"/>
+        <dip bits="8" name="Lives" ids="2,1"/>
+        <dip bits="13,14" name="Difficulty" ids="Very Difficult,Difficult,Normal,Easy"/>
+        <dip bits="15" name="Demo Sounds" ids="On,Off"/>
+        <dip bits="20" name="Flip Screen" ids="On,Off"/>
+        <dip bits="22" name="Service Mode" ids="On,Off"/>
+    </switches>
+
+    <!-- the game reads its three buttons alike: all three shoot (measured in MAME 0.289); the core's Shoot drives them all -->
+    <buttons names="Shoot,Start,Coin" default="A,Start,Select"/>
+
+    <rom index="0" zip="quarth.zip|blockhl.zip" md5="None" address="0x32000000">
+        <!-- maincpu -->
+        <part name="973j02.e21" crc="27a90118"/>
+        <!-- audiocpu -->
+        <part name="973d01.g6" crc="eeee9d92"/>
+        <!-- k052109: tiles -->
+        <part name="973e07.k15" crc="0bd6b0f8"/>
+        <part name="973e08.k18" crc="104d0d5f"/>
+        <part name="973e09.k20" crc="bd3a6f24"/>
+        <part name="973e10.k23" crc="cf5e4b86"/>
+        <!-- k051960: sprites -->
+        <part name="973e06.k12" crc="0d58af85"/>
+        <part name="973e05.k9" crc="15d822cb"/>
+        <part name="973e04.k7" crc="d70f4a2c"/>
+        <part name="973e03.k4" crc="2c5a4b4b"/>
+    </rom>
+</misterromdescription>
