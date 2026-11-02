@@ -1,0 +1,39 @@
+<misterromdescription>
+    <name>Football Power (rasterizer player, attract mode)</name>
+    <setname>footbpow</setname>
+    <rbf>gaelco3d</rbf>
+    <mameversion>0289</mameversion>
+    <year>1999</year>
+    <manufacturer>Gaelco</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The rasterizer player (no CPUs yet): it draws what MAME 0.289's Football Power sent to the rasterizer, recorded by
+      tools/lua/capture.lua and turned into a display list by tools/g3d_mklist.py (footbpow_attract.g3d, in g3dplay.zip next to the romset).
+
+        0x0000000  32 MB   texture ROM (four parity quarters of 8 MB; see tools/make_mra.py for the 16 MB boards)
+        0x2000000  512 KB  texture mask ROM
+        0x2080000          display list, 64-bit entries
+    -->
+
+    <rom index="0" zip="footbpow.zip|g3dplay.zip" md5="None" address="0x32000000">
+        <!-- texture: 32 MB -->
+        <part name="fop_ic8.ic8" crc="eaff30ec"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic10.ic10" crc="536c822b"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic15.ic15" crc="c8903051"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic17.ic17" crc="559a38ae"/>
+        <part repeat="0x400000">00</part>
+        <!-- texture mask: 512 KB -->
+        <part name="fop_24.ic24" crc="3214ae1b"/>
+        <part name="fop_25.ic25" crc="69a8734c"/>
+        <part name="fop_26.ic26" crc="b5877b68"/>
+        <part name="fop_27.ic27" crc="58309912"/>
+        <!-- display list -->
+        <part name="footbpow_attract.g3d" crc="e6084a4d"/>
+    </rom>
+</misterromdescription>

@@ -1,0 +1,39 @@
+<misterromdescription>
+    <name>Radikal Bikers (rasterizer player, attract mode)</name>
+    <setname>radikalb</setname>
+    <rbf>gaelco3d</rbf>
+    <mameversion>0289</mameversion>
+    <year>1998</year>
+    <manufacturer>Gaelco</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The rasterizer player (no CPUs yet): it draws what MAME 0.289's Radikal Bikers sent to the rasterizer, recorded by
+      tools/lua/capture.lua and turned into a display list by tools/g3d_mklist.py (radikalb_attract.g3d, in g3dplay.zip next to the romset).
+
+        0x0000000  32 MB   texture ROM (four parity quarters of 8 MB; see tools/make_mra.py for the 16 MB boards)
+        0x2000000  512 KB  texture mask ROM
+        0x2080000          display list, 64-bit entries
+    -->
+
+    <rom index="0" zip="radikalb.zip|g3dplay.zip" md5="None" address="0x32000000">
+        <!-- texture: 32 MB -->
+        <part name="rab_ic8.ic8" crc="4fbd4737"/>
+        <part name="rab_ic9.ic9" crc="9e3e038d"/>
+        <part name="rab_ic10.ic10" crc="870b0ce4"/>
+        <part name="rab_ic11.ic11" crc="75672271"/>
+        <part name="rab_ic15.ic15" crc="edb9d409"/>
+        <part name="rab_ic16.ic16" crc="9d595e46"/>
+        <part name="rab_ic17.ic17" crc="e120236b"/>
+        <part name="rab_ic18.ic18" crc="3084bc49"/>
+        <!-- texture mask: 512 KB -->
+        <part name="rab_24.ic24" crc="2984bc1d"/>
+        <part name="rab_25.ic25" crc="777758e3"/>
+        <part name="rab_26.ic26" crc="bd9c1b54"/>
+        <part name="rab_27.ic27" crc="bbcf6977"/>
+        <!-- display list -->
+        <part name="radikalb_attract.g3d" crc="80945211"/>
+    </rom>
+</misterromdescription>

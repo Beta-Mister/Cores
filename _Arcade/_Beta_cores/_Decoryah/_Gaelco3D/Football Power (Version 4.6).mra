@@ -1,0 +1,72 @@
+<misterromdescription>
+    <name>Football Power (Version 4.6)</name>
+    <setname>footbpow</setname>
+    <rbf>gaelco3d020</rbf>
+    <mameversion>0289</mameversion>
+    <year>1999</year>
+    <manufacturer>Gaelco</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The game (the 68EC020 board). Index 0 goes to the DDR3 (fast load), index 1 to the SDRAM, index 2 is the EEPROM,
+      index 3 the game (3: its CPU and inputs).
+
+      Index 0:
+        0x0000000  32 MB   texture ROM
+        0x2000000  512 KB  texture mask ROM
+
+      Index 1 (fast load too; each 16-bit word low byte first):
+        0x0000000  16 MB   TMS ROM (MAME's tmsrom: 32-bit words, fop_ic48.ic48 the low half, fop_ic42.ic42 the high half)
+        0x1000000  16 KB   the TMS320C31's boot loader (MAME's tms320c31.zip: c31boot.bin)
+        0x1400000  2 MB    68EC020 program (the four ROMs' bytes 0-3 of each long word; each 16-bit word big-endian)
+        0x1800000  4 MB    the ADSP-2115's ROM (its program and samples)
+
+      Needs the MiSTer SDRAM module.
+    -->
+
+    <rom index="3" md5="None"><part>03</part></rom>
+
+    <rom index="0" zip="footbpow.zip" md5="None" address="0x32000000">
+        <!-- texture: 32 MB -->
+        <part name="fop_ic8.ic8" crc="eaff30ec"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic10.ic10" crc="536c822b"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic15.ic15" crc="c8903051"/>
+        <part repeat="0x400000">00</part>
+        <part name="fop_ic17.ic17" crc="559a38ae"/>
+        <part repeat="0x400000">00</part>
+        <!-- texture mask: 512 KB -->
+        <part name="fop_24.ic24" crc="3214ae1b"/>
+        <part name="fop_25.ic25" crc="69a8734c"/>
+        <part name="fop_26.ic26" crc="b5877b68"/>
+        <part name="fop_27.ic27" crc="58309912"/>
+    </rom>
+
+    <rom index="1" zip="footbpow.zip|tms320c31.zip" md5="None" address="0x36000000">
+        <!-- TMS ROM -->
+        <interleave output="32">
+            <part name="fop_ic48.ic48" crc="efddf5c1" map="0021"/>
+            <part name="fop_ic42.ic42" crc="8772e536" map="2100"/>
+        </interleave>
+        <!-- the TMS's boot loader -->
+        <part name="c31boot.bin" crc="bddc2763"/>
+        <part repeat="0x3FC000">00</part>
+        <!-- 68EC020 program: bytes 0, 1, 2, 3 of each long word -->
+        <interleave output="32">
+            <part name="p_ic7_2431_3c9c_28-2_27c040.ic7" crc="0f4baf2e" map="0010"/>
+            <part name="p_ic12_1623_f0fb_28-2_27c040.ic12" crc="a256a726" map="0001"/>
+            <part name="p_ic13_0815_4ab5_28-2_27c040.ic13" crc="d5865820" map="1000"/>
+            <part name="p_ic19_0007_54c5_28-2_wait_27c040.ic19" crc="48de8155" map="0100"/>
+        </interleave>
+        <part repeat="0x200000">00</part>
+        <!-- the sound CPU's ROM -->
+        <part name="fop_ic23.ic23" crc="3c02f7c6"/>
+    </rom>
+
+    <nvram index="2" size="512"/>
+
+    <buttons names="Dribbling,Defense,Shoot,Pass,Start,Coin,Test" default="A,B,X,Y,Start,Select,L"/>
+</misterromdescription>

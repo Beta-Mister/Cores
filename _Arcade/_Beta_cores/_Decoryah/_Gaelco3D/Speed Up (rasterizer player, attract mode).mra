@@ -1,0 +1,38 @@
+<misterromdescription>
+    <name>Speed Up (rasterizer player, attract mode)</name>
+    <setname>speedup</setname>
+    <rbf>gaelco3d</rbf>
+    <mameversion>0289</mameversion>
+    <year>1996</year>
+    <manufacturer>Gaelco</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The rasterizer player (no CPUs yet): it draws what MAME 0.289's Speed Up sent to the rasterizer, recorded by
+      tools/lua/capture.lua and turned into a display list by tools/g3d_mklist.py (speedup_attract.g3d, in g3dplay.zip next to the romset).
+
+        0x0000000  32 MB   texture ROM (four parity quarters of 8 MB; see tools/make_mra.py for the 16 MB boards)
+        0x2000000  512 KB  texture mask ROM
+        0x2080000          display list, 64-bit entries
+    -->
+
+    <rom index="0" zip="speedup.zip|g3dplay.zip" md5="None" address="0x32000000">
+        <!-- texture: 32 MB -->
+        <part name="sup_ic12.ic12" crc="311f3247"/>
+        <part name="sup_ic12.ic12" crc="311f3247"/>
+        <part name="sup_ic14.ic14" crc="3ad3c089"/>
+        <part name="sup_ic14.ic14" crc="3ad3c089"/>
+        <part name="sup_ic11.ic11" crc="b993e65a"/>
+        <part name="sup_ic11.ic11" crc="b993e65a"/>
+        <part name="sup_ic13.ic13" crc="ad00023c"/>
+        <part name="sup_ic13.ic13" crc="ad00023c"/>
+        <!-- texture mask: 512 KB -->
+        <part name="ic35.bin" crc="34737d1d"/>
+        <part name="ic34.bin" crc="e89e829b"/>
+        <part repeat="0x40000">00</part>
+        <!-- display list -->
+        <part name="speedup_attract.g3d" crc="d9ddb551"/>
+    </rom>
+</misterromdescription>

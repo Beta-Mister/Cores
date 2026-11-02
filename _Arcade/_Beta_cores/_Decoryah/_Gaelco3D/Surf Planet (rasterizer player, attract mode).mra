@@ -1,0 +1,39 @@
+<misterromdescription>
+    <name>Surf Planet (rasterizer player, attract mode)</name>
+    <setname>surfplnt</setname>
+    <rbf>gaelco3d</rbf>
+    <mameversion>0289</mameversion>
+    <year>1997</year>
+    <manufacturer>Gaelco</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The rasterizer player (no CPUs yet): it draws what MAME 0.289's Surf Planet sent to the rasterizer, recorded by
+      tools/lua/capture.lua and turned into a display list by tools/g3d_mklist.py (surfplnt_attract.g3d, in g3dplay.zip next to the romset).
+
+        0x0000000  32 MB   texture ROM (four parity quarters of 8 MB; see tools/make_mra.py for the 16 MB boards)
+        0x2000000  512 KB  texture mask ROM
+        0x2080000          display list, 64-bit entries
+    -->
+
+    <rom index="0" zip="surfplnt.zip|g3dplay.zip" md5="None" address="0x32000000">
+        <!-- texture: 32 MB -->
+        <part name="pls_ic7.ic7" crc="04bd1605"/>
+        <part name="pls_ic7.ic7" crc="04bd1605"/>
+        <part name="pls_ic9.ic9" crc="f4400160"/>
+        <part name="pls_ic9.ic9" crc="f4400160"/>
+        <part name="pls_ic12.ic12" crc="edc2e826"/>
+        <part name="pls_ic12.ic12" crc="edc2e826"/>
+        <part name="pls_ic15.ic15" crc="b0f6b8da"/>
+        <part name="pls_ic15.ic15" crc="b0f6b8da"/>
+        <!-- texture mask: 512 KB -->
+        <part name="pls_19.ic19" crc="691bd7a7"/>
+        <part name="pls_20.ic20" crc="fb293318"/>
+        <part name="pls_21.ic21" crc="b80611fb"/>
+        <part name="pls_22.ic22" crc="ccf88f7e"/>
+        <!-- display list -->
+        <part name="surfplnt_attract.g3d" crc="37c4f71e"/>
+    </rom>
+</misterromdescription>

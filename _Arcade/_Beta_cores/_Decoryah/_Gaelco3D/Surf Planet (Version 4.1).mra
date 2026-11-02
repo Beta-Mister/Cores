@@ -1,0 +1,75 @@
+<misterromdescription>
+    <name>Surf Planet (Version 4.1)</name>
+    <setname>surfplnt</setname>
+    <rbf>gaelco3d</rbf>
+    <mameversion>0289</mameversion>
+    <year>1997</year>
+    <manufacturer>Gaelco (Atari license)</manufacturer>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Gaelco 3D</platform>
+
+    <!--
+      The game. Index 0 goes to the DDR3 (fast load), index 1 to the SDRAM, index 2 is the EEPROM, index 3
+      the game (1 Surf Planet: its inputs).
+
+      Index 0:
+        0x0000000  32 MB   texture ROM (the 16 MB board's four quarters, each twice)
+        0x2000000  512 KB  texture mask ROM
+
+      Index 1 (fast load too; each 16-bit word low byte first):
+        0x0000000  16 MB   TMS ROM (MAME's tmsrom: 32-bit words, ic40 the low half, ic37 the high half; 8 MB used)
+        0x1000000  16 KB   the TMS320C31's boot loader (MAME's tms320c31.zip: c31boot.bin)
+        0x1400000  2 MB    68000 program (ic5 / ic8 the even bytes, ic11 / ic13 the odd)
+        0x1800000  4 MB    the ADSP-2115's ROM (its program and samples)
+
+      Needs the MiSTer SDRAM module.
+    -->
+
+    <rom index="3" md5="None"><part>01</part></rom>
+
+    <rom index="0" zip="surfplnt.zip" md5="None" address="0x32000000">
+        <!-- texture: 16 MB, each 4 MB quarter twice (the core's 32 MB addressing then wraps as MAME's 16 MB) -->
+        <part name="pls_ic7.ic7" crc="04bd1605"/>
+        <part name="pls_ic7.ic7" crc="04bd1605"/>
+        <part name="pls_ic9.ic9" crc="f4400160"/>
+        <part name="pls_ic9.ic9" crc="f4400160"/>
+        <part name="pls_ic12.ic12" crc="edc2e826"/>
+        <part name="pls_ic12.ic12" crc="edc2e826"/>
+        <part name="pls_ic15.ic15" crc="b0f6b8da"/>
+        <part name="pls_ic15.ic15" crc="b0f6b8da"/>
+        <!-- texture mask: 512 KB -->
+        <part name="pls_19.ic19" crc="691bd7a7"/>
+        <part name="pls_20.ic20" crc="fb293318"/>
+        <part name="pls_21.ic21" crc="b80611fb"/>
+        <part name="pls_22.ic22" crc="ccf88f7e"/>
+    </rom>
+
+    <rom index="1" zip="surfplnt.zip|tms320c31.zip" md5="None" address="0x36000000">
+        <!-- TMS ROM -->
+        <interleave output="32">
+            <part name="pls_ic40.ic40" crc="26877ad3" map="0021"/>
+            <part name="pls_ic37.ic37" crc="75893062" map="2100"/>
+        </interleave>
+        <part repeat="0x800000">00</part>
+        <!-- the TMS's boot loader -->
+        <part name="c31boot.bin" crc="bddc2763"/>
+        <part repeat="0x3FC000">00</part>
+        <!-- 68000 program -->
+        <interleave output="16">
+            <part name="pls_5.ic5" crc="c96e0a18" map="10"/>
+            <part name="pls_11.ic11" crc="99211d2d" map="01"/>
+        </interleave>
+        <interleave output="16">
+            <part name="pls_8.ic8" crc="aef9e1d0" map="10"/>
+            <part name="pls_13.ic13" crc="d9754369" map="01"/>
+        </interleave>
+        <part repeat="0x200000">00</part>
+        <!-- the sound CPU's ROM -->
+        <part name="pls_ic18.ic18" crc="a1b64695"/>
+    </rom>
+
+    <nvram index="2" size="512"/>
+
+    <buttons names="-,-,-,-,Start,Coin,Test" default="A,B,X,Y,Start,Select,L"/>
+</misterromdescription>
