@@ -1,0 +1,69 @@
+<misterromdescription>
+    <name>1945 Er Dai / 1945 Part-2 (Chinese hack of Battle Garegga)</name>
+    <setname>bgareggabl</setname>
+    <rbf>BLRaizing</rbf>
+    <mameversion>0245</mameversion>
+    <year>1998</year>
+    <manufacturer>bootleg (Melody)</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>vertical (ccw)</rotation>
+    <region>China</region>
+    <platform>Toaplan 2</platform>
+    <category>Shoot'em up</category>
+    <catver>Shooter / Flying Vertical</catver>
+    <rom index="0" zip="bgareggabl.zip|bgaregga.zip" md5="None" address="0x30000000">
+        <!-- selector: bit 7 = Chinese Battle Garegga bootleg flag (text layer offset), bits 6-0 = game 00 (bgaregga) -->
+        <part>80</part>
+        <!-- maincpu - starts at 0x0 (single 1MB word-swapped file) -->
+        <interleave output="16">
+            <part name="xt-8m.bin" crc="4a6657cb" map="12"/>
+        </interleave>
+        <!-- audiocpu - starts at 0x100000 -->
+        <part name="snd.bin" crc="68632952"/>
+        <!-- gp9001_0 - starts at 0x120000 -->
+        <!-- 6@-322 = rom4+rom3, 5@-322 = rom2+rom1 -->
+        <interleave output="16">
+            <part name="6@-322" crc="37fe48ed" offset="0x000000" length="0x200000" map="01"/>
+            <part name="5@-322" crc="5a06c031" offset="0x000000" length="0x200000" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="6@-322" crc="37fe48ed" offset="0x200000" length="0x200000" map="01"/>
+            <part name="5@-322" crc="5a06c031" offset="0x200000" length="0x200000" map="10"/>
+        </interleave>
+        <!-- text - starts at 0x920000 -->
+        <part name="1@-256" crc="760dcd14"/>
+        <!-- oki1 - starts at 0x928000 -->
+        <part name="rom5.bin" crc="f6d49863"/>
+        <!-- Total 0xA28000 bytes - 10400 kBytes -->
+    </rom>
+    <!-- Vertical game -->
+    <rom index="1">
+        <part>05 80</part>
+    </rom>
+    <!-- default hiscore -->
+    <rom index="2">
+        <part>00 0F 42 40 31 30 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 0D BB A0 20 39 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 0C 35 00 20 38 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 0A AE 60 20 37 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 09 27 C0 20 36 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 07 A1 20 20 35 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 06 1A 80 20 34 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 04 93 E0 20 33 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 03 0D 40 20 32 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00 00 00 00 02 00 01 86 A0 20 31 30 30 30 30 30 00 2A 2A 2A 00 00 00 2A 00</part>
+    </rom>
+    <nvram index="2" size="236"/>
+    <switches page_id="1" page_name="Switches" base="8" default="00,00,00">
+        <!-- DSW A -->
+        <dip name="Test Mode" bits="0" ids="Off,On"/>
+        <dip name="Credits to Start" bits="1" ids="1,2"/>
+        <dip name="Coin A" bits="2,4" ids="1/1,1/2,1/3,1/4,2/1,3/1,4/1,Free Play"/>
+        <dip name="Coin B" bits="5,7" ids="1/1,1/2,1/3,1/4,2/1,3/1,4/1"/>
+        <dip name="Joystick Mode (Free Play)" bits="5" ids="90 degrees ACW,Normal"/>
+        <dip name="Effect (Free Play)" bits="6" ids="Off,On"/>
+        <dip name="Music (Free Play)" bits="7" ids="Off,On"/>
+        <!-- DSW B -->
+        <dip name="Start Rank" bits="8,9" ids="Normal,Easy,Hard,Very Hard"/>
+        <dip name="Screen Flip" bits="10" ids="Off,On"/>
+        <dip name="Demo Sound" bits="11" ids="On,Off"/>
+        <dip name="Player Counts" bits="12,14" ids="3,4,2,1,5,6,Infinite,Invulnerability"/>
+        <dip name="Bonus Life" bits="15" ids="Every 1000k,1000k+2000k"/>
+        <!-- JMPR: region is hard-coded in the bootleg program -->
+        <dip name="Allow Continue" bits="18" ids="Yes,No"/>
+        <dip name="Stage Edit" bits="19" ids="Off,On"/>
+    </switches>
+    <buttons names="Shot,Bomb,Formation,Start,Coin,Pause,-,-,-,Save/Load" default="A,B,X,Start,Select,R,L" count="3"/>
+</misterromdescription>
