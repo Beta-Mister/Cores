@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <misterromdescription>
-  <!-- PATREON MRA, 20260923. Required RBF: Arcade-XNSYSTEMFL_20260923.rbf. MiSTer requires the RBF stem without .rbf. -->
+  <!-- PATREON MRA, 20260924. Required RBF: Arcade-XNSYSTEMFL_20260924.rbf. MiSTer requires the RBF stem without .rbf. -->
   <name>Speed Racer</name>
   <setname>speedrcr</setname>
   <year>1995</year>
   <manufacturer>Namco</manufacturer>
-  <rbf>Arcade-XNSYSTEMFL_20260923</rbf>
-  <about>Namco System FL PATREON release 2026-09-23 (XelaNotPu).</about>
+  <rbf>Arcade-XNSYSTEMFL_20260924</rbf>
+  <mraauthor>xelanotpu</mraauthor>
+  <about author="xelanotpu" webpage="https://www.patreon.com/XelaNotPu">Namco System FL PATREON release 2026-09-24 (XelaNotPu).</about>
   <buttons names="Accelerator,Start / Jump,Weapon 1,Weapon 2,Weapon 3,Coin,Service,Test,Pause" default="A,B,X,Y,L,R,Select,Start" />
   <!-- Steering uses standard Left/Right or normalized analog input. No brake or gear on Speed Racer. In test mode: Weapon 1 modifies, Weapon 2 moves up, Weapon 3 moves down; Service enters pages. -->
   <switches default="00">
     <dip bits="0" name="Freeze Screen" ids="Off,On" />
   </switches>
   <!--
-     FAST LOADING (per /home/nas/claude/example.mra).
+     ROM STREAM LAYOUT.
      Every byte destined for SDRAM is concatenated into ONE index-0
      stream, so the host assembles and transfers it in a single
      download of 0x1680000 bytes. The core splits it by the fixed
@@ -40,13 +41,6 @@
      The slot table is shared by every System FL set and is sized for
      the largest of them, so fl_download.sv can insist on exactly
      0x1680000 received bytes before it asserts `loaded`.
-
-     Not applicable: the DDR fast-load form <rom index="0"
-     address="0x30000000"> (Main_MiSTer rom_finish() -> shmem_put).
-     This core has no DDR3 ROM window - fl_download.sv streams index 0
-     into SDRAM over ioctl - so address= would write the ROM where
-     nothing reads it. The single-stream layout above is the whole of
-     the available fast-load optimisation.
 
      The C75 MCU BIOS is not SDRAM content (it lands in on-chip BRAM
      via fl_bios_loader.sv), so it stays its own index-8 stream, and

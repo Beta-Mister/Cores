@@ -1,4 +1,4 @@
-Path,URL,Size in bytes,MD5 Hash,Filter Terms (optional),Overwrite (optional)
+﻿Path,URL,Size in bytes,MD5 Hash,Filter Terms (optional),Overwrite (optional)
 games/kinst/kinst.img,https://archive.org/download/OngoFiles/KillerInstinct/kinst.img,131076608,6d4c2f152c9a18ab3a9b05b8804306a8,Killer Instinct,overwrite:false
 games/kinst2/kinst2.img,https://archive.org/download/OngoFiles/KillerInstinct/kinst2.img,457673216,2563b089b316f2c8636d78af661ac656,Killer Instinct,overwrite:false
 games/mame/kinst.zip,https://archive.org/download/OngoFiles/KillerInstinct/kinst.zip,5843251,4bb48f2ea2091e45b6f14cf3689b7986,Killer Instinct,overwrite:false
@@ -1116,3 +1116,34 @@ games/mame/guwangeo.zip,https://archive.org/download/insert_coin_mame/guwangeo.z
 games/mame/ibarafssl.zip,https://archive.org/download/insert_coin_mame/ibarafssl.zip,490278,d5c6bc26829003d6f535a64bee3306bb,,overwrite:false
 games/mame/mmporkt.zip,https://archive.org/download/insert_coin_mame/mmporkt.zip,639840,a5e851c88a966a602e3685bb6de3710b,,overwrite:false
 games/mame/gticlub.zip,https://archive.org/download/mame-roms-merged_/MAME ROMs (merged)/gticlub.zip,13601708,c809889091fca166b80d40302d25c550,,overwrite:false
+games/mame/500gp.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.282%20to%20v0.283%29%20-%20Update/500gp.zip,40299932,65e8098eed9cd9d2c7d7135b86677f94,,
+games/mame/aking.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.288%20to%20v0.289%29%20-%20Update/aking.zip,44914158,98bf41da9a750457689017475b894019,,
+games/mame/arescuej.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28non-merged%29%20%28v0.288%20to%20v0.289%29%20-%20Update/arescuej.zip,10209021,d99f77a8def5a5be80553a66883101fc,,
+games/mame/arlingtn.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.282%20to%20v0.283%29%20-%20Update/arlingtn.zip,487021,749e364f13da10f1948f6dd8050cd6d5,,
+games/mame/berlwall.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/berlwall.zip,2742153,4dfb19eac23b1ded64fa88f035f61dda,,
+games/mame/crszone.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/crszone.zip,69187961,809f1d7186dccfab33162176189ac436,,
+games/mame/dfjail.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/dfjail.zip,1323227,3a64d07c0edb390669ebeee3459c9d83,,
+games/mame/downhill.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/downhill.zip,59036089,42d23563bc834f176f9f8758240bfef7,,
+games/mame/f1enj.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28non-merged%29%20%28v0.288%20to%20v0.289%29%20-%20Update/f1enj.zip,6236530,f284f71a4cf9466829b0905a9fdbd838,,
+games/mame/f1enu.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28non-merged%29%20%28v0.288%20to%20v0.289%29%20-%20Update/f1enu.zip,6238040,ec7626f48d52ce2e0afdb595e5db69f1,,
+games/mame/friskyt.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/friskyt.zip,73099,6b1c2dd6f4e3ab4b1945c6bb78153b62,,
+games/mame/gaiapols.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/gaiapols.zip,8213033,4a8b8b0f5ee3a51e01fdd62995f3ac89,,
+games/mame/hstennis.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.281%20to%20v0.282%29%20-%20Update/hstennis.zip,497744,89d824040f09d3bdad2ec50e529f3ab6,,
+games/mame/motofren.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.282%20to%20v0.283%29%20-%20Update/motofren.zip,6515240,a69a70f6eb07a656f984e5bf13d82240,,
+games/mame/motoxgo.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/motoxgo.zip,47977047,3c1cb3d941c7e0b0eccf8470640dd5c0,,
+games/mame/neckneck.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/neckneck.zip,489917,27627e1aeb88da7749958180cb1acbb4,,
+games/mame/panicprk.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/panicprk.zip,49016713,005abd60e469a01adff49d2c64c1de7a,,
+games/mame/peggle.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/peggle.zip,336413,bfc49dc96b384a9ce70a581ce82fb182,,
+games/mame/pokrdice.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.282%20to%20v0.283%29%20-%20Update/pokrdice.zip,240617,4cdc7b01bb9cee78c1c0391df656a388,,
+games/mame/polystar.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/polystar.zip,709579,1348570df1c8575457e0f520e8f5011d,,
+games/mame/radikalb.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/radikalb.zip,32058696,0b2f2166382eeb194637373ce85ece0b,,
+games/mame/radrad.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/radrad.zip,30269,5c6143cf7a9f44093230e559325a7f8f,,
+games/mame/rapidrvr.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/rapidrvr.zip,81275332,57264c7ec11fa456bc702b0ae3fb6817,,
+games/mame/rimrockn.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.287%20to%20v0.288%29%20-%20Update/rimrockn.zip,1510137,414b8c0610ea47c2ac0f98dddc8077a2,,
+games/mame/seicross.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.281%20to%20v0.282%29%20-%20Update/seicross.zip,57027,c05fc877da14299794a43a15f8fee99a,,
+games/mame/slrasslt.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/slrasslt.zip,21866391,aaccabf437d6f8ca646eb05a884b9dc0,,
+games/mame/spclords.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/spclords.zip,8339573,9b0bc2a3a13497151818beb551d82725,,
+games/mame/spinlbrk.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/spinlbrk.zip,2678935,fa71bb4b6fb15531b66ae1f6ce4b7fd9,,
+games/mame/thunderh.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/thunderh.zip,12170146,7b2f649142319b66bda7b004ee3cbafe,,
+games/mame/timecrs2.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/timecrs2.zip,43043647,0ea58c07798ea4ddd50d155f4bcc6221,,
+games/mame/wfortune.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/wfortune.zip,332088,09cb45424d0e374b97ebb3dfb7559486,,

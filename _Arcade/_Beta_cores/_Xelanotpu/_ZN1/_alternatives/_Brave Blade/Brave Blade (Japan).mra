@@ -8,7 +8,9 @@
 	<joystick>8-way</joystick>
 	<rotation>vertical</rotation>
 	<region>Japan</region>
-	<rbf>ZN1</rbf>
+	<rbf>XNZN1</rbf>
+	<mraauthor>xelanotpu</mraauthor>
+	<about author="xelanotpu" webpage="https://www.patreon.com/XelaNotPu" />
 
 	<!-- BIOS: Tecmo TPS System BIOS (used by brvblade), 512KB, ioctl_index 0 -->
 	<rom index="0" zip="coh1002m.zip" md5="none">
