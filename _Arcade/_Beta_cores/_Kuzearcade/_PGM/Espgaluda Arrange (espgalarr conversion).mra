@@ -53,7 +53,7 @@
 		<part>07 00800000 00000000</part>
 		<part name="cave_b04801w064.u1"/>
 	</rom>
-	<!-- the Arrange soundtrack: the PS2's ADX streams (espgalarr build --bgm adx), placed by
+	<!-- the Arrange soundtrack: the PS2's ADX streams (espgalarr build -bgm adx), placed by
 	     Main_MiSTer straight into DDR3 for the core's stream player (rtl/adx_stream.sv) -->
 	<rom index="2" address="0x34000000" zip="espgalarr.zip">
 		<part name="espgalarr_bgm.bin"/>

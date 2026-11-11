@@ -6,9 +6,6 @@
 <!-- REQUIRED ROM ZIP FILE(S): pushmans.zip | pushman.zip -->
 <!-- ============================================================ -->
 
-
--->
-
 <misterromdescription>
     <bazset_runtime version="1">
       <pause>

@@ -22,8 +22,8 @@
 
     <!--
       SXX2G: the single-board Raiden Fighters Jet. MAME builds it as sxx2f()
-      with three clocks changed and nothing else -- "clocks differ, but
-      otherwise same hw as sxx2f" (seibuspi.cpp:1907) -- so this is rfjet's
+      with three clocks changed and nothing else - "clocks differ, but
+      otherwise same hw as sxx2f" (seibuspi.cpp:1907) - so this is rfjet's
       GAME on rdft2us's BOARD, and it runs `init_rfjet`, the same init as the
       cartridge set, so the keys and the RISE11 sprite codec are identical.
 
@@ -31,12 +31,12 @@
       something different in the core:
 
         386      28.63636 MHz (AM386DX-40), not 50/2. That is the raw PLL
-                 output, so this board takes the clk_cpu gate OFF --
+                 output, so this board takes the clk_cpu gate OFF -
                  rtl/spi_clk_throttle.sv's `full_speed`.
         Z80      4.9152 MHz, not 7.1590909. clk_sys / 4.9152 = 11.652, so no
                  counter can make it; rtl/spi_sound.sv runs a 5632/65625
                  accumulator, which is the ratio exactly.
-        YMF271   16.384 MHz, not 16.9344 -- so 42666.67 Hz samples rather than
+        YMF271   16.384 MHz, not 16.9344 - so 42666.67 Hz samples rather than
                  44100. One constant, because rtl/ymf271.sv accumulates the
                  rate instead of synthesising a master clock.
 
@@ -46,7 +46,7 @@
       core uses 4.9152; PLAN.md has the argument.
 
       rfjetsa is the same board with four different program ROMs and no factory
-      EEPROM image, so it walks this same table one part shorter -- mod 0x06.
+      EEPROM image, so it walks this same table one part shorter - mod 0x06.
     -->
 
     <!--
@@ -93,7 +93,7 @@
              swapped per word, because MAME declares this region
              ROM_REGION16_BE and the game validates the swapped order. Without
              it the game finds its settings invalid, prints a message and waits
-             on a vblank counter with interrupts disabled -- PLAN.md 58.
+             on a vblank counter with interrupts disabled - PLAN.md 58.
 
              rfjetsa has no such region and takes mod 0x06, which is the same
              table one part shorter. -->
@@ -102,26 +102,26 @@
 
     <!--
       The save file: 128 bytes, the 93C46's array verbatim, little-endian per
-      word -- byte-for-byte MAME's own `eeprom` nvram file for this set.
+      word - byte-for-byte MAME's own `eeprom` nvram file for this set.
 
       NOT the same thing as the `eeprom` ROM region rfjets carries in MAME
       (st93c46.bin, 128 bytes). That is a factory DEFAULT which MAME copies over
       its all-ones fill when no save exists; this core has no path to seed a
       fabric register file from an MRA part, and it is untested whether the game
-      needs one -- rfjetsa ships without it. PLAN.md 58.
+      needs one - rfjetsa ships without it. PLAN.md 58.
     -->
     <nvram index="2" size="128"/>
 
     <!--
       The names map to joystick bits 4 upwards IN ORDER and SeibuSPI.sv decodes
       them at exactly those positions, so this list and that decode change
-      together. Pause is the eighth, bit 11, and is not a board input at all --
+      together. Pause is the eighth, bit 11, and is not a board input at all -
       it gates the 386 while the video engines keep running, so the frozen frame
       stays on screen. It is not on button 3 because four of the seven sets are
       MAME's spi_3button and use that as a game button.
 
       Savestate (SS) is the ninth, bit 12, and is also not a board input: it is
-      the modifier the savestate d-pad combinations are built on -- SS+Left/Right
+      the modifier the savestate d-pad combinations are built on - SS+Left/Right
       picks the slot, SS+Down saves, SS+Up loads.  It has no entry in default=
       because Main only accepts the eight base pad names there and the first
       eight buttons use all of them, so it must be bound by hand.

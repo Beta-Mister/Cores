@@ -25,7 +25,7 @@
       Image: 0x62C0000 bytes.
 
       Index 4, the game ID: 0x17 (R924). Bit 7 would be the 15 kHz CRT flag.
-      [15kHz CRT]: game ID bit 7 set -- the core starts in 15 kHz
+      [15kHz CRT]: game ID bit 7 set - the core starts in 15 kHz
       interlaced whatever the OSD's Video line holds (R795, R801).
       THE GUNS: Virtua Cop 2's driver (R870), read by the game through the
       315-5649's serial channel 2 as MAME's hotd config does. NOT YET SCALED

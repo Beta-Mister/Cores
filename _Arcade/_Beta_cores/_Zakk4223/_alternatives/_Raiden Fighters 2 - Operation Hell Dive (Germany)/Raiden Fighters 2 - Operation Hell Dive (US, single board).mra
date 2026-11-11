@@ -22,8 +22,8 @@
 
     <!--
       SXX2F: the single-board Raiden Fighters 2. MAME builds it as sxx2e() plus
-      three lines (seibuspi.cpp:1892) -- a different address map, the DS2404
-      removed, and a 93C46 in its place -- so this is rdft2's GAME on rdfts's
+      three lines (seibuspi.cpp:1892) - a different address map, the DS2404
+      removed, and a 93C46 in its place - so this is rdft2's GAME on rdfts's
       BOARD, and the ROM list below is exactly that split.
 
       It runs `init_rdft2` (seibuspi.cpp:4363), the same init as the cartridge
@@ -39,7 +39,7 @@
 
       TWO ZIPS, and a MERGED rdft2.zip is enough on its own. Every graphics ROM
       and the 2 MB PCM are byte-identical to rdft2's under a different
-      silkscreen -- MAME merges them by CRC -- so a merged set keeps only
+      silkscreen - MAME merges them by CRC - so a merged set keeps only
       prg0-3, zprg and sound1, and keeps them under `rdft2us/`. Main resolves
       those without help: this MRA's flat part names loaded straight out of a
       merged rdft2.zip on hardware, with no rdft2us.zip present at all.
@@ -72,7 +72,7 @@
         <part name="zprg.u091" crc="cc543c4f"/>
 
         <!-- text layer: three byte lanes, in MAME's fix0 / fix1 / fixp order
-             (lanes 1, 0, 2 -- not the numeric one) -->
+             (lanes 1, 0, 2 - not the numeric one) -->
         <part name="fix0.u0524" crc="6fdf4cf6"/>
         <part name="fix1.u0518" crc="69b7899b"/>
         <part name="fixp.u0514" crc="99a5fece"/>
@@ -112,13 +112,13 @@
     <!--
       The names map to joystick bits 4 upwards IN ORDER and SeibuSPI.sv decodes
       them at exactly those positions, so this list and that decode change
-      together. Pause is the eighth, bit 11, and is not a board input at all --
+      together. Pause is the eighth, bit 11, and is not a board input at all -
       it gates the 386 while the video engines keep running, so the frozen frame
       stays on screen. It is not on button 3 because four of the seven sets are
       MAME's spi_3button and use that as a game button.
 
       Savestate (SS) is the ninth, bit 12, and is also not a board input: it is
-      the modifier the savestate d-pad combinations are built on -- SS+Left/Right
+      the modifier the savestate d-pad combinations are built on - SS+Left/Right
       picks the slot, SS+Down saves, SS+Up loads.  It has no entry in default=
       because Main only accepts the eight base pad names there and the first
       eight buttons use all of them, so it must be bound by hand.
