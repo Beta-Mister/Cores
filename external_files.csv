@@ -749,6 +749,7 @@ games/mame/rshark.zip,https://archive.org/download/OngoFiles/mame-rshark/rshark.
 games/mame/superx.zip,https://archive.org/download/OngoFiles/mame-rshark/superx.zip,1894376,c3569647c8889692e888c93f3f56588d,Rshark,overwrite:false
 games/mame/mcatadv.zip,https://archive.org/download/OngoFiles/mame-nostradamus/mcatadv.zip,4485469,a6f90f943860325071a76c18d69ca5d7,Nostra,overwrite:false
 games/mame/nost.zip,https://archive.org/download/OngoFiles/mame-nostradamus/nost.zip,3189195,a1c997e911c4c5ff406d25486d2f2859,Nostra,overwrite:false
+games/mame/felixjr.zip,https://archive.org/download/OngoFiles/mame/felixjr.zip,699670,ef9e69637a4c3a966eafea7f229abd7b,,
 games/mame/3in1semi.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/3in1semi.zip,2046450,e35a0f18c96756217887964544905341,,overwrite:false
 games/mame/3kokushi.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/3kokushi.zip,1145521,6bfa22165bcc85fef6cc98a7e5650621,,overwrite:false
 games/mame/4in1boot.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.287%20to%20v0.288%29%20-%20Update/4in1boot.zip,1185199,5b2d1197e8631ed402dec234971610fb,,overwrite:false
@@ -1149,3 +1150,15 @@ games/mame/timecrs2.zip,https://archive.org/download/mame-roms-merged_/MAME%20RO
 games/mame/wfortune.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/wfortune.zip,332088,09cb45424d0e374b97ebb3dfb7559486,,
 games/mame/bkungfu.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/bkungfu.zip,213223,cf9f3406f221c6c25bd01bed8cca4fdc,,
 games/mame/ninjemak.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/ninjemak.zip,604718,e56c34a4fce4abde4391576bd928c8ed,,
+games/mame/area51.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.283%20to%20v0.284%29%20-%20Update/area51.zip,2570762,524479b434855d3c07b1e79bd924406b,,
+games/mame/area51mx.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.283%20to%20v0.284%29%20-%20Update/area51mx.zip,892603,6289fb89785275e5fba0162f47fb87cd,,
+games/mame/evilngt.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.281%20to%20v0.282%29%20-%20Update/evilngt.zip,3775958,fc4adcc414ae4a4c360ef30deb24240b,,
+games/mame/firetrap.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/firetrap.zip,376041,5ee71846a0e550ed6c24fbb695b968ca,,
+games/mame/fishfren.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/fishfren.zip,6418797,a70cdc5cb8aab87f2f6d412f69de59b2,,
+games/mame/freezeat.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/freezeat.zip,62800128,6159d07191604cd322816c3c041652af,,
+games/mame/heatof11.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.285%20to%20v0.287%29%20-%20Update/heatof11.zip,631442,eb40c697af4c730bc5227095a827db12,,
+games/mame/maxforce.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.281%20to%20v0.282%29%20-%20Update/maxforce.zip,647503,f2004151fde1a25e0741f13c69a00f1f,,
+games/mame/milliped.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/milliped.zip,17438,e76996c80acacce779ea857de329c68c,,
+games/mame/monacogp.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29%20%28v0.288%20to%20v0.289%29%20-%20Update/monacogp.zip,6675,3aa54a52850bc60ee14f8361e2a788af,,
+games/mame/totlvice.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/totlvice.zip,1539266,8c9df6d8b4fbb98a637764592f1afc05,,
+games/mame/vcircle.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/vcircle.zip,248358,db9ee9cc63ace99209dc9918bf57be68,,

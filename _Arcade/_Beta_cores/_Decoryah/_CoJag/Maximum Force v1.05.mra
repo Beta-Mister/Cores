@@ -1,0 +1,46 @@
+<misterromdescription>
+    <name>Maximum Force v1.05</name>
+    <setname same_dir="1">maxforce</setname>
+    <mameversion>0289</mameversion>
+    <year>1996</year>
+    <manufacturer>Atari Games</manufacturer>
+    <players>2</players>
+    <rotation>horizontal</rotation>
+    <rbf>cojagr3k</rbf>
+    <platform>Atari CoJag</platform>
+
+    <!--
+      Image for the CoJag core (tools/cojag_rom.py):
+        0x000000 the main CPU program, 2 MB, big-endian      0x200000 the ROM board, 16 MB (ROM board sets)
+      Index 1: the board: bit 0 R3041, bit 1 ROM board, bits 3-2 inputs (0 light guns, 1 joysticks + 3 buttons,
+      2 joysticks + 6 buttons). No DIP switches: the settings are in the EEPROM (index 4); change them in the
+      game's test menu (OSD: Service Mode).
+      The disk: games/cojag/maxforce.hdd, the raw image of MAME's maxforce.chd (chdman extracthd; the image's SHA1 is
+      the CHD's "Data SHA1"; the CHD's own SHA1 is d54e7a8f3866bb2a1d28ae637e7c92ffa4dbe558). The <file> below mounts it on a Main_MiSTer
+      with MRA mounting (master of 2026-11-02 or later); with an older one, choose it once under "Disk image"
+      in the OSD (it opens in games/cojag: same_dir) and the core mounts it again at each load.
+      Made by tools/make_mra.py from MAME 0.289 (src/mame/atari/jaguar.cpp); parts are found by name and CRC.
+    -->
+
+    <file delay="1" type="s" index="0" root="games" path="cojag/maxforce.hdd"/>
+
+    <rom index="1">
+        <part>01</part>
+    </rom>
+
+    <rom index="0" zip="maxforce.zip" md5="7af0db2e1df472d2dc25982e427fd92a" address="0x38000000">
+        <!-- 0x000000 the main CPU program, ROM_LOAD32_BYTE (big-endian: offset 0 = D31-24) -->
+        <interleave output="32">
+            <part name="1.05_maximum_force_hh_5-23-97.hh" crc="ec7f8167" map="0001"/>
+            <part name="1.05_maximum_force_hl_5-23-97.hl" crc="3172611c" map="0010"/>
+            <part name="1.05_maximum_force_lh_5-23-97.lh" crc="84d49423" map="0100"/>
+            <part name="1.05_maximum_force_ll_5-23-97.ll" crc="16d0768d" map="1000"/>
+        </interleave>
+        <!-- MAME init_maxforce(): the protection check patched out -->
+        <patch offset="0x220">03 E0 00 08</patch>
+    </rom>
+
+    <nvram index="4" size="2048"/>
+
+    <buttons names="Trigger,Reload,-,-,-,-,Start,Coin" default="A,B,X,Y,R,L,Start,Select"/>
+</misterromdescription>

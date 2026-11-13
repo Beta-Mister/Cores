@@ -1,0 +1,46 @@
+<misterromdescription>
+    <name>Area 51 / Maximum Force Duo v2.0</name>
+    <setname same_dir="1">area51mx</setname>
+    <mameversion>0289</mameversion>
+    <year>1998</year>
+    <manufacturer>Atari Games</manufacturer>
+    <players>2</players>
+    <rotation>horizontal</rotation>
+    <rbf>cojag020</rbf>
+    <platform>Atari CoJag</platform>
+
+    <!--
+      Image for the CoJag core (tools/cojag_rom.py):
+        0x000000 the main CPU program, 2 MB, big-endian      0x200000 the ROM board, 16 MB (ROM board sets)
+      Index 1: the board: bit 0 R3041, bit 1 ROM board, bits 3-2 inputs (0 light guns, 1 joysticks + 3 buttons,
+      2 joysticks + 6 buttons). No DIP switches: the settings are in the EEPROM (index 4); change them in the
+      game's test menu (OSD: Service Mode).
+      The disk: games/cojag/area51mx.hdd, the raw image of MAME's area51mx.chd (chdman extracthd; the image's SHA1 is
+      the CHD's "Data SHA1"; the CHD's own SHA1 is 5ff10f4e87094d4449eabf3de7549564ca568c7e). The <file> below mounts it on a Main_MiSTer
+      with MRA mounting (master of 2026-11-02 or later); with an older one, choose it once under "Disk image"
+      in the OSD (it opens in games/cojag: same_dir) and the core mounts it again at each load.
+      Made by tools/make_mra.py from MAME 0.289 (src/mame/atari/jaguar.cpp); parts are found by name and CRC.
+    -->
+
+    <file delay="1" type="s" index="0" root="games" path="cojag/area51mx.hdd"/>
+
+    <rom index="1">
+        <part>00</part>
+    </rom>
+
+    <rom index="0" zip="area51mx.zip" md5="7b7027e58b17a19a6332d81392febd52" address="0x38000000">
+        <!-- 0x000000 the main CPU program, ROM_LOAD32_BYTE (big-endian: offset 0 = D31-24) -->
+        <interleave output="32">
+            <part name="2.0_68020_max-a51_kit_3h.3h" crc="47cbf30b" map="0001"/>
+            <part name="2.0_68020_max-a51_kit_3p.3p" crc="a3c93684" map="0010"/>
+            <part name="2.0_68020_max-a51_kit_3m.3m" crc="d800ac17" map="0100"/>
+            <part name="2.0_68020_max-a51_kit_3k.3k" crc="0e78f308" map="1000"/>
+        </interleave>
+        <!-- MAME init_area51mx(): the protection check patched out -->
+        <patch offset="0x418">4E 75 4E 75</patch>
+    </rom>
+
+    <nvram index="4" size="2048"/>
+
+    <buttons names="Trigger,Reload,-,-,-,-,Start,Coin" default="A,B,X,Y,R,L,Start,Select"/>
+</misterromdescription>

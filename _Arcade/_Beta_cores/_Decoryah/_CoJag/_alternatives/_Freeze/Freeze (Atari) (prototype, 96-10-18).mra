@@ -1,0 +1,63 @@
+<misterromdescription>
+    <name>Freeze (Atari) (prototype, 96/10/18)</name>
+    <setname>freezeat2</setname>
+    <mameversion>0289</mameversion>
+    <year>1996</year>
+    <manufacturer>Atari Games</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>horizontal</rotation>
+    <rbf>cojagr3k</rbf>
+    <platform>Atari CoJag</platform>
+
+    <!--
+      Image for the CoJag core (tools/cojag_rom.py):
+        0x000000 the main CPU program, 2 MB, big-endian      0x200000 the ROM board, 16 MB (ROM board sets)
+      Index 1: the board: bit 0 R3041, bit 1 ROM board, bits 3-2 inputs (0 light guns, 1 joysticks + 3 buttons,
+      2 joysticks + 6 buttons). No DIP switches: the settings are in the EEPROM (index 4); change them in the
+      game's test menu (OSD: Service Mode).
+      Made by tools/make_mra.py from MAME 0.289 (src/mame/atari/jaguar.cpp); parts are found by name and CRC.
+    -->
+
+    <rom index="1">
+        <part>07</part>
+    </rom>
+
+    <rom index="0" zip="freezeat2.zip|freezeat.zip" md5="9731891978a279431e0468cb659eadb0" address="0x38000000">
+        <!-- 0x000000 the main CPU program, ROM_LOAD32_BYTE (big-endian: offset 0 = D31-24) -->
+        <interleave output="32">
+            <part name="prog.hh" crc="a8aefa52" map="0001"/>
+            <part name="prog.hl" crc="152dd641" map="0010"/>
+            <part name="prog.lh" crc="416d26ed" map="0100"/>
+            <part name="prog.ll" crc="d6a5dbc8" map="1000"/>
+        </interleave>
+        <part repeat="0x100000">00</part>
+        <!-- 0x200000 the ROM board, ROM_LOAD64_BYTE (big-endian: offset 0 = D63-56) -->
+        <!-- romboard 0x000000-0x7FFFFF -->
+        <interleave output="64">
+            <part name="fish_gr0.63-56" crc="99d0dc75" map="00000001"/>
+            <part name="fish_gr0.55-48" crc="2dfdfe62" map="00000010"/>
+            <part name="fish_gr0.47-40" crc="722aee2a" map="00000100"/>
+            <part name="fish_gr0.39-32" crc="919e31b4" map="00001000"/>
+            <part name="fish_gr0.31-24" crc="a957ac95" map="00010000"/>
+            <part name="fish_gr0.23-16" crc="a147ec66" map="00100000"/>
+            <part name="fish_gr0.15-08" crc="206d2f38" map="01000000"/>
+            <part name="fish_gr0.07-00" crc="06559831" map="10000000"/>
+        </interleave>
+        <!-- romboard 0x800000-0xFFFFFF -->
+        <interleave output="64">
+            <part name="fish_gr1.63-56" crc="30c624d2" map="00000001"/>
+            <part name="fish_gr1.55-48" crc="049cd60f" map="00000010"/>
+            <part name="fish_gr1.47-40" crc="d6aaf3bf" map="00000100"/>
+            <part name="fish_gr1.39-32" crc="7d6ebc69" map="00001000"/>
+            <part name="fish_gr1.31-24" crc="6e5fee1f" map="00010000"/>
+            <part name="fish_gr1.23-16" crc="a8b1e9b4" map="00100000"/>
+            <part name="fish_gr1.15-08" crc="c90080e6" map="01000000"/>
+            <part name="fish_gr1.07-00" crc="1f20c020" map="10000000"/>
+        </interleave>
+    </rom>
+
+    <nvram index="4" size="2048"/>
+
+    <buttons names="Toss,-,-,-,-,-,Start,Coin" default="A,B,X,Y,R,L,Start,Select"/>
+</misterromdescription>

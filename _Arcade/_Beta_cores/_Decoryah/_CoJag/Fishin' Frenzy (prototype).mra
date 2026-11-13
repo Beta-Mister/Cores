@@ -1,0 +1,73 @@
+<misterromdescription>
+    <name>Fishin' Frenzy (prototype)</name>
+    <setname>fishfren</setname>
+    <mameversion>0289</mameversion>
+    <year>1995</year>
+    <manufacturer>Time Warner Interactive</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>horizontal</rotation>
+    <rbf>cojagr3k</rbf>
+    <platform>Atari CoJag</platform>
+
+    <!--
+      Image for the CoJag core (tools/cojag_rom.py):
+        0x000000 the main CPU program, 2 MB, big-endian      0x200000 the ROM board, 16 MB (ROM board sets)
+      Index 1: the board: bit 0 R3041, bit 1 ROM board, bits 3-2 inputs (0 light guns, 1 joysticks + 3 buttons,
+      2 joysticks + 6 buttons). No DIP switches: the settings are in the EEPROM (index 4); change them in the
+      game's test menu (OSD: Service Mode).
+      Made by tools/make_mra.py from MAME 0.289 (src/mame/atari/jaguar.cpp); parts are found by name and CRC.
+    -->
+
+    <rom index="1">
+        <part>07</part>
+    </rom>
+
+    <rom index="0" zip="fishfren.zip" md5="0b2cac9c5a5ad277de620a94753e6057" address="0x38000000">
+        <!-- 0x000000 the main CPU program, ROM_LOAD32_BYTE (big-endian: offset 0 = D31-24) -->
+        <interleave output="32">
+            <part name="hh" crc="2ef79767" map="0001"/>
+            <part name="hl" crc="7eefd4a2" map="0010"/>
+            <part name="lh" crc="bbe9ed15" map="0100"/>
+            <part name="ll" crc="d70d0f2c" map="1000"/>
+        </interleave>
+        <!-- 0x200000 the ROM board, ROM_LOAD64_BYTE (big-endian: offset 0 = D63-56) -->
+        <!-- romboard 0x000000-0x7FFFFF -->
+        <interleave output="64">
+            <part name="l63-56" crc="42764ea5" map="00000001"/>
+            <part name="l55-48" crc="0c7592bb" map="00000010"/>
+            <part name="l47-40" crc="6d7dcdb1" map="00000100"/>
+            <part name="l39-32" crc="ef3b8d98" map="00001000"/>
+            <part name="l31-24" crc="132d628e" map="00010000"/>
+            <part name="l23-16" crc="b841f039" map="00100000"/>
+            <part name="l15-08" crc="0800214e" map="01000000"/>
+            <part name="l07-00" crc="f83b2e78" map="10000000"/>
+        </interleave>
+        <!-- romboard 0x800000-0xBFFFFF -->
+        <interleave output="64">
+            <part name="h63-56" crc="67740765" map="00000001"/>
+            <part name="h55-48" crc="ffed0091" map="00000010"/>
+            <part name="h47-40" crc="6f448f72" map="00000100"/>
+            <part name="h39-32" crc="25a5bd67" map="00001000"/>
+            <part name="h31-24" crc="e7088cc0" map="00010000"/>
+            <part name="h23-16" crc="ab477a76" map="00100000"/>
+            <part name="h15-08" crc="25a423f1" map="01000000"/>
+            <part name="h07-00" crc="0f5f4cc6" map="10000000"/>
+        </interleave>
+        <!-- romboard 0xC00000-0xFFFFFF -->
+        <interleave output="64">
+            <part name="h63-56" crc="67740765" map="00000001"/>
+            <part name="h55-48" crc="ffed0091" map="00000010"/>
+            <part name="h47-40" crc="6f448f72" map="00000100"/>
+            <part name="h39-32" crc="25a5bd67" map="00001000"/>
+            <part name="h31-24" crc="e7088cc0" map="00010000"/>
+            <part name="h23-16" crc="ab477a76" map="00100000"/>
+            <part name="h15-08" crc="25a423f1" map="01000000"/>
+            <part name="h07-00" crc="0f5f4cc6" map="10000000"/>
+        </interleave>
+    </rom>
+
+    <nvram index="4" size="2048"/>
+
+    <buttons names="Cast,-,-,-,-,-,Start,Coin" default="A,B,X,Y,R,L,Start,Select"/>
+</misterromdescription>
