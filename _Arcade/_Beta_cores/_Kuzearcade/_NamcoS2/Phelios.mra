@@ -28,7 +28,7 @@
 
   <buttons names="Fire,-,-,Start,Coin,Service,-,-" default="A,B,X,Start,R,L,Y,Select"/>
 
-  <rom index="0" zip="phelios.zip|namcoc65.zip" md5="none">
+  <rom index="0" zip="phelios.zip|namcoc65.zip" md5="none" address="0x30000000">
     <!-- maincpu: 0x40000 bytes at image 0x0000000 -->
     <interleave output="16">
       <part crc="28f04e1a" name="ps2_mpr0.mpr0" length="0x20000" map="01"/>
@@ -175,7 +175,7 @@
        the EEPROM in the .nvm, 89 bytes -->
   <rom index="3" md5="none">
     <part>
-      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      1D 4C 00 00 FF FF 00 02 00 02 00 01 00 FF 10 00
       00 10 00 12 00 44 00 45
       00 40 C4 78 00 04 00 50
       00 10 93 73 00 11 02 01

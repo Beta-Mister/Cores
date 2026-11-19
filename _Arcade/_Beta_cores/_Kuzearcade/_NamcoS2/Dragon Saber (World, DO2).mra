@@ -28,7 +28,7 @@
 
   <buttons names="Fire,Bomb,-,Start,Coin,Service,-,-" default="A,B,X,Start,R,L,Y,Select"/>
 
-  <rom index="0" zip="dsaber.zip|namcoc65.zip" md5="none">
+  <rom index="0" zip="dsaber.zip|namcoc65.zip" md5="none" address="0x30000000">
     <!-- maincpu: 0x40000 bytes at image 0x0000000 -->
     <interleave output="16">
       <part crc="a4c9ff34" name="do2 mpr0.mpr0" length="0x20000" map="01"/>
@@ -105,7 +105,7 @@
        the EEPROM in the .nvm, 205 bytes -->
   <rom index="3" md5="none">
     <part>
-      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      1D 4C 00 00 FF FF 00 02 00 02 00 01 00 FF 10 00
       00 10 80 80 00 8C CE 60
       00 10 81 9E 00 40 00 00
       00 10 81 D9 00 01 70 70

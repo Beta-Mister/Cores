@@ -1,0 +1,53 @@
+<misterromdescription>
+    <rotation>vertical (cw)</rotation>
+    <name>Polygonet Commanders (ver UAA)</name>
+    <setname>plygonet</setname>
+    <mameversion>0289</mameversion>
+    <year>1993</year>
+    <manufacturer>Konami</manufacturer>
+    <players>1</players>
+    <joystick>2-way (two sticks)</joystick>
+    <rbf>Polygonet</rbf>
+    <region>USA</region>
+    <platform>Konami Polygonet</platform>
+
+    <!--
+      Flat image for the Polygonet core (target/mister/pn_mem.sv):
+
+        0x000000  0x200000  68EC020 program, 32-bit big-endian (ROM_LOAD32_BYTE: 305uaa04 is D31-24,
+                            03 D23-16, 02 D15-8, 01 D7-0)
+        0x200000  0x020000  Z80 sound program
+        0x220000  0x020000  gfx1, the text plane's tiles, as in the ROM file (the core undoes MAME's
+                            ROM_GROUPDWORD | ROM_REVERSE itself)
+        0x240000  0x040000  gfx2, the K053936's tiles
+        0x280000  0x200000  K054539 PCM (the region is 4 MB in the core; plygonet fills half)
+
+      MAME 0.289 romset plygonet.zip. The MRA's interleave maps count bytes from the right:
+      map="0001" puts the part's byte in the first (most significant) byte of each 32-bit word.
+    -->
+    <rom index="0" zip="plygonet.zip" md5="None" address="0x32000000">
+        <interleave output="32">
+            <part name="305uaa04.4h" crc="d8394e72" map="0001"/>
+            <part name="305uaa03.2h" crc="36e4e3fe" map="0010"/>
+            <part name="305uaa02.2k" crc="4d7e32b3" map="0100"/>
+            <part name="305uaa01.4k" crc="8bdb6c95" map="1000"/>
+        </interleave>
+        <part name="305b05.7b" crc="2d3d9654"/>
+        <part name="305b06.18g" crc="decd6e42"/>
+        <part name="305b07.20d" crc="e4320bc3"/>
+        <part name="305b08.2e" crc="874607df"/>
+    </rom>
+
+    <!-- core mod byte: 0 = Polygonet Commanders (tank controls) -->
+    <rom index="1">
+        <part>00</part>
+    </rom>
+
+    <!-- the factory EEPROM MAME ships with the set -->
+    <rom index="2" zip="plygonet.zip">
+        <part name="plygonet.nv" crc="627748ac"/>
+    </rom>
+    <nvram index="2" size="128"/>
+
+    <buttons names="Left Shot,Right Shot,Coin" default="A,B,Select" count="2"/>
+</misterromdescription>

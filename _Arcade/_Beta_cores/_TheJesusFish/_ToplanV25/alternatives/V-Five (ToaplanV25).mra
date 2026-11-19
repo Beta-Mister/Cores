@@ -1,0 +1,34 @@
+<misterromdescription>
+    <name>V-Five (ToaplanV25)</name>
+    <setname>vfive</setname>
+    <rbf>ToaplanV25</rbf>
+    <mameversion>0288</mameversion>
+    <year>1993</year>
+    <manufacturer>Toaplan</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>Vertical (CCW)</rotation>
+    <platform>Toaplan TP-027</platform>
+    <category>Shoot'em up</category>
+    <buttons names="Shot,Bomb,-,Start,Coin,Pause,-,-,-,Savestates" default="A,B,Start,Select,R,L" count="3"/>
+    <switches default="00,00,00">
+        <dip name="Cabinet" bits="0" ids="Upright,Cocktail"/>
+        <dip name="Service Mode" bits="2" ids="Off,On"/>
+        <dip name="Demo Sounds" bits="3" ids="On,Off"/>
+        <dip name="Coin A" bits="4,5" ids="1/1,1/2,2/1,2/3"/>
+        <dip name="Coin B" bits="6,7" ids="1/1,1/2,2/1,2/3"/>
+        <dip name="Difficulty" bits="8,9" ids="Normal,Easy,Hard,Very Hard"/>
+        <dip name="Bonus Life" bits="10,11" ids="300k and 800k,300k then +800k,200k only,None"/>
+        <dip name="Lives" bits="12,13" ids="3,5,2,1"/>
+        <dip name="Invulnerability" bits="14" ids="Off,On"/>
+        <dip name="Allow Continue" bits="15" ids="Yes,No"/>
+    </switches>
+    <rom index="1"><part>01</part></rom>
+    <rom index="5"><part>01 03 01 00 84 2a 1f 56 04 fa 00 90 00 00 04 36 00 04 00 00 05 79 00 01 2d 2d</part></rom>
+    <nvram index="2" size="157"/>
+    <rom index="0" zip="vfive.zip|grindstm.zip" md5="None">
+        <part name="tp027_01.bin" crc="731d50f4"/>
+        <part name="tp027_02.bin" crc="877b45e8"/>
+        <part name="tp027_03.bin" crc="b1fc6362"/>
+    </rom>
+</misterromdescription>

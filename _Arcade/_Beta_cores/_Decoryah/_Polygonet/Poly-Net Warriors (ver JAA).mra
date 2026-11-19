@@ -1,0 +1,44 @@
+<misterromdescription>
+    <rotation>vertical (cw)</rotation>
+    <name>Poly-Net Warriors (ver JAA)</name>
+    <setname>polynetw</setname>
+    <mameversion>0289</mameversion>
+    <year>1993</year>
+    <manufacturer>Konami</manufacturer>
+    <players>1</players>
+    <joystick>4-way</joystick>
+    <rbf>Polygonet</rbf>
+    <region>Japan</region>
+    <platform>Konami Polygonet</platform>
+
+    <!--
+      Flat image for the Polygonet core (target/mister/pn_mem.sv); see the Polygonet Commanders
+      MRA for the layout. Differences: gfx2 is 128 KB (padded to 256 KB), the PCM is two 2 MB ROMs.
+    -->
+    <rom index="0" zip="polynetw.zip" md5="None" address="0x32000000">
+        <interleave output="32">
+            <part name="305jaa04.4h" crc="b069353b" map="0001"/>
+            <part name="305jaa03.2h" crc="278b5928" map="0010"/>
+            <part name="305jaa02.2k" crc="d0710379" map="0100"/>
+            <part name="305jaa01.4k" crc="ea889bd9" map="1000"/>
+        </interleave>
+        <part name="305jaa05.7b" crc="06053db6"/>
+        <part name="305a06.18g" crc="4b9b7e9c"/>
+        <part name="305a07.20d" crc="0959283b"/>
+        <part repeat="0x20000">00</part>
+        <part name="305a08.2e" crc="7ddb8a52"/>
+        <part name="305a09.3e" crc="6da1be58"/>
+    </rom>
+
+    <!-- core mod byte: 1 = Poly-Net Warriors (4-way stick) -->
+    <rom index="1">
+        <part>01</part>
+    </rom>
+
+    <rom index="2" zip="polynetw.zip">
+        <part name="polynetw.nv" crc="8f39d644"/>
+    </rom>
+    <nvram index="2" size="128"/>
+
+    <buttons names="Shot,-,Coin" default="A,B,Select" count="1"/>
+</misterromdescription>

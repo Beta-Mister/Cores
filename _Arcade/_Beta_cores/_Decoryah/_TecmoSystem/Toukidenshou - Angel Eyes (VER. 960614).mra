@@ -1,0 +1,77 @@
+<misterromdescription>
+    <rotation>horizontal</rotation>
+    <name>Toukidenshou - Angel Eyes (VER. 960614)</name>
+    <setname>tkdensho</setname>
+    <mameversion>0289</mameversion>
+    <year>1996</year>
+    <manufacturer>Tecmo</manufacturer>
+    <players>2</players>
+    <joystick>8</joystick>
+    <rbf>tecmosys</rbf>
+    <platform>Tecmo System</platform>
+
+    <!--
+      ROM stream for the Tecmo System core (tools/make_mra.py from tools/ts_rom.py; TecmoSys.sv describes it): a 256-byte header
+      (protection table, sprite slot table), the SDRAM image 0x0000000-0x09FFFFF, then the sprite slots.
+      Expects the MAME 0.289 merged romset or the split sets: parts are found by name and CRC.
+      No DIP switches: the game keeps its settings in the 93C46 (saved by the core, nvram index 2).
+      Test mode: press the test switch (F2, or the OSD's Service Mode) with no credits in.
+    -->
+
+    <buttons names="Light Punch,Heavy Punch,Light Kick,Heavy Kick,Start,Coin,Start 1P+2P" default="Y,X,B,A,Start,Select,R" count="4"/>
+
+    <rom index="0" zip="tkdensho.zip" md5="None" address="0x32000000">
+        <!-- header: protection table 1, sprite slot table -->
+        <part>01 00 02 00 02 08 06 10 00 00 01 14 01 18 05 1C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
+        <part repeat="0xE0">00</part>
+
+        <!-- maincpu (68000 program: the even ROM is the high byte) -->
+        <interleave output="16">
+            <part name="aeprge-2.pal" crc="25e453d6" map="01"/>
+            <part name="aeprgo-2.pau" crc="22d59510" map="10"/>
+        </interleave>
+        <!-- audiocpu (Z80, 256 KB) -->
+        <part name="aesprg-2.z1" crc="43550ab6"/>
+        <part name="aesprg-2.z1" crc="43550ab6"/>
+        <!-- oki (M6295 samples) -->
+        <part name="ae500w07.ad1" crc="3734f92c"/>
+        <part repeat="0x40000">00</part>
+        <!-- layer0 -->
+        <part name="ae300w36.bd1" crc="e829f29e"/>
+        <part name="ae300w36.bd1" crc="e829f29e"/>
+        <!-- layer1 -->
+        <part name="ae200w74.ba1" crc="c1645041"/>
+        <!-- layer2 -->
+        <part name="ae201w75.bb1" crc="3f63bdff"/>
+        <!-- layer3 -->
+        <part name="ae202w76.bc1" crc="5cc857ca"/>
+        <!-- ymz (YMZ280B samples, 4 MB) -->
+        <part name="ae400t23.ya1" crc="c6ffb043"/>
+        <part name="ae401t24.yb1" crc="d83f1a73"/>
+
+        <!-- sprites: the slots of the header table -->
+        <!-- slot 0: 8 bpp, SDRAM 0x1000000 -->
+        <interleave output="32">
+            <part name="ae100h.ah1" crc="06be252b" map="0021"/>
+            <part name="ae100.al1" crc="009cdff4" map="2100"/>
+        </interleave>
+        <!-- slot 1: 8 bpp, SDRAM 0x1800000 -->
+        <interleave output="32">
+            <part name="ae101h.bh1" crc="f2469eff" map="0021"/>
+            <part name="ae101.bl1" crc="db7791bb" map="2100"/>
+        </interleave>
+        <!-- slot 2: 8 bpp, SDRAM 0x2000000 -->
+        <interleave output="32">
+            <part name="ae102h.ch1" crc="f9d2a343" map="0021"/>
+            <part name="ae102.cl1" crc="681be889" map="2100"/>
+        </interleave>
+        <!-- slot 4: 4 bpp, SDRAM 0x2400000 -->
+        <part name="ae104.el1" crc="e431b798"/>
+        <!-- slot 5: 4 bpp, SDRAM 0x2800000 -->
+        <part name="ae105.fl1" crc="b7f9ebc1"/>
+        <!-- slot 6: 4 bpp, SDRAM 0x2C00000 -->
+        <part name="ae106.gl1" crc="7c50374b"/>
+    </rom>
+
+    <nvram index="2" size="128"/>
+</misterromdescription>

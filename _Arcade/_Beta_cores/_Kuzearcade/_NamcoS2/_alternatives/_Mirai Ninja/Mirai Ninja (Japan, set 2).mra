@@ -29,7 +29,7 @@
 
   <buttons names="Throw,Jump,-,Start,Coin,Service,-,-" default="A,B,X,Start,R,L,Y,Select"/>
 
-  <rom index="0" zip="mirninjaa.zip|mirninja.zip|namcoc65.zip" md5="none">
+  <rom index="0" zip="mirninjaa.zip|mirninja.zip|namcoc65.zip" md5="none" address="0x30000000">
     <!-- maincpu: 0x40000 bytes at image 0x0000000 -->
     <interleave output="16">
       <part crc="6d061fd6" name="mn1_mpr0" length="0x10000" map="01"/>
@@ -187,7 +187,7 @@
        the EEPROM in the .nvm, 209 bytes -->
   <rom index="3" md5="none">
     <part>
-      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      1D 4C 00 00 FF FF 00 02 00 02 00 01 00 FF 10 00
       00 10 04 00 00 D0 4D 00
       00 10 04 CE 00 01 10 10
     </part>

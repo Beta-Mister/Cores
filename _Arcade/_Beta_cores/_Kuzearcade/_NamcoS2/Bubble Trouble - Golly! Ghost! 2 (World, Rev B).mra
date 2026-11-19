@@ -28,7 +28,7 @@
 
   <buttons names="Trigger,-,-,Start,Coin,Service,-,-" default="A,B,X,Start,R,L,Y,Select"/>
 
-  <rom index="0" zip="bubbletr.zip|namcoc65.zip" md5="none">
+  <rom index="0" zip="bubbletr.zip|namcoc65.zip" md5="none" address="0x30000000">
     <!-- maincpu: 0x40000 bytes at image 0x0000000 -->
     <interleave output="16">
       <part crc="26fbfce3" name="bt2-mpr0b.bin" length="0x20000" map="01"/>
@@ -104,7 +104,7 @@
        the EEPROM in the .nvm, 632 bytes -->
   <rom index="3" md5="none">
     <part>
-      1D 4C 00 00 00 FF 00 02 00 02 00 01 00 FF 10 00
+      1D 4C 00 00 FF FF 00 02 00 02 00 01 00 FF 10 00
       00 10 69 70 02 78 01 01
     </part>
   </rom>

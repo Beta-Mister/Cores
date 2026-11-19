@@ -1,0 +1,63 @@
+<misterromdescription>
+    <rotation>horizontal</rotation>
+    <name>Deroon DeroDero - Tecmo Stackers</name>
+    <setname>deroon2</setname>
+    <mameversion>0289</mameversion>
+    <year>1996</year>
+    <manufacturer>Tecmo</manufacturer>
+    <players>2</players>
+    <joystick>8</joystick>
+    <rbf>tecmosys</rbf>
+    <platform>Tecmo System</platform>
+
+    <!--
+      ROM stream for the Tecmo System core (tools/make_mra.py from tools/ts_rom.py; TecmoSys.sv describes it): a 256-byte header
+      (protection table, sprite slot table), the SDRAM image 0x0000000-0x09FFFFF, then the sprite slots.
+      Expects the MAME 0.289 merged romset or the split sets: parts are found by name and CRC.
+      No DIP switches: the game keeps its settings in the 93C46 (saved by the core, nvram index 2).
+      Test mode: press the test switch (F2, or the OSD's Service Mode) with no credits in.
+    -->
+
+    <buttons names="Rotate Left,Rotate Right,Bomb,-,Start,Coin,-" default="A,B,X,Start,Select" count="3"/>
+
+    <rom index="0" zip="deroon2.zip|deroon.zip" md5="None" address="0x32000000">
+        <!-- header: protection table 0, sprite slot table -->
+        <part>00 00 06 00 01 04 05 08 00 00 06 00 01 04 05 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
+        <part repeat="0xE0">00</part>
+
+        <!-- maincpu (68000 program: the even ROM is the high byte) -->
+        <interleave output="16">
+            <part name="stk_t01.upau1" crc="90c794df" map="01"/>
+            <part name="stk_t02.upal1" crc="cca9f87c" map="10"/>
+        </interleave>
+        <!-- audiocpu (Z80, 256 KB) -->
+        <part name="t003.uz1" crc="8bdfafa0"/>
+        <!-- oki (M6295 samples) -->
+        <part name="t501.uad1" crc="2fbcfe27"/>
+        <part repeat="0x40000">00</part>
+        <!-- layer0 -->
+        <part name="t301.ubd1" crc="8b026177"/>
+        <!-- layer1 -->
+        <part repeat="0x100000">00</part>
+        <!-- layer2 -->
+        <part name="t201.ubb1" crc="d5a087ac"/>
+        <!-- layer3 -->
+        <part name="t202.ubc1" crc="f051dae1"/>
+        <!-- ymz (YMZ280B samples, 4 MB) -->
+        <part name="t401.uya1" crc="92111992"/>
+        <part name="t401.uya1" crc="92111992"/>
+
+        <!-- sprites: the slots of the header table -->
+        <!-- slot 0: 8 bpp, SDRAM 0x1000000 -->
+        <interleave output="32">
+            <part name="t101.uah1" crc="74baf845" map="0021"/>
+            <part name="t102.ual1" crc="1a02c4a3" map="2100"/>
+        </interleave>
+        <!-- slot 1: 4 bpp, SDRAM 0x1400000 -->
+        <part name="t103.ubl1" crc="84e7da88"/>
+        <!-- slot 2: 4 bpp, SDRAM 0x1800000 -->
+        <part name="t104.ucl1" crc="66eb611a"/>
+    </rom>
+
+    <nvram index="2" size="128"/>
+</misterromdescription>

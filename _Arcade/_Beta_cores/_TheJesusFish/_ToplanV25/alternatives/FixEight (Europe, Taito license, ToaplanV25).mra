@@ -1,0 +1,26 @@
+<misterromdescription>
+    <name>FixEight (Europe, Taito license, ToaplanV25)</name>
+    <setname>fixeightt</setname>
+    <rbf>ToaplanV25</rbf>
+    <mameversion>0288</mameversion>
+    <year>1992</year>
+    <manufacturer>Toaplan (Taito license)</manufacturer>
+    <players>3</players>
+    <joystick>8-way</joystick>
+    <rotation>Vertical (CCW)</rotation>
+    <platform>Toaplan TP-026</platform>
+    <category>Run and gun</category>
+    <buttons names="Shot,Bomb,-,Start,Coin,Pause,-,-,-,Savestates" default="A,B,Start,Select,R,L" count="3"/>
+    <rom index="1"><part>03</part></rom>
+    <rom index="5"><part>01 03 03 00 5d c7 5c 02 04 08 00 04 00 00 04 3c 00 82 00 04 04 0a 00 01 53 53</part></rom>
+    <rom index="3" zip="fixeightt.zip|fixeight.zip" md5="None">
+        <part name="fixeightt.nv" crc="c0da4a05"/>
+    </rom>
+    <nvram index="2" size="271"/>
+    <rom index="0" zip="fixeightt.zip|fixeight.zip" md5="None">
+        <part name="tp-026-1" crc="f7b1746a"/>
+        <part name="tp-026-3" crc="e5578d98"/>
+        <part name="tp-026-4" crc="b760cb53"/>
+        <part name="tp-026-2" crc="85063f1f"/>
+    </rom>
+</misterromdescription>
