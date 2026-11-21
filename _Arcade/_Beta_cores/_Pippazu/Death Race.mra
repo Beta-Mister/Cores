@@ -1,0 +1,28 @@
+<misterromdescription>
+  <name>Death Race</name>
+  <setname>deathrac</setname>
+  <rbf>DeathRace</rbf>
+  <year>1976</year>
+  <manufacturer>Exidy</manufacturer>
+  <buttons names="Accelerate,Drive,Reverse,Start,Coin,Pause" default="A,B,X,Start,Select,-"/>
+  <rom index="1"><part>00 80</part></rom>
+  <rom index="0" zip="deathrac.zip" md5="None">
+    <part>03</part>
+    <part repeat="0x1F">00</part>
+    <part name="6331-31.11a" crc="f304a1fb"/>
+    <part name="6331-32.12c" crc="f8dbd779"/>
+    <part name="6331-33.14p" crc="2e83bf80"/>
+    <part name="6331-36.7e" crc="bb743b79"/>
+    <part name="6331-36.7r" crc="bb743b79"/>
+    <part name="6331-35.7t" crc="5ed8cdd2"/>
+    <part name="6331-35.7g" crc="5ed8cdd2"/>
+    <part name="6301-97.11m" crc="2b02444f"/>
+    <part name="6301-98.11l" crc="0bdaf1eb"/>
+    <part name="6301-99.11k" crc="34763c8f"/>
+    <part name="6301-100.11j" crc="d751bd57"/>
+    <part name="6301-91.10j" crc="c3823f0b"/>
+    <part name="6301-91.10v" crc="c3823f0b"/>
+    <part name="6301-92.5v" crc="82d7d25f"/>
+    <part name="6301-92.5j" crc="82d7d25f"/>
+  </rom>
+</misterromdescription>

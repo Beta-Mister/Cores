@@ -1,0 +1,28 @@
+<misterromdescription>
+  <name>Demolition Derby (Chicago Coin)</name>
+  <setname>dmodrbcc</setname>
+  <rbf>DeathRace</rbf>
+  <year>1976</year>
+  <manufacturer>Chicago Coin</manufacturer>
+  <buttons names="Accelerate,Drive,Reverse,Start,Coin,Pause" default="A,B,X,Start,Select,-"/>
+  <rom index="1"><part>00 80</part></rom>
+  <rom index="0" zip="dmodrbcc.zip|destdrby.zip" md5="None">
+    <part>02</part>
+    <part repeat="0x1F">00</part>
+    <part name="cdi.c13" crc="f304a1fb"/>
+    <part name="cdi.c14" crc="f8dbd779"/>
+    <part name="cdi.n13" crc="2e83bf80"/>
+    <part name="cdi.j10" crc="e9af4217"/>
+    <part name="cdi.d5" crc="e9af4217"/>
+    <part name="cdi.g2" crc="5ed8cdd2"/>
+    <part name="cdi.r1" crc="5ed8cdd2"/>
+    <part name="cdi.b8" crc="9f65c1df"/>
+    <part name="cdi.c8" crc="5e27fc7c"/>
+    <part name="cdi.d8" crc="93dc096c"/>
+    <part name="cdi.e8" crc="ddbb0cc7"/>
+    <part name="cdi.h6" crc="c3823f0b"/>
+    <part name="cdi.b2" crc="c3823f0b"/>
+    <part name="cdi.h3" crc="82d7d25f"/>
+    <part name="cdi.n1" crc="82d7d25f"/>
+  </rom>
+</misterromdescription>

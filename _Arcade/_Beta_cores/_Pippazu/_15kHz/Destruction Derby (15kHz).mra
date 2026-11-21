@@ -1,0 +1,28 @@
+<misterromdescription>
+  <name>Destruction Derby (15kHz)</name>
+  <setname>destdrby</setname>
+  <rbf>DeathRace</rbf>
+  <year>1975</year>
+  <manufacturer>Exidy</manufacturer>
+  <buttons names="Accelerate,Drive,Reverse,Start,Coin,Pause" default="A,B,X,Start,Select,-"/>
+  <rom index="1"><part>00 80</part></rom>
+  <rom index="0" zip="destdrby.zip" md5="None">
+    <part>00</part>
+    <part repeat="0x1F">00</part>
+    <part name="82s123-31.a11" crc="f304a1fb"/>
+    <part name="82s123-32.c12" crc="f8dbd779"/>
+    <part name="82s123-33.p14" crc="2e83bf80"/>
+    <part name="82s123-34.e7" crc="e9af4217"/>
+    <part name="82s123-34.r7" crc="e9af4217"/>
+    <part name="82s123-35.t7" crc="5ed8cdd2"/>
+    <part name="82s123-35.g7" crc="5ed8cdd2"/>
+    <part name="82s129-93.m11" crc="9f65c1df"/>
+    <part name="82s129-94.l11" crc="5e27fc7c"/>
+    <part name="82s129-95.k11" crc="93dc096c"/>
+    <part name="82s129-96.j11" crc="ddbb0cc7"/>
+    <part name="82s129-91.j10" crc="c3823f0b"/>
+    <part name="82s129-91.v10" crc="c3823f0b"/>
+    <part name="82s129-92.v5" crc="82d7d25f"/>
+    <part name="82s129-92.j5" crc="82d7d25f"/>
+  </rom>
+</misterromdescription>
